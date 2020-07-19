@@ -1,0 +1,44 @@
+element.style {
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+user agent stylesheet
+head {
+    display: none;
+}
+html {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+::selection {
+    background-color: #45fa03;
+    color: #fff;
+    text-shadow: none;
+}
