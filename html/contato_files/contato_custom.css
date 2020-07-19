@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 
-.components-cursos-list:after, .components-mosaico-dots > :after, .fiap-2018-unidades-list:after, .fiap-fotos-miniaturas:after, .graduacao-curso-matriz-ano-content-wrapper:after, .graduacao-menu-novidades-content:after, .shared-contato-unidades:after, .wrapper-midia:after, .wrapper:after {
+.components-cursos-list:after, .components-mosaico-dots > :after, .slashicorp-2018-unidades-list:after, .slashicorp-fotos-miniaturas:after, .graduacao-curso-matriz-ano-content-wrapper:after, .graduacao-menu-novidades-content:after, .shared-contato-unidades:after, .wrapper-midia:after, .wrapper:after {
     content: "";
     display: table;
     clear: both
@@ -528,7 +528,7 @@ body::-webkit-scrollbar-thumb {
     background: #03fac9
 }
 
-.fiap-loader {
+.slashicorp-loader {
     background: #000;
     bottom: 0;
     left: 0;
@@ -538,25 +538,25 @@ body::-webkit-scrollbar-thumb {
     z-index: 1000
 }
 
-.fiap-loader-box {
+.slashicorp-loader-box {
     height: 270px;
     width: 270px
 }
 
-.fiap-loader-box, .fiap-loader-image {
+.slashicorp-loader-box, .slashicorp-loader-image {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%)
 }
 
-.fiap-loader-image {
+.slashicorp-loader-image {
     height: 100%;
     width: 100%;
     z-index: 1
 }
 
-.fiap-loader-text {
+.slashicorp-loader-text {
     bottom: 15px;
     color: hsla(0, 0%, 100%, .5);
     font: 12px DIN Pro Bold;
@@ -566,7 +566,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.fiap-loader-svg {
+.slashicorp-loader-svg {
     height: 100%;
     stroke: hsla(0, 0%, 100%, .5);
     position: relative;
@@ -574,14 +574,14 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.fiap-menu {
+.slashicorp-menu {
     background: #1d2123;
     position: relative;
     text-align: right;
     z-index: 1200
 }
 
-.fiap-menu-wrapper {
+.slashicorp-menu-wrapper {
     margin: auto;
     max-width: 1150px;
     padding: 0 10px;
@@ -589,22 +589,22 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-menu-logo {
+.slashicorp-menu-logo {
     height: 13px;
     margin-top: -2px;
     width: 47px
 }
 
-.fiap-menu-item, .fiap-menu-logo {
+.slashicorp-menu-item, .slashicorp-menu-logo {
     display: inline-block;
     vertical-align: middle
 }
 
-.fiap-menu-item, .fiap-menu-link {
+.slashicorp-menu-item, .slashicorp-menu-link {
     position: relative
 }
 
-.fiap-menu-link {
+.slashicorp-menu-link {
     color: #ccc;
     display: block;
     fill: #ccc;
@@ -617,20 +617,20 @@ body::-webkit-scrollbar-thumb {
     vertical-align: middle
 }
 
-.fiap-menu-link:hover {
+.slashicorp-menu-link:hover {
     color: #03fac9;
     fill: #03fac9;
     stroke: #03fac9
 }
 
-.fiap-menu-link-dropdown {
+.slashicorp-menu-link-dropdown {
     display: inline-block;
     padding-right: 10px;
     position: relative;
     vertical-align: middle
 }
 
-.fiap-menu-link-dropdown:after {
+.slashicorp-menu-link-dropdown:after {
     border: solid gray;
     border-width: 0 1px 1px 0;
     content: "";
@@ -645,11 +645,11 @@ body::-webkit-scrollbar-thumb {
     z-index: 100
 }
 
-.fiap-menu-link-dropdown:hover:after {
+.slashicorp-menu-link-dropdown:hover:after {
     border-color: #03fac9
 }
 
-.fiap-menu-novidades-icon {
+.slashicorp-menu-novidades-icon {
     display: inline-block;
     fill: none;
     height: 11px;
@@ -660,7 +660,7 @@ body::-webkit-scrollbar-thumb {
     width: 14px
 }
 
-.fiap-menu-sub {
+.slashicorp-menu-sub {
     background: #292e31;
     max-height: 0;
     overflow: hidden;
@@ -674,7 +674,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 9999
 }
 
-.fiap-menu-sub:before {
+.slashicorp-menu-sub:before {
     background: #181c1d;
     color: #91a3ad;
     content: "\25BE";
@@ -684,11 +684,11 @@ body::-webkit-scrollbar-thumb {
     text-align: center
 }
 
-.fiap-menu-item:hover .fiap-menu-sub {
+.slashicorp-menu-item:hover .slashicorp-menu-sub {
     max-height: 600px
 }
 
-.fiap-menu-sub-link {
+.slashicorp-menu-sub-link {
     border-bottom: 2px solid #181c1d;
     color: #91a3ad;
     display: block;
@@ -699,12 +699,12 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease, color .4s ease
 }
 
-.fiap-menu-sub-link:hover {
+.slashicorp-menu-sub-link:hover {
     background: #6e7d85;
     color: #181c1d
 }
 
-.fiap-2018-footer {
+.slashicorp-2018-footer {
     color: #91a3ad;
     font-family: Roboto;
     font-size: 0;
@@ -712,23 +712,23 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 60px
 }
 
-.fiap-2018-footer-columns {
+.slashicorp-2018-footer-columns {
     border: 1px solid #353b3f;
     padding: 60px
 }
 
-.fiap-2018-footer-column {
+.slashicorp-2018-footer-column {
     display: inline-block;
     font-size: 12px;
     vertical-align: top;
     width: 25%
 }
 
-.fiap-2018-footer-column:not(:first-child) {
+.slashicorp-2018-footer-column:not(:first-child) {
     padding-left: 95px
 }
 
-.fiap-2018-footer-logo-icon {
+.slashicorp-2018-footer-logo-icon {
     fill: #03fac9;
     height: 28px;
     stroke: #03fac9;
@@ -736,22 +736,22 @@ body::-webkit-scrollbar-thumb {
     width: 100px
 }
 
-.fiap-2018-footer-logo-icon:hover {
+.slashicorp-2018-footer-logo-icon:hover {
     fill: #fff;
     stroke: #fff
 }
 
-.fiap-2018-footer-social {
+.slashicorp-2018-footer-social {
     font-size: 0;
     margin-left: -5px
 }
 
-.fiap-2018-footer-social-item {
+.slashicorp-2018-footer-social-item {
     display: inline-block;
     margin: 0 5px
 }
 
-.fiap-2018-footer-social-link {
+.slashicorp-2018-footer-social-link {
     border: 2px solid #91a3ad;
     border-radius: 50%;
     display: inline-block;
@@ -763,12 +763,12 @@ body::-webkit-scrollbar-thumb {
     width: 35px
 }
 
-.fiap-2018-footer-social-link:hover {
+.slashicorp-2018-footer-social-link:hover {
     border-color: #fff;
     fill: #fff
 }
 
-.fiap-2018-footer-social-icon {
+.slashicorp-2018-footer-social-icon {
     display: inline-block;
     height: 25px;
     margin-top: -2px;
@@ -776,28 +776,28 @@ body::-webkit-scrollbar-thumb {
     width: 25px
 }
 
-.fiap-2018-footer-section:not(:first-child) {
+.slashicorp-2018-footer-section:not(:first-child) {
     margin-top: 40px
 }
 
-.fiap-2018-footer-title {
+.slashicorp-2018-footer-title {
     color: #03fac9;
     display: block;
     margin-bottom: 20px;
     text-transform: uppercase
 }
 
-.fiap-2018-footer-item {
+.slashicorp-2018-footer-item {
     margin: 10px 0
 }
 
-.fiap-2018-footer-link {
+.slashicorp-2018-footer-link {
     color: #91a3ad;
     display: block;
     transition: color .4s
 }
 
-.fiap-2018-footer-link:hover {
+.slashicorp-2018-footer-link:hover {
     color: #fff
 }
 
@@ -5112,7 +5112,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     width: 100%;
-    background: url(../images/graduacao/financiamentos-e-bolsas/bolsas-de-estudo/fiap-plus/effects.png) top no-repeat
+    background: url(../images/graduacao/financiamentos-e-bolsas/bolsas-de-estudo/slashicorp-plus/effects.png) top no-repeat
 }
 
 .graduacao-financiamento-bolsas-plus-logo {
@@ -9812,7 +9812,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-graduacao-startup {
+.slashicorp-graduacao-startup {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -9822,7 +9822,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center
 }
 
-.fiap-graduacao-startup:after, .fiap-graduacao-startup:before {
+.slashicorp-graduacao-startup:after, .slashicorp-graduacao-startup:before {
     content: "";
     display: block;
     height: 100%;
@@ -9832,11 +9832,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-graduacao-startup:before {
+.slashicorp-graduacao-startup:before {
     background: linear-gradient(180deg, #000 0, transparent 25%, transparent 50%, transparent 75%, #000)
 }
 
-.fiap-graduacao-startup-title {
+.slashicorp-graduacao-startup-title {
     display: block;
     fill: #fff;
     height: 58px;
@@ -9844,7 +9844,7 @@ body::-webkit-scrollbar-thumb {
     width: 585px
 }
 
-.fiap-graduacao-startup-subtitle {
+.slashicorp-graduacao-startup-subtitle {
     color: #03fac9;
     font: 18px Gotham HTF Book;
     letter-spacing: .05em;
@@ -9852,24 +9852,24 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-graduacao-startup-columns {
+.slashicorp-graduacao-startup-columns {
     display: table;
     margin: 180px auto 0;
     width: 100%
 }
 
-.fiap-graduacao-startup-column {
+.slashicorp-graduacao-startup-column {
     display: table-cell;
     vertical-align: middle;
     width: 50%
 }
 
-.fiap-graduacao-startup-content {
+.slashicorp-graduacao-startup-content {
     font: 14px/22px Roboto;
     text-align: left
 }
 
-.fiap-graduacao-startup-content-title {
+.slashicorp-graduacao-startup-content-title {
     color: #fff;
     font: 32px/34px Gotham HTF Light;
     margin-bottom: 30px;
@@ -9877,13 +9877,13 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-graduacao-startup-media {
+.slashicorp-graduacao-startup-media {
     cursor: pointer;
     float: right;
     position: relative
 }
 
-.fiap-graduacao-startup-media-icon {
+.slashicorp-graduacao-startup-media-icon {
     display: block;
     fill: #03fac9;
     left: 50%;
@@ -9894,15 +9894,15 @@ body::-webkit-scrollbar-thumb {
     width: 150px
 }
 
-.fiap-graduacao-startup-media:hover .fiap-graduacao-startup-media-icon {
+.slashicorp-graduacao-startup-media:hover .slashicorp-graduacao-startup-media-icon {
     transform: translate(-50%, -50%) scale(1.1)
 }
 
-.fiap-graduacao-startup-media-img {
+.slashicorp-graduacao-startup-media-img {
     display: block
 }
 
-.fiap-2018-conceito-title {
+.slashicorp-2018-conceito-title {
     color: #a8b7be;
     font: 51px Gotham HTF Light;
     letter-spacing: 1.3px;
@@ -9911,7 +9911,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-conceito-desc {
+.slashicorp-2018-conceito-desc {
     color: #616d72;
     font: 20px/38px Gotham HTF Book;
     letter-spacing: .6px;
@@ -9919,21 +9919,21 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-conceito-svg {
+.slashicorp-2018-conceito-svg {
     max-width: 222px
 }
 
-.fiap-2018-conceito .fiap-2018-scroll-circle {
+.slashicorp-2018-conceito .slashicorp-2018-scroll-circle {
     margin-top: 75px
 }
 
-.fiap-2018-conceito .fiap-2018-scroll-circle .fiap-2018-scroll-circle-text {
+.slashicorp-2018-conceito .slashicorp-2018-scroll-circle .slashicorp-2018-scroll-circle-text {
     font-family: Gotham HTF Medium;
     font-size: 11px;
     letter-spacing: 1.5px
 }
 
-.fiap-2018-disrupcao {
+.slashicorp-2018-disrupcao {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9942,7 +9942,7 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-disrupcao-title {
+.slashicorp-2018-disrupcao-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
     margin: 0 0 100px;
@@ -9952,7 +9952,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-disrupcao-title:before {
+.slashicorp-2018-disrupcao-title:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -9963,17 +9963,17 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.fiap-2018-disrupcao-figure {
+.slashicorp-2018-disrupcao-figure {
     margin: 0;
     padding: 0;
     position: relative
 }
 
-.fiap-2018-disrupcao-figure img {
+.slashicorp-2018-disrupcao-figure img {
     max-width: 100%
 }
 
-.fiap-2018-disrupcao-figure:after {
+.slashicorp-2018-disrupcao-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -9984,7 +9984,7 @@ body::-webkit-scrollbar-thumb {
     width: 1px
 }
 
-.fiap-2018-disrupcao-logo {
+.slashicorp-2018-disrupcao-logo {
     display: block;
     margin: 0 auto;
     max-height: 70px;
@@ -9992,7 +9992,7 @@ body::-webkit-scrollbar-thumb {
     opacity: .7
 }
 
-.fiap-2018-disrupcao-columns {
+.slashicorp-2018-disrupcao-columns {
     display: -ms-flexbox;
     display: flex;
     margin: 90px auto 0;
@@ -10000,27 +10000,27 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-disrupcao-column {
+.slashicorp-2018-disrupcao-column {
     width: 50%
 }
 
-.fiap-2018-disrupcao-description {
+.slashicorp-2018-disrupcao-description {
     color: #91a3ad;
     font-family: Roboto;
     font-size: 16px;
     margin: 30px 0
 }
 
-.fiap-2018-disrupcao-description:first-child {
+.slashicorp-2018-disrupcao-description:first-child {
     padding-top: 80px;
     position: relative
 }
 
-.fiap-2018-disrupcao-description:last-child {
+.slashicorp-2018-disrupcao-description:last-child {
     margin-bottom: 0
 }
 
-.fiap-2018-disrupcao-description:first-child:before {
+.slashicorp-2018-disrupcao-description:first-child:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -10031,13 +10031,13 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.fiap-2018-future {
+.slashicorp-2018-future {
     color: #b8b8b8;
     padding-bottom: 375px;
     position: relative
 }
 
-.fiap-2018-future-wrapper {
+.slashicorp-2018-future-wrapper {
     margin: auto;
     max-width: 1200px;
     position: relative;
@@ -10045,7 +10045,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 3
 }
 
-.fiap-2018-future-title {
+.slashicorp-2018-future-title {
     color: #91a3ad;
     font: 22px Gotham HTF Medium;
     letter-spacing: .05em;
@@ -10055,14 +10055,14 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-future-title span {
+.slashicorp-2018-future-title span {
     display: block;
     font-size: 58px;
     position: relative;
     left: 50px
 }
 
-.fiap-2018-future-title span:before {
+.slashicorp-2018-future-title span:before {
     content: "";
     background-color: #616d72;
     width: 30px;
@@ -10073,14 +10073,14 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(-50%)
 }
 
-.fiap-2018-future-desc {
+.slashicorp-2018-future-desc {
     color: #616d72;
     font: 18px/28px Roboto;
     margin-bottom: 0;
     text-align: center
 }
 
-.fiap-2018-future-logos {
+.slashicorp-2018-future-logos {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -10092,7 +10092,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-future-logo {
+.slashicorp-2018-future-logo {
     display: inline-block;
     height: 100%;
     line-height: 150px;
@@ -10100,27 +10100,27 @@ body::-webkit-scrollbar-thumb {
     width: 16.66%
 }
 
-.fiap-2018-future-logo.line-two {
+.slashicorp-2018-future-logo.line-two {
     width: 20%
 }
 
-.fiap-2018-future-logo-img {
+.slashicorp-2018-future-logo-img {
     max-width: 80%
 }
 
-.fiap-fotos {
+.slashicorp-fotos {
     padding: 290px 0;
     position: relative;
     text-align: center
 }
 
-.fiap-fotos-wrapper {
+.slashicorp-fotos-wrapper {
     margin-top: 250px;
     position: relative;
     z-index: 3
 }
 
-.fiap-fotos-title {
+.slashicorp-fotos-title {
     color: #03fac9;
     font: 45px Gotham HTF Light;
     margin-bottom: 0;
@@ -10129,7 +10129,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-fotos-miniaturas {
+.slashicorp-fotos-miniaturas {
     background: #000;
     opacity: 0;
     position: relative;
@@ -10139,12 +10139,12 @@ body::-webkit-scrollbar-thumb {
     z-index: 1
 }
 
-.fiap-fotos-miniaturas.is-active {
+.slashicorp-fotos-miniaturas.is-active {
     opacity: 1;
     visibility: visible
 }
 
-.fiap-fotos-miniaturas-item {
+.slashicorp-fotos-miniaturas-item {
     cursor: pointer;
     float: left;
     opacity: .6;
@@ -10154,17 +10154,17 @@ body::-webkit-scrollbar-thumb {
     width: 20%
 }
 
-.fiap-fotos-miniaturas-item:after {
+.slashicorp-fotos-miniaturas-item:after {
     content: "";
     display: block;
     margin-top: 50%
 }
 
-.fiap-fotos-miniaturas-item:hover {
+.slashicorp-fotos-miniaturas-item:hover {
     opacity: 1
 }
 
-.fiap-fotos-miniaturas-img {
+.slashicorp-fotos-miniaturas-img {
     display: block;
     left: 0;
     position: absolute;
@@ -10172,7 +10172,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-fotos-slider {
+.slashicorp-fotos-slider {
     font-size: 0;
     left: 0;
     opacity: 0;
@@ -10187,12 +10187,12 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.fiap-fotos-slider.is-active {
+.slashicorp-fotos-slider.is-active {
     opacity: 1;
     visibility: visible
 }
 
-.fiap-fotos-slider-item {
+.slashicorp-fotos-slider-item {
     display: inline-block;
     max-width: 1200px;
     padding: 0 14px;
@@ -10201,19 +10201,19 @@ body::-webkit-scrollbar-thumb {
     width: 75%
 }
 
-.fiap-fotos-slider-media {
+.slashicorp-fotos-slider-media {
     margin: 0;
     padding: 0;
     position: relative
 }
 
-.fiap-fotos-slider-media:after {
+.slashicorp-fotos-slider-media:after {
     content: "";
     display: block;
     padding-top: 50%
 }
 
-.fiap-fotos-slider-img {
+.slashicorp-fotos-slider-img {
     display: block;
     left: 0;
     position: absolute;
@@ -10221,7 +10221,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-fotos-slider-desc {
+.slashicorp-fotos-slider-desc {
     background: #fff;
     bottom: 0;
     left: 0;
@@ -10232,11 +10232,11 @@ body::-webkit-scrollbar-thumb {
     white-space: nowrap
 }
 
-.fiap-fotos-slider-item.is-active .fiap-fotos-slider-desc {
+.slashicorp-fotos-slider-item.is-active .slashicorp-fotos-slider-desc {
     opacity: 1
 }
 
-.fiap-fotos-slider-desc-wrapper {
+.slashicorp-fotos-slider-desc-wrapper {
     color: #333;
     font: 16px Gotham HTF Medium;
     margin-bottom: 0;
@@ -10245,14 +10245,14 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-fotos-slider-nav {
+.slashicorp-fotos-slider-nav {
     position: absolute;
     right: 0;
     top: 50%;
     margin-top: -22px
 }
 
-.fiap-fotos-slider-next, .fiap-fotos-slider-prev {
+.slashicorp-fotos-slider-next, .slashicorp-fotos-slider-prev {
     background: none;
     border: none;
     cursor: pointer;
@@ -10263,7 +10263,7 @@ body::-webkit-scrollbar-thumb {
     width: 45px
 }
 
-.fiap-fotos-slider-next:before, .fiap-fotos-slider-prev:before {
+.slashicorp-fotos-slider-next:before, .slashicorp-fotos-slider-prev:before {
     border-color: #000;
     border-style: solid;
     content: "";
@@ -10275,17 +10275,17 @@ body::-webkit-scrollbar-thumb {
     width: 25px
 }
 
-.fiap-fotos-slider-prev:before {
+.slashicorp-fotos-slider-prev:before {
     border-width: 0 0 2px 2px;
     left: 20px
 }
 
-.fiap-fotos-slider-next:before {
+.slashicorp-fotos-slider-next:before {
     border-width: 2px 2px 0 0;
     right: 20px
 }
 
-.fiap-fotos-btn {
+.slashicorp-fotos-btn {
     bottom: 0;
     cursor: pointer;
     display: none;
@@ -10297,7 +10297,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 3
 }
 
-.fiap-fotos-btn:after {
+.slashicorp-fotos-btn:after {
     border-color: #fff;
     border-style: solid;
     content: "";
@@ -10311,29 +10311,29 @@ body::-webkit-scrollbar-thumb {
     width: 25px
 }
 
-.fiap-fotos-btn:hover:after {
+.slashicorp-fotos-btn:hover:after {
     border-color: #03fac9
 }
 
-.fiap-fotos-btn-next {
+.slashicorp-fotos-btn-next {
     right: 0
 }
 
-.fiap-fotos-btn-next:after {
+.slashicorp-fotos-btn-next:after {
     border-width: 2px 2px 0 0;
     left: 25%
 }
 
-.fiap-fotos-btn-prev {
+.slashicorp-fotos-btn-prev {
     left: 0
 }
 
-.fiap-fotos-btn-prev:after {
+.slashicorp-fotos-btn-prev:after {
     border-width: 0 0 2px 2px;
     left: 75%
 }
 
-.fiap-fotos-slider-close {
+.slashicorp-fotos-slider-close {
     background: #fff;
     border: none;
     cursor: pointer;
@@ -10349,7 +10349,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 999
 }
 
-.fiap-fotos-slider-close:after, .fiap-fotos-slider-close:before {
+.slashicorp-fotos-slider-close:after, .slashicorp-fotos-slider-close:before {
     background: #000;
     content: "";
     display: block;
@@ -10361,41 +10361,41 @@ body::-webkit-scrollbar-thumb {
     width: 20px
 }
 
-.fiap-fotos-slider-close:before {
+.slashicorp-fotos-slider-close:before {
     transform: rotate(-45deg)
 }
 
-.fiap-fotos-slider-close:after {
+.slashicorp-fotos-slider-close:after {
     transform: rotate(45deg)
 }
 
-.fiap-fotos-slider-item.is-active .fiap-fotos-slider-close {
+.slashicorp-fotos-slider-item.is-active .slashicorp-fotos-slider-close {
     opacity: 1
 }
 
-.fiap-nomad {
+.slashicorp-nomad {
     padding-bottom: 230px;
     position: relative
 }
 
-.fiap-nomad-subtitle, .fiap-nomad-title {
+.slashicorp-nomad-subtitle, .slashicorp-nomad-title {
     color: #616d72;
     font: 33px/40px Gotham HTF Light;
     margin: 0;
     text-transform: uppercase
 }
 
-.fiap-nomad-title span {
+.slashicorp-nomad-title span {
     color: #91a3ad;
     font: 68px/64px Gotham HTF Medium
 }
 
-.fiap-nomad-subtitle {
+.slashicorp-nomad-subtitle {
     padding-left: 85px;
     position: relative
 }
 
-.fiap-nomad-subtitle:before {
+.slashicorp-nomad-subtitle:before {
     background-color: #616d72;
     content: "";
     display: block;
@@ -10407,30 +10407,30 @@ body::-webkit-scrollbar-thumb {
     width: 65px
 }
 
-.fiap-nomad-description {
+.slashicorp-nomad-description {
     color: #91a3ad;
     float: right
 }
 
-.fiap-nomad-slider {
+.slashicorp-nomad-slider {
     color: #91a3ad;
     margin-top: 80px;
     overflow: hidden;
     position: relative
 }
 
-.fiap-nomad-slider-wrapper {
+.slashicorp-nomad-slider-wrapper {
     font-size: 0;
     white-space: nowrap
 }
 
-.fiap-nomad-section {
+.slashicorp-nomad-section {
     display: inline-block;
     padding: 0 20px;
     width: 100%
 }
 
-.fiap-nomad-slider-item {
+.slashicorp-nomad-slider-item {
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -10440,7 +10440,7 @@ body::-webkit-scrollbar-thumb {
     width: 33.333%
 }
 
-.fiap-nomad-slider-button {
+.slashicorp-nomad-slider-button {
     background-color: #03fac9;
     cursor: pointer;
     font-size: 0;
@@ -10453,12 +10453,12 @@ body::-webkit-scrollbar-thumb {
     z-index: 1
 }
 
-.fiap-nomad-slider-button.is-hidden {
+.slashicorp-nomad-slider-button.is-hidden {
     visibility: hidden;
     opacity: 0
 }
 
-.fiap-nomad-slider-button:before {
+.slashicorp-nomad-slider-button:before {
     border: 3px solid #000;
     content: "";
     display: block;
@@ -10467,11 +10467,11 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.fiap-nomad-slider-button-prev {
+.slashicorp-nomad-slider-button-prev {
     left: 0
 }
 
-.fiap-nomad-slider-button-prev:before {
+.slashicorp-nomad-slider-button-prev:before {
     border-right: 0;
     border-top: 0;
     left: 43%;
@@ -10479,11 +10479,11 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(45deg) translate(-50%, -50%)
 }
 
-.fiap-nomad-slider-button-next {
+.slashicorp-nomad-slider-button-next {
     right: 0
 }
 
-.fiap-nomad-slider-button-next:before {
+.slashicorp-nomad-slider-button-next:before {
     border-left: 0;
     border-top: 0;
     left: 49%;
@@ -10491,7 +10491,7 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(-45deg) translate(-50%, -50%)
 }
 
-.fiap-nomad-project-thumb {
+.slashicorp-nomad-project-thumb {
     -ms-flex-align: center;
     align-items: center;
     background-size: cover;
@@ -10506,35 +10506,35 @@ body::-webkit-scrollbar-thumb {
     transition: box-shadow .4s ease-out
 }
 
-.fiap-nomad-project-thumb-title {
+.slashicorp-nomad-project-thumb-title {
     font: 12px/20px Gotham HTF Book;
     margin: 35px;
     text-transform: uppercase
 }
 
-.fiap-nomad-slider-item:hover .fiap-nomad-project-thumb {
+.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb {
     box-shadow: inset 0 0 0 1px #03fac9
 }
 
-.fiap-nomad-project-thumb-img-content {
+.slashicorp-nomad-project-thumb-img-content {
     height: 150px;
     position: relative;
     width: 100%
 }
 
-.fiap-nomad-project-thumb-img-content .fiap-nomad-project-thumb-img {
+.slashicorp-nomad-project-thumb-img-content .slashicorp-nomad-project-thumb-img {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%)
 }
 
-.fiap-nomad-project-thumb-saiba-mais {
+.slashicorp-nomad-project-thumb-saiba-mais {
     bottom: 20px;
     position: absolute
 }
 
-.fiap-nomad-project-thumb-saiba-mais-button {
+.slashicorp-nomad-project-thumb-saiba-mais-button {
     border: 1px solid #03fac9;
     border-radius: 50%;
     cursor: pointer;
@@ -10547,7 +10547,7 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.fiap-nomad-project-thumb-saiba-mais-button:after, .fiap-nomad-project-thumb-saiba-mais-button:before {
+.slashicorp-nomad-project-thumb-saiba-mais-button:after, .slashicorp-nomad-project-thumb-saiba-mais-button:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -10560,19 +10560,19 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.fiap-nomad-project-thumb-saiba-mais-button:after {
+.slashicorp-nomad-project-thumb-saiba-mais-button:after {
     transform: translateX(-50%) rotate(90deg)
 }
 
-.fiap-nomad-slider-item:hover .fiap-nomad-project-thumb-saiba-mais-button {
+.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button {
     background-color: #03fac9
 }
 
-.fiap-nomad-slider-item:hover .fiap-nomad-project-thumb-saiba-mais-button:after, .fiap-nomad-slider-item:hover .fiap-nomad-project-thumb-saiba-mais-button:before {
+.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:after, .slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:before {
     background-color: #1a1d20
 }
 
-.fiap-nomad-project-thumb-saiba-mais-description {
+.slashicorp-nomad-project-thumb-saiba-mais-description {
     color: #03fac9;
     font: 12px/20px Gotham HTF Bold;
     left: 0;
@@ -10580,7 +10580,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-nomad-project-description {
+.slashicorp-nomad-project-description {
     background-color: #1a1d20;
     height: 100%;
     opacity: 0;
@@ -10591,7 +10591,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-nomad-project-description-close {
+.slashicorp-nomad-project-description-close {
     color: #03fac9;
     font: 12px/21px Roboto;
     position: absolute;
@@ -10600,25 +10600,25 @@ body::-webkit-scrollbar-thumb {
     top: 5px
 }
 
-.fiap-nomad-project-description-content {
+.slashicorp-nomad-project-description-content {
     padding: 0 60px 0 70px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%)
 }
 
-.fiap-nomad-project-description-figure {
+.slashicorp-nomad-project-description-figure {
     display: block;
     margin: 0;
     padding: 0;
     position: relative
 }
 
-.fiap-nomad-project-description-figure .fiap-nomad-project-description-img {
+.slashicorp-nomad-project-description-figure .slashicorp-nomad-project-description-img {
     max-width: 40%
 }
 
-.fiap-nomad-project-description-figure:before {
+.slashicorp-nomad-project-description-figure:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -10629,39 +10629,39 @@ body::-webkit-scrollbar-thumb {
     width: 2px
 }
 
-.fiap-nomad-project-description-title {
+.slashicorp-nomad-project-description-title {
     font: 11px/20px Gotham HTF Book;
     margin: 20px 0;
     text-transform: uppercase
 }
 
-.fiap-nomad-project-description-text {
+.slashicorp-nomad-project-description-text {
     font: 14px/22px Roboto;
     margin: 30px 0
 }
 
-.fiap-nomad-project-description.is-active {
+.slashicorp-nomad-project-description.is-active {
     opacity: 1;
     visibility: visible
 }
 
-.fiap-2018-parcerias {
+.slashicorp-2018-parcerias {
     color: #b8b8b8;
     padding-bottom: 138px;
     position: relative
 }
 
-.fiap-2018-parcerias.MBA, .fiap-2018-parcerias.ON-MBA {
+.slashicorp-2018-parcerias.MBA, .slashicorp-2018-parcerias.ON-MBA {
     margin-bottom: -50px;
     padding: 0
 }
 
-.fiap-2018-parcerias.ON-MBA-curso {
+.slashicorp-2018-parcerias.ON-MBA-curso {
     margin-bottom: 120px;
     padding: 0
 }
 
-.fiap-2018-parcerias-title {
+.slashicorp-2018-parcerias-title {
     color: #91a3ad;
     font: 58px/40px Gotham HTF Medium;
     margin-bottom: 85px;
@@ -10671,7 +10671,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-parcerias-title:after {
+.slashicorp-2018-parcerias-title:after {
     background-color: #03fac9;
     bottom: -45px;
     content: "";
@@ -10682,14 +10682,14 @@ body::-webkit-scrollbar-thumb {
     width: 70px
 }
 
-.fiap-2018-parcerias-desc {
+.slashicorp-2018-parcerias-desc {
     color: #616d72;
     font: 18px/28px Roboto;
     margin-bottom: 0;
     text-align: center
 }
 
-.fiap-2018-parcerias-logos {
+.slashicorp-2018-parcerias-logos {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -10701,31 +10701,31 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-parcerias-logo {
+.slashicorp-2018-parcerias-logo {
     height: 100%;
     line-height: 150px;
     vertical-align: middle;
     width: 16.66%
 }
 
-.fiap-2018-parcerias-logo.line-two {
+.slashicorp-2018-parcerias-logo.line-two {
     width: 20%
 }
 
-.fiap-2018-parcerias-logo.line-three {
+.slashicorp-2018-parcerias-logo.line-three {
     width: 14.2%
 }
 
-.fiap-2018-parcerias-logo-img {
+.slashicorp-2018-parcerias-logo-img {
     max-width: 80%
 }
 
-.fiap-2018-mec {
+.slashicorp-2018-mec {
     padding-bottom: 250px;
     position: relative
 }
 
-.fiap-2018-mec-title {
+.slashicorp-2018-mec-title {
     color: #91a3ad;
     font: 58px Gotham HTF Medium;
     letter-spacing: .05em;
@@ -10735,7 +10735,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-mec-title span {
+.slashicorp-2018-mec-title span {
     display: block;
     font: 22px Gotham HTF Light;
     left: 50px;
@@ -10744,7 +10744,7 @@ body::-webkit-scrollbar-thumb {
     width: fit-content
 }
 
-.fiap-2018-mec-title span:before {
+.slashicorp-2018-mec-title span:before {
     background-color: #616d72;
     content: "";
     height: 1px;
@@ -10755,38 +10755,38 @@ body::-webkit-scrollbar-thumb {
     width: 30px
 }
 
-.fiap-2018-mec-groups {
+.slashicorp-2018-mec-groups {
     display: -ms-flexbox;
     display: flex;
     margin: 160px 0;
     text-align: center
 }
 
-.fiap-2018-mec-item {
+.slashicorp-2018-mec-item {
     width: 30%;
     display: -ms-flexbox;
     display: flex
 }
 
-.fiap-2018-mec-item-excelencia {
+.slashicorp-2018-mec-item-excelencia {
     width: 40%
 }
 
-.fiap-2018-mec-item-column-left, .fiap-2018-mec-item-column-right {
+.slashicorp-2018-mec-item-column-left, .slashicorp-2018-mec-item-column-right {
     text-align: left
 }
 
-.fiap-2018-mec-item-column-left {
+.slashicorp-2018-mec-item-column-left {
     width: 25%;
     position: relative
 }
 
-.fiap-2018-mec-item-column-right {
+.slashicorp-2018-mec-item-column-right {
     width: 75%;
     padding-top: 80px
 }
 
-.fiap-2018-mec-item-conceito {
+.slashicorp-2018-mec-item-conceito {
     color: #616d72;
     display: block;
     font: 10px Gotham HTF Medium;
@@ -10798,15 +10798,15 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(-90deg)
 }
 
-.fiap-2018-mec-item-conceito-magenta {
+.slashicorp-2018-mec-item-conceito-magenta {
     color: #03fac9
 }
 
-.fiap-2018-mec-item-conceito-magenta:after {
+.slashicorp-2018-mec-item-conceito-magenta:after {
     background-color: #03fac9 !important
 }
 
-.fiap-2018-mec-item-conceito:after {
+.slashicorp-2018-mec-item-conceito:after {
     background-color: #616d72;
     content: "";
     height: 1px;
@@ -10816,7 +10816,7 @@ body::-webkit-scrollbar-thumb {
     width: 135px
 }
 
-.fiap-2018-mec-item-title-number {
+.slashicorp-2018-mec-item-title-number {
     color: #4a5356;
     font: 47px Gotham HTF Bold;
     letter-spacing: 22px;
@@ -10824,23 +10824,23 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-mec-item-title-number-regular {
+.slashicorp-2018-mec-item-title-number-regular {
     padding-left: 25px
 }
 
-.fiap-2018-mec-item-title-number-inadequado {
+.slashicorp-2018-mec-item-title-number-inadequado {
     padding-left: 9px
 }
 
-.fiap-2018-mec-item-title-number-inadequado .fiap-2018-mec-item-title-hifen {
+.slashicorp-2018-mec-item-title-number-inadequado .slashicorp-2018-mec-item-title-hifen {
     background-color: #4a5356 !important
 }
 
-.fiap-2018-mec-item-title-number-magenta {
+.slashicorp-2018-mec-item-title-number-magenta {
     color: #03fac9
 }
 
-.fiap-2018-mec-item-title-number .fiap-2018-mec-item-title-hifen {
+.slashicorp-2018-mec-item-title-number .slashicorp-2018-mec-item-title-hifen {
     background-color: #03fac9;
     height: 4px;
     left: 26px;
@@ -10850,7 +10850,7 @@ body::-webkit-scrollbar-thumb {
     width: 8px
 }
 
-.fiap-2018-mec-item-title {
+.slashicorp-2018-mec-item-title {
     color: #616d72;
     font: 31px Gotham HTF Book;
     letter-spacing: 1px;
@@ -10858,18 +10858,18 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-mec-item-title-magenta {
+.slashicorp-2018-mec-item-title-magenta {
     color: #03fac9;
     font: 33px Gotham HTF Bold
 }
 
-.fiap-2018-mec-item-list {
+.slashicorp-2018-mec-item-list {
     display: -ms-flexbox;
     display: flex;
     margin-top: 15px
 }
 
-.fiap-2018-mec-item-list p {
+.slashicorp-2018-mec-item-list p {
     color: #505a5f;
     font: 15px Gotham HTF Medium;
     letter-spacing: 2px;
@@ -10877,16 +10877,16 @@ body::-webkit-scrollbar-thumb {
     padding: 5px 30px 5px 11px
 }
 
-.fiap-2018-mec-item-list-fiap {
+.slashicorp-2018-mec-item-list-slashicorp {
     background: #03fac9;
     color: #0e1012 !important
 }
 
-.fiap-2018-mec-item-list-right {
+.slashicorp-2018-mec-item-list-right {
     padding-left: 15px
 }
 
-.fiap-2018-mec-item-list-blur p {
+.slashicorp-2018-mec-item-list-blur p {
     color: transparent !important;
     text-shadow: 0 0 13px #4a5358 !important;
     -webkit-user-select: none;
@@ -10894,12 +10894,12 @@ body::-webkit-scrollbar-thumb {
     user-select: none
 }
 
-.fiap-2018-enade {
+.slashicorp-2018-enade {
     padding-bottom: 300px;
     position: relative
 }
 
-.fiap-2018-enade:after, .fiap-2018-enade:before {
+.slashicorp-2018-enade:after, .slashicorp-2018-enade:before {
     content: "";
     display: block;
     height: 100%;
@@ -10907,11 +10907,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-enade.fiap-2018-enade--graduacao:before {
+.slashicorp-2018-enade.slashicorp-2018-enade--graduacao:before {
     display: none
 }
 
-.fiap-2018-enade-main {
+.slashicorp-2018-enade-main {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -10920,30 +10920,30 @@ body::-webkit-scrollbar-thumb {
     justify-content: center
 }
 
-.fiap-2018-enade-content {
+.slashicorp-2018-enade-content {
     padding-bottom: 120px
 }
 
-.fiap-2018-enade-title {
+.slashicorp-2018-enade-title {
     font: 36px/44px Gotham HTF Medium
 }
 
-.fiap-2018-enade-subtitle, .fiap-2018-enade-title {
+.slashicorp-2018-enade-subtitle, .slashicorp-2018-enade-title {
     color: #91a3ad;
     letter-spacing: .3px;
     margin: 0 auto;
     text-transform: uppercase
 }
 
-.fiap-2018-enade-subtitle {
+.slashicorp-2018-enade-subtitle {
     font: 33px/44px Gotham HTF Light
 }
 
-.fiap-2018-enade-subtitle--graduacao {
+.slashicorp-2018-enade-subtitle--graduacao {
     color: #41494d
 }
 
-.fiap-2018-enade-nota-title {
+.slashicorp-2018-enade-nota-title {
     -ms-flex-align: center;
     align-items: center;
     color: #91a3ad;
@@ -10959,7 +10959,7 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-enade-nota-title:before {
+.slashicorp-2018-enade-nota-title:before {
     background: #03fac9;
     content: "";
     height: 3px;
@@ -10968,30 +10968,30 @@ body::-webkit-scrollbar-thumb {
     width: 20px
 }
 
-.fiap-2018-enade-text {
+.slashicorp-2018-enade-text {
     color: #91a3ad;
     font: 16px/30px Roboto;
     letter-spacing: .3px;
     max-width: 530px
 }
 
-.fiap-2018-enade-row {
+.slashicorp-2018-enade-row {
     display: -ms-flexbox;
     display: flex
 }
 
-.fiap-2018-enade-col-side {
+.slashicorp-2018-enade-col-side {
     width: 30%
 }
 
-.fiap-2018-enade-col-center {
+.slashicorp-2018-enade-col-center {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
     width: 50%
 }
 
-.fiap-2018-enade-box {
+.slashicorp-2018-enade-box {
     border: 1px solid #31383a;
     color: #616d72;
     display: -ms-flexbox;
@@ -11006,23 +11006,23 @@ body::-webkit-scrollbar-thumb {
     transition: border-color .4s ease-out
 }
 
-.fiap-2018-enade-box-subtitle, .fiap-2018-enade-box-title {
+.slashicorp-2018-enade-box-subtitle, .slashicorp-2018-enade-box-title {
     margin: 0;
     transition: color .4s ease-out
 }
 
-.fiap-2018-enade-box-title {
+.slashicorp-2018-enade-box-title {
     font: 17px/23px Gotham HTF Medium;
     margin-bottom: 10px;
     text-transform: uppercase;
     transition: color .4s ease-out
 }
 
-.fiap-2018-enade-box:hover .fiap-2018-enade-box-title {
+.slashicorp-2018-enade-box:hover .slashicorp-2018-enade-box-title {
     color: #03fac9
 }
 
-.fiap-2018-enade-box-title-engenharia {
+.slashicorp-2018-enade-box-title-engenharia {
     font: 24px/30px Gotham HTF Medium;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -11030,33 +11030,33 @@ body::-webkit-scrollbar-thumb {
     transition: color .4s ease-out
 }
 
-.fiap-2018-enade-box:hover .fiap-2018-enade-box-title-engenharia {
+.slashicorp-2018-enade-box:hover .slashicorp-2018-enade-box-title-engenharia {
     color: #03fac9
 }
 
-.fiap-2018-enade-box-subtitle {
+.slashicorp-2018-enade-box-subtitle {
     font: 16px/22px Roboto
 }
 
-.fiap-2018-enade-box.left {
+.slashicorp-2018-enade-box.left {
     padding: 20px 0 20px 80px
 }
 
-.fiap-2018-enade-box.center {
+.slashicorp-2018-enade-box.center {
     padding: 100px 0;
     text-align: center
 }
 
-.fiap-2018-enade-box.right {
+.slashicorp-2018-enade-box.right {
     padding: 0 80px 0 30px
 }
 
-.fiap-2018-enade-box:hover {
+.slashicorp-2018-enade-box:hover {
     border-color: #03fac9;
     color: #91a3ad
 }
 
-.fiap-2018-enade-nota {
+.slashicorp-2018-enade-nota {
     border: 1px solid #31383a;
     color: #616d72;
     padding: 20px;
@@ -11067,24 +11067,24 @@ body::-webkit-scrollbar-thumb {
     z-index: 1
 }
 
-.fiap-2018-enade-box.left .fiap-2018-enade-nota {
+.slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota {
     background: linear-gradient(90deg, #0c0f10, #0f1013);
     left: -40px
 }
 
-.fiap-2018-enade-box.center .fiap-2018-enade-nota {
+.slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota {
     background: linear-gradient(90deg, #15181a, #1b1f21);
     left: 50%;
     top: -40px;
     transform: translateX(-50%)
 }
 
-.fiap-2018-enade-box.right .fiap-2018-enade-nota {
+.slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota {
     background: linear-gradient(90deg, #282b2e, #282b2e);
     right: -40px
 }
 
-.fiap-2018-enade-nota-subtitle {
+.slashicorp-2018-enade-nota-subtitle {
     font: 11px/22px Gotham HTF Bold;
     margin: 0;
     position: absolute;
@@ -11092,37 +11092,37 @@ body::-webkit-scrollbar-thumb {
     transition: color .4s ease-out
 }
 
-.fiap-2018-enade-box.left .fiap-2018-enade-nota-subtitle {
+.slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota-subtitle {
     left: -52px;
     transform: translateY(-50%) rotate(270deg)
 }
 
-.fiap-2018-enade-box.center .fiap-2018-enade-nota-subtitle {
+.slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota-subtitle {
     left: 50%;
     top: -22px;
     transform: translateX(-50%)
 }
 
-.fiap-2018-enade-box.right .fiap-2018-enade-nota-subtitle {
+.slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota-subtitle {
     right: -66px;
     transform: translateY(-50%) rotate(-270deg)
 }
 
-.fiap-2018-enade-box:hover .fiap-2018-enade-nota-subtitle {
+.slashicorp-2018-enade-box:hover .slashicorp-2018-enade-nota-subtitle {
     color: #03fac9
 }
 
-.fiap-2018-enade-box:hover .fiap-2018-enade-nota {
+.slashicorp-2018-enade-box:hover .slashicorp-2018-enade-nota {
     background: #03fac9 !important;
     border-color: #03fac9
 }
 
-.fiap-2018-artigos {
+.slashicorp-2018-artigos {
     padding-bottom: 460px;
     position: relative
 }
 
-.fiap-2018-artigos-box, .fiap-2018-artigos-main {
+.slashicorp-2018-artigos-box, .slashicorp-2018-artigos-main {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -11131,7 +11131,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center
 }
 
-.fiap-2018-artigos-box {
+.slashicorp-2018-artigos-box {
     border: 1px solid #4a5358;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -11141,7 +11141,7 @@ body::-webkit-scrollbar-thumb {
     align-self: center
 }
 
-.fiap-2018-artigos-highlight {
+.slashicorp-2018-artigos-highlight {
     color: transparent;
     font: 49px/47px Gotham HTF Medium;
     margin-bottom: 40px;
@@ -11151,14 +11151,14 @@ body::-webkit-scrollbar-thumb {
     -webkit-text-stroke: 2px #03fac9
 }
 
-.fiap-2018-artigos-title {
+.slashicorp-2018-artigos-title {
     color: #cee7f5;
     font: 36px/45px Gotham HTF Light;
     letter-spacing: .3px;
     margin-top: -5px
 }
 
-.fiap-2018-artigos-text {
+.slashicorp-2018-artigos-text {
     color: #535d63;
     font: 600 20px/29px Gotham HTF Medium;
     letter-spacing: 1px;
@@ -11166,7 +11166,7 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-artigos-text:after {
+.slashicorp-2018-artigos-text:after {
     background: #03fac9;
     content: "";
     height: 3px;
@@ -11176,7 +11176,7 @@ body::-webkit-scrollbar-thumb {
     width: 50px
 }
 
-.fiap-2018-artigos-number {
+.slashicorp-2018-artigos-number {
     color: #252a2d;
     content: attr(data-number);
     font: 280px/200px Gotham HTF Bold;
@@ -11186,29 +11186,29 @@ body::-webkit-scrollbar-thumb {
     z-index: -1
 }
 
-.fiap-2018-artigos-media {
+.slashicorp-2018-artigos-media {
     height: 40px;
     line-height: 40px;
     margin-bottom: 25px
 }
 
-.fiap-2018-artigos-media-img {
+.slashicorp-2018-artigos-media-img {
     display: inline-block;
     margin-left: 20px;
     vertical-align: middle
 }
 
-.fiap-2018-artigos-desc {
+.slashicorp-2018-artigos-desc {
     font: 14px/22px Roboto;
     margin-bottom: 0
 }
 
-.fiap-2018-videos {
+.slashicorp-2018-videos {
     padding-bottom: 390px;
     position: relative
 }
 
-.fiap-2018-videos-title {
+.slashicorp-2018-videos-title {
     color: #91a3ad;
     font: 22px Gotham HTF Medium;
     letter-spacing: .05em;
@@ -11217,14 +11217,14 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-videos-title span {
+.slashicorp-2018-videos-title span {
     display: block;
     font-size: 58px;
     left: 50px;
     position: relative
 }
 
-.fiap-2018-videos-title span:before {
+.slashicorp-2018-videos-title span:before {
     background-color: #616d72;
     content: "";
     height: 1px;
@@ -11235,14 +11235,14 @@ body::-webkit-scrollbar-thumb {
     width: 30px
 }
 
-.fiap-2018-videos-box {
+.slashicorp-2018-videos-box {
     height: 680px;
     margin-top: 70px;
     position: relative;
     width: 100%
 }
 
-.fiap-2018-videos-option {
+.slashicorp-2018-videos-option {
     height: 100%;
     left: 0;
     opacity: 0;
@@ -11253,12 +11253,12 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-videos-option.is-active {
+.slashicorp-2018-videos-option.is-active {
     opacity: 1;
     visibility: visible
 }
 
-.fiap-2018-videos-media {
+.slashicorp-2018-videos-media {
     border: none;
     bottom: 0;
     height: 100%;
@@ -11268,29 +11268,29 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.fiap-2018-videos-share-list {
+.slashicorp-2018-videos-share-list {
     margin: 30px
 }
 
-.fiap-2018-videos-share-item {
+.slashicorp-2018-videos-share-item {
     display: block;
     margin: 15px 0
 }
 
-.fiap-2018-videos-share {
+.slashicorp-2018-videos-share {
     position: absolute;
     right: 0;
     top: 0;
     z-index: 3
 }
 
-.fiap-2018-videos-share span {
+.slashicorp-2018-videos-share span {
     display: block;
     height: 13px;
     transform: rotate(-90deg)
 }
 
-.fiap-2018-videos-share-title {
+.slashicorp-2018-videos-share-title {
     color: #03fac9;
     font-family: Gotham HTF Bold;
     font-size: 10px;
@@ -11298,13 +11298,13 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-videos-share-icon {
+.slashicorp-2018-videos-share-icon {
     height: 20px;
     text-align: center;
     width: 20px
 }
 
-.fiap-2018-videos-thumbs {
+.slashicorp-2018-videos-thumbs {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -11314,11 +11314,11 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap
 }
 
-.fiap-2018-videos-thumb-item {
+.slashicorp-2018-videos-thumb-item {
     margin: 0 40px
 }
 
-.fiap-2018-videos-thumb-figure {
+.slashicorp-2018-videos-thumb-figure {
     border: 2px solid transparent;
     cursor: pointer;
     height: 120px;
@@ -11328,11 +11328,11 @@ body::-webkit-scrollbar-thumb {
     width: 240px
 }
 
-.fiap-2018-videos-thumb-item.is-active .fiap-2018-videos-thumb-figure {
+.slashicorp-2018-videos-thumb-item.is-active .slashicorp-2018-videos-thumb-figure {
     border-color: #03fac9
 }
 
-.fiap-2018-videos-thumb-figure:before {
+.slashicorp-2018-videos-thumb-figure:before {
     background-color: #000;
     content: "";
     height: 100%;
@@ -11344,11 +11344,11 @@ body::-webkit-scrollbar-thumb {
     z-index: 1
 }
 
-.fiap-2018-videos-thumb-figure:before .fiap-2018-videos-thumb-item:first-child {
+.slashicorp-2018-videos-thumb-figure:before .slashicorp-2018-videos-thumb-item:first-child {
     opacity: .3
 }
 
-.fiap-2018-videos-thumb-img {
+.slashicorp-2018-videos-thumb-img {
     height: 100%;
     left: 0;
     position: absolute;
@@ -11356,11 +11356,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-videos-thumb-item.is-active .fiap-2018-videos-thumb-img {
+.slashicorp-2018-videos-thumb-item.is-active .slashicorp-2018-videos-thumb-img {
     filter: grayscale(100%)
 }
 
-.fiap-2018-videos-thumb-button {
+.slashicorp-2018-videos-thumb-button {
     border: 1px solid #03fac9;
     color: #03fac9;
     cursor: pointer;
@@ -11379,46 +11379,46 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.fiap-2018-videos-thumb-button.is-active {
+.slashicorp-2018-videos-thumb-button.is-active {
     border-color: transparent;
     color: #91a3ad;
     opacity: 1;
     visibility: visible
 }
 
-.fiap-2018-videos-thumb-item:hover .fiap-2018-videos-thumb-button {
+.slashicorp-2018-videos-thumb-item:hover .slashicorp-2018-videos-thumb-button {
     opacity: 1;
     visibility: visible
 }
 
-.fiap-2018-videos-thumb-item.is-active .fiap-2018-videos-thumb-button {
+.slashicorp-2018-videos-thumb-item.is-active .slashicorp-2018-videos-thumb-button {
     border-color: transparent;
     color: #91a3ad;
     opacity: 1;
     visibility: visible
 }
 
-.fiap-2018-videos-thumb-description {
+.slashicorp-2018-videos-thumb-description {
     color: #91a3ad;
     font: 14px Roboto;
     letter-spacing: .3px;
     text-transform: uppercase
 }
 
-.fiap-2018-unidades {
+.slashicorp-2018-unidades {
     padding-bottom: 85px;
     position: relative
 }
 
-.fiap-2018-unidades.is-contato {
+.slashicorp-2018-unidades.is-contato {
     padding-bottom: 0
 }
 
-.fiap-2018-unidades.is-contato:after {
+.slashicorp-2018-unidades.is-contato:after {
     display: none
 }
 
-.fiap-2018-unidades-title {
+.slashicorp-2018-unidades-title {
     color: #91a3ad;
     font: 63px/50px Gotham HTF Medium;
     margin-bottom: 0;
@@ -11428,7 +11428,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-unidades-title:before {
+.slashicorp-2018-unidades-title:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -11440,31 +11440,31 @@ body::-webkit-scrollbar-thumb {
     width: 13px
 }
 
-.fiap-2018-unidades-list {
+.slashicorp-2018-unidades-list {
     display: -ms-flexbox;
     display: flex;
     margin: 110px -7px 0
 }
 
-.fiap-2018-unidades-item {
+.slashicorp-2018-unidades-item {
     padding: 0 7px;
     width: 100%
 }
 
-.fiap-2018-unidades-media {
+.slashicorp-2018-unidades-media {
     margin-bottom: 60px;
     overflow: hidden;
     position: relative;
     transition: opacity .4s
 }
 
-.fiap-2018-unidades-media:before {
+.slashicorp-2018-unidades-media:before {
     content: "";
     display: block;
     padding-top: 157.491289199%
 }
 
-.fiap-2018-unidades-media:after {
+.slashicorp-2018-unidades-media:after {
     background-color: transparent;
     content: "";
     display: block;
@@ -11477,15 +11477,15 @@ body::-webkit-scrollbar-thumb {
     z-index: 10
 }
 
-.fiap-2018-unidades-list:hover .fiap-2018-unidades-media:after {
+.slashicorp-2018-unidades-list:hover .slashicorp-2018-unidades-media:after {
     background-color: rgba(0, 0, 0, .5)
 }
 
-.fiap-2018-unidades-item.is-active .fiap-2018-unidades-media:after, .fiap-2018-unidades-item:hover .fiap-2018-unidades-media:after {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-media:after, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-media:after {
     opacity: 0
 }
 
-.fiap-2018-unidades-img {
+.slashicorp-2018-unidades-img {
     display: block;
     left: 0;
     position: absolute;
@@ -11494,15 +11494,15 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-unidades-list:hover .fiap-2018-unidades-img {
+.slashicorp-2018-unidades-list:hover .slashicorp-2018-unidades-img {
     filter: grayscale(100%)
 }
 
-.fiap-2018-unidades-item.is-active .fiap-2018-unidades-img, .fiap-2018-unidades-item:hover .fiap-2018-unidades-img {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-img, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-img {
     filter: none
 }
 
-.fiap-2018-unidades-newdesc {
+.slashicorp-2018-unidades-newdesc {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -11517,14 +11517,14 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.fiap-2018-unidades-newdesc-text:first-child {
+.slashicorp-2018-unidades-newdesc-text:first-child {
     color: #91a3ad;
     font: 18px/23px Gotham HTF Book;
     text-align: center;
     text-transform: uppercase
 }
 
-.fiap-2018-unidades-newdesc-text:nth-child(2) {
+.slashicorp-2018-unidades-newdesc-text:nth-child(2) {
     -ms-flex-align: center;
     align-items: center;
     color: #03fac9;
@@ -11537,7 +11537,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-unidades-newdesc-text:nth-child(2):after, .fiap-2018-unidades-newdesc-text:nth-child(2):before {
+.slashicorp-2018-unidades-newdesc-text:nth-child(2):after, .slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
     background: #03fac9;
     content: "";
     display: block;
@@ -11546,21 +11546,21 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.fiap-2018-unidades-newdesc-text:nth-child(2):before {
+.slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
     top: -20px
 }
 
-.fiap-2018-unidades-newdesc-text:nth-child(2):after {
+.slashicorp-2018-unidades-newdesc-text:nth-child(2):after {
     top: 20px
 }
 
-.fiap-2018-unidades-newdesc-text:nth-child(3) {
+.slashicorp-2018-unidades-newdesc-text:nth-child(3) {
     color: #91a3ad;
     font: 16px/23px Roboto;
     text-align: center
 }
 
-.fiap-2018-unidades-tag {
+.slashicorp-2018-unidades-tag {
     background: #03fac9;
     bottom: 0;
     color: #fff;
@@ -11573,7 +11573,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.fiap-2018-unidades-tag:after {
+.slashicorp-2018-unidades-tag:after {
     border-color: transparent transparent transparent #03fac9;
     border-style: solid;
     border-width: 40px 0 0 25px;
@@ -11586,16 +11586,16 @@ body::-webkit-scrollbar-thumb {
     width: 0
 }
 
-.fiap-2018-unidades-content {
+.slashicorp-2018-unidades-content {
     color: #616d72;
     margin-bottom: 120px
 }
 
-.fiap-2018-unidades-item.is-active .fiap-2018-unidades-content {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-content {
     color: #91a3ad
 }
 
-.fiap-2018-unidades-subtitle {
+.slashicorp-2018-unidades-subtitle {
     color: #616d72;
     display: block;
     font: 18px Gotham HTF Medium;
@@ -11605,24 +11605,24 @@ body::-webkit-scrollbar-thumb {
     transition: all .5s ease
 }
 
-.fiap-2018-unidades-subtitle span {
+.slashicorp-2018-unidades-subtitle span {
     display: block
 }
 
-.fiap-2018-unidades-item:hover .fiap-2018-unidades-subtitle {
+.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-subtitle {
     color: #91a3ad
 }
 
-.fiap-2018-unidades-item.is-active .fiap-2018-unidades-subtitle {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-subtitle {
     color: #03fac9
 }
 
-.fiap-2018-unidades-desc {
+.slashicorp-2018-unidades-desc {
     font: 16px/25px Roboto;
     margin-bottom: 0
 }
 
-.fiap-2018-unidades-desc.special {
+.slashicorp-2018-unidades-desc.special {
     -ms-flex-align: center;
     align-items: center;
     color: #4a5358;
@@ -11633,7 +11633,7 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.fiap-2018-unidades-desc.special:before {
+.slashicorp-2018-unidades-desc.special:before {
     background: #3b4750;
     content: "";
     height: 1px;
@@ -11642,7 +11642,7 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.fiap-2018-unidades-btn, .fiap-2018-unidades-btn-close {
+.slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-btn-close {
     border: 1px solid #03fac9;
     color: #03fac9;
     display: inline-block;
@@ -11655,22 +11655,22 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease, color .4s ease
 }
 
-.fiap-2018-unidades-btn-close:hover, .fiap-2018-unidades-btn:hover {
+.slashicorp-2018-unidades-btn-close:hover, .slashicorp-2018-unidades-btn:hover {
     background: #03fac9;
     color: #000
 }
 
-.fiap-2018-unidades-btn-close, .fiap-2018-unidades-item.is-active .fiap-2018-unidades-btn, .fiap-2018-unidades-item.is-active .fiap-2018-unidades-btn-close {
+.slashicorp-2018-unidades-btn-close, .slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
     display: none
 }
 
-.fiap-2018-unidades-item.is-active .fiap-2018-unidades-btn-close {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
     background: #03fac9;
     color: #000;
     display: inline-block
 }
 
-.fiap-2018-unidades-btn-bg {
+.slashicorp-2018-unidades-btn-bg {
     bottom: 0;
     content: "";
     left: 0;
@@ -11681,42 +11681,42 @@ body::-webkit-scrollbar-thumb {
     z-index: -2
 }
 
-.fiap-2018-unidades-btn-bg-bottom, .fiap-2018-unidades-btn-bg-left, .fiap-2018-unidades-btn-bg-right, .fiap-2018-unidades-btn-bg-top {
+.slashicorp-2018-unidades-btn-bg-bottom, .slashicorp-2018-unidades-btn-bg-left, .slashicorp-2018-unidades-btn-bg-right, .slashicorp-2018-unidades-btn-bg-top {
     background: #03fac9;
     position: absolute
 }
 
-.fiap-2018-unidades-btn-bg-bottom, .fiap-2018-unidades-btn-bg-top {
+.slashicorp-2018-unidades-btn-bg-bottom, .slashicorp-2018-unidades-btn-bg-top {
     height: 1px;
     width: 100%
 }
 
-.fiap-2018-unidades-btn-bg-left, .fiap-2018-unidades-btn-bg-right {
+.slashicorp-2018-unidades-btn-bg-left, .slashicorp-2018-unidades-btn-bg-right {
     height: 100%;
     width: 1px
 }
 
-.fiap-2018-unidades-btn-bg-top {
+.slashicorp-2018-unidades-btn-bg-top {
     left: 0;
     top: 0
 }
 
-.fiap-2018-unidades-btn-bg-right {
+.slashicorp-2018-unidades-btn-bg-right {
     right: 0;
     top: 0
 }
 
-.fiap-2018-unidades-btn-bg-bottom {
+.slashicorp-2018-unidades-btn-bg-bottom {
     bottom: 0;
     left: 0
 }
 
-.fiap-2018-unidades-btn-bg-left {
+.slashicorp-2018-unidades-btn-bg-left {
     left: 0;
     top: 0
 }
 
-.fiap-2018-unidades-newbtn {
+.slashicorp-2018-unidades-newbtn {
     border: 1px solid #03fac9;
     color: #03fac9;
     font: 10px/27px Gotham HTF Medium;
@@ -11727,13 +11727,13 @@ body::-webkit-scrollbar-thumb {
     z-index: 20
 }
 
-.fiap-2018-unidades-newbtn:hover {
+.slashicorp-2018-unidades-newbtn:hover {
     color: #000;
     background: #03fac9;
     transition: all .5s ease
 }
 
-.fiap-2018-mapa {
+.slashicorp-2018-mapa {
     margin-bottom: 200px;
     max-height: 0;
     min-height: 0;
@@ -11741,7 +11741,7 @@ body::-webkit-scrollbar-thumb {
     transition: max-height .6s ease, min-height .6s ease
 }
 
-.fiap-2018-mapa.is-active {
+.slashicorp-2018-mapa.is-active {
     max-height: 650px;
     min-height: 650px
 }
@@ -14766,7 +14766,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-it-forum-nano-courses-title-logos-fiap {
+.graduacao-it-forum-nano-courses-title-logos-slashicorp {
     fill: #03fac9;
     height: 40px;
     width: 85px
@@ -15229,11 +15229,11 @@ body::-webkit-scrollbar-thumb {
         padding: 0 15px
     }
 
-    .fiap-2018-disrupcao-column:first-child {
+    .slashicorp-2018-disrupcao-column:first-child {
         padding-left: 40px
     }
 
-    .fiap-2018-disrupcao-column:last-child {
+    .slashicorp-2018-disrupcao-column:last-child {
         padding-left: 25px
     }
 }
@@ -15357,7 +15357,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 1220px) {
-    .fiap-2018-enade-box.left, .fiap-2018-enade-box.right {
+    .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
         width: 305px
     }
 }
@@ -15540,11 +15540,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1350px) {
-    .fiap-menu-wrapper {
+    .slashicorp-menu-wrapper {
         padding-right: 50px
     }
 
-    .fiap-menu-sub {
+    .slashicorp-menu-sub {
         left: -30px
     }
 }
@@ -15591,19 +15591,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1250px) {
-    .fiap-2018-unidades-list {
+    .slashicorp-2018-unidades-list {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin: 100px 0 0
     }
 
-    .fiap-2018-unidades-item {
+    .slashicorp-2018-unidades-item {
         margin: 40px auto;
         padding: 0 7px;
         width: 33.3%
     }
 
-    .fiap-2018-unidades-content {
+    .slashicorp-2018-unidades-content {
         color: #91a3ad;
         display: table-cell;
         padding: 0 15px;
@@ -15612,13 +15612,13 @@ body::-webkit-scrollbar-thumb {
         width: 50%
     }
 
-    .fiap-2018-unidades-desc.special {
+    .slashicorp-2018-unidades-desc.special {
         -ms-flex-pack: center;
         justify-content: center;
         margin-left: 0
     }
 
-    .fiap-2018-unidades-desc.special:before {
+    .slashicorp-2018-unidades-desc.special:before {
         width: 0
     }
 
@@ -15651,19 +15651,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1208px) {
-    .fiap-2018-videos-thumbs {
+    .slashicorp-2018-videos-thumbs {
         -ms-flex-pack: left;
         justify-content: left;
         margin: 0
     }
 
-    .fiap-2018-videos-thumb-item {
+    .slashicorp-2018-videos-thumb-item {
         max-width: 130px;
         margin: 10px;
         text-align: center
     }
 
-    .fiap-2018-videos-thumb-figure {
+    .slashicorp-2018-videos-thumb-figure {
         width: 130px;
         height: 65px
     }
@@ -15763,11 +15763,11 @@ body::-webkit-scrollbar-thumb {
         bottom: 60px
     }
 
-    .fiap-2018-conceito {
+    .slashicorp-2018-conceito {
         background: none
     }
 
-    .fiap-nomad-description {
+    .slashicorp-nomad-description {
         margin-top: 50px
     }
 }
@@ -15989,42 +15989,42 @@ body::-webkit-scrollbar-thumb {
         column-count: 2
     }
 
-    .fiap-graduacao-startup-columns {
+    .slashicorp-graduacao-startup-columns {
         margin-top: 100px;
         text-align: center
     }
 
-    .fiap-graduacao-startup-column {
+    .slashicorp-graduacao-startup-column {
         display: block;
         width: 100%
     }
 
-    .fiap-graduacao-startup-content {
+    .slashicorp-graduacao-startup-content {
         margin: auto;
         text-align: center
     }
 
-    .fiap-graduacao-startup-content-title {
+    .slashicorp-graduacao-startup-content-title {
         font: 18px Gotham HTF Book
     }
 
-    .fiap-graduacao-startup-content-title .text-magenta {
+    .slashicorp-graduacao-startup-content-title .text-magenta {
         color: inherit
     }
 
-    .fiap-graduacao-startup-media {
+    .slashicorp-graduacao-startup-media {
         display: inline-block;
         float: none;
         margin-top: 75px
     }
 
-    .fiap-fotos {
+    .slashicorp-fotos {
         padding-bottom: 100px
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .fiap-2018-conceito-desc, .shared-conceito-desc {
+    .slashicorp-2018-conceito-desc, .shared-conceito-desc {
         max-width: 740px
     }
 }
@@ -16433,15 +16433,15 @@ body::-webkit-scrollbar-thumb {
         width: 50%
     }
 
-    .fiap-2018-conceito {
+    .slashicorp-2018-conceito {
         padding: 100px 0
     }
 
-    .fiap-2018-disrupcao-title {
+    .slashicorp-2018-disrupcao-title {
         padding: 0
     }
 
-    .fiap-2018-disrupcao-figure:after, .fiap-2018-disrupcao-title:before {
+    .slashicorp-2018-disrupcao-figure:after, .slashicorp-2018-disrupcao-title:before {
         display: none
     }
 }
@@ -16470,15 +16470,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1024px) {
-    .fiap-2018-footer {
+    .slashicorp-2018-footer {
         text-align: center
     }
 
-    .fiap-2018-footer-column {
+    .slashicorp-2018-footer-column {
         width: 100%
     }
 
-    .fiap-2018-footer-column:not(:first-child) {
+    .slashicorp-2018-footer-column:not(:first-child) {
         display: none
     }
 
@@ -16490,7 +16490,7 @@ body::-webkit-scrollbar-thumb {
         display: none
     }
 
-    .fiap-2018-mec-groups {
+    .slashicorp-2018-mec-groups {
         -ms-flex-align: center;
         align-items: center;
         -ms-flex-direction: column;
@@ -16498,7 +16498,7 @@ body::-webkit-scrollbar-thumb {
         margin: 130px 0 0
     }
 
-    .fiap-2018-enade-box.center, .fiap-2018-enade-box.left, .fiap-2018-enade-box.right {
+    .slashicorp-2018-enade-box.center, .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
         margin: 40px auto;
         width: 80%
     }
@@ -16666,88 +16666,88 @@ body::-webkit-scrollbar-thumb {
         max-height: fit-content
     }
 
-    .fiap-2018-disrupcao:after {
+    .slashicorp-2018-disrupcao:after {
         display: none
     }
 
-    .fiap-2018-disrupcao {
+    .slashicorp-2018-disrupcao {
         padding: 0 0 250px
     }
 
-    .fiap-2018-future-logo {
+    .slashicorp-2018-future-logo {
         text-align: center
     }
 
-    .fiap-2018-future-logo, .fiap-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
         width: 25%
     }
 
-    .fiap-nomad-slider {
+    .slashicorp-nomad-slider {
         margin: 20px 0
     }
 
-    .fiap-nomad-slider-item {
+    .slashicorp-nomad-slider-item {
         width: 100%
     }
 
-    .fiap-2018-parcerias-logo {
+    .slashicorp-2018-parcerias-logo {
         text-align: center
     }
 
-    .fiap-2018-parcerias-logo, .fiap-2018-parcerias-logo.line-three, .fiap-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
         width: 25%
     }
 
-    .fiap-2018-mec:after {
+    .slashicorp-2018-mec:after {
         display: none
     }
 
-    .fiap-2018-mec {
+    .slashicorp-2018-mec {
         padding-bottom: 250px;
         padding-bottom: 150px
     }
 
-    .fiap-2018-mec-item, .fiap-2018-mec-item-excelencia {
+    .slashicorp-2018-mec-item, .slashicorp-2018-mec-item-excelencia {
         margin: 40px 0;
         width: 100%
     }
 
-    .fiap-2018-enade:after, .fiap-2018-enade:before {
+    .slashicorp-2018-enade:after, .slashicorp-2018-enade:before {
         display: none
     }
 
-    .fiap-2018-enade-row {
+    .slashicorp-2018-enade-row {
         -ms-flex-direction: column;
         flex-direction: column
     }
 
-    .fiap-2018-enade-col-center, .fiap-2018-enade-col-side {
+    .slashicorp-2018-enade-col-center, .slashicorp-2018-enade-col-side {
         width: 100%
     }
 
-    .fiap-2018-enade-box-title, .fiap-2018-enade-box-title-engenharia {
+    .slashicorp-2018-enade-box-title, .slashicorp-2018-enade-box-title-engenharia {
         font: 20px/26px Gotham HTF Medium
     }
 
-    .fiap-2018-enade-box.center, .fiap-2018-enade-box.left, .fiap-2018-enade-box.right {
+    .slashicorp-2018-enade-box.center, .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
         margin: 0 0 140px;
         padding: 80px 20px 50px;
         text-align: center;
         width: 100%
     }
 
-    .fiap-2018-enade-box.right:last-child {
+    .slashicorp-2018-enade-box.right:last-child {
         margin: 0
     }
 
-    .fiap-2018-enade-box.center .fiap-2018-enade-nota-subtitle, .fiap-2018-enade-box.left .fiap-2018-enade-nota-subtitle, .fiap-2018-enade-box.right .fiap-2018-enade-nota-subtitle {
+    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota-subtitle, .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota-subtitle, .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota-subtitle {
         font: 13px/22px Gotham HTF Bold;
         left: 50%;
         top: -24px;
         transform: translateX(-50%)
     }
 
-    .fiap-2018-enade-box.center .fiap-2018-enade-nota, .fiap-2018-enade-box.left .fiap-2018-enade-nota, .fiap-2018-enade-box.right .fiap-2018-enade-nota {
+    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota, .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota, .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota {
         background: linear-gradient(90deg, #15161a, #1d2125);
         left: 50%;
         padding: 20px 0;
@@ -16756,7 +16756,7 @@ body::-webkit-scrollbar-thumb {
         width: 75%
     }
 
-    .fiap-2018-videos-box {
+    .slashicorp-2018-videos-box {
         margin: 30px 0
     }
 }
@@ -16797,15 +16797,15 @@ body::-webkit-scrollbar-thumb {
         max-width: 100%
     }
 
-    .fiap-2018-unidades-newdesc-text:first-child {
+    .slashicorp-2018-unidades-newdesc-text:first-child {
         font-size: 13px
     }
 
-    .fiap-2018-unidades-newdesc-text:nth-child(2) {
+    .slashicorp-2018-unidades-newdesc-text:nth-child(2) {
         font-size: 21px
     }
 
-    .fiap-2018-unidades-newdesc-text:last-child {
+    .slashicorp-2018-unidades-newdesc-text:last-child {
         font-size: 14px
     }
 }
@@ -16956,111 +16956,111 @@ body::-webkit-scrollbar-thumb {
         font: 15px Gotham HTF Medium
     }
 
-    .fiap-2018-disrupcao-columns {
+    .slashicorp-2018-disrupcao-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
 
-    .fiap-2018-disrupcao-column {
+    .slashicorp-2018-disrupcao-column {
         width: 100%
     }
 
-    .fiap-2018-disrupcao-description:first-child {
+    .slashicorp-2018-disrupcao-description:first-child {
         padding-top: 0
     }
 
-    .fiap-2018-disrupcao-description:first-child:before {
+    .slashicorp-2018-disrupcao-description:first-child:before {
         display: none
     }
 
-    .fiap-2018-future-title {
+    .slashicorp-2018-future-title {
         font-size: 41px;
         line-height: 30px
     }
 
-    .fiap-2018-future-title span {
+    .slashicorp-2018-future-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
 
-    .fiap-2018-future-title span:before {
+    .slashicorp-2018-future-title span:before {
         display: none
     }
 
-    .fiap-2018-enade {
+    .slashicorp-2018-enade {
         padding: 0 0 200px
     }
 
-    .fiap-2018-enade-main {
+    .slashicorp-2018-enade-main {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-order: -1;
         order: -1
     }
 
-    .fiap-2018-enade-content {
+    .slashicorp-2018-enade-content {
         padding-bottom: 120px;
         text-align: center
     }
 
-    .fiap-2018-artigos-media-img {
+    .slashicorp-2018-artigos-media-img {
         width: 400px
     }
 
-    .fiap-2018-enade-nota-title {
+    .slashicorp-2018-enade-nota-title {
         -ms-flex-pack: center;
         justify-content: center
     }
 
-    .fiap-2018-artigos:after, .fiap-2018-enade-nota-title:before {
+    .slashicorp-2018-artigos:after, .slashicorp-2018-enade-nota-title:before {
         display: none
     }
 
-    .fiap-2018-artigos {
+    .slashicorp-2018-artigos {
         padding-bottom: 250px
     }
 
-    .fiap-2018-artigos-main {
+    .slashicorp-2018-artigos-main {
         -ms-flex-direction: column;
         flex-direction: column
     }
 
-    .fiap-2018-artigos-box {
+    .slashicorp-2018-artigos-box {
         margin: 0 0 90px
     }
 
-    .fiap-2018-artigos-text {
+    .slashicorp-2018-artigos-text {
         text-align: center
     }
 
-    .fiap-2018-artigos-text:after {
+    .slashicorp-2018-artigos-text:after {
         display: none
     }
 
-    .fiap-2018-artigos-number {
+    .slashicorp-2018-artigos-number {
         font-size: 170px;
         line-height: 105px;
         left: 5px
     }
 
-    .fiap-2018-videos-title {
+    .slashicorp-2018-videos-title {
         font-size: 41px;
         line-height: 30px
     }
 
-    .fiap-2018-videos-title span {
+    .slashicorp-2018-videos-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
 
-    .fiap-2018-unidades:after, .fiap-2018-videos-title span:before {
+    .slashicorp-2018-unidades:after, .slashicorp-2018-videos-title span:before {
         display: none
     }
 
-    .fiap-2018-unidades-subtitle {
+    .slashicorp-2018-unidades-subtitle {
         color: #03fac9
     }
 
@@ -17074,18 +17074,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 960px) {
-    .fiap-2018-unidades-item {
+    .slashicorp-2018-unidades-item {
         width: 50%
     }
 
-    .fiap-2018-unidades-media {
+    .slashicorp-2018-unidades-media {
         display: table-cell;
         opacity: .9;
         vertical-align: middle;
         width: 50%
     }
 
-    .fiap-2018-mapa, .fiap-2018-unidades-btn, .fiap-2018-unidades-btn-close, .fiap-2018-unidades-tag {
+    .slashicorp-2018-mapa, .slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-btn-close, .slashicorp-2018-unidades-tag {
         display: none
     }
 
@@ -17237,7 +17237,7 @@ body::-webkit-scrollbar-thumb {
         background: none
     }
 
-    .fiap-menu-sub {
+    .slashicorp-menu-sub {
         margin-left: -130px;
         right: auto;
         transform: none;
@@ -18215,142 +18215,142 @@ body::-webkit-scrollbar-thumb {
         padding-top: 220px
     }
 
-    .fiap-2018-conceito:after {
+    .slashicorp-2018-conceito:after {
         display: none
     }
 
-    .fiap-2018-conceito {
+    .slashicorp-2018-conceito {
         padding: 100px 50px
     }
 
-    .fiap-2018-conceito-title {
+    .slashicorp-2018-conceito-title {
         font-size: 24px;
         line-height: 35px
     }
 
-    .fiap-2018-conceito-desc {
+    .slashicorp-2018-conceito-desc {
         font-size: 14px;
         line-height: 24px
     }
 
-    .fiap-2018-conceito-svg {
+    .slashicorp-2018-conceito-svg {
         max-width: 180px
     }
 
-    .fiap-2018-disrupcao {
+    .slashicorp-2018-disrupcao {
         padding-bottom: 150px
     }
 
-    .fiap-2018-disrupcao-title {
+    .slashicorp-2018-disrupcao-title {
         font: 35px/45px Gotham HTF Medium;
         margin: 0 0 30px;
         text-align: left
     }
 
-    .fiap-2018-disrupcao-figure {
+    .slashicorp-2018-disrupcao-figure {
         width: 100%
     }
 
-    .fiap-2018-disrupcao-column img {
+    .slashicorp-2018-disrupcao-column img {
         max-width: 150px
     }
 
-    .fiap-2018-future-title, .fiap-2018-future-title span, .fiap-2018-future-title span:before {
+    .slashicorp-2018-future-title, .slashicorp-2018-future-title span, .slashicorp-2018-future-title span:before {
         font-size: 24px
     }
 
-    .fiap-2018-future-desc {
+    .slashicorp-2018-future-desc {
         font: 16px/26px Roboto
     }
 
-    .fiap-2018-future-logos {
+    .slashicorp-2018-future-logos {
         margin: 100px 0 50px;
         padding: 0
     }
 
-    .fiap-2018-future-logo, .fiap-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
         width: 33.3%
     }
 
-    .fiap-nomad:after {
+    .slashicorp-nomad:after {
         display: none
     }
 
-    .fiap-nomad {
+    .slashicorp-nomad {
         padding-bottom: 150px
     }
 
-    .fiap-nomad-subtitle, .fiap-nomad-title {
+    .slashicorp-nomad-subtitle, .slashicorp-nomad-title {
         font: 30px/30px Gotham HTF Light;
         font: 20px/20px Gotham HTF Light;
         margin: 0 auto
     }
 
-    .fiap-nomad-title span {
+    .slashicorp-nomad-title span {
         font: 48px/55px Gotham HTF Medium
     }
 
-    .fiap-nomad-description {
+    .slashicorp-nomad-description {
         font-size: 14px;
         margin: 80px 0 30px
     }
 
-    .fiap-2018-parcerias:after {
+    .slashicorp-2018-parcerias:after {
         display: none
     }
 
-    .fiap-2018-parcerias {
+    .slashicorp-2018-parcerias {
         padding-bottom: 150px
     }
 
-    .fiap-2018-parcerias-title {
+    .slashicorp-2018-parcerias-title {
         font: 40px/50px Gotham HTF Medium
     }
 
-    .fiap-2018-parcerias-title:after {
+    .slashicorp-2018-parcerias-title:after {
         bottom: -35px;
         height: 5px
     }
 
-    .fiap-2018-parcerias-desc {
+    .slashicorp-2018-parcerias-desc {
         font: 16px/26px Roboto
     }
 
-    .fiap-2018-parcerias-logos {
+    .slashicorp-2018-parcerias-logos {
         margin: 50px 0;
         padding: 0
     }
 
-    .fiap-2018-parcerias-logo {
+    .slashicorp-2018-parcerias-logo {
         line-height: 120px
     }
 
-    .fiap-2018-parcerias-logo, .fiap-2018-parcerias-logo.line-three, .fiap-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
         width: 33.3%
     }
 
-    .fiap-2018-enade {
+    .slashicorp-2018-enade {
         padding: 0 0 150px
     }
 
-    .fiap-2018-enade-content {
+    .slashicorp-2018-enade-content {
         padding-bottom: 50px
     }
 
-    .fiap-2018-artigos-media-img {
+    .slashicorp-2018-artigos-media-img {
         width: 280px;
         margin-left: 20px
     }
 
-    .fiap-2018-enade-title {
+    .slashicorp-2018-enade-title {
         font: 25px/36px Gotham HTF Medium
     }
 
-    .fiap-2018-enade-subtitle {
+    .slashicorp-2018-enade-subtitle {
         font: 25px/36px Gotham HTF Light
     }
 
-    .fiap-2018-enade-nota-title {
+    .slashicorp-2018-enade-nota-title {
         margin-bottom: 20px;
         margin-left: 0;
         -ms-flex-pack: center;
@@ -18358,78 +18358,78 @@ body::-webkit-scrollbar-thumb {
         text-align: center
     }
 
-    .fiap-2018-enade-text {
+    .slashicorp-2018-enade-text {
         text-align: center
     }
 
-    .fiap-2018-artigos {
+    .slashicorp-2018-artigos {
         padding-bottom: 150px
     }
 
-    .fiap-2018-artigos-box {
+    .slashicorp-2018-artigos-box {
         padding: 40px
     }
 
-    .fiap-2018-artigos-box > img {
+    .slashicorp-2018-artigos-box > img {
         width: 140px
     }
 
-    .fiap-2018-artigos-highlight {
+    .slashicorp-2018-artigos-highlight {
         font: 39px/40px Gotham HTF Medium;
         margin-bottom: 30px;
         -webkit-text-stroke: 1px #03fac9
     }
 
-    .fiap-2018-artigos-title {
+    .slashicorp-2018-artigos-title {
         font: 32px/40px Gotham HTF Light;
         margin-bottom: 30px;
         text-align: center;
         font: 29px/36px Gotham HTF Light
     }
 
-    .fiap-2018-videos:after {
+    .slashicorp-2018-videos:after {
         display: none
     }
 
-    .fiap-2018-videos {
+    .slashicorp-2018-videos {
         padding-bottom: 150px
     }
 
-    .fiap-2018-videos-title {
+    .slashicorp-2018-videos-title {
         margin-left: unset;
         text-align: center
     }
 
-    .fiap-2018-videos-title span, .fiap-2018-videos-title span:before {
+    .slashicorp-2018-videos-title span, .slashicorp-2018-videos-title span:before {
         font-size: 35px;
         margin-bottom: 20px
     }
 
-    .fiap-2018-videos-thumb-button {
+    .slashicorp-2018-videos-thumb-button {
         border: none
     }
 
-    .fiap-2018-unidades {
+    .slashicorp-2018-unidades {
         padding-bottom: 150px
     }
 
-    .fiap-2018-unidades-title {
+    .slashicorp-2018-unidades-title {
         font-size: 40px
     }
 
-    .fiap-2018-unidades-item {
+    .slashicorp-2018-unidades-item {
         width: 100%
     }
 
-    .fiap-2018-unidades-media {
+    .slashicorp-2018-unidades-media {
         width: 21.5%
     }
 
-    .fiap-2018-unidades-content {
+    .slashicorp-2018-unidades-content {
         padding-left: 20px
     }
 
-    .fiap-2018-unidades-subtitle {
+    .slashicorp-2018-unidades-subtitle {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 15px
@@ -18534,15 +18534,15 @@ body::-webkit-scrollbar-thumb {
         display: block
     }
 
-    .fiap-menu {
+    .slashicorp-menu {
         text-align: center
     }
 
-    .fiap-menu-link-dropdown {
+    .slashicorp-menu-link-dropdown {
         color: #03fac9
     }
 
-    .fiap-menu-link-dropdown:after {
+    .slashicorp-menu-link-dropdown:after {
         border-color: #03fac9
     }
 
@@ -19163,24 +19163,24 @@ body::-webkit-scrollbar-thumb {
         height: 2300px
     }
 
-    .fiap-graduacao-startup {
+    .slashicorp-graduacao-startup {
         padding: 50px 0
     }
 
-    .fiap-graduacao-startup:after {
+    .slashicorp-graduacao-startup:after {
         display: none
     }
 
-    .fiap-graduacao-startup .wrapper {
+    .slashicorp-graduacao-startup .wrapper {
         width: 100%
     }
 
-    .fiap-graduacao-startup-title {
+    .slashicorp-graduacao-startup-title {
         height: 24px;
         width: 245px
     }
 
-    .fiap-graduacao-startup-subtitle {
+    .slashicorp-graduacao-startup-subtitle {
         font-size: 16px;
         letter-spacing: 0;
         line-height: 20px;
@@ -19188,56 +19188,56 @@ body::-webkit-scrollbar-thumb {
         max-width: 275px
     }
 
-    .fiap-graduacao-startup-columns {
+    .slashicorp-graduacao-startup-columns {
         margin-top: 50px
     }
 
-    .fiap-graduacao-startup-content {
+    .slashicorp-graduacao-startup-content {
         width: 90%
     }
 
-    .fiap-graduacao-startup-content-title {
+    .slashicorp-graduacao-startup-content-title {
         font-family: Gotham HTF Light;
         line-height: 22px;
         margin-bottom: 15px
     }
 
-    .fiap-graduacao-startup-media {
+    .slashicorp-graduacao-startup-media {
         display: block;
         margin-top: 50px;
         width: 100%
     }
 
-    .fiap-graduacao-startup-media-icon {
+    .slashicorp-graduacao-startup-media-icon {
         width: 75px
     }
 
-    .fiap-graduacao-startup-media-img {
+    .slashicorp-graduacao-startup-media-img {
         width: 100%
     }
 
-    .fiap-fotos {
+    .slashicorp-fotos {
         padding: 50px 0
     }
 
-    .fiap-fotos:after {
+    .slashicorp-fotos:after {
         display: none
     }
 
-    .fiap-fotos-wrapper {
+    .slashicorp-fotos-wrapper {
         margin-top: 35px
     }
 
-    .fiap-fotos-title {
+    .slashicorp-fotos-title {
         font-size: 24px;
         line-height: 30px
     }
 
-    .fiap-fotos-miniaturas {
+    .slashicorp-fotos-miniaturas {
         display: none
     }
 
-    .fiap-fotos-slider {
+    .slashicorp-fotos-slider {
         opacity: 1;
         overflow: hidden;
         position: relative;
@@ -19245,20 +19245,20 @@ body::-webkit-scrollbar-thumb {
         visibility: visible
     }
 
-    .fiap-fotos-slider-item {
+    .slashicorp-fotos-slider-item {
         padding: 0;
         width: 100%
     }
 
-    .fiap-fotos-slider-media:after {
+    .slashicorp-fotos-slider-media:after {
         display: none
     }
 
-    .fiap-fotos-slider-img {
+    .slashicorp-fotos-slider-img {
         position: static
     }
 
-    .fiap-fotos-slider-desc {
+    .slashicorp-fotos-slider-desc {
         background: none;
         display: table;
         height: 80px;
@@ -19271,7 +19271,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%
     }
 
-    .fiap-fotos-slider-desc-wrapper {
+    .slashicorp-fotos-slider-desc-wrapper {
         color: #b8b8b8;
         display: table-cell;
         font-family: Roboto;
@@ -19280,27 +19280,27 @@ body::-webkit-scrollbar-thumb {
         vertical-align: middle
     }
 
-    .fiap-fotos-slider-nav {
+    .slashicorp-fotos-slider-nav {
         display: none
     }
 
-    .fiap-fotos-btn {
+    .slashicorp-fotos-btn {
         display: block
     }
 
-    .fiap-fotos-slider-close {
+    .slashicorp-fotos-slider-close {
         display: none
     }
 
-    .fiap-2018-mec-title {
+    .slashicorp-2018-mec-title {
         font: 54px Gotham HTF Medium
     }
 
-    .fiap-2018-mec-title span {
+    .slashicorp-2018-mec-title span {
         width: 80%
     }
 
-    .fiap-2018-mec-groups {
+    .slashicorp-2018-mec-groups {
         margin: 100px 0 0
     }
 
@@ -19376,7 +19376,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 610px) {
-    .fiap-2018-unidades-list {
+    .slashicorp-2018-unidades-list {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 30px
@@ -19420,15 +19420,15 @@ body::-webkit-scrollbar-thumb {
         width: 100%
     }
 
-    .fiap-2018-footer-columns {
+    .slashicorp-2018-footer-columns {
         padding: 60px 40px
     }
 
-    .fiap-2018-footer-social-item {
+    .slashicorp-2018-footer-social-item {
         margin: 0 1px
     }
 
-    .fiap-2018-footer-social-item:not(:last-child) {
+    .slashicorp-2018-footer-social-item:not(:last-child) {
         margin-bottom: 10px
     }
 
@@ -19487,7 +19487,7 @@ body::-webkit-scrollbar-thumb {
         max-width: 90px
     }
 
-    .menu-search-logo-fiap .components-menu-svg {
+    .menu-search-logo-slashicorp .components-menu-svg {
         display: block !important
     }
 
@@ -19792,91 +19792,91 @@ body::-webkit-scrollbar-thumb {
         padding: 13px 15px
     }
 
-    .fiap-2018-conceito {
+    .slashicorp-2018-conceito {
         padding: 80px 50px
     }
 
-    .fiap-2018-future {
+    .slashicorp-2018-future {
         padding-bottom: 150px
     }
 
-    .fiap-2018-future-desc {
+    .slashicorp-2018-future-desc {
         font: 14px/24px Roboto
     }
 
-    .fiap-2018-future-logo, .fiap-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
         width: 50%
     }
 
-    .fiap-2018-parcerias-title, .fiap-nomad-title span {
+    .slashicorp-2018-parcerias-title, .slashicorp-nomad-title span {
         font: 35px/45px Gotham HTF Medium
     }
 
-    .fiap-2018-parcerias-title:after {
+    .slashicorp-2018-parcerias-title:after {
         bottom: -30px;
         height: 5px;
         width: 60px
     }
 
-    .fiap-2018-parcerias-logo, .fiap-2018-parcerias-logo.line-three, .fiap-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
         width: 50%
     }
 
-    .fiap-2018-mec-item-conceito {
+    .slashicorp-2018-mec-item-conceito {
         font: 8px Gotham HTF Medium
     }
 
-    .fiap-2018-mec-item-conceito:after {
+    .slashicorp-2018-mec-item-conceito:after {
         width: 125px
     }
 
-    .fiap-2018-mec-item-title-number {
+    .slashicorp-2018-mec-item-title-number {
         font-size: 37px
     }
 
-    .fiap-2018-mec-item-title-magenta {
+    .slashicorp-2018-mec-item-title-magenta {
         font-size: 24px
     }
 
-    .fiap-2018-mec-item-title {
+    .slashicorp-2018-mec-item-title {
         font-size: 26px
     }
 
-    .fiap-2018-mec-item-list p {
+    .slashicorp-2018-mec-item-list p {
         font-size: 11px
     }
 
-    .fiap-2018-enade-title {
+    .slashicorp-2018-enade-title {
         font: 23px/35px Gotham HTF Medium
     }
 
-    .fiap-2018-videos-box {
+    .slashicorp-2018-videos-box {
         height: 250px
     }
 
-    .fiap-2018-videos-media {
+    .slashicorp-2018-videos-media {
         height: 250px;
         top: 0
     }
 
-    .fiap-2018-videos-share-list {
+    .slashicorp-2018-videos-share-list {
         margin: 10px
     }
 
-    .fiap-2018-videos-share, .fiap-2018-videos-share-title {
+    .slashicorp-2018-videos-share, .slashicorp-2018-videos-share-title {
         display: none
     }
 
-    .fiap-2018-unidades.is-contato .wrapper {
+    .slashicorp-2018-unidades.is-contato .wrapper {
         width: 100%
     }
 
-    .fiap-2018-unidades-title {
+    .slashicorp-2018-unidades-title {
         font-size: 35px;
         padding-left: 0
     }
 
-    .fiap-2018-unidades-title:before {
+    .slashicorp-2018-unidades-title:before {
         display: none
     }
 
@@ -19944,15 +19944,15 @@ body::-webkit-scrollbar-thumb {
         width: 70%
     }
 
-    .fiap-2018-mec-title {
+    .slashicorp-2018-mec-title {
         font: 35px Gotham HTF Medium
     }
 
-    .fiap-2018-mec-title span {
+    .slashicorp-2018-mec-title span {
         font: 14px Gotham HTF Light
     }
 
-    .fiap-2018-unidades-media {
+    .slashicorp-2018-unidades-media {
         width: 50%
     }
 
@@ -20046,7 +20046,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 382px) {
-    .fiap-2018-videos-thumbs {
+    .slashicorp-2018-videos-thumbs {
         -ms-flex-pack: center;
         justify-content: center
     }
@@ -20134,15 +20134,15 @@ body::-webkit-scrollbar-thumb {
         font: 30px/50px Gotham HTF Medium
     }
 
-    .fiap-2018-enade-subtitle {
+    .slashicorp-2018-enade-subtitle {
         font: 22px/35px Gotham HTF Light
     }
 
-    .fiap-2018-artigos-box {
+    .slashicorp-2018-artigos-box {
         padding: 25px
     }
 
-    .fiap-2018-artigos-text {
+    .slashicorp-2018-artigos-text {
         font: 600 18px/27px Gotham HTF Medium
     }
 }
