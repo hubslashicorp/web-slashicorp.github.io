@@ -135,7 +135,7 @@
 
 .background-gradient-home-graduacao:before {
     content: "";
-    background: url(../img/logo.png) top no-repeat;
+    background: url(../img/icons/logo.png) top no-repeat;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -146,7 +146,7 @@
 
 .background-gradient-home-online:before {
     content: "";
-    background: url(../img/logo.png) top no-repeat;
+    background: url(../img/icons/logo.png) top no-repeat;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -18404,7 +18404,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-disrupcao:after {
-    background: url(../img/effects.png) center 0 no-repeat;
+    background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;

@@ -9476,7 +9476,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     width: 100%;
-    background: url(../../img/effects.png) top no-repeat
+    background: url(../../img/background/effects.png) top no-repeat
 }
 
 .graduacao-extensao-investimento-header {
