@@ -2883,8 +2883,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-footer-social-link:hover {
-    border-color: #fff;
-    fill: #fff
+    border-color: #03fac9;
+    fill: #03fac9;
+    text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);
 }
 
 .slashicorp-2018-footer-social-icon {
@@ -2897,6 +2898,12 @@ body::-webkit-scrollbar-thumb {
 
 .slashicorp-2018-footer-section:not(:first-child) {
     margin-top: 40px
+}
+
+.slashicorp-2018-footer-section {
+    border-color: #03fac9;
+    fill: #03fac9;
+    text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);
 }
 
 .slashicorp-2018-footer-title {
