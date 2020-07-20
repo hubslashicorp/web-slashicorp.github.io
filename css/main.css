@@ -18498,3 +18498,117 @@ html {
     color: #fff;
     text-shadow: none;
 }
+
+/* Transição de preto e branco pra colorido - START */
+ul#box-automation-peb{
+  width: 298px;
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#box-automation-peb li{
+  float: left;
+   width: 298px;
+  height: 455px;
+  background-color: #ffffff;
+  -webkit-transition: all .2s ease-in;
+}
+
+ul#box-automation-peb li#box-automation{
+  background: url("../img/box-automation-peb.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  background-color: #ffffff;
+}
+
+ul#box-automation-peb li#box-automation:hover{
+  background: url("../img/box-automation.png") no-repeat;
+  background-size: 298.5px 455.92px;
+}
+
+ul#box-cloud-peb{
+  width: 298px;
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#box-cloud-peb li{
+  float: left;
+   width: 298px;
+  height: 455px;
+  background-color: #ffffff;
+  -webkit-transition: all .2s ease-in;
+}
+
+ul#box-cloud-peb li:hover{
+}
+
+ul#box-cloud-peb li#box-cloud{
+  background: url("../img/box-cloud-peb.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  background-color: #ffffff;
+}
+
+ul#box-cloud-peb li#box-cloud:hover{
+  background: url("../img/box-cloud.png") no-repeat;
+  background-size: 298.5px 455.92px;
+}
+
+ul#box-elk-peb{
+  width: 298px;
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#box-elk-peb li{
+  float: left;
+   width: 298px;
+  height: 455px;
+  background-color: #ffffff;
+  -webkit-transition: all .2s ease-in;
+}
+
+ul#box-elk-peb li#box-elk{
+  background: url("../img/box-elk-peb.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  background-color: #ffffff;
+}
+
+ul#box-elk-peb li#box-elk:hover{
+  background: url("../img/box-elk.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  }
+
+ul#box-monitoring-peb{
+  width: 298px;
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#box-monitoring-peb li{
+  float: left;
+   width: 298px;
+  height: 455px;
+  background-color: #ffffff;
+  -webkit-transition: all .2s ease-in;
+}
+
+
+ul#box-monitoring-peb li#box-monitoring{
+  background: url("../img/box-monitoring-peb.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  background-color: #ffffff;
+}
+
+ul#box-monitoring-peb li#box-monitoring:hover{
+  background: url("../img/box-monitoring.png") no-repeat;
+  background-size: 298.5px 455.92px;
+  }
+
+/* Transição de preto e branco pra colorido - END */
+
+.slashicorp-2018-unidades-mediaa {
+  width: calc(40% - 40px);
