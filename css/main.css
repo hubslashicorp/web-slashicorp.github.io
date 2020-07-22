@@ -1237,12 +1237,13 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     height: 100%;
     position: relative;
-    width: 20%
+    width: 20%;
 }
 
 .components-menu-logo-link {
     display: block
 }
+
 
 .components-menu-logo-link:nth-child(2) {
     margin-left: 10px
@@ -8164,6 +8165,7 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-unidades {
     padding-bottom: 85px;
     position: relative
+    width: 50%
 }
 
 .slashicorp-2018-unidades.is-contato {
@@ -8211,6 +8213,7 @@ body::-webkit-scrollbar-thumb {
     display: -ms-flexbox;
     display: flex;
     margin: 110px -7px 0
+    width=100%;
 }
 
 .slashicorp-2018-unidades-item {
@@ -8218,20 +8221,19 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.slashicorp-2018-unidades-media {
+.slashicorp-2018-unidades-mediaa {
     margin-bottom: 60px;
     overflow: hidden;
     position: relative;
     transition: opacity .4s
 }
 
-.slashicorp-2018-unidades-media:before {
+.slashicorp-2018-unidades-mediaa:before {
     content: "";
-    display: block;
-    padding-top: 157.491289199%
+    padding-top: 25%
 }
 
-.slashicorp-2018-unidades-media:after {
+.slashicorp-2018-unidades-mediaa:after {
     background-color: transparent;
     content: "";
     display: block;
@@ -8240,15 +8242,15 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     transition: background-color .5s ease, opacity .5s ease;
-    width: 100%;
-    z-index: 10
+   /* width: 100%; */
+    z-index: 10;
 }
 
 .slashicorp-2018-unidades-list:hover .slashicorp-2018-unidades-media:after {
     background-color: rgba(0, 0, 0, .5)
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-media:after, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-media:after {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-mediaa:after, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-mediaa:after {
     opacity: 0
 }
 
@@ -15043,7 +15045,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 1355px) {
+@media screen and (max-width: 100px) {
     .components-menu {
         background-color: #151819;
         box-shadow: 0 0 10px rgba(0, 0, 0, .25);
@@ -15053,7 +15055,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .components-menu-logo {
-        width: auto
+       width: 32%;
     }
 
     .components-menu-center {
@@ -16096,7 +16098,7 @@ body::-webkit-scrollbar-thumb {
         width: 50%
     }
 
-    .slashicorp-2018-unidades-media {
+    .slashicorp-2018-unidades-mediaa {
         display: table-cell;
         opacity: .9;
         vertical-align: middle;
@@ -16666,7 +16668,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%
     }
 
-    .slashicorp-2018-unidades-media {
+    .slashicorp-2018-unidades-mediaa {
         width: 21.5%
     }
 
@@ -17781,7 +17783,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 14px
     }
 
-    .wrapper-midia {
+    v-midia {
         width: 100%
     }
 
@@ -17843,7 +17845,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .components-menu-toggle {
-        left: 20px;
+        left: 400px;
         right: auto
     }
 
@@ -18201,7 +18203,7 @@ body::-webkit-scrollbar-thumb {
         font: 14px Gotham HTF Light
     }
 
-    .slashicorp-2018-unidades-media {
+    .slashicorp-2018-unidades-mediaa {
         width: 50%
     }
 
@@ -18502,7 +18504,7 @@ html {
 /* Transição de preto e branco pra colorido - START */
 ul#box-automation-peb{
   width: 298px;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
   list-style: none;
 }
@@ -18528,7 +18530,7 @@ ul#box-automation-peb li#box-automation:hover{
 
 ul#box-cloud-peb{
   width: 298px;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
   list-style: none;
 }
@@ -18539,9 +18541,6 @@ ul#box-cloud-peb li{
   height: 455px;
   background-color: #ffffff;
   -webkit-transition: all .2s ease-in;
-}
-
-ul#box-cloud-peb li:hover{
 }
 
 ul#box-cloud-peb li#box-cloud{
@@ -18557,7 +18556,7 @@ ul#box-cloud-peb li#box-cloud:hover{
 
 ul#box-elk-peb{
   width: 298px;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
   list-style: none;
 }
@@ -18583,7 +18582,7 @@ ul#box-elk-peb li#box-elk:hover{
 
 ul#box-monitoring-peb{
   width: 298px;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
   list-style: none;
 }
@@ -18609,6 +18608,3 @@ ul#box-monitoring-peb li#box-monitoring:hover{
   }
 
 /* Transição de preto e branco pra colorido - END */
-
-.slashicorp-2018-unidades-mediaa {
-  width: calc(40% - 40px);
