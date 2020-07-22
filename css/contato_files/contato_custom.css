@@ -1945,12 +1945,12 @@ body::-webkit-scrollbar-thumb {
 .components-menu-link:hover {
     color: #03fac9;
     opacity:1;
-    text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);
+    text-shadow: #03fac9 4px 0px 20px; color: #03fac9;
 }
 
 .components-menu-link:hover .components-menu-arrow {
     border-bottom-color: #03fac9;
-    border-right-color: #03fac9
+    border-right-color: #03fac9;
 }
 
 .components-menu-sublist {
@@ -6443,7 +6443,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .menu-graduacao .components-menu-logo {
-    min-width: 260px
+    min-width: 10px
 }
 
 .graduacao-extensoes {
@@ -11456,7 +11456,7 @@ body::-webkit-scrollbar-thumb {
     display: -ms-flexbox;
     display: flex;
     margin: 110px -7px 0
-}
+}   width=100%;
 
 .slashicorp-2018-unidades-item {
     padding: 0 7px;
@@ -11473,7 +11473,7 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-unidades-media:before {
     content: "";
     display: block;
-    padding-top: 157.491289199%
+    padding-top: 25%
 }
 
 .slashicorp-2018-unidades-media:after {
@@ -15426,7 +15426,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 1355px) {
+@media screen and (max-width: 100px) {
     .components-menu {
         background-color: #151819;
         box-shadow: 0 0 10px rgba(0, 0, 0, .25);
@@ -15436,7 +15436,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .components-menu-logo {
-        width: auto
+        width: 32%
     }
 
     .components-menu-center {
@@ -17236,7 +17236,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100px) {
     .shared-startup-text-title {
         font-size: 16px
     }
