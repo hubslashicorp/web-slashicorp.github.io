@@ -18608,3 +18608,8 @@ ul#box-monitoring-peb li#box-monitoring:hover{
   }
 
 /* Transição de preto e branco pra colorido - END */
+
+.teste {
+    width: 50px !important;
+
+}

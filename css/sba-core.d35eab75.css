@@ -1455,7 +1455,7 @@
                 stroke-width: 1.5 -webkit-transition: all .2s ease-in;
             }
             
-            .hex.is-primary:active {
+            .hex.is-description {
                 fill: #02896E;
                 fill-opacity: .100;
                 stroke: #42d3a5;
@@ -1552,7 +1552,7 @@
             
             .wallboard {
                 background: url(../img/background/gradiente.jpg) top repeat-y;
-                height: calc(100vh - 52px);
+                height: calc(100vh - 100px);
                 width: 100%
             }
             
@@ -1595,4 +1595,8 @@
             .wallboard .application__footer {
                 width: 90%;
                 margin-top: .5em
+            }
+            
+            .hex .teste {
+                width: auto;
             }
