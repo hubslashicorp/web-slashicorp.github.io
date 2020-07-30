@@ -1455,7 +1455,8 @@ td.health-details__nested {
 .hex {
     fill-opacity: .05;
     stroke-width: .5;
-    stroke-opacity: .8
+    stroke-opacity: .8;
+    -webkit-transition: all .2s ease-in;
 }
 
 .hex polygon {
@@ -1506,8 +1507,6 @@ td.health-details__nested {
     -webkit-transition: all .2s ease-in;
 }
 
-
-}
 
 }
 .hex.is-link polygon {
@@ -1568,7 +1567,8 @@ td.health-details__nested {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    stroke-width: 1.5 -webkit-transition: all .2s ease-in;
+    stroke-width: 1.5;
+    -webkit-transition: all .2s ease-in;
 }
 .hex__body:hover {
     -webkit-transform: scale(2.5);
@@ -1590,13 +1590,13 @@ td.health-details__nested {
  * limitations under the License.
  */
 .wallboard {
-    background: url(../img/background/gradiente.jpg) top repeat-y;
+    background: transparent;
     height: calc(100vh - 100px);
     width: 100%
 }
 .wallboard .application {
     color: transparent;
-    font-size: 1em;
+    font-size: 2.0em;
     font-weight: 400;
     line-height: 1;
     text-align: center;
