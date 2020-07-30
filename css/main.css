@@ -6397,7 +6397,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .shared-conceito-institucional {
-    padding: 200px 0 130px
+    padding: 150px 0 40px
 }
 
 .shared-conceito-institucional:after {
@@ -6509,7 +6509,7 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-disrupcao-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
-    margin: 0 0 100px;
+    margin: 0 0 70px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
@@ -6569,9 +6569,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-disrupcao-description {
-    color: #91a3ad;
+    color: ##91A3A8;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 19px;
     margin: 30px 0
 }
 
@@ -6960,7 +6960,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-sxsw {
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     position: relative
 }
 
@@ -7050,7 +7050,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-sxsw-text {
-    color: #616d72;
+    color: #91A3A8;
     font: 16px/24px Roboto;
     letter-spacing: .3px
 }
@@ -7102,7 +7102,7 @@ body::-webkit-scrollbar-thumb {
 
 .slashicorp-nomad-description {
     color: #91a3ad;
-    float: right
+    float: left
 }
 
 .slashicorp-nomad-slider {
@@ -7395,8 +7395,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-parcerias-desc {
-    color: #616d72;
-    font: 18px/28px Roboto;
+    color: ##91a3ad;
+    font: 20px/28px Roboto;
     margin-bottom: 0;
     text-align: center
 }
