@@ -4,7 +4,7 @@ function bpoly() {
     if (a == 1) {
         // document.getElementById("button").innerHTML = "Atlassian Jira Align";
         document.getElementById("btgeral").style.webkitTransform = "scale(5)";
-        document.getElementById("btgeral").style.fillOpacity = "90";
+        document.getElementById("btgeral").el.style.removeProperty('fillOpacity');
         document.getElementById("texto").style.fontSize = "2"
         a = 2
     } else {

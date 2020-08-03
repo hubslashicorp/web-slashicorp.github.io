@@ -1591,7 +1591,7 @@ td.health-details__nested {
  */
 .wallboard {
     background: transparent;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 350px);
     width: 100%
 }
 .wallboard .application {

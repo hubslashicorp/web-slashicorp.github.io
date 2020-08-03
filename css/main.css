@@ -6486,7 +6486,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 1.5px
 }
 
-.slashicorp-2018-disrupcao {
+.slashicorp-2018-multicloud {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6495,8 +6495,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-disrupcao:after {
-    background: url(../images/slashicorp/institucional/disrupcao/effects-2018.png) center 0 no-repeat;
+.slashicorp-2018-multicloud:after {
+    background: url(../img/effects.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;
@@ -6506,17 +6506,18 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.slashicorp-2018-disrupcao-title {
+.slashicorp-2018-multicloud-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
     margin: 0 0 70px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
-    text-transform: uppercase
+    text-transform: uppercase;
+    left: 50%
 }
 
-.slashicorp-2018-disrupcao-title:before {
+.slashicorp-2018-multicloud-title:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -6527,17 +6528,18 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.slashicorp-2018-disrupcao-figure {
+.slashicorp-2018-multicloud-figure {
     margin: 0;
     padding: 0;
-    position: relative
+    position: relative;
+    left: 90%;
 }
 
-.slashicorp-2018-disrupcao-figure img {
+.slashicorp-2018-multicloud-figure img {
     max-width: 100%
 }
 
-.slashicorp-2018-disrupcao-figure:after {
+/* .slashicorp-2018-multicloud-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -6546,9 +6548,9 @@ body::-webkit-scrollbar-thumb {
     left: 149px;
     position: absolute;
     width: 1px
-}
+} */
 
-.slashicorp-2018-disrupcao-logo {
+.slashicorp-2018-multicloud-logo {
     display: block;
     margin: 0 auto;
     max-height: 70px;
@@ -6556,7 +6558,7 @@ body::-webkit-scrollbar-thumb {
     opacity: .7
 }
 
-.slashicorp-2018-disrupcao-columns {
+.slashicorp-2018-multicloud-columns {
     display: -ms-flexbox;
     display: flex;
     margin: 90px auto 0;
@@ -6564,27 +6566,28 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-disrupcao-column {
+.slashicorp-2018-multicloud-column {
     width: 50%
 }
 
-.slashicorp-2018-disrupcao-description {
+.slashicorp-2018-multicloud-description {
     color: ##91A3A8;
     font-family: Roboto;
     font-size: 19px;
     margin: 30px 0
 }
 
-.slashicorp-2018-disrupcao-description:first-child {
+.slashicorp-2018-multicloud-description:first-child {
     padding-top: 80px;
-    position: relative
+    position: relative;
+    left: 15%;
 }
 
-.slashicorp-2018-disrupcao-description:last-child {
+.slashicorp-2018-multicloud-description:last-child {
     margin-bottom: 0
 }
 
-.slashicorp-2018-disrupcao-description:first-child:before {
+.slashicorp-2018-multicloud-description:first-child:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -6594,6 +6597,341 @@ body::-webkit-scrollbar-thumb {
     top: 40px;
     width: 40px
 }
+
+
+.slashicorp-2018-automação {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b8b8b8;
+    padding-bottom: 490px;
+    position: relative
+}
+
+.slashicorp-2018-automação:after {
+    background: url(../images/slashicorp/institucional/automação/effects-2018.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.slashicorp-2018-automação-title {
+    color: #91a3ad;
+    font: 61px Gotham HTF Medium;
+    margin: 0 0 70px;
+    padding-left: 155px;
+    padding-top: 22px;
+    position: relative;
+    text-transform: uppercase
+}
+
+.slashicorp-2018-automação-title:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 90px;
+    position: absolute;
+    top: 53px;
+    width: 15px
+}
+
+.slashicorp-2018-automação-figure {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.slashicorp-2018-automação-figure img {
+    max-width: 100%
+}
+
+/* .slashicorp-2018-automação-figure:after {
+    background-color: #616d72;
+    bottom: -149px;
+    content: "";
+    display: block;
+    height: 300px;
+    left: 149px;
+    position: absolute;
+    width: 1px
+} */
+
+.slashicorp-2018-automação-logo {
+    display: block;
+    margin: 0 auto;
+    max-height: 70px;
+    max-width: 230px;
+    opacity: .7
+}
+
+.slashicorp-2018-automação-columns {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 90px auto 0;
+    max-width: 900px;
+    position: relative
+}
+
+.slashicorp-2018-automação-column {
+    width: 50%
+}
+
+.slashicorp-2018-automação-description {
+    color: ##91A3A8;
+    font-family: Roboto;
+    font-size: 19px;
+    margin: 30px 0
+}
+
+.slashicorp-2018-automação-description:first-child {
+    padding-top: 80px;
+    position: relative
+}
+
+.slashicorp-2018-automação-description:last-child {
+    margin-bottom: 0
+}
+
+.slashicorp-2018-automação-description:first-child:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 40px
+}
+
+
+
+.slashicorp-2018-monitoring {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b8b8b8;
+    padding-bottom: 490px;
+    position: relative
+}
+
+.slashicorp-2018-monitoring:after {
+    background: url(../img/effects.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.slashicorp-2018-monitoring-title {
+    color: #91a3ad;
+    font: 61px Gotham HTF Medium;
+    margin: 0 0 70px;
+    padding-left: 155px;
+    padding-top: 22px;
+    position: relative;
+    text-transform: uppercase;
+    left: 50%
+}
+
+.slashicorp-2018-monitoring-title:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 90px;
+    position: absolute;
+    top: 53px;
+    width: 15px
+}
+
+.slashicorp-2018-monitoring-figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 90%
+}
+
+.slashicorp-2018-monitoring-figure img {
+    max-width: 100%
+}
+
+/* .slashicorp-2018-monitoring-figure:after {
+    background-color: #616d72;
+    bottom: -149px;
+    content: "";
+    display: block;
+    height: 300px;
+    left: 149px;
+    position: absolute;
+    width: 1px
+} */
+
+.slashicorp-2018-monitoring-logo {
+    display: block;
+    margin: 0 auto;
+    max-height: 70px;
+    max-width: 230px;
+    opacity: .7
+}
+
+.slashicorp-2018-monitoring-columns {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 90px auto 0;
+    max-width: 900px;
+    position: relative
+}
+
+.slashicorp-2018-monitoring-column {
+    width: 50%
+}
+
+.slashicorp-2018-monitoring-description {
+    color: ##91A3A8;
+    font-family: Roboto;
+    font-size: 19px;
+    margin: 30px 0
+}
+
+.slashicorp-2018-monitoring-description:first-child {
+    padding-top: 80px;
+    position: relative
+}
+
+.slashicorp-2018-monitoring-description:last-child {
+    margin-bottom: 0
+}
+
+.slashicorp-2018-monitoring-description:first-child:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    left: 15%
+}
+
+
+.slashicorp-2018-elasticstack {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b8b8b8;
+    padding-bottom: 490px;
+    position: relative
+}
+
+.slashicorp-2018-elasticstack:after {
+    background: url(../images/slashicorp/institucional/elasticstack/effects-2018.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.slashicorp-2018-elasticstack-title {
+    color: #91a3ad;
+    font: 61px Gotham HTF Medium;
+    margin: 0 0 70px;
+    padding-left: 155px;
+    padding-top: 22px;
+    position: relative;
+    text-transform: uppercase
+}
+
+.slashicorp-2018-elasticstack-title:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 90px;
+    position: absolute;
+    top: 53px;
+    width: 15px
+}
+
+.slashicorp-2018-elasticstack-figure {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.slashicorp-2018-elasticstack-figure img {
+    max-width: 100%
+}
+
+/* .slashicorp-2018-elasticstack-figure:after {
+    background-color: #616d72;
+    bottom: -149px;
+    content: "";
+    display: block;
+    height: 300px;
+    left: 149px;
+    position: absolute;
+    width: 1px
+} */
+
+.slashicorp-2018-elasticstack-logo {
+    display: block;
+    margin: 0 auto;
+    max-height: 70px;
+    max-width: 230px;
+    opacity: .7
+}
+
+.slashicorp-2018-elasticstack-columns {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 90px auto 0;
+    max-width: 900px;
+    position: relative
+}
+
+.slashicorp-2018-elasticstack-column {
+    width: 50%
+}
+
+.slashicorp-2018-elasticstack-description {
+    color: ##91A3A8;
+    font-family: Roboto;
+    font-size: 19px;
+    margin: 30px 0
+}
+
+.slashicorp-2018-elasticstack-description:first-child {
+    padding-top: 80px;
+    position: relative
+}
+
+.slashicorp-2018-elasticstack-description:last-child {
+    margin-bottom: 0
+}
+
+.slashicorp-2018-elasticstack-description:first-child:before {
+    background-color: #03fac9;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 40px
+}
+
 
 .slashicorp-2018-future {
     color: #b8b8b8;
@@ -14705,11 +15043,34 @@ body::-webkit-scrollbar-thumb {
         padding: 0 15px
     }
 
-    .slashicorp-2018-disrupcao-column:first-child {
+    .slashicorp-2018-multicloud-column:first-child {
         padding-left: 40px
     }
 
-    .slashicorp-2018-disrupcao-column:last-child {
+    .slashicorp-2018-multicloud-column:last-child {
+        padding-left: 25px
+    }
+
+    .slashicorp-2018-elasticstack-column:first-child {
+        padding-left: 40px
+    }
+
+    .slashicorp-2018-elasticstack-column:last-child {
+        padding-left: 25px
+    }
+
+    .slashicorp-2018-monitoring-column:first-child {
+        padding-left: 40px
+    }
+
+    .slashicorp-2018-monitoring-column:last-child {
+        padding-left: 25px
+    }
+    .slashicorp-2018-automação-column:first-child {
+        padding-left: 40px
+    }
+
+    .slashicorp-2018-automação-column:last-child {
         padding-left: 25px
     }
 }
@@ -15456,11 +15817,34 @@ body::-webkit-scrollbar-thumb {
         padding: 100px 0
     }
 
-    .slashicorp-2018-disrupcao-title {
+    .slashicorp-2018-multicloud-title {
         padding: 0
     }
 
-    .slashicorp-2018-disrupcao-figure:after, .slashicorp-2018-disrupcao-title:before {
+    .slashicorp-2018-multicloud-figure:after, .slashicorp-2018-multicloud-title:before {
+        display: none
+    }
+
+    .slashicorp-2018-elasticstack-title {
+        padding: 0
+    }
+
+    .slashicorp-2018-elasticstack-figure:after, .slashicorp-2018-elasticstack-title:before {
+        display: none
+    }
+    
+    .slashicorp-2018-monitoring-title {
+        padding: 0
+    }
+
+    .slashicorp-2018-monitoring-figure:after, .slashicorp-2018-monitoring-title:before {
+        display: none
+    }
+    .slashicorp-2018-automação-title {
+        padding: 0
+    }
+
+    .slashicorp-2018-automação-figure:after, .slashicorp-2018-automação-title:before {
         display: none
     }
 
@@ -15662,13 +16046,37 @@ body::-webkit-scrollbar-thumb {
         width: 188px
     }
 
-    .slashicorp-2018-disrupcao:after {
+    .slashicorp-2018-multicloud:after {
         display: none
     }
 
-    .slashicorp-2018-disrupcao {
+    .slashicorp-2018-multicloud {
         padding: 0 0 250px
     }
+
+    .slashicorp-2018-elasticstack:after {
+        display: none
+    }
+
+    .slashicorp-2018-elasticstack {
+        padding: 0 0 250px
+    }
+
+    .slashicorp-2018-monitoring:after {
+        display: none
+    }
+
+    .slashicorp-2018-monitoring {
+        padding: 0 0 250px
+    }
+    .slashicorp-2018-automação:after {
+        display: none
+    }
+
+    .slashicorp-2018-automação {
+        padding: 0 0 250px
+    }
+
 
     .slashicorp-2018-future-logo {
         text-align: center
@@ -15881,21 +16289,74 @@ body::-webkit-scrollbar-thumb {
         font-size: 13px
     }
 
-    .slashicorp-2018-disrupcao-columns {
+    .slashicorp-2018-multicloud-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
 
-    .slashicorp-2018-disrupcao-column {
+    .slashicorp-2018-multicloud-column {
         width: 100%
     }
 
-    .slashicorp-2018-disrupcao-description:first-child {
+    .slashicorp-2018-multicloud-description:first-child {
         padding-top: 0
     }
 
-    .slashicorp-2018-disrupcao-description:first-child:before {
+    .slashicorp-2018-multicloud-description:first-child:before {
+        display: none
+    }
+
+    .slashicorp-2018-elasticstack-columns {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 50px
+    }
+
+    .slashicorp-2018-elasticstack-column {
+        width: 100%
+    }
+
+    .slashicorp-2018-elasticstack-description:first-child {
+        padding-top: 0
+    }
+
+    .slashicorp-2018-elasticstack-description:first-child:before {
+        display: none
+    }
+
+    .slashicorp-2018-monitoring-columns {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 50px
+    }
+
+    .slashicorp-2018-monitoring-column {
+        width: 100%
+    }
+
+    .slashicorp-2018-monitoring-description:first-child {
+        padding-top: 0
+    }
+
+    .slashicorp-2018-monitoring-description:first-child:before {
+        display: none
+    }
+    .slashicorp-2018-automação-columns {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 50px
+    }
+
+    .slashicorp-2018-automação-column {
+        width: 100%
+    }
+
+    .slashicorp-2018-automação-description:first-child {
+        padding-top: 0
+    }
+
+    .slashicorp-2018-automação-description:first-child:before {
         display: none
     }
 
@@ -16471,21 +16932,74 @@ body::-webkit-scrollbar-thumb {
         max-width: 180px
     }
 
-    .slashicorp-2018-disrupcao {
+    .slashicorp-2018-multicloud {
         padding-bottom: 150px
     }
 
-    .slashicorp-2018-disrupcao-title {
+    .slashicorp-2018-multicloud-title {
         font: 35px/45px Gotham HTF Medium;
         margin: 0 0 30px;
         text-align: left
     }
 
-    .slashicorp-2018-disrupcao-figure {
+    .slashicorp-2018-multicloud-figure {
         width: 100%
     }
 
-    .slashicorp-2018-disrupcao-column img {
+    .slashicorp-2018-multicloud-column img {
+        max-width: 150px
+    }
+
+    .slashicorp-2018-elasticstack {
+        padding-bottom: 150px
+    }
+
+    .slashicorp-2018-elasticstack-title {
+        font: 35px/45px Gotham HTF Medium;
+        margin: 0 0 30px;
+        text-align: left
+    }
+
+    .slashicorp-2018-elasticstack-figure {
+        width: 100%
+    }
+
+    .slashicorp-2018-elasticstack-column img {
+        max-width: 150px
+    }
+
+    .slashicorp-2018-monitoring {
+        padding-bottom: 150px
+    }
+
+    .slashicorp-2018-monitoring-title {
+        font: 35px/45px Gotham HTF Medium;
+        margin: 0 0 30px;
+        text-align: left
+    }
+
+    .slashicorp-2018-monitoring-figure {
+        width: 100%
+    }
+
+    .slashicorp-2018-monitoring-column img {
+        max-width: 150px
+    }
+    .slashicorp-2018-automação {
+        padding-bottom: 150px
+    }
+
+    .slashicorp-2018-automação-title {
+        font: 35px/45px Gotham HTF Medium;
+        margin: 0 0 30px;
+        text-align: left
+    }
+
+    .slashicorp-2018-automação-figure {
+        width: 100%
+    }
+
+    .slashicorp-2018-automação-column img {
         max-width: 150px
     }
 
@@ -18407,7 +18921,7 @@ body::-webkit-scrollbar-thumb {
     text-shadow: none;
 }
 
-.slashicorp-2018-disrupcao:after {
+.slashicorp-2018-multicloud:after {
     background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
     display: block;
@@ -18418,6 +18932,38 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
 }
 
+.slashicorp-2018-elasticstack:after {
+    background: url(../img/background/effects.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.slashicorp-2018-monitoring:after {
+    background: url(../img/background/effects.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.slashicorp-2018-automação:after {
+    background: url(../img/background/effects.png) center 0 no-repeat;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 :after, :before {
     text-decoration: inherit;
     vertical-align: inherit;
