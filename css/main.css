@@ -6485,6 +6485,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 11px;
     letter-spacing: 1.5px
 }
+/-----------
+
 
 .slashicorp-2018-multicloud {
     background-position: bottom;
@@ -6496,7 +6498,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-multicloud:after {
-    background: url(../img/effects.png) center 0 no-repeat;
+    background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;
@@ -6528,18 +6530,34 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
+.slashicorp-2018-multicloud-symbol {
+    padding-left: 70%;
+}
+
+.slashicorp-2018-automação-symbol {
+    padding-left: 20%;
+}
+
+.slashicorp-2018-elasticstack-symbol {
+    padding-left: 20%;
+}
+
+.slashicorp-2018-monitoring-symbol {
+    padding-left: 70%;
+}
+
 .slashicorp-2018-multicloud-figure {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 90%;
+    left: 49%;
 }
 
 .slashicorp-2018-multicloud-figure img {
     max-width: 100%
 }
 
-/* .slashicorp-2018-multicloud-figure:after {
+.slashicorp-2018-multicloud-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -6548,7 +6566,7 @@ body::-webkit-scrollbar-thumb {
     left: 149px;
     position: absolute;
     width: 1px
-} */
+}
 
 .slashicorp-2018-multicloud-logo {
     display: block;
@@ -6609,7 +6627,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-automação:after {
-    background: url(../images/slashicorp/institucional/automação/effects-2018.png) center 0 no-repeat;
+    background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;
@@ -6650,7 +6668,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100%
 }
 
-/* .slashicorp-2018-automação-figure:after {
+.slashicorp-2018-automação-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -6659,7 +6677,7 @@ body::-webkit-scrollbar-thumb {
     left: 149px;
     position: absolute;
     width: 1px
-} */
+}
 
 .slashicorp-2018-automação-logo {
     display: block;
@@ -6674,7 +6692,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
-    position: relative
+    position: relative;
+    left: 55%
 }
 
 .slashicorp-2018-automação-column {
@@ -6711,6 +6730,15 @@ body::-webkit-scrollbar-thumb {
 
 
 .slashicorp-2018-monitoring {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b8b8b8;
+    padding-bottom: 490px;
+    position: relative
+}
+
+.slashicorp-2018-multicloud {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6756,14 +6784,14 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 90%
+    left: 49%
 }
 
 .slashicorp-2018-monitoring-figure img {
     max-width: 100%
 }
 
-/* .slashicorp-2018-monitoring-figure:after {
+.slashicorp-2018-monitoring-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -6772,7 +6800,7 @@ body::-webkit-scrollbar-thumb {
     left: 149px;
     position: absolute;
     width: 1px
-} */
+}
 
 .slashicorp-2018-monitoring-logo {
     display: block;
@@ -6787,7 +6815,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
-    position: relative
+    position: relative;
 }
 
 .slashicorp-2018-monitoring-column {
@@ -6874,7 +6902,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100%
 }
 
-/* .slashicorp-2018-elasticstack-figure:after {
+.slashicorp-2018-elasticstack-figure:after {
     background-color: #616d72;
     bottom: -149px;
     content: "";
@@ -6883,7 +6911,7 @@ body::-webkit-scrollbar-thumb {
     left: 149px;
     position: absolute;
     width: 1px
-} */
+}
 
 .slashicorp-2018-elasticstack-logo {
     display: block;
@@ -6898,7 +6926,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
-    position: relative
+    position: relative;
+    left: 55%;
 }
 
 .slashicorp-2018-elasticstack-column {
@@ -16069,6 +16098,10 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-monitoring {
         padding: 0 0 250px
     }
+
+    .slashicorp-2018-multicloud {
+        padding: 0 0 250px
+    }
     .slashicorp-2018-automação:after {
         display: none
     }
@@ -16971,7 +17004,9 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-monitoring {
         padding-bottom: 150px
     }
-
+    .slashicorp-2018-multicloud {
+        padding-bottom: 150px
+    }
     .slashicorp-2018-monitoring-title {
         font: 35px/45px Gotham HTF Medium;
         margin: 0 0 30px;
