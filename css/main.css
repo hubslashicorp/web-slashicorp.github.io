@@ -18968,7 +18968,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-elasticstack:after {
-    background: url(../img/background/effects.png) center 0 no-repeat;
+    background: url(../img/background/effects-inv.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;
@@ -18990,7 +18990,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-automação:after {
-    background: url(../img/background/effects.png) center 0 no-repeat;
+    background: url(../img/background/effects-inv.png) center 0 no-repeat;
     content: "";
     display: block;
     height: 100%;
