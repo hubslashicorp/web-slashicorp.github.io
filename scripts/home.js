@@ -4,14 +4,17 @@ function bpoly() {
     if (a == 1) {
         // document.getElementById("button").innerHTML = "Atlassian Jira Align";
         document.getElementById("btgeral").style.webkitTransform = "scale(5)";
-        document.getElementById("btgeral").el.style.removeProperty('fillOpacity');
+        // document.getElementById("btgeral").el.style.removeProperty('fillOpacity');
         document.getElementById("texto").style.fontSize = "2"
+        
+
         a = 2
     } else {
         // document.getElementById("button").innerHTML = "Aja";
         document.getElementById("btgeral").style.webkitTransform = "";
         document.getElementById("btgeral").style.fillOpacity = "";
         document.getElementById("texto").style.fontSize = ""
+       
         a = 1
     }
 };
@@ -20,7 +23,9 @@ function bpoly2() {
         // document.getElementById("button2").innerHTML = "Atlassian Jira Align";
         document.getElementById("btgeral2").style.webkitTransform = "scale(5)";
         document.getElementById("btgeral2").style.fillOpacity = "90";
+        document.getElementById("btgeral2").style.position = "relative";
         document.getElementById("texto2").style.fontSize = "2"
+
         a = 2
     } else {
         // document.getElementById("button2").innerHTML = "Aja";

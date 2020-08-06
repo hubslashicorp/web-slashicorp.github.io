@@ -6622,8 +6622,9 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     color: #b8b8b8;
-    padding-bottom: 490px;
-    position: relative
+    padding-bottom: 200px;
+    position: relative;
+    padding-top: 200px;
 }
 
 .slashicorp-2018-automação:after {
@@ -6735,7 +6736,8 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     color: #b8b8b8;
     padding-bottom: 490px;
-    position: relative
+    position: relative;
+    padding-top: 200px;
 }
 
 .slashicorp-2018-multicloud {
@@ -6743,8 +6745,9 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     color: #b8b8b8;
-    padding-bottom: 490px;
-    position: relative
+    padding-bottom: 200px;
+    position: relative;
+    padding-top: 200px;
 }
 
 .slashicorp-2018-monitoring:after {
@@ -6856,8 +6859,9 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     color: #b8b8b8;
-    padding-bottom: 490px;
-    position: relative
+    padding-bottom: 200px;
+    position: relative;
+    padding-top: 200px;
 }
 
 .slashicorp-2018-elasticstack:after {
@@ -19183,10 +19187,18 @@ ul#box-monitoring-peb li#box-monitoring{
   background-color: #ffffff;
 }
 
-ul#box-monitoring-peb li#box-monitoring:hover{
+ul#box-monitoring-peb li#box-monitoring:hover {
   background: url("../img/box-monitoring.png") no-repeat;
   background-size: 298.5px 455.92px;
   }
+
+  ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-unidades-btn:hover {
+    background: #03fac9;
+    color: #000;
+    background: url("../img/box-monitoring-peb.png") no-repeat;
+    background-size: 298.5px 455.92px;
+    background-color: #ffffff;
+}
 
 /* Transição de preto e branco pra colorido - END */
 
