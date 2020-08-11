@@ -6,7 +6,7 @@ function bpoly() {
         document.getElementById("btgeral").style.webkitTransform = "scale(2)";
         // document.getElementById("btgeral").el.style.removeProperty('fillOpacity');
         document.getElementById("texto").style.fontSize = "2"
-        
+
 
         a = 2
     } else {
@@ -14,10 +14,11 @@ function bpoly() {
         document.getElementById("btgeral").style.webkitTransform = "";
         document.getElementById("btgeral").style.fillOpacity = "";
         document.getElementById("texto").style.fontSize = ""
-       
+
         a = 1
     }
 };
+
 function bpoly2() {
     if (a == 1) {
         // document.getElementById("button2").innerHTML = "Atlassian Jira Align";
@@ -35,6 +36,7 @@ function bpoly2() {
         a = 1
     }
 };
+
 function bpoly3() {
     if (a == 1) {
         // document.getElementById("button3").innerHTML = "Atlassian Jira Align";
@@ -50,6 +52,7 @@ function bpoly3() {
         a = 1
     }
 };
+
 function bpoly4() {
     if (a == 1) {
         // document.getElementById("button4").innerHTML = "Atlassian Jira Align";
@@ -65,6 +68,7 @@ function bpoly4() {
         a = 1
     }
 };
+
 function bpoly5() {
     if (a == 1) {
         // document.getElementById("button5").innerHTML = "Atlassian Jira Align";
@@ -80,6 +84,7 @@ function bpoly5() {
         a = 1
     }
 };
+
 function bpoly6() {
     if (a == 1) {
         // document.getElementById("button6").innerHTML = "Atlassian Jira Align";
@@ -95,6 +100,7 @@ function bpoly6() {
         a = 1
     }
 };
+
 function bpoly7() {
     if (a == 1) {
         // document.getElementById("button7").innerHTML = "Atlassian Jira Align";
@@ -110,6 +116,7 @@ function bpoly7() {
         a = 1
     }
 };
+
 function bpoly8() {
     if (a == 1) {
         // document.getElementById("button8").innerHTML = "Atlassian Jira Align";
@@ -125,6 +132,7 @@ function bpoly8() {
         a = 1
     }
 };
+
 function bpoly9() {
     if (a == 1) {
         // document.getElementById("button9").innerHTML = "Atlassian Jira Align";
@@ -140,6 +148,7 @@ function bpoly9() {
         a = 1
     }
 };
+
 function bpoly10() {
     if (a == 1) {
         // document.getElementById("button10").innerHTML = "Atlassian Jira Align";
@@ -155,6 +164,7 @@ function bpoly10() {
         a = 1
     }
 };
+
 function bpoly11() {
     if (a == 1) {
         // document.getElementById("button11").innerHTML = "Atlassian Jira Align";
@@ -170,6 +180,7 @@ function bpoly11() {
         a = 1
     }
 };
+
 function bpoly12() {
     if (a == 1) {
         // document.getElementById("button12").innerHTML = "Atlassian Jira Align";
@@ -185,6 +196,7 @@ function bpoly12() {
         a = 1
     }
 };
+
 function bpoly13() {
     if (a == 1) {
         // document.getElementById("button13").innerHTML = "Atlassian Jira Align";
@@ -200,6 +212,7 @@ function bpoly13() {
         a = 1
     }
 };
+
 function bpoly14() {
     if (a == 1) {
         // document.getElementById("button14").innerHTML = "Atlassian Jira Align";
@@ -215,6 +228,7 @@ function bpoly14() {
         a = 1
     }
 };
+
 function bpoly15() {
     if (a == 1) {
         // document.getElementById("button15").innerHTML = "Atlassian Jira Align";
@@ -230,6 +244,7 @@ function bpoly15() {
         a = 1
     }
 };
+
 function bpoly16() {
     if (a == 1) {
         // document.getElementById("button16").innerHTML = "Atlassian Jira Align";
@@ -245,6 +260,7 @@ function bpoly16() {
         a = 1
     }
 };
+
 function bpoly17() {
     if (a == 1) {
         // document.getElementById("button17").innerHTML = "Atlassian Jira Align";
@@ -260,6 +276,7 @@ function bpoly17() {
         a = 1
     }
 };
+
 function bpoly18() {
     if (a == 1) {
         // document.getElementById("button18").innerHTML = "Atlassian Jira Align";
@@ -275,6 +292,7 @@ function bpoly18() {
         a = 1
     }
 };
+
 function bpoly19() {
     if (a == 1) {
         // document.getElementById("button19").innerHTML = "Atlassian Jira Align";
@@ -290,6 +308,7 @@ function bpoly19() {
         a = 1
     }
 };
+
 function bpoly20() {
     if (a == 1) {
         // document.getElementById("button20").innerHTML = "Atlassian Jira Align";
@@ -305,6 +324,7 @@ function bpoly20() {
         a = 1
     }
 };
+
 function bpoly21() {
     if (a == 1) {
         // document.getElementById("button21").innerHTML = "Atlassian Jira Align";
@@ -320,6 +340,7 @@ function bpoly21() {
         a = 1
     }
 };
+
 function bpoly22() {
     if (a == 1) {
         // document.getElementById("button22").innerHTML = "Atlassian Jira Align";
@@ -335,6 +356,7 @@ function bpoly22() {
         a = 1
     }
 };
+
 function bpoly23() {
     if (a == 1) {
         // document.getElementById("button23").innerHTML = "Atlassian Jira Align";
@@ -350,6 +372,7 @@ function bpoly23() {
         a = 1
     }
 };
+
 function bpoly24() {
     if (a == 1) {
         // document.getElementById("button24").innerHTML = "Atlassian Jira Align";
@@ -365,6 +388,7 @@ function bpoly24() {
         a = 1
     }
 };
+
 function bpoly25() {
     if (a == 1) {
         // document.getElementById("button25").innerHTML = "Atlassian Jira Align";
@@ -380,6 +404,7 @@ function bpoly25() {
         a = 1
     }
 };
+
 function bpoly26() {
     if (a == 1) {
         // document.getElementById("button26").innerHTML = "Atlassian Jira Align";
@@ -395,6 +420,7 @@ function bpoly26() {
         a = 1
     }
 };
+
 function bpoly27() {
     if (a == 1) {
         // document.getElementById("button27").innerHTML = "Atlassian Jira Align";
@@ -410,6 +436,7 @@ function bpoly27() {
         a = 1
     }
 };
+
 function bpoly28() {
     if (a == 1) {
         // document.getElementById("button28").innerHTML = "Atlassian Jira Align";
@@ -425,6 +452,7 @@ function bpoly28() {
         a = 1
     }
 };
+
 function bpoly29() {
     if (a == 1) {
         // document.getElementById("button29").innerHTML = "Atlassian Jira Align";
@@ -440,6 +468,7 @@ function bpoly29() {
         a = 1
     }
 };
+
 function bpoly30() {
     if (a == 1) {
         // document.getElementById("button30").innerHTML = "Atlassian Jira Align";
@@ -455,6 +484,7 @@ function bpoly30() {
         a = 1
     }
 };
+
 function bpoly31() {
     if (a == 1) {
         // document.getElementById("button31").innerHTML = "Atlassian Jira Align";
@@ -470,6 +500,7 @@ function bpoly31() {
         a = 1
     }
 };
+
 function bpoly32() {
     if (a == 1) {
         // document.getElementById("button32").innerHTML = "Atlassian Jira Align";
@@ -485,6 +516,7 @@ function bpoly32() {
         a = 1
     }
 };
+
 function bpoly33() {
     if (a == 1) {
         // document.getElementById("button33").innerHTML = "Atlassian Jira Align";
@@ -500,6 +532,7 @@ function bpoly33() {
         a = 1
     }
 };
+
 function bpoly34() {
     if (a == 1) {
         // document.getElementById("button34").innerHTML = "Atlassian Jira Align";
@@ -515,6 +548,7 @@ function bpoly34() {
         a = 1
     }
 };
+
 function bpoly35() {
     if (a == 1) {
         // document.getElementById("button35").innerHTML = "Atlassian Jira Align";
@@ -530,6 +564,7 @@ function bpoly35() {
         a = 1
     }
 };
+
 function bpoly36() {
     if (a == 1) {
         // document.getElementById("button36").innerHTML = "Atlassian Jira Align";
@@ -545,6 +580,7 @@ function bpoly36() {
         a = 1
     }
 };
+
 function bpoly37() {
     if (a == 1) {
         // document.getElementById("button37").innerHTML = "Atlassian Jira Align";
@@ -560,6 +596,7 @@ function bpoly37() {
         a = 1
     }
 };
+
 function bpoly38() {
     if (a == 1) {
         // document.getElementById("button38").innerHTML = "Atlassian Jira Align";
@@ -575,6 +612,7 @@ function bpoly38() {
         a = 1
     }
 };
+
 function bpoly39() {
     if (a == 1) {
         // document.getElementById("button39").innerHTML = "Atlassian Jira Align";
@@ -590,6 +628,7 @@ function bpoly39() {
         a = 1
     }
 };
+
 function bpoly40() {
     if (a == 1) {
         // document.getElementById("button40").innerHTML = "Atlassian Jira Align";
@@ -605,6 +644,7 @@ function bpoly40() {
         a = 1
     }
 };
+
 function bpoly41() {
     if (a == 1) {
         // document.getElementById("button41").innerHTML = "Atlassian Jira Align";
@@ -620,6 +660,7 @@ function bpoly41() {
         a = 1
     }
 };
+
 function bpoly42() {
     if (a == 1) {
         // document.getElementById("button42").innerHTML = "Atlassian Jira Align";
@@ -635,6 +676,7 @@ function bpoly42() {
         a = 1
     }
 };
+
 function bpoly43() {
     if (a == 1) {
         // document.getElementById("button43").innerHTML = "Atlassian Jira Align";
@@ -650,6 +692,7 @@ function bpoly43() {
         a = 1
     }
 };
+
 function bpoly44() {
     if (a == 1) {
         // document.getElementById("button44").innerHTML = "Atlassian Jira Align";
@@ -665,6 +708,7 @@ function bpoly44() {
         a = 1
     }
 };
+
 function bpoly45() {
     if (a == 1) {
         // document.getElementById("button45").innerHTML = "Atlassian Jira Align";
@@ -680,6 +724,7 @@ function bpoly45() {
         a = 1
     }
 };
+
 function bpoly46() {
     if (a == 1) {
         // document.getElementById("button46").innerHTML = "Atlassian Jira Align";
@@ -695,6 +740,7 @@ function bpoly46() {
         a = 1
     }
 };
+
 function bpoly47() {
     if (a == 1) {
         // document.getElementById("button47").innerHTML = "Atlassian Jira Align";
@@ -710,6 +756,7 @@ function bpoly47() {
         a = 1
     }
 };
+
 function bpoly48() {
     if (a == 1) {
         // document.getElementById("button48").innerHTML = "Atlassian Jira Align";
@@ -725,6 +772,7 @@ function bpoly48() {
         a = 1
     }
 };
+
 function bpoly49() {
     if (a == 1) {
         // document.getElementById("button49").innerHTML = "Atlassian Jira Align";
@@ -740,6 +788,7 @@ function bpoly49() {
         a = 1
     }
 };
+
 function bpoly50() {
     if (a == 1) {
         // document.getElementById("button50").innerHTML = "Atlassian Jira Align";
@@ -755,6 +804,7 @@ function bpoly50() {
         a = 1
     }
 };
+
 function bpoly51() {
     if (a == 1) {
         // document.getElementById("button51").innerHTML = "Atlassian Jira Align";
@@ -770,6 +820,7 @@ function bpoly51() {
         a = 1
     }
 };
+
 function bpoly52() {
     if (a == 1) {
         // document.getElementById("button52").innerHTML = "Atlassian Jira Align";
@@ -785,6 +836,7 @@ function bpoly52() {
         a = 1
     }
 };
+
 function bpoly53() {
     if (a == 1) {
         // document.getElementById("button53").innerHTML = "Atlassian Jira Align";
@@ -800,6 +852,7 @@ function bpoly53() {
         a = 1
     }
 };
+
 function bpoly54() {
     if (a == 1) {
         // document.getElementById("button54").innerHTML = "Atlassian Jira Align";
@@ -815,6 +868,7 @@ function bpoly54() {
         a = 1
     }
 };
+
 function bpoly55() {
     if (a == 1) {
         // document.getElementById("button55").innerHTML = "Atlassian Jira Align";
@@ -830,6 +884,7 @@ function bpoly55() {
         a = 1
     }
 };
+
 function bpoly56() {
     if (a == 1) {
         // document.getElementById("button56").innerHTML = "Atlassian Jira Align";
@@ -845,6 +900,7 @@ function bpoly56() {
         a = 1
     }
 };
+
 function bpoly57() {
     if (a == 1) {
         // document.getElementById("button57").innerHTML = "Atlassian Jira Align";
@@ -860,6 +916,7 @@ function bpoly57() {
         a = 1
     }
 };
+
 function bpoly58() {
     if (a == 1) {
         // document.getElementById("button58").innerHTML = "Atlassian Jira Align";
@@ -875,6 +932,7 @@ function bpoly58() {
         a = 1
     }
 };
+
 function bpoly59() {
     if (a == 1) {
         // document.getElementById("button59").innerHTML = "Atlassian Jira Align";
@@ -890,6 +948,7 @@ function bpoly59() {
         a = 1
     }
 };
+
 function bpoly60() {
     if (a == 1) {
         // document.getElementById("button60").innerHTML = "Atlassian Jira Align";
@@ -905,6 +964,7 @@ function bpoly60() {
         a = 1
     }
 };
+
 function bpoly61() {
     if (a == 1) {
         // document.getElementById("button61").innerHTML = "Atlassian Jira Align";
@@ -920,6 +980,7 @@ function bpoly61() {
         a = 1
     }
 };
+
 function bpoly62() {
     if (a == 1) {
         // document.getElementById("button62").innerHTML = "Atlassian Jira Align";
@@ -935,6 +996,7 @@ function bpoly62() {
         a = 1
     }
 };
+
 function bpoly63() {
     if (a == 1) {
         // document.getElementById("button63").innerHTML = "Atlassian Jira Align";
@@ -950,6 +1012,7 @@ function bpoly63() {
         a = 1
     }
 };
+
 function bpoly64() {
     if (a == 1) {
         // document.getElementById("button64").innerHTML = "Atlassian Jira Align";
@@ -965,6 +1028,7 @@ function bpoly64() {
         a = 1
     }
 };
+
 function bpoly65() {
     if (a == 1) {
         // document.getElementById("button65").innerHTML = "Atlassian Jira Align";
@@ -980,6 +1044,7 @@ function bpoly65() {
         a = 1
     }
 };
+
 function bpoly66() {
     if (a == 1) {
         // document.getElementById("button66").innerHTML = "Atlassian Jira Align";
@@ -995,6 +1060,7 @@ function bpoly66() {
         a = 1
     }
 };
+
 function bpoly67() {
     if (a == 1) {
         // document.getElementById("button67").innerHTML = "Atlassian Jira Align";
@@ -1010,6 +1076,7 @@ function bpoly67() {
         a = 1
     }
 };
+
 function bpoly68() {
     if (a == 1) {
         // document.getElementById("button68").innerHTML = "Atlassian Jira Align";
@@ -1025,6 +1092,7 @@ function bpoly68() {
         a = 1
     }
 };
+
 function bpoly69() {
     if (a == 1) {
         // document.getElementById("button69).innerHTML = "Atlassian Jira Align";
@@ -1040,6 +1108,7 @@ function bpoly69() {
         a = 1
     }
 };
+
 function bpoly70() {
     if (a == 1) {
         // document.getElementById("button70").innerHTML = "Atlassian Jira Align";
@@ -1055,6 +1124,7 @@ function bpoly70() {
         a = 1
     }
 };
+
 function bpoly71() {
     if (a == 1) {
         // document.getElementById("button71").innerHTML = "Atlassian Jira Align";
@@ -1070,6 +1140,7 @@ function bpoly71() {
         a = 1
     }
 };
+
 function bpoly72() {
     if (a == 1) {
         // document.getElementById("button72").innerHTML = "Atlassian Jira Align";
@@ -1085,6 +1156,7 @@ function bpoly72() {
         a = 1
     }
 };
+
 function bpoly73() {
     if (a == 1) {
         // document.getElementById("button73").innerHTML = "Atlassian Jira Align";
@@ -1100,6 +1172,7 @@ function bpoly73() {
         a = 1
     }
 };
+
 function bpoly74() {
     if (a == 1) {
         // document.getElementById("button74").innerHTML = "Atlassian Jira Align";
@@ -1115,6 +1188,7 @@ function bpoly74() {
         a = 1
     }
 };
+
 function bpoly75() {
     if (a == 1) {
         // document.getElementById("button75").innerHTML = "Atlassian Jira Align";
@@ -1130,6 +1204,7 @@ function bpoly75() {
         a = 1
     }
 };
+
 function bpoly76() {
     if (a == 1) {
         // document.getElementById("button76").innerHTML = "Atlassian Jira Align";
@@ -1145,6 +1220,7 @@ function bpoly76() {
         a = 1
     }
 };
+
 function bpoly77() {
     if (a == 1) {
         // document.getElementById("button77").innerHTML = "Atlassian Jira Align";
@@ -1160,6 +1236,7 @@ function bpoly77() {
         a = 1
     }
 };
+
 function bpoly78() {
     if (a == 1) {
         // document.getElementById("button78").innerHTML = "Atlassian Jira Align";
@@ -1175,6 +1252,7 @@ function bpoly78() {
         a = 1
     }
 };
+
 function bpoly79() {
     if (a == 1) {
         // document.getElementById("button79").innerHTML = "Atlassian Jira Align";
@@ -1190,6 +1268,7 @@ function bpoly79() {
         a = 1
     }
 };
+
 function bpoly80() {
     if (a == 1) {
         // document.getElementById("button80").innerHTML = "Atlassian Jira Align";
@@ -1205,6 +1284,7 @@ function bpoly80() {
         a = 1
     }
 };
+
 function bpoly81() {
     if (a == 1) {
         // document.getElementById("button81").innerHTML = "Atlassian Jira Align";
@@ -1220,6 +1300,7 @@ function bpoly81() {
         a = 1
     }
 };
+
 function bpoly82() {
     if (a == 1) {
         // document.getElementById("button82").innerHTML = "Atlassian Jira Align";
@@ -1235,6 +1316,7 @@ function bpoly82() {
         a = 1
     }
 };
+
 function bpoly83() {
     if (a == 1) {
         // document.getElementById("button83").innerHTML = "Atlassian Jira Align";
@@ -1250,6 +1332,7 @@ function bpoly83() {
         a = 1
     }
 };
+
 function bpoly84() {
     if (a == 1) {
         // document.getElementById("button84").innerHTML = "Atlassian Jira Align";
@@ -1265,6 +1348,7 @@ function bpoly84() {
         a = 1
     }
 };
+
 function bpoly85() {
     if (a == 1) {
         // document.getElementById("button85").innerHTML = "Atlassian Jira Align";
@@ -1280,6 +1364,7 @@ function bpoly85() {
         a = 1
     }
 };
+
 function bpoly86() {
     if (a == 1) {
         // document.getElementById("button86").innerHTML = "Atlassian Jira Align";
@@ -1295,6 +1380,7 @@ function bpoly86() {
         a = 1
     }
 };
+
 function bpoly87() {
     if (a == 1) {
         // document.getElementById("button87").innerHTML = "Atlassian Jira Align";
@@ -1310,6 +1396,7 @@ function bpoly87() {
         a = 1
     }
 };
+
 function bpoly88() {
     if (a == 1) {
         // document.getElementById("button88").innerHTML = "Atlassian Jira Align";
@@ -1325,6 +1412,7 @@ function bpoly88() {
         a = 1
     }
 };
+
 function bpoly89() {
     if (a == 1) {
         // document.getElementById("button89").innerHTML = "Atlassian Jira Align";
@@ -1340,6 +1428,7 @@ function bpoly89() {
         a = 1
     }
 };
+
 function bpoly90() {
     if (a == 1) {
         // document.getElementById("button90").innerHTML = "Atlassian Jira Align";
@@ -1355,6 +1444,7 @@ function bpoly90() {
         a = 1
     }
 };
+
 function bpoly91() {
     if (a == 1) {
         // document.getElementById("button91").innerHTML = "Atlassian Jira Align";
@@ -1370,6 +1460,7 @@ function bpoly91() {
         a = 1
     }
 };
+
 function bpoly92() {
     if (a == 1) {
         // document.getElementById("button92").innerHTML = "Atlassian Jira Align";
@@ -1385,6 +1476,7 @@ function bpoly92() {
         a = 1
     }
 };
+
 function bpoly93() {
     if (a == 1) {
         // document.getElementById("button93").innerHTML = "Atlassian Jira Align";
@@ -1400,6 +1492,7 @@ function bpoly93() {
         a = 1
     }
 };
+
 function bpoly94() {
     if (a == 1) {
         // document.getElementById("button94").innerHTML = "Atlassian Jira Align";
@@ -1415,6 +1508,7 @@ function bpoly94() {
         a = 1
     }
 };
+
 function bpoly95() {
     if (a == 1) {
         // document.getElementById("button95").innerHTML = "Atlassian Jira Align";
@@ -1430,6 +1524,7 @@ function bpoly95() {
         a = 1
     }
 };
+
 function bpoly96() {
     if (a == 1) {
         // document.getElementById("button96").innerHTML = "Atlassian Jira Align";
@@ -1445,6 +1540,7 @@ function bpoly96() {
         a = 1
     }
 };
+
 function bpoly97() {
     if (a == 1) {
         // document.getElementById("button97").innerHTML = "Atlassian Jira Align";
@@ -1460,6 +1556,7 @@ function bpoly97() {
         a = 1
     }
 };
+
 function bpoly98() {
     if (a == 1) {
         // document.getElementById("button98").innerHTML = "Atlassian Jira Align";
@@ -1475,6 +1572,7 @@ function bpoly98() {
         a = 1
     }
 };
+
 function bpoly99() {
     if (a == 1) {
         // document.getElementById("button99").innerHTML = "Atlassian Jira Align";
@@ -1490,6 +1588,7 @@ function bpoly99() {
         a = 1
     }
 };
+
 function bpoly100() {
     if (a == 1) {
         // document.getElementById("button100").innerHTML = "Atlassian Jira Align";
@@ -1505,6 +1604,7 @@ function bpoly100() {
         a = 1
     }
 };
+
 function bpoly101() {
     if (a == 1) {
         // document.getElementById("button101").innerHTML = "Atlassian Jira Align";
@@ -1520,6 +1620,7 @@ function bpoly101() {
         a = 1
     }
 };
+
 function bpoly102() {
     if (a == 1) {
         // document.getElementById("button102").innerHTML = "Atlassian Jira Align";
@@ -1535,6 +1636,7 @@ function bpoly102() {
         a = 1
     }
 };
+
 function bpoly103() {
     if (a == 1) {
         // document.getElementById("button103").innerHTML = "Atlassian Jira Align";
@@ -1550,6 +1652,7 @@ function bpoly103() {
         a = 1
     }
 };
+
 function bpoly104() {
     if (a == 1) {
         // document.getElementById("button104").innerHTML = "Atlassian Jira Align";
@@ -1565,6 +1668,7 @@ function bpoly104() {
         a = 1
     }
 };
+
 function bpoly105() {
     if (a == 1) {
         // document.getElementById("button105").innerHTML = "Atlassian Jira Align";
@@ -1580,6 +1684,7 @@ function bpoly105() {
         a = 1
     }
 };
+
 function bpoly106() {
     if (a == 1) {
         // document.getElementById("button106").innerHTML = "Atlassian Jira Align";
@@ -1595,6 +1700,7 @@ function bpoly106() {
         a = 1
     }
 };
+
 function bpoly107() {
     if (a == 1) {
         // document.getElementById("button107").innerHTML = "Atlassian Jira Align";
@@ -1610,6 +1716,7 @@ function bpoly107() {
         a = 1
     }
 };
+
 function bpoly108() {
     if (a == 1) {
         // document.getElementById("button108").innerHTML = "Atlassian Jira Align";
@@ -1625,6 +1732,7 @@ function bpoly108() {
         a = 1
     }
 };
+
 function bpoly109() {
     if (a == 1) {
         // document.getElementById("button109").innerHTML = "Atlassian Jira Align";
@@ -1640,6 +1748,7 @@ function bpoly109() {
         a = 1
     }
 };
+
 function bpoly110() {
     if (a == 1) {
         // document.getElementById("button110").innerHTML = "Atlassian Jira Align";
@@ -1655,6 +1764,7 @@ function bpoly110() {
         a = 1
     }
 };
+
 function bpoly111() {
     if (a == 1) {
         // document.getElementById("button111").innerHTML = "Atlassian Jira Align";
@@ -1670,6 +1780,7 @@ function bpoly111() {
         a = 1
     }
 };
+
 function bpoly112() {
     if (a == 1) {
         // document.getElementById("button112").innerHTML = "Atlassian Jira Align";
@@ -1685,3 +1796,109 @@ function bpoly112() {
         a = 1
     }
 };
+
+
+
+
+(function () {
+    "use strict";
+    var appViewState = Windows.UI.ViewManagement.ApplicationViewState;
+    var ui = WinJS.UI;
+    var htmlinited = false;
+    var editor;
+    var asynCancel = null;
+    var m_atts = new Array();
+    ui.Pages.define("../html/contato.html", {
+        // This function is called whenever a user navigates to this page. It
+        // populates the page elements with the app's data.
+        ready: function (element, options) {
+            init_gui();
+        },
+
+        unload: function () {
+
+        }
+
+    });
+
+    function init_gui() {
+
+        // add OnClick event handler
+        var btn = document.getElementById("btnSend");
+        btn.addEventListener("click", send_email, false);
+    }
+
+    function send_email() {
+        var result = "";
+
+        var oMail = new EASendMail.SmtpMail("TryIt");
+
+        // Set office365 sender email address, please change it to yours
+        oMail.from = new EASendMail.MailAddress("devops@slashicorp.com.br");
+
+        // Add recipient email address, please change it to yours
+        oMail.to.add(new EASendMail.MailAddress("devops@slashicorp.com.br"));
+
+        // Set email subject
+        oMail.subject = "test email from JavaScript HTML5 project";
+
+        // Set email body
+        oMail.textBody = "test email from JavaScript HTML5 project";
+
+        // Office365 SMTP server address
+        var oServer = new EASendMail.SmtpServer("smtp.office365.com");
+
+        // User and password for office365 authentication
+        oServer.user = "devops@slashicorp.com.br";
+        oServer.password = "D1prIqL8EvUFeyO0a";
+
+        // Enable TLS connection on 587 port
+        oServer.port = 587;
+        oServer.connectType = EASendMail.SmtpConnectType.connectSSLAuto;
+
+        var oSmtp = new EASendMail.SmtpClient();
+
+        var btn = document.getElementById("btnSend");
+        btn.disabled = true;
+        oSmtp.sendMailAsync(oServer, oMail).then(function (e) {
+            result = "Email was sent successfully!";
+
+            // Display Result by Diaglog box
+            (new Windows.UI.Popups.MessageDialog(result, "Success")).showAsync();
+            btn.disabled = false;
+        },
+
+        function (e) {
+            // because javascript exception only gives the stack trace messages, but it is not
+            // real description of exception, so we give a property lastErrorMessage for javascript.
+            if (oSmtp.lastErrorMessage != "") {
+                result = oSmtp.lastErrorMessage;
+            }
+            else {
+                result = e.message;
+            }
+            oSmtp.close();
+
+            // Display Result by Diaglog box
+            (new Windows.UI.Popups.MessageDialog(result, "Error Information")).showAsync();
+            btn.disabled = false;
+        });
+    }
+})();
+
+// var name = document.getElementById('nome'),
+// email = document.getElementById('email'),
+// message = document.getElementById('mensagem');
+
+            // function sendEmail() {
+            //     alert("oi")
+            //     Email.send({
+            //         SecureToken : "61d2d57a-7b6f-4691-9f95-a16b60eff03d",
+            //         To : 'devops@slashicorp.com.br',
+            //         From : "jonathancrispiniano@gmail.com",
+            //         Subject : "Teste",
+            //         Body : "Texto de teste"
+            //     }).then(
+            //       message => alert("oi")
+            //     );
+            // }
