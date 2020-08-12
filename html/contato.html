@@ -29,7 +29,7 @@
     <script type="text/javascript" async="" src="../css/contato_files/f.txt"></script>
     <script async="" src="../css/contato_files/gtm.js"></script>
     <script async="" src="../css/contato_files/analytics.js"></script> -->
-    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>  -->
     <!-- <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -1664,7 +1664,7 @@
                             E-mail <span class="shared-contato-highlight-text">contato@slashicorp.com.br</span>
                         </h3>
 
-                        <form method="post" class="shared-contato-form">
+                        <form id="my-form"action="https://formspree.io/mpzynlly" method="post" class="shared-contato-form">
 
                             <div class="shared-contato-form-group">
                                 <label for="nome" class="shared-contato-form-label">
@@ -1692,7 +1692,9 @@
 
                             <div class="shared-contato-form-group">
                                 <input id="btnSend" type="submit" class="shared-contato-form-btn" value="Enviar" onclick="sendEmail()">
+                                <p id="my-form-status" >Obrigado!</p>
                             </div>
+                            
                         </form>
                     </div>
                 </div>
@@ -1930,6 +1932,9 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="../scripts/form.js"></script>
+    <script type="text/javascript" src="../scripts/form2.js"></script>
 
     <!-- <script>
         window.APP = window.APP || {}

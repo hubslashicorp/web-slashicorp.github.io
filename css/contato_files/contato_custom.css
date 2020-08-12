@@ -2891,12 +2891,20 @@ body::-webkit-scrollbar-thumb {
     margin-top: 15px;
     padding: 12px 45px;
     text-transform: uppercase;
-    transition: background .4s ease, color .4s ease
+    transition: background .4s ease, color .4s ease;
+    display: none
 }
 
 .shared-contato-form-btn:hover {
     background: #03fac9;
     color: #000
+}
+
+#my-form-status {
+    color: #03fac9;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    padding: 12px 45px;
 }
 
 .shared-contato-form-list {
