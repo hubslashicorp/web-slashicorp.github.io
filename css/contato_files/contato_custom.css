@@ -113,7 +113,7 @@
 }
 
 .background-gradient {
-    background: url(../images/shared/background/gradiente.jpg) top repeat-y;
+    background: url(../../img/background/gradiente.jpg) top repeat-y;
     background-size: contain;
     position: relative
 }
@@ -2648,7 +2648,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     width: 100%;
-    background: url(../images/shared/conceito/effects.png) top no-repeat
+    background: url(../../img/background/effects.png) top no-repeat
 }
 
 .shared-conceito .wrapper {
@@ -2771,7 +2771,8 @@ body::-webkit-scrollbar-thumb {
 
 .shared-contato-column {
     vertical-align: top;
-    width: 50%
+    width: 75%;
+    margin-left: 14%
 }
 
 .shared-contato-column:first-child {
@@ -2782,15 +2783,17 @@ body::-webkit-scrollbar-thumb {
     color: #91a3ad;
     font: 60px Gotham HTF Medium;
     margin-bottom: 100px;
-    margin-top: 0;
-    text-transform: uppercase
+    margin-top: -112px;
+    text-transform: uppercase;
+    text-align: center
 }
 
 .shared-contato-highlight {
     color: #03fac9;
     font: 22px/30px Gotham HTF Medium;
     margin-bottom: 30px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center
 }
 
 .shared-contato-highlight:not(:first-child) {
@@ -2869,7 +2872,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .shared-contato-form-input:focus, .shared-contato-form-textarea:focus {
-    background-color: #151819
+    background-color: #151819;
+    border: 1px solid #03fac9;
+    color: #91a3ad;
 }
 
 .shared-contato-form-input {
@@ -2892,7 +2897,7 @@ body::-webkit-scrollbar-thumb {
     padding: 12px 45px;
     text-transform: uppercase;
     transition: background .4s ease, color .4s ease;
-    display: none
+    margin-left: 75%;
 }
 
 .shared-contato-form-btn:hover {
@@ -20182,7 +20187,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-height: 800px) {
     .shared-conceito:after {
-        background: url(../images/shared/conceito/effects.png) center -50px no-repeat
+        background: url(../../img/background/effects.png) center -50px no-repeat
     }
 }
 
