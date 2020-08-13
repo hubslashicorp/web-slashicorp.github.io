@@ -6597,8 +6597,7 @@ body::-webkit-scrollbar-thumb {
 
 .slashicorp-2018-multicloud-description:first-child {
     padding-top: 80px;
-    position: relative;
-    left: 15%;
+    position: relative
 }
 
 .slashicorp-2018-multicloud-description:last-child {

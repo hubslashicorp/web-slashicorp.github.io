@@ -2772,7 +2772,6 @@ body::-webkit-scrollbar-thumb {
 .shared-contato-column {
     vertical-align: top;
     width: 75%;
-    margin-left: 14%
 }
 
 .shared-contato-column:first-child {
@@ -2791,9 +2790,8 @@ body::-webkit-scrollbar-thumb {
 .shared-contato-highlight {
     color: #03fac9;
     font: 22px/30px Gotham HTF Medium;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    text-align: center
+    margin-bottom: 100px;
+    text-transform: uppercase
 }
 
 .shared-contato-highlight:not(:first-child) {
@@ -2806,6 +2804,11 @@ body::-webkit-scrollbar-thumb {
     font: 14px/20px Gotham HTF Medium;
     margin-top: 20px;
     text-transform: lowercase
+}
+
+.shared-contato-highlight-text:hover {
+    color: #fff;
+    text-shadow: rgb(3,250,201) 4px 0px 20px;
 }
 
 .shared-contato-unidades-item {
@@ -2896,8 +2899,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 15px;
     padding: 12px 45px;
     text-transform: uppercase;
-    transition: background .4s ease, color .4s ease;
-    margin-left: 75%;
+    transition: background .4s ease, color .4s ease
 }
 
 .shared-contato-form-btn:hover {

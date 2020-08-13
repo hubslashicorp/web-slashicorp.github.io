@@ -6511,12 +6511,12 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-multicloud-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
-    margin: 0 0 9px;
+    margin: 0 0 0px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
     text-transform: uppercase;
-    left: 50%
+    left: 45%
 }
 
 .slashicorp-2018-multicloud-title:before {
@@ -6524,14 +6524,14 @@ body::-webkit-scrollbar-thumb {
     content: "";
     display: block;
     height: 15px;
-    left: 90px;
+    left: 575px;
     position: absolute;
     top: 53px;
     width: 15px
 }
 
 .slashicorp-2018-multicloud-symbol {
-    padding-left: 70%;
+    padding-left: 100%;
 }
 
 .slashicorp-2018-automação-symbol {
@@ -6543,14 +6543,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slashicorp-2018-monitoring-symbol {
-    padding-left: 70%;
+    padding-left: 100%;
 }
 
 .slashicorp-2018-multicloud-figure {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 49%;
+    left: 79%;
 }
 
 .slashicorp-2018-multicloud-figure img {
@@ -6597,8 +6597,7 @@ body::-webkit-scrollbar-thumb {
 
 .slashicorp-2018-multicloud-description:first-child {
     padding-top: 80px;
-    position: relative;
-    left: 15%;
+    position: relative
 }
 
 .slashicorp-2018-multicloud-description:last-child {
@@ -6641,7 +6640,7 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-automação-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
-    margin: 0 0 9px;
+    margin: 0 0 0px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
@@ -6764,12 +6763,12 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-monitoring-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
-    margin: 0 0 9px;
+    margin: 0 0 0px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
     text-transform: uppercase;
-    left: 50%
+    left: 45%
 }
 
 .slashicorp-2018-monitoring-title:before {
@@ -6777,7 +6776,7 @@ body::-webkit-scrollbar-thumb {
     content: "";
     display: block;
     height: 15px;
-    left: 90px;
+    left: 575px;
     position: absolute;
     top: 53px;
     width: 15px
@@ -6787,7 +6786,7 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 49%
+    left: 79%
 }
 
 .slashicorp-2018-monitoring-figure img {
@@ -6878,7 +6877,7 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-elasticstack-title {
     color: #91a3ad;
     font: 61px Gotham HTF Medium;
-    margin: 0 0 9px;
+    margin: 0 0 0px;
     padding-left: 155px;
     padding-top: 22px;
     position: relative;
@@ -8796,8 +8795,21 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase;
     transition: background .4s ease, color .4s ease
 }
+.slashicorp-2018-unidades-left-btn, .slashicorp-2018-unidades-btn-close {
+    border: 1px solid #03fac9;
+    color: #03fac9;
+    display: inline-block;
+    font: 10px Gotham HTF Medium;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    position: relative;
+    text-transform: uppercase;
+    transition: background .4s ease, color .4s ease;
+    left: 65%
+}
 
-.slashicorp-2018-unidades-btn-close:hover, .slashicorp-2018-unidades-btn:hover {
+.slashicorp-2018-unidades-btn-close:hover,.slashicorp-2018-unidades-left-btn:hover,.slashicorp-2018-unidades-btn:hover {
     background: #03fac9;
     color: #000
 }
