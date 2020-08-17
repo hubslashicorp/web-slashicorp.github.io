@@ -53,12 +53,11 @@ window.addEventListener("DOMContentLoaded", function() {
     
     function success() {
       form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Obrigado!";
+      alert("Mensagem enviada, obrigado!")
     }
 
     function error() {
-      status.innerHTML = "Verifique as informações e tente novamente";
+     alert("Verifique as informações e tente novamente")
     }
 
     // handle the form submission event
