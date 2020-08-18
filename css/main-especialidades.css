@@ -6581,6 +6581,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
+    text-align: justify;
     position: relative
 }
 
@@ -6693,6 +6694,7 @@ body::-webkit-scrollbar-thumb {
     margin: 90px auto 0;
     max-width: 900px;
     position: relative;
+    text-align: justify;
     left: 55%
 }
 
@@ -6817,6 +6819,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
+    text-align: justify;
     position: relative;
 }
 
@@ -6929,6 +6932,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     margin: 90px auto 0;
     max-width: 900px;
+    text-align: justify;
     position: relative;
     left: 55%;
 }
