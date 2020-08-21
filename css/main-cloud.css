@@ -18696,135 +18696,42 @@
                 color: #fff;
                 text-shadow: none;
             }
-            /* Transição de preto e branco pra colorido - START */
-            
-            ul#box-automation-peb {
-                width: 100%;
-                margin: auto;
-                overflow: hidden;
-                list-style: none;
-            }
-            
-            ul#box-automation-peb li {
-                float: left;
-                width: 200px;
-                height: 200px;
-                background-color: #ffffff;
-                -webkit-transition: all .2s ease-in;
-            }
-            
-            ul#box-automation-peb li:hover{
-                -webkit-transform: scale(1.5);
-              }
-            
-
-            ul#box-automation-peb li#box-automation {
-                background: url("../img/icons/CloudFoundry.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-automation-peb li#box-automation:hover {
-                background: url("../img/icons/CloudFoundry.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-cloud-peb {
-                width: 100%;
-                margin: auto;
-                overflow: hidden;
-                list-style: none;
-            }
-            
-            ul#box-cloud-peb li {
-                float: left;
-                width: 200px;
-                height: 200px;
-                background-color: #ffffff;
-                -webkit-transition: all .2s ease-in;
-            }
-            
-            ul#box-cloud-peb li:hover{
-                -webkit-transform: scale(1.5);
-              }
-            
-
-            ul#box-cloud-peb li#box-cloud {
-                background: url("../img/icons/OracleCloud.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-cloud-peb li#box-cloud:hover {
-                background: url("../img/icons/OracleCloud.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-elk-peb {
-                width: 100%;
-                margin: auto;
-                overflow: hidden;
-                list-style: none;
-            }
-            
-            ul#box-elk-peb li {
-                float: left;
-                width: 200px;
-                height: 200px;
-                background-color: #ffffff;
-                -webkit-transition: all .2s ease-in;
-            }
-
-            ul#box-elk-peb li:hover{
-                -webkit-transform: scale(1.5);
-              }
-            
-            
-            ul#box-elk-peb li#box-elk {
-                background: url("../img/icons/ibm.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-elk-peb li#box-elk:hover {
-                background: url("../img/icons/ibm.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-monitoring-peb {
-                width: 100%;
-                margin: auto;
-                overflow: hidden;
-                list-style: none;
-            }
-            
-            ul#box-monitoring-peb li {
-                float: left;
-                width: 200px;
-                height: 200px;
-                background-color: #ffffff;
-                -webkit-transition: all .2s ease-in;
-            }
-
-            ul#box-monitoring-peb li:hover{
-                -webkit-transform: scale(1.5);
-              }
-            
-            ul#box-monitoring-peb li#box-monitoring {
-                background: url("../img/icons/redhat.png") no-repeat;
-                background-size: 100%
-            }
-            
-            ul#box-monitoring-peb li#box-monitoring:hover {
-                background: url("../img/icons/redhat.png") no-repeat;
-                background-size: 100%;
-                width: 200px;
-                height: 200px;
-            }
-            /* Transição de preto e branco pra colorido - END */
-            
-            .teste {
-                width: 50px !important;
-            }
-            
+        
             ul.parceiros-icons li:hover{
                 -webkit-transform: scale(1,5);
             }
+
+            .parceiros-box {
+                background-color: #151819;
+                box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+                opacity: 1;
+                margin: -16px;
+                height: 350px;
+            }
             
+            .parceiros-lista {
+                margin: auto;
+                width: 90%;
+                padding: 10px;
+                position: relative;
+                white-space: nowrap;
+                display: flex;
+                height: 350px;
+                align-items: center;
+            }
+
+            .parceiros-item {
+                padding: 20px;
+                transition: transform .2s; /* Animation */
+                width: 170px;
+                height: 170px;
+                margin: -3px;
+                white-space: nowrap;
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+              }
+              
+              .parceiros-item:hover {
+                transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+              }
