@@ -19222,3 +19222,10 @@ ul#box-monitoring-peb li#box-monitoring:hover {
     width: 50px !important;
 
 }
+
+/* Fonte dos textos em Corier New*/
+.texto-geral{
+            
+    font-family:'Courier New', Courier, monospace; 
+
+  }
