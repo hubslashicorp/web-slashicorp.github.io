@@ -1508,8 +1508,6 @@ td.health-details__nested {
     -webkit-transition: all .2s ease-in;
 }
 
-
-}
 .hex.is-link polygon {
     fill: #3273dc;
     fill-opacity: .3;
@@ -1548,7 +1546,8 @@ td.health-details__nested {
 .hex.is-selectable:hover {
     cursor: pointer
 }
-.hex.is-selectable:hover polygon {
+.hex.is-selectable:hover polygon,
+.hex.is-selectable:focus polygon {
     fill-opacity: .85;
     stroke-opacity: 1
 }
@@ -1570,9 +1569,6 @@ td.health-details__nested {
     align-items: center;
     stroke-width: 1.5;
     -webkit-transition: all .2s ease-in;
-}
-.hex__body:hover {
-    -webkit-transform: scale(2.5);
 }
 
 /*!
