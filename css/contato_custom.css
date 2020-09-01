@@ -957,6 +957,38 @@ body::-webkit-scrollbar-thumb {
     color: #fff
 }
 
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 1.75);
+    color: rgba(60, 214, 189, 0.897);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 1000ms steps(40) infinite normal, typing 4s steps(40) 1s;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-rigth-color: rgb(#03fac9);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
 .graduacao-menu-novidades {
     background-color: #212528;
     border-bottom: 1px solid hsla(0, 0%, 100%, .08);
