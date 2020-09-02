@@ -980,6 +980,78 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+.contencao {
+    margin: 100px auto 40px auto;
+    width: 800px;
+    height: 400px;
+    background: rgba(187, 19, 19, 0.856);
+    overflow: hidden;
+}
+
+#imageBg {
+    width: 800;
+    height: 400px;
+    background-size: cover;
+    transition: 1s;
+}
+
+.anterior,
+.proximo {
+    position: relative;
+    margin-top: -250px;
+    width: 50px;
+    height: 100px;
+    background-color: rgba(82, 218, 166, 0.4);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.anterior {
+    float: left;
+}
+
+.proximo {
+    float: right;
+}
+
+.contencao:hover .anterior {
+    background-color: rgba(44, 62, 80, .7);
+}
+
+.contencao:hover .proximo {
+    background-color: rgba(44, 62, 80, .7);
+}
+
+.anterior:hover {
+    background-color: rgba(44, 62, 80, .9) !important;
+}
+
+.proximo:hover {
+    background-color: rgba(44, 62, 80, .9) !important;
+}
+
+ul#botoes  {
+    list-style: none;
+    width: 75px;
+    display: flex;
+}
+
+#botoes li {
+    background: #1fc098;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*fim do Slider*/
+
 .menu {
     background: transparent;
     left: 0;
@@ -5848,10 +5920,11 @@ body::-webkit-scrollbar-thumb {
     padding-left: 1em
 }
 
-.coworking-header-list li {
+/*.coworking-header-list li {
     padding: 1.2em 0 1.5em 15px;
     list-style: none;
-    position: relative
+    position: relative*/
+
 }
 
 .coworking-header-list li:before {
@@ -6015,14 +6088,14 @@ body::-webkit-scrollbar-thumb {
     color: #6d7a80
 }
 
-.coworking-coworkings-list li {
+/*.coworking-coworkings-list li {
     padding: 16px 0 0 3px;
     list-style: none;
     position: relative;
     font-size: 12px;
     color: #616d72
 }
-
+*/
 .coworking-coworkings-list li:before {
     content: "";
     background-color: #03fac9;
@@ -8582,11 +8655,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 50px
 }
 
-.slashicorp-noticias-noticia-content li {
+/*.slashicorp-noticias-noticia-content li {
     padding-left: 20px;
     position: relative;
     margin: 15px
-}
+}*/
 
 .slashicorp-noticias-noticia-content li:after {
     background-color: #03fac9;
@@ -12974,10 +13047,10 @@ body::-webkit-scrollbar-thumb {
         padding: 0;
         width: 100%
     }
-    .coworking-header-list li {
+    /*.coworking-header-list li {
         width: -webkit-fit-content;
         width: fit-content;
-        margin: 0 auto
+        margin: 0 auto*/
     }
     .slashicorp-cpa-header-title {
         font-size: 80px
@@ -15127,7 +15200,7 @@ ul#box-automation-peb {
     list-style: none;
 }
 
-ul#box-automation-peb li {
+ul#box-automation-peb li#box-automation {
     float: left;
     width: 298px;
     height: 455px;
@@ -15153,7 +15226,7 @@ ul#box-cloud-peb {
     list-style: none;
 }
 
-ul#box-cloud-peb li {
+ul#box-cloud-peb li#box-cloud {
     float: left;
     width: 298px;
     height: 455px;
@@ -15179,7 +15252,7 @@ ul#box-elk-peb {
     list-style: none;
 }
 
-ul#box-elk-peb li {
+ul#box-elk-peb li#box-elk {
     float: left;
     width: 298px;
     height: 455px;
@@ -15205,7 +15278,7 @@ ul#box-monitoring-peb {
     list-style: none;
 }
 
-ul#box-monitoring-peb li {
+ul#box-monitoring-peb li#box-monitoring {
     float: left;
     width: 298px;
     height: 455px;
