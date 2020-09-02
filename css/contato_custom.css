@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
-
-.components-cursos-list:after, .components-mosaico-dots > :after, .slashicorp-2018-unidades-list:after, .slashicorp-fotos-miniaturas:after, .graduacao-curso-matriz-ano-content-wrapper:after, .graduacao-menu-novidades-content:after, .shared-contato-unidades:after, .wrapper-midia:after, .wrapper:after {
+.components-cursos-list:after,
+.components-mosaico-dots> :after,
+.slashicorp-2018-unidades-list:after,
+.slashicorp-fotos-miniaturas:after,
+.graduacao-curso-matriz-ano-content-wrapper:after,
+.graduacao-menu-novidades-content:after,
+.shared-contato-unidades:after,
+.wrapper-midia:after,
+.wrapper:after {
     content: "";
     display: table;
     clear: both
@@ -14,13 +21,25 @@
     text-transform: uppercase
 }
 
-.graduacao-curso-vestibular-box-text, .graduacao-extensoes-desc, .graduacao-financiamento-description, .graduacao-financiamento-fies-description, .graduacao-financiamento-informacoes-text, .graduacao-financiamento-list-item, .graduacao-info-vestibular-item-box-text, .graduacao-info-vestibular-prova-column-text, .graduacao-info-vestibular-prova-text, .graduacao-labs-description, .graduacao-vestibular-box-text, .shared-startup-text {
+.graduacao-curso-vestibular-box-text,
+.graduacao-extensoes-desc,
+.graduacao-financiamento-description,
+.graduacao-financiamento-fies-description,
+.graduacao-financiamento-informacoes-text,
+.graduacao-financiamento-list-item,
+.graduacao-info-vestibular-item-box-text,
+.graduacao-info-vestibular-prova-column-text,
+.graduacao-info-vestibular-prova-text,
+.graduacao-labs-description,
+.graduacao-vestibular-box-text,
+.shared-startup-text {
     font: 16px/26px Roboto;
     color: #616d72;
     letter-spacing: .5px
 }
 
-.graduacao-challenges-close, .graduacao-labs-slider-close {
+.graduacao-challenges-close,
+.graduacao-labs-slider-close {
     color: #03fac9;
     cursor: pointer;
     font: 12px Roboto;
@@ -82,7 +101,8 @@
     text-transform: lowercase
 }
 
-.wrapper, .wrapper-midia {
+.wrapper,
+.wrapper-midia {
     margin: auto;
     max-width: 1200px;
     position: relative;
@@ -90,7 +110,8 @@
     z-index: 3
 }
 
-.br-mobile, .br-tablet {
+.br-mobile,
+.br-tablet {
     display: none
 }
 
@@ -98,7 +119,8 @@
     display: inline-block
 }
 
-.js-lazyload, .js-lazyloading {
+.js-lazyload,
+.js-lazyloading {
     opacity: 0 !important
 }
 
@@ -113,7 +135,7 @@
 }
 
 .background-gradient {
-    background: url(../images/shared/background/gradiente.jpg) top repeat-y;
+    background: url(../img/background/gradiente.jpg) top repeat-y;
     background-size: contain;
     position: relative
 }
@@ -206,7 +228,78 @@
     clear: both
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-l-1, .col-l-2, .col-l-3, .col-l-4, .col-l-5, .col-l-6, .col-l-7, .col-l-8, .col-l-9, .col-l-10, .col-l-11, .col-l-12, .col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, .col-m-11, .col-m-12, .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-l-1,
+.col-l-2,
+.col-l-3,
+.col-l-4,
+.col-l-5,
+.col-l-6,
+.col-l-7,
+.col-l-8,
+.col-l-9,
+.col-l-10,
+.col-l-11,
+.col-l-12,
+.col-m-1,
+.col-m-2,
+.col-m-3,
+.col-m-4,
+.col-m-5,
+.col-m-6,
+.col-m-7,
+.col-m-8,
+.col-m-9,
+.col-m-10,
+.col-m-11,
+.col-m-12,
+.col-s-1,
+.col-s-2,
+.col-s-3,
+.col-s-4,
+.col-s-5,
+.col-s-6,
+.col-s-7,
+.col-s-8,
+.col-s-9,
+.col-s-10,
+.col-s-11,
+.col-s-12,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
     padding: 0 15px;
     vertical-align: top;
     width: 100%
@@ -269,12 +362,28 @@
     width: 100%
 }
 
+
 /*! sanitize.css v4.1.0 | CC0 License | github.com/jonathantneal/sanitize.css */
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
     display: block
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
     display: inline-block
 }
 
@@ -283,16 +392,20 @@ audio:not([controls]) {
     height: 0
 }
 
-[hidden], template {
+[hidden],
+template {
     display: none
 }
 
-*, :after, :before {
+*,
+ :after,
+ :before {
     background-repeat: no-repeat;
     box-sizing: inherit
 }
 
-:after, :before {
+:after,
+ :before {
     text-decoration: inherit;
     vertical-align: inherit
 }
@@ -320,7 +433,10 @@ h1 {
     margin: .67em 0
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -330,7 +446,8 @@ hr {
     overflow: visible
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
     padding: 0
 }
@@ -340,7 +457,8 @@ abbr[title] {
     text-decoration: none
 }
 
-b, strong {
+b,
+strong {
     font-weight: inherit;
     font-weight: bolder
 }
@@ -358,11 +476,14 @@ progress {
     vertical-align: baseline
 }
 
-small, sub, sup {
+small,
+sub,
+sup {
     font-size: 83.3333%
 }
 
-sub, sup {
+sub,
+sup {
     line-height: 0;
     position: relative;
     vertical-align: baseline
@@ -382,7 +503,12 @@ sup {
     text-shadow: none
 }
 
-audio, canvas, iframe, img, svg, video {
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
     vertical-align: middle
 }
 
@@ -411,7 +537,10 @@ table {
     border-spacing: 0
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
     border-radius: 0;
     background-color: transparent;
     border-style: none;
@@ -420,15 +549,20 @@ button, input, select, textarea {
     margin: 0
 }
 
-button, input {
+button,
+input {
     overflow: visible
 }
 
-button, select {
+button,
+select {
     text-transform: none
 }
 
-[type=reset], [type=submit], button, html [type=button] {
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
     -webkit-appearance: button
 }
 
@@ -459,11 +593,13 @@ textarea {
     resize: vertical
 }
 
-[type=checkbox], [type=radio] {
+[type=checkbox],
+[type=radio] {
     padding: 0
 }
 
-::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+::-webkit-inner-spin-button,
+ ::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -472,7 +608,8 @@ textarea {
     outline-offset: -2px
 }
 
-::-webkit-search-cancel-button, ::-webkit-search-decoration {
+::-webkit-search-cancel-button,
+ ::-webkit-search-decoration {
     -webkit-appearance: none
 }
 
@@ -498,7 +635,14 @@ textarea {
     cursor: default
 }
 
-[tabindex], a, area, button, input, label, select, textarea {
+[tabindex],
+a,
+area,
+button,
+input,
+label,
+select,
+textarea {
     -ms-touch-action: manipulation;
     touch-action: manipulation
 }
@@ -543,7 +687,8 @@ body::-webkit-scrollbar-thumb {
     width: 270px
 }
 
-.slashicorp-loader-box, .slashicorp-loader-image {
+.slashicorp-loader-box,
+.slashicorp-loader-image {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -595,12 +740,14 @@ body::-webkit-scrollbar-thumb {
     width: 47px
 }
 
-.slashicorp-menu-item, .slashicorp-menu-logo {
+.slashicorp-menu-item,
+.slashicorp-menu-logo {
     display: inline-block;
     vertical-align: middle
 }
 
-.slashicorp-menu-item, .slashicorp-menu-link {
+.slashicorp-menu-item,
+.slashicorp-menu-link {
     position: relative
 }
 
@@ -766,7 +913,8 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-footer-social-link:hover {
     border-color: #03fac9;
     fill: #03fac9;
-    text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);
+    text-shadow: rgb(3, 250, 201) 4px 0px 20px;
+    color: rgb(2, 137, 110);
 }
 
 .slashicorp-2018-footer-social-icon {
@@ -784,7 +932,8 @@ body::-webkit-scrollbar-thumb {
 .slashicorp-2018-footer-section {
     border-color: #03fac9;
     fill: #03fac9;
-    text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);
+    text-shadow: rgb(3, 250, 201) 4px 0px 20px;
+    color: rgb(2, 137, 110);
 }
 
 .slashicorp-2018-footer-title {
@@ -806,6 +955,38 @@ body::-webkit-scrollbar-thumb {
 
 .slashicorp-2018-footer-link:hover {
     color: #fff
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 1.75);
+    color: rgba(60, 214, 189, 0.897);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 1000ms steps(40) infinite normal, typing 4s steps(40) 1s;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-rigth-color: rgb(#03fac9);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 
 .graduacao-menu-novidades {
@@ -930,7 +1111,8 @@ body::-webkit-scrollbar-thumb {
     width: 20px
 }
 
-.graduacao-menu-novidades-header-icon:after, .graduacao-menu-novidades-header-icon:before {
+.graduacao-menu-novidades-header-icon:after,
+.graduacao-menu-novidades-header-icon:before {
     background: #03fac9;
     content: "";
     display: block;
@@ -1008,7 +1190,8 @@ body::-webkit-scrollbar-thumb {
     width: 30px
 }
 
-.graduacao-menu-novidades-input-feedback:after, .graduacao-menu-novidades-input-feedback:before {
+.graduacao-menu-novidades-input-feedback:after,
+.graduacao-menu-novidades-input-feedback:before {
     content: "";
     position: absolute
 }
@@ -1025,7 +1208,8 @@ body::-webkit-scrollbar-thumb {
     width: 10px
 }
 
-.graduacao-menu-novidades-input-error:after, .graduacao-menu-novidades-input-error:before {
+.graduacao-menu-novidades-input-error:after,
+.graduacao-menu-novidades-input-error:before {
     background: #03fac9;
     height: 25px;
     left: 50%;
@@ -1360,7 +1544,8 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.components-btn-saiba-mais-plus:after, .components-btn-saiba-mais-plus:before {
+.components-btn-saiba-mais-plus:after,
+.components-btn-saiba-mais-plus:before {
     background-color: #03fac9;
     content: "";
     position: absolute;
@@ -1388,7 +1573,8 @@ body::-webkit-scrollbar-thumb {
     background-color: #03fac9
 }
 
-.components-btn-saiba-mais:hover .components-btn-saiba-mais-plus:after, .components-btn-saiba-mais:hover .components-btn-saiba-mais-plus:before {
+.components-btn-saiba-mais:hover .components-btn-saiba-mais-plus:after,
+.components-btn-saiba-mais:hover .components-btn-saiba-mais-plus:before {
     background-color: #fff
 }
 
@@ -1480,17 +1666,20 @@ body::-webkit-scrollbar-thumb {
     color: #32383b
 }
 
-.components-cursos-item-link.is-disabled, .components-cursos-item-link.is-disabled:hover {
+.components-cursos-item-link.is-disabled,
+.components-cursos-item-link.is-disabled:hover {
     color: #4a5356;
     font-family: Gotham HTF Light
 }
 
-.components-cursos-item-link.is-disabled:before, .components-cursos-item-link.is-disabled:hover:before {
+.components-cursos-item-link.is-disabled:before,
+.components-cursos-item-link.is-disabled:hover:before {
     background-color: transparent;
     box-shadow: none
 }
 
-.components-cursos-item-link.is-disabled:after, .components-cursos-item-link.is-disabled:hover:after {
+.components-cursos-item-link.is-disabled:after,
+.components-cursos-item-link.is-disabled:hover:after {
     width: 35px
 }
 
@@ -1618,7 +1807,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.components-cursos-select-box:after, .components-cursos-select-box:before {
+.components-cursos-select-box:after,
+.components-cursos-select-box:before {
     content: "";
     background-color: #03fac9;
     position: absolute;
@@ -1666,7 +1856,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.components-gallery .components-mosaico, .components-gallery .components-slider {
+.components-gallery .components-mosaico,
+.components-gallery .components-slider {
     width: 1200px;
     left: 0;
     opacity: 0;
@@ -1677,12 +1868,14 @@ body::-webkit-scrollbar-thumb {
     z-index: 1
 }
 
-.components-gallery .components-mosaico.is-active, .components-gallery .components-slider.is-active {
+.components-gallery .components-mosaico.is-active,
+.components-gallery .components-slider.is-active {
     opacity: 1;
     visibility: visible
 }
 
-.components-gallery-mosaico .components-mosaico-section, .components-gallery-mosaico .components-mosaico-wrapper {
+.components-gallery-mosaico .components-mosaico-section,
+.components-gallery-mosaico .components-mosaico-wrapper {
     height: 100%
 }
 
@@ -1723,7 +1916,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.components-gallery-options-mosaico, .components-gallery-options-slider {
+.components-gallery-options-mosaico,
+.components-gallery-options-slider {
     color: #91a3ad;
     cursor: pointer;
     font: 12px Gotham HTF Medium;
@@ -1738,7 +1932,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 100
 }
 
-.components-gallery-options-mosaico:after, .components-gallery-options-mosaico:before {
+.components-gallery-options-mosaico:after,
+.components-gallery-options-mosaico:before {
     background-color: #91a3ad;
     box-shadow: 0 7px 0 #91a3ad;
     content: "";
@@ -1767,7 +1962,8 @@ body::-webkit-scrollbar-thumb {
     width: 11px
 }
 
-.components-gallery-options-mosaico.is-active, .components-gallery-options-slider.is-active {
+.components-gallery-options-mosaico.is-active,
+.components-gallery-options-slider.is-active {
     opacity: 1;
     z-index: 101
 }
@@ -1776,7 +1972,8 @@ body::-webkit-scrollbar-thumb {
     color: #03fac9
 }
 
-.components-gallery-options-mosaico:hover:after, .components-gallery-options-mosaico:hover:before {
+.components-gallery-options-mosaico:hover:after,
+.components-gallery-options-mosaico:hover:before {
     background-color: #03fac9;
     box-shadow: 0 7px 0 #03fac9
 }
@@ -1785,7 +1982,8 @@ body::-webkit-scrollbar-thumb {
     color: #03fac9
 }
 
-.components-gallery-options-slider:hover:after, .components-gallery-options-slider:hover:before {
+.components-gallery-options-slider:hover:after,
+.components-gallery-options-slider:hover:before {
     background-color: #03fac9
 }
 
@@ -1825,7 +2023,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 900
 }
 
-.components-menu, .menu.is-active .components-menu {
+.components-menu,
+.menu.is-active .components-menu {
     background-color: transparent
 }
 
@@ -1903,7 +2102,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.components-menu-item-button .components-menu-link, .components-menu-item-button .components-menu-link:hover {
+.components-menu-item-button .components-menu-link,
+.components-menu-item-button .components-menu-link:hover {
     color: #000
 }
 
@@ -1944,8 +2144,9 @@ body::-webkit-scrollbar-thumb {
 
 .components-menu-link:hover {
     color: #03fac9;
-    opacity:1;
-    text-shadow: #03fac9 4px 0px 20px; color: #03fac9;
+    opacity: 1;
+    text-shadow: #03fac9 4px 0px 20px;
+    color: #03fac9;
 }
 
 .components-menu-link:hover .components-menu-arrow {
@@ -2071,7 +2272,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.components-menu-toggle-icon:after, .components-menu-toggle-icon:before {
+.components-menu-toggle-icon:after,
+.components-menu-toggle-icon:before {
     background-color: inherit;
     content: "";
     display: block;
@@ -2114,7 +2316,8 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-between
 }
 
-.components-menu-right.ON-base__menu-right, .menu-search .components-menu-right {
+.components-menu-right.ON-base__menu-right,
+.menu-search .components-menu-right {
     -ms-flex-pack: end;
     justify-content: flex-end
 }
@@ -2291,7 +2494,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.components-mosaico-section, .components-mosaico-wrapper {
+.components-mosaico-section,
+.components-mosaico-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -2349,7 +2553,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 2
 }
 
-.components-mosaico-next, .components-mosaico-prev {
+.components-mosaico-next,
+.components-mosaico-prev {
     background-color: transparent;
     border: 1px solid #03fac9;
     cursor: pointer;
@@ -2360,7 +2565,8 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.components-mosaico-next.is-disable, .components-mosaico-prev.is-disable {
+.components-mosaico-next.is-disable,
+.components-mosaico-prev.is-disable {
     cursor: default;
     opacity: .5
 }
@@ -2385,7 +2591,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100px
 }
 
-.components-mosaico-dots > * {
+.components-mosaico-dots>* {
     background-color: #616d72;
     border-radius: 50%;
     cursor: pointer;
@@ -2396,11 +2602,12 @@ body::-webkit-scrollbar-thumb {
     width: 10px
 }
 
-.components-mosaico-dots > .is-active {
+.components-mosaico-dots>.is-active {
     pointer-events: none
 }
 
-.components-mosaico-dots > .is-active, .components-mosaico-dots > :hover {
+.components-mosaico-dots>.is-active,
+.components-mosaico-dots> :hover {
     background-color: #03fac9
 }
 
@@ -2439,7 +2646,8 @@ body::-webkit-scrollbar-thumb {
     outline: none
 }
 
-.popup-button-close:after, .popup-button-close:before {
+.popup-button-close:after,
+.popup-button-close:before {
     background-color: #91a3ad;
     content: "";
     display: block;
@@ -2563,7 +2771,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.components-slider-navigation-next, .components-slider-navigation-prev {
+.components-slider-navigation-next,
+.components-slider-navigation-prev {
     background-color: #03fac9;
     cursor: pointer;
     display: block;
@@ -2578,7 +2787,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 5
 }
 
-.components-slider-navigation-next:after, .components-slider-navigation-prev:after {
+.components-slider-navigation-next:after,
+.components-slider-navigation-prev:after {
     background-color: transparent;
     border: 3px solid #000;
     content: "";
@@ -2589,7 +2799,8 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.components-slider-navigation-next.is-hidden, .components-slider-navigation-prev.is-hidden {
+.components-slider-navigation-next.is-hidden,
+.components-slider-navigation-prev.is-hidden {
     visibility: hidden;
     opacity: 0
 }
@@ -2648,7 +2859,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     width: 100%;
-    background: url(../images/shared/conceito/effects.png) top no-repeat
+    background: url(../../img/background/effects.png) top no-repeat
 }
 
 .shared-conceito .wrapper {
@@ -2771,7 +2982,7 @@ body::-webkit-scrollbar-thumb {
 
 .shared-contato-column {
     vertical-align: top;
-    width: 50%
+    width: 75%;
 }
 
 .shared-contato-column:first-child {
@@ -2782,14 +2993,15 @@ body::-webkit-scrollbar-thumb {
     color: #91a3ad;
     font: 60px Gotham HTF Medium;
     margin-bottom: 100px;
-    margin-top: 0;
-    text-transform: uppercase
+    margin-top: -112px;
+    text-transform: uppercase;
+    text-align: center
 }
 
 .shared-contato-highlight {
     color: #03fac9;
     font: 22px/30px Gotham HTF Medium;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     text-transform: uppercase
 }
 
@@ -2805,6 +3017,11 @@ body::-webkit-scrollbar-thumb {
     text-transform: lowercase
 }
 
+.shared-contato-highlight-text:hover {
+    color: #fff;
+    text-shadow: rgb(3, 250, 201) 4px 0px 20px;
+}
+
 .shared-contato-unidades-item {
     color: #616d72;
     font: 14px/25px Roboto;
@@ -2816,6 +3033,8 @@ body::-webkit-scrollbar-thumb {
     color: #91a3ad;
     display: block;
     font: 14px/20px Gotham HTF Medium;
+    padding-right: 20%;
+    text-align: justify;
     margin-bottom: 5px;
     text-transform: uppercase
 }
@@ -2858,7 +3077,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.shared-contato-form-input, .shared-contato-form-textarea {
+.shared-contato-form-input,
+.shared-contato-form-textarea {
     border: 1px solid #616d72;
     color: #91a3ad;
     display: block;
@@ -2868,8 +3088,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.shared-contato-form-input:focus, .shared-contato-form-textarea:focus {
-    background-color: #151819
+.shared-contato-form-input:focus,
+.shared-contato-form-textarea:focus {
+    background-color: #151819;
+    border: 1px solid #03fac9;
+    color: #91a3ad;
 }
 
 .shared-contato-form-input {
@@ -2891,8 +3114,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 15px;
     padding: 12px 45px;
     text-transform: uppercase;
-    transition: background .4s ease, color .4s ease;
-    display: none
+    transition: background .4s ease, color .4s ease
 }
 
 .shared-contato-form-btn:hover {
@@ -2975,7 +3197,8 @@ body::-webkit-scrollbar-thumb {
     top: -250px
 }
 
-.shared-nano-courses:after, .shared-nano-courses:before {
+.shared-nano-courses:after,
+.shared-nano-courses:before {
     content: "";
     display: block;
     height: 100%;
@@ -3138,7 +3361,8 @@ body::-webkit-scrollbar-thumb {
     text-align: right
 }
 
-.shared-nano-courses-text-quote, .shared-nano-courses-text-quote-highlight {
+.shared-nano-courses-text-quote,
+.shared-nano-courses-text-quote-highlight {
     font: 18px/36px Gotham HTF Light;
     letter-spacing: .5px;
     text-transform: uppercase
@@ -3637,7 +3861,8 @@ body::-webkit-scrollbar-thumb {
     vertical-align: middle
 }
 
-.shared-extensao-faq-item.is-active .shared-extensao-faq-item-title, .shared-extensao-faq-item:hover .shared-extensao-faq-item-title {
+.shared-extensao-faq-item.is-active .shared-extensao-faq-item-title,
+.shared-extensao-faq-item:hover .shared-extensao-faq-item-title {
     color: #aebbc3
 }
 
@@ -3654,7 +3879,8 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.shared-extensao-faq-item-arrow:after, .shared-extensao-faq-item-arrow:before {
+.shared-extensao-faq-item-arrow:after,
+.shared-extensao-faq-item-arrow:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -3666,7 +3892,8 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease
 }
 
-.shared-extensao-faq-item:hover .shared-extensao-faq-item-arrow:after, .shared-extensao-faq-item:hover .shared-extensao-faq-item-arrow:before {
+.shared-extensao-faq-item:hover .shared-extensao-faq-item-arrow:after,
+.shared-extensao-faq-item:hover .shared-extensao-faq-item-arrow:before {
     background-color: #000
 }
 
@@ -3821,14 +4048,18 @@ body::-webkit-scrollbar-thumb {
     z-index: 10
 }
 
-.shared-extensao-header-navegation-next, .shared-extensao-header-navegation-prev {
+.shared-extensao-header-navegation-next,
+.shared-extensao-header-navegation-prev {
     cursor: pointer;
     width: 10px;
     height: 15px;
     position: relative
 }
 
-.shared-extensao-header-navegation-next:after, .shared-extensao-header-navegation-next:before, .shared-extensao-header-navegation-prev:after, .shared-extensao-header-navegation-prev:before {
+.shared-extensao-header-navegation-next:after,
+.shared-extensao-header-navegation-next:before,
+.shared-extensao-header-navegation-prev:after,
+.shared-extensao-header-navegation-prev:before {
     content: "";
     background-color: #03fac9;
     width: 2px;
@@ -4323,7 +4554,7 @@ body::-webkit-scrollbar-thumb {
     display: table-cell
 }
 
-.graduacao-financiamentos-description-cell > * {
+.graduacao-financiamentos-description-cell>* {
     position: static
 }
 
@@ -5001,7 +5232,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.graduacao-financiamento-estendido-cursos-duracao-arrow:after, .graduacao-financiamento-estendido-cursos-duracao-arrow:before {
+.graduacao-financiamento-estendido-cursos-duracao-arrow:after,
+.graduacao-financiamento-estendido-cursos-duracao-arrow:before {
     content: "";
     display: block;
     height: 13px;
@@ -6157,7 +6389,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-financiamentos-description, .graduacao-financiamentos-link {
+.graduacao-financiamentos-description,
+.graduacao-financiamentos-link {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -6294,7 +6527,8 @@ body::-webkit-scrollbar-thumb {
     height: 302px
 }
 
-.graduacao-challenges-gallery-wrapper, .graduacao-challenges-gallery.is-empty {
+.graduacao-challenges-gallery-wrapper,
+.graduacao-challenges-gallery.is-empty {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -6338,11 +6572,13 @@ body::-webkit-scrollbar-thumb {
     margin: 5px
 }
 
-.graduacao-challenges-gallery-next, .graduacao-challenges-gallery-prev {
+.graduacao-challenges-gallery-next,
+.graduacao-challenges-gallery-prev {
     display: none
 }
 
-.graduacao-challenges-gallery.is-slider .graduacao-challenges-gallery-next, .graduacao-challenges-gallery.is-slider .graduacao-challenges-gallery-prev {
+.graduacao-challenges-gallery.is-slider .graduacao-challenges-gallery-next,
+.graduacao-challenges-gallery.is-slider .graduacao-challenges-gallery-prev {
     display: block
 }
 
@@ -6358,7 +6594,8 @@ body::-webkit-scrollbar-thumb {
     bottom: 35px
 }
 
-.graduacao-challenges-gallery-icon, .graduacao-challenges-gallery-image {
+.graduacao-challenges-gallery-icon,
+.graduacao-challenges-gallery-image {
     position: absolute;
     left: 50%;
     transform: translateX(-50%)
@@ -6387,7 +6624,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 15
 }
 
-.graduacao-challenges-gallery-item.is-active .graduacao-challenges-gallery-description, .graduacao-challenges-gallery-item:hover .graduacao-challenges-gallery-description {
+.graduacao-challenges-gallery-item.is-active .graduacao-challenges-gallery-description,
+.graduacao-challenges-gallery-item:hover .graduacao-challenges-gallery-description {
     opacity: 1;
     visibility: visible
 }
@@ -6615,17 +6853,22 @@ body::-webkit-scrollbar-thumb {
     top: 0
 }
 
-.graduacao-extensoes-btn-bg-bottom, .graduacao-extensoes-btn-bg-left, .graduacao-extensoes-btn-bg-right, .graduacao-extensoes-btn-bg-top {
+.graduacao-extensoes-btn-bg-bottom,
+.graduacao-extensoes-btn-bg-left,
+.graduacao-extensoes-btn-bg-right,
+.graduacao-extensoes-btn-bg-top {
     background: #03fac9;
     position: absolute
 }
 
-.graduacao-extensoes-btn-bg-bottom, .graduacao-extensoes-btn-bg-top {
+.graduacao-extensoes-btn-bg-bottom,
+.graduacao-extensoes-btn-bg-top {
     height: 2px;
     width: 100%
 }
 
-.graduacao-extensoes-btn-bg-left, .graduacao-extensoes-btn-bg-right {
+.graduacao-extensoes-btn-bg-left,
+.graduacao-extensoes-btn-bg-right {
     height: 100%;
     width: 2px
 }
@@ -6737,7 +6980,8 @@ body::-webkit-scrollbar-thumb {
     white-space: normal
 }
 
-.graduacao-labs-gallery-next, .graduacao-labs-gallery-prev {
+.graduacao-labs-gallery-next,
+.graduacao-labs-gallery-prev {
     top: 50%
 }
 
@@ -6805,7 +7049,8 @@ body::-webkit-scrollbar-thumb {
     text-decoration: underline
 }
 
-.graduacao-labs-slider, .graduacao-labs-sliders {
+.graduacao-labs-slider,
+.graduacao-labs-sliders {
     position: absolute;
     top: 0;
     left: 0;
@@ -6842,7 +7087,6 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     width: 100%
 }
-
 
 .shared-curso-pessoas-item .wrapper {
     max-width: 1145px
@@ -6962,7 +7206,6 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-
 .graduacao-resultados .br-none .br-all {
     display: none
 }
@@ -7044,7 +7287,6 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-
 .graduacao-vestibular-title {
     color: #91a3ad;
     font: 55px Gotham HTF Bold;
@@ -7104,7 +7346,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-vestibular-box, .graduacao-vestibular-box-line {
+.graduacao-vestibular-box,
+.graduacao-vestibular-box-line {
     border: 1px solid #91a3ad;
     display: -ms-flexbox;
     display: flex;
@@ -7112,15 +7355,18 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-vestibular-box-line, .graduacao-vestibular-box-line-line {
+.graduacao-vestibular-box-line,
+.graduacao-vestibular-box-line-line {
     border-color: transparent
 }
 
-.graduacao-vestibular-box-line-line .graduacao-vestibular-column, .graduacao-vestibular-box-line .graduacao-vestibular-column {
+.graduacao-vestibular-box-line-line .graduacao-vestibular-column,
+.graduacao-vestibular-box-line .graduacao-vestibular-column {
     min-height: 20px
 }
 
-.graduacao-vestibular-box-line .graduacao-vestibular-header-text, .graduacao-vestibular-box .graduacao-vestibular-header-text {
+.graduacao-vestibular-box-line .graduacao-vestibular-header-text,
+.graduacao-vestibular-box .graduacao-vestibular-header-text {
     display: none
 }
 
@@ -7163,7 +7409,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-vestibular-box-text, .graduacao-vestibular-header-text {
+.graduacao-vestibular-box-text,
+.graduacao-vestibular-header-text {
     left: 0;
     margin: 0;
     position: absolute;
@@ -7225,7 +7472,6 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     width: 100%
 }
-
 
 .graduacao-curso-header-wrapper {
     display: table-cell;
@@ -7417,7 +7663,8 @@ body::-webkit-scrollbar-thumb {
     color: #000
 }
 
-.graduacao-curso-header-tag-online .graduacao-curso-header-tag-box-btn, .graduacao-curso-header-tag-presencial .graduacao-curso-header-tag-box-btn {
+.graduacao-curso-header-tag-online .graduacao-curso-header-tag-box-btn,
+.graduacao-curso-header-tag-presencial .graduacao-curso-header-tag-box-btn {
     background: transparent;
     cursor: pointer;
     display: inline-block;
@@ -7505,7 +7752,8 @@ body::-webkit-scrollbar-thumb {
     width: 35%
 }
 
-.graduacao-curso-vestibular-column-horario, .graduacao-curso-vestibular-column-inscricao {
+.graduacao-curso-vestibular-column-horario,
+.graduacao-curso-vestibular-column-inscricao {
     width: 20%
 }
 
@@ -7518,7 +7766,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-curso-vestibular-box, .graduacao-curso-vestibular-box-line {
+.graduacao-curso-vestibular-box,
+.graduacao-curso-vestibular-box-line {
     border: 1px solid #03fac9;
     display: -ms-flexbox;
     display: flex;
@@ -7526,15 +7775,18 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-curso-vestibular-box-line, .graduacao-curso-vestibular-box-line-line {
+.graduacao-curso-vestibular-box-line,
+.graduacao-curso-vestibular-box-line-line {
     border-color: transparent
 }
 
-.graduacao-curso-vestibular-box-line-line .graduacao-curso-vestibular-column, .graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-column {
+.graduacao-curso-vestibular-box-line-line .graduacao-curso-vestibular-column,
+.graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-column {
     min-height: 20px
 }
 
-.graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-header-text, .graduacao-curso-vestibular-box .graduacao-curso-vestibular-header-text {
+.graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-header-text,
+.graduacao-curso-vestibular-box .graduacao-curso-vestibular-header-text {
     display: none
 }
 
@@ -7545,7 +7797,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-curso-vestibular-box-text, .graduacao-curso-vestibular-header-text {
+.graduacao-curso-vestibular-box-text,
+.graduacao-curso-vestibular-header-text {
     left: 0;
     margin: 0;
     position: absolute;
@@ -7596,7 +7849,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.graduacao-curso-informacoes:after, .graduacao-curso-informacoes:before {
+.graduacao-curso-informacoes:after,
+.graduacao-curso-informacoes:before {
     content: "";
     display: block;
     height: 100%;
@@ -8227,7 +8481,8 @@ body::-webkit-scrollbar-thumb {
     width: 25px
 }
 
-.graduacao-curso-matriz-filtro-arrow:after, .graduacao-curso-matriz-filtro-arrow:before {
+.graduacao-curso-matriz-filtro-arrow:after,
+.graduacao-curso-matriz-filtro-arrow:before {
     background: #565656;
     content: "";
     display: block;
@@ -8238,7 +8493,8 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.graduacao-curso-matriz-filtro:hover .graduacao-curso-matriz-filtro-arrow:after, .graduacao-curso-matriz-filtro:hover .graduacao-curso-matriz-filtro-arrow:before {
+.graduacao-curso-matriz-filtro:hover .graduacao-curso-matriz-filtro-arrow:after,
+.graduacao-curso-matriz-filtro:hover .graduacao-curso-matriz-filtro-arrow:before {
     background: #fff
 }
 
@@ -8366,7 +8622,8 @@ body::-webkit-scrollbar-thumb {
     width: 485px
 }
 
-.graduacao-curso-matriz-subfiltro-btn.is-active, .graduacao-curso-matriz-subfiltro-btn:hover {
+.graduacao-curso-matriz-subfiltro-btn.is-active,
+.graduacao-curso-matriz-subfiltro-btn:hover {
     color: #03fac9
 }
 
@@ -8427,7 +8684,8 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease, border-color .4s ease, color .4s ease, visibility 0s, opacity .5s linear
 }
 
-.graduacao-curso-matriz-ano-header.is-active, .graduacao-curso-matriz-ano-header:hover {
+.graduacao-curso-matriz-ano-header.is-active,
+.graduacao-curso-matriz-ano-header:hover {
     border-color: #03fac9;
     color: #fff
 }
@@ -8447,7 +8705,8 @@ body::-webkit-scrollbar-thumb {
     vertical-align: middle
 }
 
-.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-title, .graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-title {
+.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-title,
+.graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-title {
     color: #03fac9
 }
 
@@ -8462,7 +8721,8 @@ body::-webkit-scrollbar-thumb {
     vertical-align: middle
 }
 
-.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-subtitle, .graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-subtitle {
+.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-subtitle,
+.graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-subtitle {
     border-color: #fff;
     color: #fff
 }
@@ -8480,7 +8740,8 @@ body::-webkit-scrollbar-thumb {
     width: 135px
 }
 
-.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-counter, .graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-counter {
+.graduacao-curso-matriz-ano-header.is-active .graduacao-curso-matriz-ano-counter,
+.graduacao-curso-matriz-ano-header:hover .graduacao-curso-matriz-ano-counter {
     background: #fff;
     color: #03fac9
 }
@@ -8496,7 +8757,8 @@ body::-webkit-scrollbar-thumb {
     width: 35px
 }
 
-.graduacao-curso-matriz-ano-plus:after, .graduacao-curso-matriz-ano-plus:before {
+.graduacao-curso-matriz-ano-plus:after,
+.graduacao-curso-matriz-ano-plus:before {
     background: #03fac9;
     content: "";
     display: block;
@@ -8549,7 +8811,8 @@ body::-webkit-scrollbar-thumb {
     left: 0
 }
 
-.graduacao-curso-matriz-ano-content:after, .graduacao-curso-matriz-ano-content:before {
+.graduacao-curso-matriz-ano-content:after,
+.graduacao-curso-matriz-ano-content:before {
     background: #1f1f1f;
     content: "";
     display: block;
@@ -8843,7 +9106,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-info-vestibular-item-box, .graduacao-info-vestibular-item-box-line {
+.graduacao-info-vestibular-item-box,
+.graduacao-info-vestibular-item-box-line {
     border: 1px solid #03fac9;
     display: -ms-flexbox;
     display: flex;
@@ -8851,15 +9115,18 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-info-vestibular-item-box-line, .graduacao-info-vestibular-item-box-line-line {
+.graduacao-info-vestibular-item-box-line,
+.graduacao-info-vestibular-item-box-line-line {
     border-color: transparent
 }
 
-.graduacao-info-vestibular-item-box-line-line .graduacao-info-vestibular-item-column, .graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-column {
+.graduacao-info-vestibular-item-box-line-line .graduacao-info-vestibular-item-column,
+.graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-column {
     min-height: 20px
 }
 
-.graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-header-text, .graduacao-info-vestibular-item-box .graduacao-info-vestibular-item-header-text {
+.graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-header-text,
+.graduacao-info-vestibular-item-box .graduacao-info-vestibular-item-header-text {
     display: none
 }
 
@@ -9370,7 +9637,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-extensao-beneficios:after, .graduacao-extensao-beneficios:before {
+.graduacao-extensao-beneficios:after,
+.graduacao-extensao-beneficios:before {
     content: "";
     display: block;
     height: 100%;
@@ -9624,7 +9892,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-header, .graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-header {
+.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-header,
+.graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-header {
     color: #fff;
     background: #03fac9;
     border-color: #03fac9
@@ -9641,7 +9910,8 @@ body::-webkit-scrollbar-thumb {
     width: 85px
 }
 
-.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-number, .graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-number {
+.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-number,
+.graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-number {
     background: #d31251
 }
 
@@ -9662,7 +9932,8 @@ body::-webkit-scrollbar-thumb {
     width: 20px
 }
 
-.graduacao-extensao-faq-item-arrow:after, .graduacao-extensao-faq-item-arrow:before {
+.graduacao-extensao-faq-item-arrow:after,
+.graduacao-extensao-faq-item-arrow:before {
     background: #03fac9;
     content: "";
     display: block;
@@ -9673,7 +9944,10 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-arrow:after, .graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-arrow:before, .graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-arrow:after, .graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-arrow:before {
+.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-arrow:after,
+.graduacao-extensao-faq-item.is-active .graduacao-extensao-faq-item-arrow:before,
+.graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-arrow:after,
+.graduacao-extensao-faq-item:hover .graduacao-extensao-faq-item-arrow:before {
     background: #fff
 }
 
@@ -9842,7 +10116,8 @@ body::-webkit-scrollbar-thumb {
     text-align: center
 }
 
-.slashicorp-graduacao-startup:after, .slashicorp-graduacao-startup:before {
+.slashicorp-graduacao-startup:after,
+.slashicorp-graduacao-startup:before {
     content: "";
     display: block;
     height: 100%;
@@ -10272,7 +10547,8 @@ body::-webkit-scrollbar-thumb {
     margin-top: -22px
 }
 
-.slashicorp-fotos-slider-next, .slashicorp-fotos-slider-prev {
+.slashicorp-fotos-slider-next,
+.slashicorp-fotos-slider-prev {
     background: none;
     border: none;
     cursor: pointer;
@@ -10283,7 +10559,8 @@ body::-webkit-scrollbar-thumb {
     width: 45px
 }
 
-.slashicorp-fotos-slider-next:before, .slashicorp-fotos-slider-prev:before {
+.slashicorp-fotos-slider-next:before,
+.slashicorp-fotos-slider-prev:before {
     border-color: #000;
     border-style: solid;
     content: "";
@@ -10369,7 +10646,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 999
 }
 
-.slashicorp-fotos-slider-close:after, .slashicorp-fotos-slider-close:before {
+.slashicorp-fotos-slider-close:after,
+.slashicorp-fotos-slider-close:before {
     background: #000;
     content: "";
     display: block;
@@ -10398,7 +10676,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-nomad-subtitle, .slashicorp-nomad-title {
+.slashicorp-nomad-subtitle,
+.slashicorp-nomad-title {
     color: #616d72;
     font: 33px/40px Gotham HTF Light;
     margin: 0;
@@ -10567,7 +10846,8 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.slashicorp-nomad-project-thumb-saiba-mais-button:after, .slashicorp-nomad-project-thumb-saiba-mais-button:before {
+.slashicorp-nomad-project-thumb-saiba-mais-button:after,
+.slashicorp-nomad-project-thumb-saiba-mais-button:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -10588,7 +10868,8 @@ body::-webkit-scrollbar-thumb {
     background-color: #03fac9
 }
 
-.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:after, .slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:before {
+.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:after,
+.slashicorp-nomad-slider-item:hover .slashicorp-nomad-project-thumb-saiba-mais-button:before {
     background-color: #1a1d20
 }
 
@@ -10671,7 +10952,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-parcerias.MBA, .slashicorp-2018-parcerias.ON-MBA {
+.slashicorp-2018-parcerias.MBA,
+.slashicorp-2018-parcerias.ON-MBA {
     margin-bottom: -50px;
     padding: 0
 }
@@ -10792,7 +11074,8 @@ body::-webkit-scrollbar-thumb {
     width: 40%
 }
 
-.slashicorp-2018-mec-item-column-left, .slashicorp-2018-mec-item-column-right {
+.slashicorp-2018-mec-item-column-left,
+.slashicorp-2018-mec-item-column-right {
     text-align: left
 }
 
@@ -10919,7 +11202,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-enade:after, .slashicorp-2018-enade:before {
+.slashicorp-2018-enade:after,
+.slashicorp-2018-enade:before {
     content: "";
     display: block;
     height: 100%;
@@ -10948,7 +11232,8 @@ body::-webkit-scrollbar-thumb {
     font: 36px/44px Gotham HTF Medium
 }
 
-.slashicorp-2018-enade-subtitle, .slashicorp-2018-enade-title {
+.slashicorp-2018-enade-subtitle,
+.slashicorp-2018-enade-title {
     color: #91a3ad;
     letter-spacing: .3px;
     margin: 0 auto;
@@ -11026,7 +11311,8 @@ body::-webkit-scrollbar-thumb {
     transition: border-color .4s ease-out
 }
 
-.slashicorp-2018-enade-box-subtitle, .slashicorp-2018-enade-box-title {
+.slashicorp-2018-enade-box-subtitle,
+.slashicorp-2018-enade-box-title {
     margin: 0;
     transition: color .4s ease-out
 }
@@ -11142,7 +11428,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-artigos-box, .slashicorp-2018-artigos-main {
+.slashicorp-2018-artigos-box,
+.slashicorp-2018-artigos-main {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -11464,8 +11751,9 @@ body::-webkit-scrollbar-thumb {
     display: -ms-flexbox;
     display: flex;
     margin: 110px -7px 0
-}   width=100%;
+}
 
+width=100%;
 .slashicorp-2018-unidades-item {
     padding: 0 7px;
     width: 100%
@@ -11501,7 +11789,8 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, .5)
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-media:after, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-media:after {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-media:after,
+.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-media:after {
     opacity: 0
 }
 
@@ -11518,7 +11807,8 @@ body::-webkit-scrollbar-thumb {
     filter: grayscale(100%)
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-img, .slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-img {
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-img,
+.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-img {
     filter: none
 }
 
@@ -11557,7 +11847,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(2):after, .slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
+.slashicorp-2018-unidades-newdesc-text:nth-child(2):after,
+.slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
     background: #03fac9;
     content: "";
     display: block;
@@ -11662,7 +11953,8 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-btn-close {
+.slashicorp-2018-unidades-btn,
+.slashicorp-2018-unidades-btn-close {
     border: 1px solid #03fac9;
     color: #03fac9;
     display: inline-block;
@@ -11675,12 +11967,15 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease, color .4s ease
 }
 
-.slashicorp-2018-unidades-btn-close:hover, .slashicorp-2018-unidades-btn:hover {
+.slashicorp-2018-unidades-btn-close:hover,
+.slashicorp-2018-unidades-btn:hover {
     background: #03fac9;
     color: #000
 }
 
-.slashicorp-2018-unidades-btn-close, .slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
+.slashicorp-2018-unidades-btn-close,
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn,
+.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
     display: none
 }
 
@@ -11701,17 +11996,22 @@ body::-webkit-scrollbar-thumb {
     z-index: -2
 }
 
-.slashicorp-2018-unidades-btn-bg-bottom, .slashicorp-2018-unidades-btn-bg-left, .slashicorp-2018-unidades-btn-bg-right, .slashicorp-2018-unidades-btn-bg-top {
+.slashicorp-2018-unidades-btn-bg-bottom,
+.slashicorp-2018-unidades-btn-bg-left,
+.slashicorp-2018-unidades-btn-bg-right,
+.slashicorp-2018-unidades-btn-bg-top {
     background: #03fac9;
     position: absolute
 }
 
-.slashicorp-2018-unidades-btn-bg-bottom, .slashicorp-2018-unidades-btn-bg-top {
+.slashicorp-2018-unidades-btn-bg-bottom,
+.slashicorp-2018-unidades-btn-bg-top {
     height: 1px;
     width: 100%
 }
 
-.slashicorp-2018-unidades-btn-bg-left, .slashicorp-2018-unidades-btn-bg-right {
+.slashicorp-2018-unidades-btn-bg-left,
+.slashicorp-2018-unidades-btn-bg-right {
     height: 100%;
     width: 1px
 }
@@ -11887,7 +12187,9 @@ body::-webkit-scrollbar-thumb {
     width: 90%
 }
 
-.search-svg-graduacao, .search-svg-mba, .search-svg-online {
+.search-svg-graduacao,
+.search-svg-mba,
+.search-svg-online {
     fill: #91a3ad
 }
 
@@ -11953,7 +12255,8 @@ body::-webkit-scrollbar-thumb {
     width: fit-content
 }
 
-.search-result-saiba-mais:after, .search-result-saiba-mais:before {
+.search-result-saiba-mais:after,
+.search-result-saiba-mais:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -11991,7 +12294,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.search-navegation-link:after, .search-navegation-link:before {
+.search-navegation-link:after,
+.search-navegation-link:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -12354,7 +12658,8 @@ body::-webkit-scrollbar-thumb {
     top: 0
 }
 
-.graduacao-n2020-menu-mobile-bar-btn-burger:nth-child(2), .graduacao-n2020-menu-mobile-bar-btn-burger:nth-child(3) {
+.graduacao-n2020-menu-mobile-bar-btn-burger:nth-child(2),
+.graduacao-n2020-menu-mobile-bar-btn-burger:nth-child(3) {
     top: 50%;
     transform: translateY(-50%)
 }
@@ -12420,12 +12725,14 @@ body::-webkit-scrollbar-thumb {
     width: 20px
 }
 
-.graduacao-n2020-menu-mobile-list-item a.is-active, .graduacao-n2020-menu-mobile-list-item a:hover {
+.graduacao-n2020-menu-mobile-list-item a.is-active,
+.graduacao-n2020-menu-mobile-list-item a:hover {
     background: #fff;
     color: #000
 }
 
-.graduacao-n2020-menu-mobile-list-item a.is-active:before, .graduacao-n2020-menu-mobile-list-item a:hover:before {
+.graduacao-n2020-menu-mobile-list-item a.is-active:before,
+.graduacao-n2020-menu-mobile-list-item a:hover:before {
     background: #000
 }
 
@@ -13012,7 +13319,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.graduacao-n2020-programacao-viewer-select-label-title-line-diagonal, .graduacao-n2020-programacao-viewer-select-label-title-line-left {
+.graduacao-n2020-programacao-viewer-select-label-title-line-diagonal,
+.graduacao-n2020-programacao-viewer-select-label-title-line-left {
     background: #000;
     display: block;
     height: 38px;
@@ -13034,11 +13342,13 @@ body::-webkit-scrollbar-thumb {
     width: 50%
 }
 
-.graduacao-n2020-programacao-viewer-select:first-child, .graduacao-n2020-programacao-viewer-select:first-child .graduacao-n2020-programacao-viewer-select-options-item {
+.graduacao-n2020-programacao-viewer-select:first-child,
+.graduacao-n2020-programacao-viewer-select:first-child .graduacao-n2020-programacao-viewer-select-options-item {
     background: #000
 }
 
-.graduacao-n2020-programacao-viewer-select:last-child, .graduacao-n2020-programacao-viewer-select:last-child .graduacao-n2020-programacao-viewer-select-options-item {
+.graduacao-n2020-programacao-viewer-select:last-child,
+.graduacao-n2020-programacao-viewer-select:last-child .graduacao-n2020-programacao-viewer-select-options-item {
     background: #333
 }
 
@@ -13080,7 +13390,8 @@ body::-webkit-scrollbar-thumb {
     width: 55px
 }
 
-.graduacao-n2020-programacao-viewer-select-current-btn:after, .graduacao-n2020-programacao-viewer-select-current-btn:before {
+.graduacao-n2020-programacao-viewer-select-current-btn:after,
+.graduacao-n2020-programacao-viewer-select-current-btn:before {
     background: #fff;
     content: "";
     display: block;
@@ -13221,7 +13532,9 @@ body::-webkit-scrollbar-thumb {
     color: #9fabe4
 }
 
-.graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-desc, .graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-name, .graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-subtitle {
+.graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-desc,
+.graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-name,
+.graduacao-n2020-programacao-viewer-column:hover .graduacao-n2020-programacao-viewer-column-subtitle {
     color: #2c45bd
 }
 
@@ -13324,7 +13637,8 @@ body::-webkit-scrollbar-thumb {
     z-index: -1
 }
 
-.graduacao-n2020-programacao-viewer-effects-text-container-left, .graduacao-n2020-programacao-viewer-effects-text-container-right {
+.graduacao-n2020-programacao-viewer-effects-text-container-left,
+.graduacao-n2020-programacao-viewer-effects-text-container-right {
     position: absolute;
     transform: rotate(-90deg)
 }
@@ -13409,7 +13723,8 @@ body::-webkit-scrollbar-thumb {
     width: 30px
 }
 
-.graduacao-n2020-programacao-modal-bar-close:after, .graduacao-n2020-programacao-modal-bar-close:before {
+.graduacao-n2020-programacao-modal-bar-close:after,
+.graduacao-n2020-programacao-modal-bar-close:before {
     background: #fff;
     content: "";
     display: block;
@@ -13450,7 +13765,8 @@ body::-webkit-scrollbar-thumb {
     display: none
 }
 
-.graduacao-n2020-mobile-header-wrapper, .graduacao-n2020-mobile-header-wrapper-bw {
+.graduacao-n2020-mobile-header-wrapper,
+.graduacao-n2020-mobile-header-wrapper-bw {
     height: 320px;
     margin-top: 66px;
     max-width: 100%;
@@ -13458,7 +13774,8 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.graduacao-n2020-mobile-header-wrapper-bw img, .graduacao-n2020-mobile-header-wrapper img {
+.graduacao-n2020-mobile-header-wrapper-bw img,
+.graduacao-n2020-mobile-header-wrapper img {
     transform: scale(1) translateY(-10px)
 }
 
@@ -13502,7 +13819,8 @@ body::-webkit-scrollbar-thumb {
     width: 70%
 }
 
-.graduacao-n2020-mobile-header-title:after, .graduacao-n2020-mobile-header-title:before {
+.graduacao-n2020-mobile-header-title:after,
+.graduacao-n2020-mobile-header-title:before {
     background: #fff;
     content: "";
     height: 1px;
@@ -13564,7 +13882,8 @@ body::-webkit-scrollbar-thumb {
     width: 40%
 }
 
-.graduacao-n2020-mobile-programacao-intro-line-bottom, .graduacao-n2020-mobile-programacao-intro-line-top {
+.graduacao-n2020-mobile-programacao-intro-line-bottom,
+.graduacao-n2020-mobile-programacao-intro-line-top {
     background: #000;
     height: 35px;
     position: absolute;
@@ -13619,7 +13938,8 @@ body::-webkit-scrollbar-thumb {
     color: #717171
 }
 
-.graduacao-n2020-mobile-programacao-select.is-disabled .graduacao-n2020-mobile-programacao-select-current-btn:after, .graduacao-n2020-mobile-programacao-select.is-disabled .graduacao-n2020-mobile-programacao-select-current-btn:before {
+.graduacao-n2020-mobile-programacao-select.is-disabled .graduacao-n2020-mobile-programacao-select-current-btn:after,
+.graduacao-n2020-mobile-programacao-select.is-disabled .graduacao-n2020-mobile-programacao-select-current-btn:before {
     background: #717171
 }
 
@@ -13659,7 +13979,8 @@ body::-webkit-scrollbar-thumb {
     width: 50px
 }
 
-.graduacao-n2020-mobile-programacao-select-current-btn:after, .graduacao-n2020-mobile-programacao-select-current-btn:before {
+.graduacao-n2020-mobile-programacao-select-current-btn:after,
+.graduacao-n2020-mobile-programacao-select-current-btn:before {
     background: #fff;
     content: "";
     display: block;
@@ -13862,7 +14183,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 0
 }
 
-.graduacao-n2020-mobile-programacao-effects-line-left, .graduacao-n2020-mobile-programacao-effects-line-right {
+.graduacao-n2020-mobile-programacao-effects-line-left,
+.graduacao-n2020-mobile-programacao-effects-line-right {
     background: #000;
     height: 3px;
     position: absolute
@@ -15044,51 +15366,39 @@ body::-webkit-scrollbar-thumb {
     .col-xs-1 {
         width: 8.3333333333%
     }
-
     .col-xs-2 {
         width: 16.6666666667%
     }
-
     .col-xs-3 {
         width: 25%
     }
-
     .col-xs-4 {
         width: 33.3333333333%
     }
-
     .col-xs-5 {
         width: 41.6666666667%
     }
-
     .col-xs-6 {
         width: 50%
     }
-
     .col-xs-7 {
         width: 58.3333333333%
     }
-
     .col-xs-8 {
         width: 66.6666666667%
     }
-
     .col-xs-9 {
         width: 75%
     }
-
     .col-xs-10 {
         width: 83.3333333333%
     }
-
     .col-xs-11 {
         width: 91.6666666667%
     }
-
     .col-xs-12 {
         width: 100%
     }
-
     .components-menu-item-button {
         display: none
     }
@@ -15104,93 +15414,74 @@ body::-webkit-scrollbar-thumb {
     .col-s-1 {
         width: 8.3333333333%
     }
-
     .col-s-2 {
         width: 16.6666666667%
     }
-
     .col-s-3 {
         width: 25%
     }
-
     .col-s-4 {
         width: 33.3333333333%
     }
-
     .col-s-5 {
         width: 41.6666666667%
     }
-
     .col-s-6 {
         width: 50%
     }
-
     .col-s-7 {
         width: 58.3333333333%
     }
-
     .col-s-8 {
         width: 66.6666666667%
     }
-
     .col-s-9 {
         width: 75%
     }
-
     .col-s-10 {
         width: 83.3333333333%
     }
-
     .col-s-11 {
         width: 91.6666666667%
     }
-
     .col-s-12 {
         width: 100%
     }
-
-    .graduacao-financiamento-bolsas-box > * {
+    .graduacao-financiamento-bolsas-box>* {
         width: calc(50% - 40px)
     }
-
     .graduacao-financiamento-estendido-cursos-header {
         min-height: 80px
     }
-
     .graduacao-financiamento-bolsas-parceiras-text {
         margin: 80px 20px
     }
-
     .graduacao-financiamento-bolsas-plus-grid {
-        -ms-grid-columns:(1fr) [ 2 ];
+        -ms-grid-columns: (1fr) [ 2];
         grid-template-columns: repeat(2, 1fr);
         -ms-grid-rows: 275px auto;
         grid-template-rows: 275px auto
     }
-
-    .graduacao-financiamento-bolsas-plus-grid > * {
+    .graduacao-financiamento-bolsas-plus-grid>* {
         margin: 0 40px
     }
-
-    .graduacao-financiamento-bolsas-plus-grid > :nth-child(2) {
+    .graduacao-financiamento-bolsas-plus-grid> :nth-child(2) {
         grid-row: 1/3;
         grid-column: 2/3
     }
-
     .graduacao-cursos-list {
         transform: translateX(-30px)
     }
-
     .graduacao-cursos-item {
         float: left;
         width: 50%
     }
-
-    .graduacao-labs-gallery-next, .graduacao-labs-gallery-prev {
+    .graduacao-labs-gallery-next,
+    .graduacao-labs-gallery-prev {
         display: none
     }
-
-    .graduacao-labs-gallery-item.is-active .graduacao-labs-gallery-description, .graduacao-labs-gallery-item:hover .graduacao-labs-gallery-description {
+    .graduacao-labs-gallery-item.is-active .graduacao-labs-gallery-description,
+    .graduacao-labs-gallery-item:hover .graduacao-labs-gallery-description {
         opacity: 1;
         visibility: visible
     }
@@ -15200,59 +15491,45 @@ body::-webkit-scrollbar-thumb {
     .col-m-1 {
         width: 8.3333333333%
     }
-
     .col-m-2 {
         width: 16.6666666667%
     }
-
     .col-m-3 {
         width: 25%
     }
-
     .col-m-4 {
         width: 33.3333333333%
     }
-
     .col-m-5 {
         width: 41.6666666667%
     }
-
     .col-m-6 {
         width: 50%
     }
-
     .col-m-7 {
         width: 58.3333333333%
     }
-
     .col-m-8 {
         width: 66.6666666667%
     }
-
     .col-m-9 {
         width: 75%
     }
-
     .col-m-10 {
         width: 83.3333333333%
     }
-
     .col-m-11 {
         width: 91.6666666667%
     }
-
     .col-m-12 {
         width: 100%
     }
-
     .components-slider-item {
         padding: 0 15px
     }
-
     .slashicorp-2018-disrupcao-column:first-child {
         padding-left: 40px
     }
-
     .slashicorp-2018-disrupcao-column:last-child {
         padding-left: 25px
     }
@@ -15262,47 +15539,36 @@ body::-webkit-scrollbar-thumb {
     .col-l-1 {
         width: 8.3333333333%
     }
-
     .col-l-2 {
         width: 16.6666666667%
     }
-
     .col-l-3 {
         width: 25%
     }
-
     .col-l-4 {
         width: 33.3333333333%
     }
-
     .col-l-5 {
         width: 41.6666666667%
     }
-
     .col-l-6 {
         width: 50%
     }
-
     .col-l-7 {
         width: 58.3333333333%
     }
-
     .col-l-8 {
         width: 66.6666666667%
     }
-
     .col-l-9 {
         width: 75%
     }
-
     .col-l-10 {
         width: 83.3333333333%
     }
-
     .col-l-11 {
         width: 91.6666666667%
     }
-
     .col-l-12 {
         width: 100%
     }
@@ -15312,51 +15578,40 @@ body::-webkit-scrollbar-thumb {
     .col-xl-1 {
         width: 8.3333333333%
     }
-
     .col-xl-2 {
         width: 16.6666666667%
     }
-
     .col-xl-3 {
         width: 25%
     }
-
     .col-xl-4 {
         width: 33.3333333333%
     }
-
     .col-xl-5 {
         width: 41.6666666667%
     }
-
     .col-xl-6 {
         width: 50%
     }
-
     .col-xl-7 {
         width: 58.3333333333%
     }
-
     .col-xl-8 {
         width: 66.6666666667%
     }
-
     .col-xl-9 {
         width: 75%
     }
-
     .col-xl-10 {
         width: 83.3333333333%
     }
-
     .col-xl-11 {
         width: 91.6666666667%
     }
-
-    .col-xl-12, .components-cursos-item {
+    .col-xl-12,
+    .components-cursos-item {
         width: 100%
     }
-
     .graduacao-cursos-item {
         width: 50%
     }
@@ -15366,18 +15621,17 @@ body::-webkit-scrollbar-thumb {
     .br-desktop {
         display: block
     }
-
     .components-gallery-slider .components-slider-image {
         height: 568px
     }
-
     .components-gallery-slider .components-slider-item {
         padding: 0 15px
     }
 }
 
 @media (min-width: 1220px) {
-    .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
+    .slashicorp-2018-enade-box.left,
+    .slashicorp-2018-enade-box.right {
         width: 305px
     }
 }
@@ -15386,12 +15640,10 @@ body::-webkit-scrollbar-thumb {
     .components-menu.is-active .components-menu-link {
         line-height: 80px
     }
-
     .components-menu-item:hover .components-menu-sublist {
         padding: 30px;
         max-height: 450px
     }
-
     .components-menu-toggle {
         display: none
     }
@@ -15420,7 +15672,6 @@ body::-webkit-scrollbar-thumb {
     .components-menu-item-mobile {
         display: none
     }
-
     .shared-vitrine-img {
         margin-top: 30px;
         width: 80%
@@ -15442,15 +15693,12 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
-
     .components-menu-logo {
         width: 32%
     }
-
     .components-menu-center {
         position: static
     }
-
     .components-menu-list {
         background-color: #151819;
         display: block;
@@ -15462,58 +15710,46 @@ body::-webkit-scrollbar-thumb {
         top: 80px;
         width: 100%
     }
-
     .components-menu-list.is-active {
         max-height: -webkit-fit-content;
         max-height: fit-content
     }
-
     .components-menu-item {
         height: auto;
         opacity: 1 !important
     }
-
     .components-menu-item-mobile {
         display: block
     }
-
     .components-menu-link {
         line-height: normal;
         padding: 12px 0
     }
-
     .components-menu-sublist {
         background-color: transparent;
         padding: 0;
         position: relative
     }
-
     .components-menu-subitem {
         padding: 0 25px
     }
-
     .menu-home .components-menu-button {
         margin-right: 0;
         width: auto
     }
-
     .components-menu-button {
         margin-right: 60px;
         width: auto
     }
-
     .ON-base__menu-right .components-menu-button {
         margin-right: 80px
     }
-
     .components-menu-button-list .components-menu-subitem {
         padding: 0 2px
     }
-
     .components-menu-button-list .components-menu-subitem:before {
         left: -20px
     }
-
     .components-menu-button-list {
         top: 160%;
         background-color: #212527;
@@ -15522,38 +15758,30 @@ body::-webkit-scrollbar-thumb {
         left: 50%;
         transform: translateX(-50%)
     }
-
     .menu-home .components-menu-right {
         min-width: auto
     }
-
     .components-menu-right {
         width: 25%;
         margin-right: 55px;
         min-width: 218px
     }
-
     .components-menu-search {
         display: none
     }
-
     .menu.is-active .components-menu-search-mobile {
         margin-bottom: 50px;
         visibility: initial
     }
-
     .menu.is-active .components-menu-search-mobile .search-form {
         padding: 0
     }
-
     .menu.is-active .components-menu-search-mobile .search-form-input {
         visibility: initial
     }
-
     .menu.is-active .components-menu-search-mobile .search-form-button {
         opacity: 1
     }
-
     .components-menu-search-button-parent {
         padding-right: 10px
     }
@@ -15563,7 +15791,6 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-menu-wrapper {
         padding-right: 50px
     }
-
     .slashicorp-menu-sub {
         left: -30px
     }
@@ -15573,15 +15800,12 @@ body::-webkit-scrollbar-thumb {
     .shared-startup-content.is-active .shared-startup-title {
         font: 60px/60px Gotham HTF Medium
     }
-
     .shared-startup-content-title {
         left: 5%
     }
-
     .shared-startup-title {
         font: 60px/60px Gotham HTF Medium
     }
-
     .shared-extensao-descricao-column.informacoes {
         padding: 0 20% 0 100px
     }
@@ -15604,7 +15828,6 @@ body::-webkit-scrollbar-thumb {
     .components-cursos-radios {
         display: none
     }
-
     .components-cursos-select {
         display: block
     }
@@ -15616,13 +15839,11 @@ body::-webkit-scrollbar-thumb {
         flex-wrap: wrap;
         margin: 100px 0 0
     }
-
     .slashicorp-2018-unidades-item {
         margin: 40px auto;
         padding: 0 7px;
         width: 33.3%
     }
-
     .slashicorp-2018-unidades-content {
         color: #91a3ad;
         display: table-cell;
@@ -15631,17 +15852,14 @@ body::-webkit-scrollbar-thumb {
         vertical-align: middle;
         width: 50%
     }
-
     .slashicorp-2018-unidades-desc.special {
         -ms-flex-pack: center;
         justify-content: center;
         margin-left: 0
     }
-
     .slashicorp-2018-unidades-desc.special:before {
         width: 0
     }
-
     .graduacao-it-forum-menu-list {
         width: 100%
     }
@@ -15651,7 +15869,6 @@ body::-webkit-scrollbar-thumb {
     .menu-search .components-menu .components-menu-logo {
         width: 320px
     }
-
     .search-form-content {
         left: auto;
         position: static;
@@ -15664,7 +15881,6 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-align: center;
         align-items: center
     }
-
     .search-form {
         width: 100%
     }
@@ -15676,13 +15892,11 @@ body::-webkit-scrollbar-thumb {
         justify-content: left;
         margin: 0
     }
-
     .slashicorp-2018-videos-thumb-item {
         max-width: 130px;
         margin: 10px;
         text-align: center
     }
-
     .slashicorp-2018-videos-thumb-figure {
         width: 130px;
         height: 65px
@@ -15693,100 +15907,79 @@ body::-webkit-scrollbar-thumb {
     .background-gradient {
         background: url(../images/shared/background/gradiente-mobile.jpg) top repeat-y
     }
-
     .components-gallery {
         width: 100%;
         min-height: auto
     }
-
     .components-gallery .components-slider {
         position: relative;
         width: 100%
     }
-
     .components-gallery-mosaico {
         display: none
     }
-
     .components-gallery-slider .components-slider-item:before {
         left: 0;
         right: 0
     }
-
-    .components-gallery-options-mosaico, .components-gallery-options-slider {
+    .components-gallery-options-mosaico,
+    .components-gallery-options-slider {
         pointer-events: none
     }
-
     .components-gallery-options {
         height: auto
     }
-
     .components-gallery-options-mosaico {
         display: none
     }
-
     .components-gallery-options-slider {
         opacity: 1;
         z-index: 101
     }
-
     .shared-fotos {
         padding: 0 0 190px
     }
-
     .shared-fotos:after {
         display: none
     }
-
     .shared-startup-content.is-active .shared-startup-content-title {
         margin-bottom: 50px;
         position: static;
         transform: none
     }
-
     .shared-startup-content.is-active .shared-startup-title {
         text-align: center
     }
-
     .shared-startup-content.is-active .shared-startup-title .text-magenta {
         display: initial;
         margin-left: 10px
     }
-
     .shared-startup-content.is-active .shared-startup-subtitle {
         margin-top: -10px;
         text-align: center
     }
-
     .shared-startup-content.is-active .shared-startup-content-video {
         margin-right: 0
     }
-
     .shared-startup-content.is-active .shared-startup-media {
         float: none;
         margin: 0 auto
     }
-
     .shared-startup-content-title {
         left: 0
     }
-
     .shared-extensao-header-label {
         padding-left: 4px
     }
-
     .shared-extensao-header-title {
         padding-left: 0
     }
-
     .shared-vitrine-scroll {
         bottom: 60px
     }
-
     .slashicorp-2018-conceito {
         background: none
     }
-
     .slashicorp-nomad-description {
         margin-top: 50px
     }
@@ -15796,7 +15989,6 @@ body::-webkit-scrollbar-thumb {
     .graduacao-n2020-menu {
         padding: 0 5%
     }
-
     .graduacao-n2020-menu-list {
         width: 60%
     }
@@ -15806,96 +15998,76 @@ body::-webkit-scrollbar-thumb {
     .br-desktop {
         display: none
     }
-
     .graduacao-vitrine-future-counter .vitrine-column {
         display: block;
         width: 100%
     }
-
     .graduacao-vitrine-future-counter .vitrine-column:first-child {
         padding-left: 0
     }
-
     .graduacao-vitrine-future-counter .vitrine-column:last-child {
         margin-top: 65px
     }
-
     .graduacao-vitrine-future-counter .vitrine-clock {
         display: none
     }
-
     .graduacao-vitrine-rock-counter .vitrine-column {
         display: block;
         width: 100%
     }
-
     .graduacao-vitrine-rock-counter .vitrine-column:last-child {
         margin-top: 65px
     }
-
     .graduacao-vitrine-rock-counter .vitrine-clock {
         display: none
     }
-
     .graduacao-online {
         background-position: right -350px center
     }
-
     .graduacao-extensoes-btn {
         margin-top: 45px
     }
-
     .graduacao-resultados {
         font-size: 22px;
         line-height: 32px;
         padding-bottom: 100px
     }
-
     .graduacao-resultados-column {
         display: block;
         width: 100%
     }
-
     .graduacao-resultados-column:last-child {
         margin-top: 100px
     }
-
     .graduacao-resultados-title {
         font: 45px Gotham HTF Light;
         margin-bottom: 1em
     }
-
     .graduacao-resultados-subtitle {
         font: 32px/40px Gotham HTF Book;
         opacity: .8
     }
-
     .graduacao-resultados-highlight {
         font-size: 22px
     }
-
     .graduacao-resultados-btn {
         color: #b8b8b8;
         font-size: 22px;
         padding: 20px 35px
     }
-
     .graduacao-vestibular-footer {
         text-align: center
     }
-
     .graduacao-curso-header-tag {
         display: none
     }
-
     .graduacao-curso-informacoes {
         padding: 100px 0
     }
-
-    .graduacao-curso-informacoes:after, .graduacao-curso-informacoes:before {
+    .graduacao-curso-informacoes:after,
+    .graduacao-curso-informacoes:before {
         display: none
     }
-
     .graduacao-curso-informacoes-column {
         display: block;
         margin: auto;
@@ -15903,148 +16075,120 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         width: 100%
     }
-
     .graduacao-curso-informacoes-column:first-child {
         padding-right: 0
     }
-
     .graduacao-curso-informacoes-column:last-child {
         margin-top: 67.5px;
         padding-left: 0
     }
-
     .graduacao-curso-informacoes-title {
         text-align: center
     }
-
     .graduacao-curso-informacoes-title:after {
         margin: 20px auto
     }
-
     .graduacao-curso-informacoes-subtitle {
         border-top: 1px solid #616d72
     }
-
     .graduacao-curso-informacoes-link {
         border: 2px solid #b8b8b8;
         border-radius: 50%;
         margin: 0 5px;
         padding: 5px
     }
-
     .graduacao-curso-informacoes-link-wpp {
         padding: 8px
     }
-
     .graduacao-curso-informacoes-link-icon-wpp {
         height: 20px;
         width: 20px
     }
-
     .graduacao-curso-investimento {
         display: block;
         overflow-y: auto
     }
-
     .graduacao-curso-investimento-box {
         min-height: 100%;
         padding: 10%;
         width: 100%
     }
-
     .graduacao-curso-investimento-columns {
         width: 100%
     }
-
     .graduacao-curso-investimento-column {
         display: block;
         width: 100%
     }
-
     .graduacao-curso-investimento-column:last-child {
         margin-top: 60px
     }
-
     .graduacao-curso-investimento-desc {
         font-size: 14px;
         line-height: 22px
     }
-
     .graduacao-curso-matriz {
         padding: 100px 0
     }
-
     .graduacao-curso-matriz-header {
         text-align: center
     }
-
     .graduacao-curso-matriz-header-column {
         color: #03fac9;
         display: block
     }
-
     .graduacao-curso-matriz-header-column:last-child {
         margin-top: 70px;
         text-align: center
     }
-
     .graduacao-curso-matriz-filtro-wrapper {
         display: none
     }
-
     .graduacao-curso-matriz-ano-btn {
         width: 33.33%
     }
-
     .graduacao-curso-disciplina-column {
         display: block
     }
-
-    .graduacao-curso-disciplina-column:first-child, .graduacao-curso-disciplina-column:last-child {
+    .graduacao-curso-disciplina-column:first-child,
+    .graduacao-curso-disciplina-column:last-child {
         border: none;
         padding: 0
     }
-
     .graduacao-extensao-informacoes-wrapper {
         column-count: 2
     }
-
     .slashicorp-graduacao-startup-columns {
         margin-top: 100px;
         text-align: center
     }
-
     .slashicorp-graduacao-startup-column {
         display: block;
         width: 100%
     }
-
     .slashicorp-graduacao-startup-content {
         margin: auto;
         text-align: center
     }
-
     .slashicorp-graduacao-startup-content-title {
         font: 18px Gotham HTF Book
     }
-
     .slashicorp-graduacao-startup-content-title .text-magenta {
         color: inherit
     }
-
     .slashicorp-graduacao-startup-media {
         display: inline-block;
         float: none;
         margin-top: 75px
     }
-
     .slashicorp-fotos {
         padding-bottom: 100px
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .slashicorp-2018-conceito-desc, .shared-conceito-desc {
+    .slashicorp-2018-conceito-desc,
+    .shared-conceito-desc {
         max-width: 740px
     }
 }
@@ -16054,27 +16198,21 @@ body::-webkit-scrollbar-thumb {
         height: 305px;
         width: 220px
     }
-
     .graduacao-n2020-programacao-content-title-container {
         max-width: 360px
     }
-
     .graduacao-n2020-programacao-viewer-select-label-title-text {
         font-size: 15px
     }
-
     .graduacao-n2020-programacao-viewer-column-name {
         font-size: 16px
     }
-
     .graduacao-n2020-programacao-viewer-column-subtitle {
         font-size: 14px
     }
-
     .graduacao-n2020-premiacao-title-container {
         max-width: 360px
     }
-
     .graduacao-n2020-premiacao-content-title {
         height: 330px;
         width: 220px
@@ -16086,7 +16224,6 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .graduacao-financiamento-estendido-cursos-box {
         margin: 10px 0;
         width: 100%
@@ -16098,7 +16235,6 @@ body::-webkit-scrollbar-thumb {
         padding-left: 0;
         padding-right: 0
     }
-
     .graduacao-vitrine-enade-label {
         margin-top: 25px;
         position: relative;
@@ -16111,82 +16247,67 @@ body::-webkit-scrollbar-thumb {
     .background-gradient-home-mba:before {
         background-size: auto
     }
-
     .components-cursos-item-link:before {
         left: 0;
         width: 100%
     }
-
     .shared-conceito {
         padding: 100px 0
     }
-
     .shared-startup-columns {
         margin-top: 100px
     }
-
     .shared-startup-column {
         display: block;
         width: 100%
     }
-
-    .shared-startup-descricao:after, .shared-startup-text-content:after {
+    .shared-startup-descricao:after,
+    .shared-startup-text-content:after {
         display: none
     }
-
     .shared-extensao-faq-header-title {
         margin-left: 150px
     }
-
     .shared-extensao-faq-header-subtitle {
         padding-right: 150px
     }
-
     .shared-extensao-header:after {
         display: none
     }
-
     .graduacao-cursos-column:first-child .graduacao-cursos-subtitle-line {
         width: 100%
     }
-
     .graduacao-cursos-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 10px
     }
-
     .graduacao-cursos-column {
         width: 100%;
         margin-top: 100px
     }
-
-    .graduacao-extensoes--online .graduacao-extensoes-title, .graduacao-extensoes-title {
+    .graduacao-extensoes--online .graduacao-extensoes-title,
+    .graduacao-extensoes-title {
         font: 32px/40px Gotham HTF Light
     }
-
-    .graduacao-extensoes--online .graduacao-extensoes-title-internacional, .graduacao-extensoes-title-internacional {
+    .graduacao-extensoes--online .graduacao-extensoes-title-internacional,
+    .graduacao-extensoes-title-internacional {
         font: 53px/55px Gotham HTF Medium
     }
-
     .graduacao-vestibular-section {
         margin-top: 100px
     }
-
     .graduacao-vestibular-section:first-child {
         margin-top: 130px
     }
-
     .graduacao-vestibular-item {
         margin: 50px auto 0;
         max-width: 600px
     }
-
     .graduacao-vestibular-item-content {
         display: -ms-flexbox;
         display: flex
     }
-
     .graduacao-vestibular-header {
         border: none;
         border-right: 1px solid #32383b;
@@ -16194,62 +16315,52 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         width: 30%
     }
-
-    .graduacao-vestibular-box, .graduacao-vestibular-box-line {
+    .graduacao-vestibular-box,
+    .graduacao-vestibular-box-line {
         border: none;
         -ms-flex-direction: column;
         flex-direction: column;
         width: 70%
     }
-
-    .graduacao-vestibular-box-line, .graduacao-vestibular-box-line-line {
+    .graduacao-vestibular-box-line,
+    .graduacao-vestibular-box-line-line {
         display: none
     }
-
     .graduacao-vestibular-column {
         border: none;
         min-height: 60px !important;
         width: 100% !important
     }
-
     .graduacao-vestibular-box-text {
         padding-left: 50px;
         text-align: left;
         width: 100%
     }
-
     .graduacao-curso-share-item {
         margin: 5px 0
     }
-
     .graduacao-curso-header-share-icon {
         width: 20px
     }
-
     .graduacao-curso-vestibular-section {
         margin-top: 100px
     }
-
     .graduacao-curso-vestibular-section:first-child {
         margin-top: 130px
     }
-
     .graduacao-curso-vestibular-item {
         margin: 50px auto 0;
         max-width: 600px
     }
-
     .graduacao-curso-vestibular-item-content {
         display: -ms-flexbox;
         display: flex
     }
-
     .graduacao-curso-vestibular-column {
         border: none;
         min-height: 60px !important;
         width: 100% !important
     }
-
     .graduacao-curso-vestibular-header {
         border: none;
         border-right: 1px solid #32383b;
@@ -16257,28 +16368,25 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         width: 30%
     }
-
-    .graduacao-curso-vestibular-box, .graduacao-curso-vestibular-box-line {
+    .graduacao-curso-vestibular-box,
+    .graduacao-curso-vestibular-box-line {
         border: none;
         -ms-flex-direction: column;
         flex-direction: column;
         width: 70%
     }
-
-    .graduacao-curso-vestibular-box-line, .graduacao-curso-vestibular-box-line-line {
+    .graduacao-curso-vestibular-box-line,
+    .graduacao-curso-vestibular-box-line-line {
         display: none
     }
-
     .graduacao-curso-vestibular-box-text {
         padding-left: 50px;
         text-align: left;
         width: 100%
     }
-
     .graduacao-curso-turmas {
         padding: 100px 0
     }
-
     .graduacao-curso-turmas-border {
         border: none;
         display: -ms-flexbox;
@@ -16286,44 +16394,37 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
-
     .graduacao-curso-turmas-header {
         display: none
     }
-
     .graduacao-curso-turmas-box {
         box-shadow: 0 0 0 1px #616d72;
         border: none;
         display: block;
         padding: 30px
     }
-
-    .graduacao-curso-turmas-box, .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
+    .graduacao-curso-turmas-box,
+    .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
         width: 75%
     }
-
     .graduacao-curso-turmas-box:nth-last-child(-n+2) {
         margin-top: 50px
     }
-
     .graduacao-curso-turmas-box-column {
         display: block
     }
-
-    .graduacao-curso-turmas-online .graduacao-curso-turmas-box-column, .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column {
+    .graduacao-curso-turmas-online .graduacao-curso-turmas-box-column,
+    .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column {
         margin: 10px auto;
         text-align: center;
         width: 100%
     }
-
     .graduacao-curso-turmas-box-column:last-child {
         padding-bottom: 30px
     }
-
     .graduacao-curso-turmas-box-column:not(:first-child) {
         border: none
     }
-
     .graduacao-curso-turmas-box-icon {
         display: block;
         height: 30px;
@@ -16334,16 +16435,13 @@ body::-webkit-scrollbar-thumb {
         vertical-align: middle;
         width: 75px
     }
-
     .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column:first-child .graduacao-curso-turmas-box-icon {
         display: none
     }
-
     .graduacao-curso-turmas-box-text {
         padding-right: 25px;
         width: 100%
     }
-
     .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column:first-child .graduacao-curso-turmas-box-text {
         padding-left: 0;
         padding-right: 0;
@@ -16353,20 +16451,16 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         text-transform: uppercase
     }
-
     .graduacao-curso-turmas-box-text-before {
         display: inline
     }
-
     .graduacao-curso-turmas-box-text-before-encontros {
         display: block;
         margin-bottom: 5px
     }
-
     .graduacao-curso-turmas-box-text-after {
         display: unset
     }
-
     .graduacao-curso-turmas-box-label {
         color: #03fac9;
         font: 24px/30px Gotham HTF Book;
@@ -16374,38 +16468,30 @@ body::-webkit-scrollbar-thumb {
         opacity: .8;
         text-align: center
     }
-
     .graduacao-curso-turmas-box-more {
         position: relative
     }
-
     .graduacao-curso-turmas-box-more:after {
         display: none
     }
-
     .graduacao-curso-turmas-notes {
         margin-top: 20px;
         text-align: center
     }
-
     .graduacao-curso-turmas-btn {
         padding: 15px 25px
     }
-
     .graduacao-info-vestibular-item {
         margin: 50px auto 0;
         max-width: 650px
     }
-
     .graduacao-info-vestibular-item-content-tiny {
         width: calc(100% - 40px)
     }
-
     .graduacao-info-vestibular-item-content {
         display: -ms-flexbox;
         display: flex
     }
-
     .graduacao-info-vestibular-item-header {
         border: none;
         border-right: 1px solid #32383b;
@@ -16413,55 +16499,48 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         width: 30%
     }
-
-    .graduacao-info-vestibular-item-box, .graduacao-info-vestibular-item-box-line {
+    .graduacao-info-vestibular-item-box,
+    .graduacao-info-vestibular-item-box-line {
         border: none;
         -ms-flex-direction: column;
         flex-direction: column;
         width: 70%
     }
-
-    .graduacao-info-vestibular-item-box-line, .graduacao-info-vestibular-item-box-line-line {
+    .graduacao-info-vestibular-item-box-line,
+    .graduacao-info-vestibular-item-box-line-line {
         display: none
     }
-
     .graduacao-info-vestibular-item-column {
         border: none;
         min-height: 60px !important;
         width: 100% !important
     }
-
     .graduacao-info-vestibular-item-box-text-highlight {
         font-size: 16px
     }
-
     .graduacao-info-vestibular-item-box-text {
         padding-left: 50px;
         text-align: left;
         width: 100%
     }
-
     .graduacao-info-vestibular-opcoes-section {
         margin-top: 100px
     }
-
     .graduacao-info-vestibular-opcoes-section:first-child {
         margin-top: 130px
     }
-
-    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-box, .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-header {
+    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-box,
+    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-header {
         width: 50%
     }
-
     .slashicorp-2018-conceito {
         padding: 100px 0
     }
-
     .slashicorp-2018-disrupcao-title {
         padding: 0
     }
-
-    .slashicorp-2018-disrupcao-figure:after, .slashicorp-2018-disrupcao-title:before {
+    .slashicorp-2018-disrupcao-figure:after,
+    .slashicorp-2018-disrupcao-title:before {
         display: none
     }
 }
@@ -16471,7 +16550,6 @@ body::-webkit-scrollbar-thumb {
         margin-top: 30px;
         width: 68%
     }
-
     .shared-vitrine-scroll {
         bottom: 35px
     }
@@ -16482,7 +16560,6 @@ body::-webkit-scrollbar-thumb {
         font: 26px Borda Medium;
         font-weight: 800
     }
-
     .graduacao-n2020-premiacao-content-board-premios-item-text-small {
         font: 13px Roboto;
         font-weight: 500
@@ -16493,23 +16570,18 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-footer {
         text-align: center
     }
-
     .slashicorp-2018-footer-column {
         width: 100%
     }
-
     .slashicorp-2018-footer-column:not(:first-child) {
         display: none
     }
-
     .graduacao-curso-matriz-header-title span {
         left: unset
     }
-
     .graduacao-curso-matriz-header-title span:before {
         display: none
     }
-
     .slashicorp-2018-mec-groups {
         -ms-flex-align: center;
         align-items: center;
@@ -16517,29 +16589,25 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
         margin: 130px 0 0
     }
-
-    .slashicorp-2018-enade-box.center, .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
+    .slashicorp-2018-enade-box.center,
+    .slashicorp-2018-enade-box.left,
+    .slashicorp-2018-enade-box.right {
         margin: 40px auto;
         width: 80%
     }
-
     .graduacao-n2020-programacao-content-title-container {
         max-width: 320px;
         min-height: 315px
     }
-
     .graduacao-n2020-programacao-viewer-column-name {
         font-size: 15px
     }
-
     .graduacao-n2020-programacao-viewer-column-subtitle {
         font-size: 13px
     }
-
     .graduacao-n2020-programacao-viewer-column-desc {
         font-size: 11px
     }
-
     .graduacao-n2020-premiacao-title-container {
         max-width: 320px;
         min-height: 315px
@@ -16550,224 +16618,191 @@ body::-webkit-scrollbar-thumb {
     .shared-contato {
         padding: 200px 0 150px
     }
-
     .shared-contato:after {
         display: none
     }
-
     .shared-contato-columns {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .shared-contato-column {
         margin: 0 auto;
         width: 90%
     }
-
     .shared-contato-unidades {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
-
     .shared-contato-unidades-item {
         width: 50%
     }
-
-    .shared-contato-unidades-item:first-child, .shared-contato-unidades-item:nth-child(3) {
+    .shared-contato-unidades-item:first-child,
+    .shared-contato-unidades-item:nth-child(3) {
         padding-right: 20px
     }
-
     .shared-startup-content-title {
         position: static
     }
-
     .shared-startup-title {
         text-align: center
     }
-
     .shared-startup-title .text-magenta {
         display: initial
     }
-
     .shared-startup-subtitle {
         margin-top: -10px;
         text-align: center
     }
-
     .shared-startup-content-video {
         margin-right: 0
     }
-
     .shared-startup-media {
         float: none;
         margin: 50px auto 0
     }
-
-    .shared-extensao-descricao-column.beneficios, .shared-extensao-descricao-column.informacoes {
+    .shared-extensao-descricao-column.beneficios,
+    .shared-extensao-descricao-column.informacoes {
         display: block;
         padding: 0 100px;
         width: 100%
     }
-
     .shared-extensao-descricao-column.beneficios {
         margin-top: 80px
     }
-
     .shared-extensao-faq-header-title {
         margin-left: 100px
     }
-
     .shared-extensao-faq-header-subtitle {
         padding-right: 100px
     }
-
     .shared-extensao-investimento {
         padding: 0 0 150px
     }
-
     .shared-extensao-investimento:after {
         display: none
     }
-
     .shared-extensao-investimento-columns {
         float: none
     }
-
     .shared-extensao-investimento-column {
         display: block;
         width: 100% !important
     }
-
     .shared-extensao-investimento-incluso-title {
         margin-top: 50px
     }
-
     .graduacao-financiamento-fies-solicitacao {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-fies-solicitacao:after {
         display: none
     }
-
     .graduacao-financiamentos-item {
         width: calc(50% - 20px)
     }
-
     .shared-curso-pessoas-item-content {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .shared-curso-pessoas-media {
         display: none
     }
-
     .shared-curso-pessoas-media-mobile {
         display: block;
         margin: 0 auto 80px
     }
-
-    .shared-curso-pessoas-content, .shared-curso-pessoas-media-img {
+    .shared-curso-pessoas-content,
+    .shared-curso-pessoas-media-img {
         width: 100%
     }
-
     .shared-curso-pessoas-desc {
         padding-bottom: 0;
         padding-left: 0;
         width: 100%
     }
-
     .shared-curso-pessoas-desc ul {
         max-height: -webkit-fit-content;
         max-height: fit-content
     }
-
     .slashicorp-2018-disrupcao:after {
         display: none
     }
-
     .slashicorp-2018-disrupcao {
         padding: 0 0 250px
     }
-
     .slashicorp-2018-future-logo {
         text-align: center
     }
-
-    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo,
+    .slashicorp-2018-future-logo.line-two {
         width: 25%
     }
-
     .slashicorp-nomad-slider {
         margin: 20px 0
     }
-
     .slashicorp-nomad-slider-item {
         width: 100%
     }
-
     .slashicorp-2018-parcerias-logo {
         text-align: center
     }
-
-    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo,
+    .slashicorp-2018-parcerias-logo.line-three,
+    .slashicorp-2018-parcerias-logo.line-two {
         width: 25%
     }
-
     .slashicorp-2018-mec:after {
         display: none
     }
-
     .slashicorp-2018-mec {
         padding-bottom: 250px;
         padding-bottom: 150px
     }
-
-    .slashicorp-2018-mec-item, .slashicorp-2018-mec-item-excelencia {
+    .slashicorp-2018-mec-item,
+    .slashicorp-2018-mec-item-excelencia {
         margin: 40px 0;
         width: 100%
     }
-
-    .slashicorp-2018-enade:after, .slashicorp-2018-enade:before {
+    .slashicorp-2018-enade:after,
+    .slashicorp-2018-enade:before {
         display: none
     }
-
     .slashicorp-2018-enade-row {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
-    .slashicorp-2018-enade-col-center, .slashicorp-2018-enade-col-side {
+    .slashicorp-2018-enade-col-center,
+    .slashicorp-2018-enade-col-side {
         width: 100%
     }
-
-    .slashicorp-2018-enade-box-title, .slashicorp-2018-enade-box-title-engenharia {
+    .slashicorp-2018-enade-box-title,
+    .slashicorp-2018-enade-box-title-engenharia {
         font: 20px/26px Gotham HTF Medium
     }
-
-    .slashicorp-2018-enade-box.center, .slashicorp-2018-enade-box.left, .slashicorp-2018-enade-box.right {
+    .slashicorp-2018-enade-box.center,
+    .slashicorp-2018-enade-box.left,
+    .slashicorp-2018-enade-box.right {
         margin: 0 0 140px;
         padding: 80px 20px 50px;
         text-align: center;
         width: 100%
     }
-
     .slashicorp-2018-enade-box.right:last-child {
         margin: 0
     }
-
-    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota-subtitle, .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota-subtitle, .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota-subtitle {
+    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota-subtitle,
+    .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota-subtitle,
+    .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota-subtitle {
         font: 13px/22px Gotham HTF Bold;
         left: 50%;
         top: -24px;
         transform: translateX(-50%)
     }
-
-    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota, .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota, .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota {
+    .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota,
+    .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota,
+    .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota {
         background: linear-gradient(90deg, #15161a, #1d2125);
         left: 50%;
         padding: 20px 0;
@@ -16775,7 +16810,6 @@ body::-webkit-scrollbar-thumb {
         transform: translateX(-50%);
         width: 75%
     }
-
     .slashicorp-2018-videos-box {
         margin: 30px 0
     }
@@ -16786,45 +16820,36 @@ body::-webkit-scrollbar-thumb {
         display: -ms-flexbox;
         display: flex
     }
-
     .shared-nano-courses:before {
         display: none
     }
-
     .shared-nano-courses-logo {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: center;
         justify-content: center
     }
-
     .shared-nano-courses-text {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .shared-nano-courses-text-quote {
         font: 18px/30px Gotham HTF Light;
         max-width: 100%;
         text-align: inherit
     }
-
     .shared-nano-courses-text-line:before {
         display: none
     }
-
     .shared-nano-courses-text-desc {
         max-width: 100%
     }
-
     .slashicorp-2018-unidades-newdesc-text:first-child {
         font-size: 13px
     }
-
     .slashicorp-2018-unidades-newdesc-text:nth-child(2) {
         font-size: 21px
     }
-
     .slashicorp-2018-unidades-newdesc-text:last-child {
         font-size: 14px
     }
@@ -16837,257 +16862,217 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 960px) {
-    .graduacao-curso-vestibular-box-text, .graduacao-extensoes-desc, .graduacao-financiamento-description, .graduacao-financiamento-fies-description, .graduacao-financiamento-informacoes-text, .graduacao-financiamento-list-item, .graduacao-info-vestibular-item-box-text, .graduacao-info-vestibular-prova-column-text, .graduacao-info-vestibular-prova-text, .graduacao-labs-description, .graduacao-vestibular-box-text, .shared-startup-text {
+    .graduacao-curso-vestibular-box-text,
+    .graduacao-extensoes-desc,
+    .graduacao-financiamento-description,
+    .graduacao-financiamento-fies-description,
+    .graduacao-financiamento-informacoes-text,
+    .graduacao-financiamento-list-item,
+    .graduacao-info-vestibular-item-box-text,
+    .graduacao-info-vestibular-prova-column-text,
+    .graduacao-info-vestibular-prova-text,
+    .graduacao-labs-description,
+    .graduacao-vestibular-box-text,
+    .shared-startup-text {
         font-size: 15px
     }
-
     .graduacao-menu-novidades-header-title {
         font-size: 14px
     }
-
     .graduacao-menu-novidades.is-active .graduacao-menu-novidades-content {
         max-height: 315px
     }
-
     .graduacao-menu-novidades-column {
         width: 48%
     }
-
     .menu-alerta-saiba-antes .menu-alerta-title {
         font-size: 14px
     }
-
     .components-cursos-search {
         display: block;
         margin-top: 25px;
         text-align: center
     }
-
     .shared-contato-column {
         width: 100%
     }
-
     .shared-contato-title {
         font: 45px Gotham HTF Medium
     }
-
     .shared-extensao-faq-header-title {
         font: 55px Gotham HTF Medium;
         margin-left: 70px
     }
-
     .shared-extensao-faq-header-title:after {
         width: 112px
     }
-
     .shared-extensao-faq-header-subtitle {
         padding-right: 0
     }
-
     .shared-extensao-header-label {
         font: 20px Gotham HTF Book;
         font: 18px Gotham HTF Book
     }
-
     .shared-extensao-header-title {
         font: 52px/53px Gotham HTF Medium;
         margin-top: 10px
     }
-
     .shared-extensao-header-image-content {
         margin-top: 60px
     }
-
     .shared-extensao-header-slide:after {
         display: none
     }
-
     .shared-vitrine-img {
         margin-top: 30px;
         width: 100%
     }
-
     .graduacao-financiamento-list-item {
         margin: 0 50px;
         width: calc(50% - 100px)
     }
-
     .graduacao-financiamento-prouni-description {
         margin: 40px 0
     }
-
-    .graduacao-financiamentos-description-title, .graduacao-financiamentos-link {
+    .graduacao-financiamentos-description-title,
+    .graduacao-financiamentos-link {
         font-size: 18px;
         line-height: 25px
     }
-
     .graduacao-extensoes-title-content {
         width: auto;
         text-align: center
     }
-
     .graduacao-extensoes-title:after {
         bottom: -22px;
         left: 50%;
         transform: translateX(-50%)
     }
-
-    .graduacao-extensoes--online .graduacao-extensoes-title, .graduacao-extensoes-title {
+    .graduacao-extensoes--online .graduacao-extensoes-title,
+    .graduacao-extensoes-title {
         font: 25px/14px Gotham HTF Light
     }
-
-    .graduacao-extensoes--online .graduacao-extensoes-title-internacional, .graduacao-extensoes-title-internacional {
+    .graduacao-extensoes--online .graduacao-extensoes-title-internacional,
+    .graduacao-extensoes-title-internacional {
         font: 33px/55px Gotham HTF Medium
     }
-
     .graduacao-extensoes-image-title {
         font-size: 35px
     }
-
     .graduacao-vestibular-box-text-opcao {
         font: 15px Gotham HTF Medium
     }
-
     .graduacao-vestibular-box-text-data {
         font: 16px Gotham HTF Medium
     }
-
     .graduacao-curso-vestibular-box-text-opcao {
         font: 15px Gotham HTF Medium
     }
-
     .graduacao-curso-vestibular-box-text-data {
         font: 16px Gotham HTF Medium
     }
-
     .graduacao-curso-turmas-box {
         margin-top: 50px
     }
-
     .graduacao-info-vestibular-header-title {
         font: 45px/50px Gotham HTF Medium
     }
-
     .graduacao-info-vestibular-header-subtitle {
         font: 18px Gotham HTF Book
     }
-
     .graduacao-info-vestibular-opcoes-box-text-opcao {
         font: 15px Gotham HTF Medium
     }
-
     .slashicorp-2018-disrupcao-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
-
     .slashicorp-2018-disrupcao-column {
         width: 100%
     }
-
     .slashicorp-2018-disrupcao-description:first-child {
         padding-top: 0
     }
-
     .slashicorp-2018-disrupcao-description:first-child:before {
         display: none
     }
-
     .slashicorp-2018-future-title {
         font-size: 41px;
         line-height: 30px
     }
-
     .slashicorp-2018-future-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
-
     .slashicorp-2018-future-title span:before {
         display: none
     }
-
     .slashicorp-2018-enade {
         padding: 0 0 200px
     }
-
     .slashicorp-2018-enade-main {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-order: -1;
         order: -1
     }
-
     .slashicorp-2018-enade-content {
         padding-bottom: 120px;
         text-align: center
     }
-
     .slashicorp-2018-artigos-media-img {
         width: 400px
     }
-
     .slashicorp-2018-enade-nota-title {
         -ms-flex-pack: center;
         justify-content: center
     }
-
-    .slashicorp-2018-artigos:after, .slashicorp-2018-enade-nota-title:before {
+    .slashicorp-2018-artigos:after,
+    .slashicorp-2018-enade-nota-title:before {
         display: none
     }
-
     .slashicorp-2018-artigos {
         padding-bottom: 250px
     }
-
     .slashicorp-2018-artigos-main {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .slashicorp-2018-artigos-box {
         margin: 0 0 90px
     }
-
     .slashicorp-2018-artigos-text {
         text-align: center
     }
-
     .slashicorp-2018-artigos-text:after {
         display: none
     }
-
     .slashicorp-2018-artigos-number {
         font-size: 170px;
         line-height: 105px;
         left: 5px
     }
-
     .slashicorp-2018-videos-title {
         font-size: 41px;
         line-height: 30px
     }
-
     .slashicorp-2018-videos-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
-
-    .slashicorp-2018-unidades:after, .slashicorp-2018-videos-title span:before {
+    .slashicorp-2018-unidades:after,
+    .slashicorp-2018-videos-title span:before {
         display: none
     }
-
     .slashicorp-2018-unidades-subtitle {
         color: #03fac9
     }
-
     .graduacao-lista-de-aprovados-header-title {
         font: 45px/50px Gotham HTF Medium
     }
-
     .graduacao-lista-de-aprovados-header-subtitle {
         font: 18px Gotham HTF Book
     }
@@ -17097,139 +17082,114 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-unidades-item {
         width: 50%
     }
-
     .slashicorp-2018-unidades-media {
         display: table-cell;
         opacity: .9;
         vertical-align: middle;
         width: 50%
     }
-
-    .slashicorp-2018-mapa, .slashicorp-2018-unidades-btn, .slashicorp-2018-unidades-btn-close, .slashicorp-2018-unidades-tag {
+    .slashicorp-2018-mapa,
+    .slashicorp-2018-unidades-btn,
+    .slashicorp-2018-unidades-btn-close,
+    .slashicorp-2018-unidades-tag {
         display: none
     }
-
     .graduacao-n2020-footer-content {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
-    .graduacao-n2020-footer-links, .graduacao-n2020-footer-logo-link {
+    .graduacao-n2020-footer-links,
+    .graduacao-n2020-footer-logo-link {
         margin-bottom: 20px
     }
-
     .graduacao-n2020-programacao-content-title {
         height: 220px;
         width: 160px
     }
-
     .graduacao-n2020-programacao-content-title-container {
         max-width: 250px
     }
-
     .graduacao-n2020-programacao-content-subtitle {
         font: 24px/32px Borda Medium;
         left: -60px;
         top: -45px
     }
-
     .graduacao-n2020-programacao-content-desc-text {
         font: 15px/20px Roboto;
         left: 25px;
         top: 50px
     }
-
     .graduacao-n2020-programacao-viewer-select-label-title-text {
         max-width: 65%
     }
-
     .graduacao-n2020-programacao-viewer-select.is-active .graduacao-n2020-programacao-viewer-select-current-btn:before {
         left: 23px
     }
-
     .graduacao-n2020-programacao-viewer-select.is-active .graduacao-n2020-programacao-viewer-select-current-btn:after {
         left: 40px
     }
-
     .graduacao-n2020-programacao-viewer-select-current {
         padding: 20px
     }
-
     .graduacao-n2020-programacao-viewer-select-current-text {
         font-size: 17px
     }
-
     .graduacao-n2020-programacao-viewer-select-current-btn {
         height: 25px;
         width: 40px
     }
-
     .graduacao-n2020-programacao-viewer-select-current-btn:before {
         left: 40px
     }
-
     .graduacao-n2020-programacao-viewer-select-current-btn:after {
         left: 23px
     }
-
     .graduacao-n2020-programacao-viewer-select-options-item {
         font-size: 17px;
         padding: 15px 20px
     }
-
     .graduacao-n2020-programacao-viewer-column-title:first-child {
         font: 94px/55px Borda Regular;
         padding: 20px 10px 0
     }
-
     .graduacao-n2020-programacao-viewer-column-title:nth-child(2) {
         font: 56px Borda Regular;
         padding: 0 10px
     }
-
     .graduacao-n2020-programacao-viewer-column-info {
         padding: 15px 10px 120px
     }
-
     .graduacao-n2020-programacao-viewer-column-name {
         font-size: 13px
     }
-
     .graduacao-n2020-premiacao-title-container {
         max-width: 250px
     }
-
     .graduacao-n2020-premiacao-content-title {
         height: 240px;
         width: 160px
     }
-
     .graduacao-n2020-premiacao-content-subtitle {
         font: 24px/32px Borda Medium;
         font-weight: 700;
         left: 100px
     }
-
     .graduacao-n2020-premiacao-content-desc-text {
         font: 15px/20px Roboto;
         font-weight: 500;
         left: 155px
     }
-
     .graduacao-n2020-sobre-content-column:first-child {
         width: 75%
     }
-
     .graduacao-n2020-sobre-content-column:last-child {
         width: 25%
     }
-
     .graduacao-n2020-sobre-content-column-title {
         font: 33px/38px Borda Medium;
         font-weight: 600;
         margin-bottom: 40px
     }
-
     .graduacao-n2020-sobre-content-column-text {
         font: 15px/22px Roboto;
         font-weight: 500;
@@ -17248,272 +17208,231 @@ body::-webkit-scrollbar-thumb {
     .shared-startup-text-title {
         font-size: 16px
     }
-
-    .graduacao-curso-vestibular-box-text, .graduacao-extensoes-desc, .graduacao-financiamento-description, .graduacao-financiamento-fies-description, .graduacao-financiamento-informacoes-text, .graduacao-financiamento-list-item, .graduacao-info-vestibular-item-box-text, .graduacao-info-vestibular-prova-column-text, .graduacao-info-vestibular-prova-text, .graduacao-labs-description, .graduacao-vestibular-box-text, .shared-startup-text {
+    .graduacao-curso-vestibular-box-text,
+    .graduacao-extensoes-desc,
+    .graduacao-financiamento-description,
+    .graduacao-financiamento-fies-description,
+    .graduacao-financiamento-informacoes-text,
+    .graduacao-financiamento-list-item,
+    .graduacao-info-vestibular-item-box-text,
+    .graduacao-info-vestibular-prova-column-text,
+    .graduacao-info-vestibular-prova-text,
+    .graduacao-labs-description,
+    .graduacao-vestibular-box-text,
+    .shared-startup-text {
         font-size: 14px
     }
-
-    .background-gradient-home-graduacao:before, .background-gradient-home-mba:before, .background-gradient-home-online:before {
+    .background-gradient-home-graduacao:before,
+    .background-gradient-home-mba:before,
+    .background-gradient-home-online:before {
         background: none
     }
-
     .slashicorp-menu-sub {
         margin-left: -130px;
         right: auto;
         transform: none;
         left: 50%
     }
-
-    .graduacao-menu-novidades-header-desc, .menu-alerta-text {
+    .graduacao-menu-novidades-header-desc,
+    .menu-alerta-text {
         font: 10px/15px Gotham HTF Book
     }
-
     .menu-alerta-iframe {
         margin-left: 20px
     }
-
     .components-cursos-list {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
-    .components-cursos-item, .components-cursos-list {
+    .components-cursos-item,
+    .components-cursos-list {
         width: 100%;
         margin: 0 auto
     }
-
     .components-cursos-item-link {
         padding: 33px 20px;
         text-align: center
     }
-
     .components-cursos-item-link:after {
         left: 50%;
         transform: translateX(-50%);
         width: 40px
     }
-
     .components-cursos-item-sub {
         font-size: 11px;
         margin-top: 5px
     }
-
     .components-cursos-item-tag div {
         margin: 5px auto 0
     }
-
     .components-cursos-search {
         display: block;
         margin-top: 25px;
         text-align: center
     }
-
     .components-cursos-select-box {
         margin: 0 auto;
         width: 80%
     }
-
     .components-cursos-select-input {
         margin: 0 auto;
         position: static;
         width: 100%
     }
-
     .components-menu-logo-link:first-child .components-menu-svg {
         height: 20px;
         max-width: 70px
     }
-
     .menu-search .components-menu-logo-link:first-child .components-menu-svg {
         height: 25px;
         max-width: 100px
     }
-
     .components-menu-logo-link:nth-child(2) .components-menu-svg {
         max-width: 105px
     }
-
     .components-menu-search-button-parent {
         padding-right: 30px
     }
-
-    .components-slider-navigation-next, .components-slider-navigation-prev {
+    .components-slider-navigation-next,
+    .components-slider-navigation-prev {
         height: 100px
     }
-
     .components-video {
         height: 480px
     }
-
     .shared-conceito {
         padding: 0 0 150px
     }
-
     .shared-conceito:after {
         display: none
     }
-
     .shared-conceito {
         padding: 100px 50px
     }
-
     .shared-conceito-title {
         font-size: 30px;
         line-height: 40px
     }
-
     .shared-conceito-title-mba {
         font-size: 20px;
         line-height: 35px;
         margin-top: 170px
     }
-
     .shared-conceito-subtitle {
         font-size: 16px;
         line-height: 25px
     }
-
     .shared-conceito-desc {
         font-size: 14px;
         line-height: 24px
     }
-
     .shared-conceito-highlight {
         font-size: 12px
     }
-
     .shared-conceito-svg-join-us {
         max-width: 180px
     }
-
     .shared-contato-title {
         font: 35px Gotham HTF Medium;
         margin-bottom: 50px
     }
-
     .shared-contato-unidades-item {
         width: 100%
     }
-
     .shared-contato-form-group:not(:first-child) {
         margin-top: 15px
     }
-
     .shared-fotos-title {
         font-size: 35px;
         padding-bottom: 70px
     }
-
     .shared-fotos-title:after {
         top: 70%
     }
-
     .shared-nano-courses--online .shared-nano-courses-text-desc {
         color: #91a3ad;
         font: 16px/26px Roboto;
         text-align: left
     }
-
     .shared-nano-courses-certificado-text {
         color: #91a3ad;
         font: 16px/20px Roboto;
         font-style: italic
     }
-
     .shared-nano-courses {
         padding: 150px 0 170px
     }
-
     .shared-nano-courses:after {
         display: none
     }
-
     .shared-nano-courses--online-curso-mba {
         padding: 130px 0 100px
     }
-
     .shared-nano-courses-logo {
         margin-bottom: 40px !important
     }
-
     .shared-nano-courses--online .shared-nano-courses-text-content {
         margin-right: 0
     }
-
     .shared-nano-courses-text-quote {
         font: 16px/26px Gotham HTF Light;
         margin-bottom: 40px;
         text-align: center
     }
-
     .shared-nano-courses-text-title {
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
         margin-bottom: 20px
     }
-
     .shared-nano-courses-text-desc {
         padding: 0;
         text-align: center
     }
-
     .shared-startup {
         padding-bottom: 150px
     }
-
     .shared-startup-title {
         font: 40px/45px Gotham HTF Medium
     }
-
     .shared-startup-subtitle {
         font-size: 16px
     }
-
     .shared-startup-content-video {
         margin-top: -40px
     }
-
     .shared-startup-columns {
         margin: 50px auto 0;
         width: 90%
     }
-
     .shared-extensao-descricao {
         padding: 0 0 150px
     }
-
     .shared-extensao-descricao:after {
         display: none
     }
-
-    .shared-extensao-descricao-column.beneficios, .shared-extensao-descricao-column.informacoes {
+    .shared-extensao-descricao-column.beneficios,
+    .shared-extensao-descricao-column.informacoes {
         padding: 0
     }
-
     .shared-extensao-beneficios-title:after {
         display: none
     }
-
     .shared-extensao-beneficios-text {
         font: 15px/20px Roboto
     }
-
     .shared-extensao-faq {
         padding: 50px 0
     }
-
     .shared-extensao-faq:after {
         display: none
     }
-
     .shared-extensao-faq-header-column {
         display: block;
         min-height: auto;
         position: static;
         width: 100%
     }
-
     .shared-extensao-faq-header-title {
         border-right: none;
         display: block;
@@ -17521,12 +17440,10 @@ body::-webkit-scrollbar-thumb {
         margin: 0 0 120px;
         text-align: left
     }
-
     .shared-extensao-faq-header-title:after {
         bottom: -30px;
         left: 1px
     }
-
     .shared-extensao-faq-header-subtitle {
         display: block;
         font-size: 16px;
@@ -17534,597 +17451,470 @@ body::-webkit-scrollbar-thumb {
         padding-left: 0;
         position: static
     }
-
     .shared-extensao-faq-item {
         margin: 15px 0
     }
-
     .shared-extensao-faq-item-header {
         padding-right: 40px
     }
-
     .shared-extensao-faq-item-number {
         font-size: 15px;
         width: 42.5px
     }
-
     .shared-extensao-faq-item-title {
         color: #616d72;
         font: 13px/18px Roboto;
         padding: 18px 13px
     }
-
     .shared-extensao-faq-item-arrow {
         height: 30px;
         right: 15px;
         width: 30px
     }
-
     .shared-extensao-faq-item-content {
         font-size: 14px;
         line-height: 22px
     }
-
     .shared-extensao-faq-item-content-wrapper {
         padding: 10px 20px
     }
-
     .shared-extensao-header {
         padding: 250px 0 100px
     }
-
     .shared-extensao-header-title {
         font: 40px/42px Gotham HTF Medium
     }
-
     .shared-extensao-header-image-legend {
         bottom: 20px;
         font: 16px Gotham HTF Light;
         right: 20px
     }
-
     .shared-extensao-investimento-title {
         font-size: 35px;
         margin-bottom: 100px
     }
-
     .shared-extensao-investimento-title:after {
         bottom: -35px
     }
-
     .shared-extensao-investimento-content-subtitle {
         padding-bottom: 40px
     }
-
     .shared-extensao-investimento-subtitle {
         font-size: 18px;
         line-height: 22px;
         margin-bottom: 5px
     }
-
-    .shared-extensao-investimento-price, .shared-extensao-investimento-price-city {
+    .shared-extensao-investimento-price,
+    .shared-extensao-investimento-price-city {
         font-size: 20px;
         line-height: 24px
     }
-
-    .shared-extensao-investimento-price-city-highlight, .shared-extensao-investimento-price-highlight {
+    .shared-extensao-investimento-price-city-highlight,
+    .shared-extensao-investimento-price-highlight {
         font-size: 22px;
         margin-top: -3px
     }
-
     .shared-extensao-investimento-price-note {
         font: 13px/18px Roboto
     }
-
     .shared-extensao-investimento-incluso-text {
         font: 14px/28px Roboto
     }
-
     .shared-extensao-video {
         padding: 0 0 70px
     }
-
     .shared-extensao-video .wrapper {
         width: 100%
     }
-
     .shared-extensao-video-title {
         font: 35px Gotham HTF Medium;
         margin: 0 auto 100px;
         padding: 0;
         width: 90%
     }
-
     .shared-vitrine {
         height: 550px
     }
-
     .shared-vitrine-img {
         width: auto;
         padding-top: 110px;
         position: static;
         transform: translate(0)
     }
-
     .shared-vitrine-img.vitrine-img-graduacao {
         padding-top: 160px
     }
-
     .shared-vitrine-scroll {
         display: none
     }
-
     .graduacao-financiamento-bolsas-title {
         margin-bottom: 40px;
         text-align: center
     }
-
     .graduacao-financiamento-bolsas-box {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .graduacao-financiamento-header {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-header:after {
         display: none
     }
-
     .graduacao-financiamento-header .graduacao-financiamentos-title {
         font-size: 45px;
         margin: 0;
         padding: 180px 0 55px
     }
-
     .graduacao-financiamento-header .graduacao-financiamentos-item {
         margin: 10px;
         min-height: 250px;
         width: calc(50% - 40px)
     }
-
     .graduacao-financiamento-title {
         text-align: center
     }
-
     .graduacao-financiamento-list-item {
         width: 100%;
         margin: 0;
         min-height: auto;
         padding-bottom: 40px
     }
-
     .graduacao-financiamento-list-text:before {
         left: 0
     }
-
     .graduacao-financiamento-list-text {
         padding-left: 25px
     }
-
     .graduacao-financiamento-notes {
         padding: 40px
     }
-
     .graduacao-financiamento-informacoes {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-informacoes:after {
         display: none
     }
-
     .graduacao-financiamento-fies-header {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-fies-header:after {
         display: none
     }
-
     .graduacao-financiamento-fies-description {
         margin: 0
     }
-
     .graduacao-financiamento-fies-vantagens {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-fies-vantagens:after {
         display: none
     }
-
     .graduacao-financiamento-fies-funcionamento {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-fies-funcionamento:after {
         display: none
     }
-
     .graduacao-financiamento-fies-funcionamento-list {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .graduacao-financiamento-fies-funcionamento-item {
         width: 100%
     }
-
     .graduacao-financiamento-fies-funcionamento-button {
         width: auto
     }
-
     .graduacao-financiamento-prouni-header {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-prouni-header:after {
         display: none
     }
-
     .graduacao-financiamento-prouni-funcionamento {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-prouni-funcionamento:after {
         display: none
     }
-
     .graduacao-financiamento-prouni-funcionamento-title {
         margin: 20px 0
     }
-
     .graduacao-financiamento-prouni-solicitacao {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-prouni-solicitacao:after {
         display: none
     }
-
     .graduacao-financiamento-estendido-header {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-estendido-header:after {
         display: none
     }
-
     .graduacao-financiamento-estendido-informacoes {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-estendido-informacoes:after {
         display: none
     }
-
     .graduacao-financiamento-estendido-cursos {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-estendido-cursos:after {
         display: none
     }
-
     .graduacao-financiamento-bolsas-header {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-bolsas-header:after {
         display: none
     }
-
     .graduacao-financiamento-bolsas-parceiras {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-bolsas-parceiras:after {
         display: none
     }
-
     .graduacao-financiamento-bolsas-ex {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-bolsas-ex:after {
         display: none
     }
-
     .graduacao-financiamento-bolsas-cursando {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-bolsas-cursando:after {
         display: none
     }
-
     .graduacao-financiamento-bolsas-plus {
         padding: 0 0 150px
     }
-
     .graduacao-financiamento-bolsas-plus:after {
         display: none
     }
-
     .graduacao-vitrine {
         padding: 0 0 150px
     }
-
     .graduacao-vitrine:after {
         display: none
     }
-
     .graduacao-cursos {
         padding: 150px 0
     }
-
     .graduacao-cursos:after {
         display: none
     }
-
     .graduacao-cursos-title {
         display: block;
         font-size: 35px;
         line-height: 30px;
         text-align: center
     }
-
     .graduacao-financiamentos {
         padding: 0 0 150px
     }
-
     .graduacao-financiamentos:after {
         display: none
     }
-
     .graduacao-financiamentos-title {
         margin: 0;
         font-size: 27px
     }
-
     .graduacao-financiamentos-item {
         margin: 10px 0;
         width: 100%;
         height: 200px;
         min-height: auto
     }
-
     .graduacao-challenges {
         padding: 0 0 150px
     }
-
     .graduacao-challenges:after {
         display: none
     }
-
     .graduacao-challenges-title {
         font-size: 35px
     }
-
     .graduacao-challenges-gallery-item {
         width: 100%
     }
-
     .graduacao-challenges-gallery-description {
         padding: 40px
     }
-
     .graduacao-challenges-video {
         height: 300px
     }
-
     .menu-graduacao .components-menu-logo {
         min-width: 200px
     }
-
     .graduacao-extensoes {
         padding: 0 0 150px
     }
-
     .graduacao-extensoes:after {
         display: none
     }
-
     .graduacao-extensoes-image-title {
         font-size: 25px
     }
-
     .graduacao-extensoes-columns {
         margin: 60px auto
     }
-
     .graduacao-extensoes-logo {
         height: 40px;
         width: 170px
     }
-
     .graduacao-extensoes-local {
         margin-bottom: 50px;
         margin-top: 15px
     }
-
     .graduacao-extensoes-btn {
         font-size: 14px;
         margin-top: 30px;
         padding: 10px 30px
     }
-
     .graduacao-extensoes-label {
         margin-top: 35px
     }
-
     .graduacao-labs {
         padding: 0 0 150px
     }
-
     .graduacao-labs:after {
         display: none
     }
-
     .graduacao-labs-title {
         margin: 0;
         font-size: 35px
     }
-
     .graduacao-labs-description {
         margin: 30px 0
     }
-
     .graduacao-labs-gallery-wrapper {
         display: block;
         font-size: 0;
         white-space: nowrap
     }
-
     .graduacao-labs-gallery-item {
         display: inline-block;
         margin: 0;
         width: 100%
     }
-
     .graduacao-labs-gallery-thumb-title {
         font-size: 25px
     }
-
     .shared-curso-pessoas-item {
         padding-top: 50px
     }
-
     .shared-curso-pessoas-item:after {
         display: none
     }
-
     .shared-curso-pessoas-media-img {
         height: 250px
     }
-
     .shared-curso-pessoas-title {
         font-size: 24px;
         line-height: 30px;
         text-align: left
     }
-
     .shared-curso-pessoas-subtitle {
         font-size: 16px;
         text-align: left
     }
-
     .shared-curso-pessoas-subtitle:after {
         height: 2px;
         margin: 10px auto;
         width: 45px
     }
-
     .shared-curso-pessoas-desc {
         padding-bottom: 275px
     }
-
     .shared-curso-pessoas-desc li:after {
         height: 3px;
         left: -10px;
         width: 3px
     }
-
     .graduacao-vestibular {
         padding: 0 0 150px
     }
-
     .graduacao-vestibular:after {
         display: none
     }
-
     .graduacao-vestibular-title {
         font: 35px Gotham HTF Bold
     }
-
     .graduacao-vestibular-subtitle {
         font: 17px/24px Gotham HTF Book
     }
-
     .graduacao-curso-header-share {
         display: block;
         position: static;
         transform: none;
         width: 100%
     }
-
     .graduacao-curso-share-item {
         display: inline-block;
         margin: 0 5px;
         width: 25px
     }
-
     .graduacao-curso-header-share-title {
         display: none
     }
-
     .graduacao-curso-vestibular {
         padding: 0 0 150px
     }
-
     .graduacao-curso-vestibular:after {
         display: none
     }
-
     .graduacao-curso-vestibular-title {
         font: 18px/20px Gotham HTF Bold
     }
-
     .graduacao-curso-vestibular-title-vestibular {
         font: 35px/40px Gotham HTF Bold
     }
-
-    .graduacao-curso-turmas-box, .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
+    .graduacao-curso-turmas-box,
+    .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
         width: 90%
     }
-
     .graduacao-curso-turmas-box:not(:first-child) {
         margin-top: 40px
     }
-
-    .graduacao-curso-turmas-box, .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
+    .graduacao-curso-turmas-box,
+    .graduacao-curso-turmas-online .graduacao-curso-turmas-box {
         width: 100%
     }
-
     .graduacao-curso-turmas-box-column:not(:first-child) {
         padding: 15px 0
     }
-
-    .graduacao-curso-turmas-online .graduacao-curso-turmas-box-column, .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column {
+    .graduacao-curso-turmas-online .graduacao-curso-turmas-box-column,
+    .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column {
         margin: 5px auto
     }
-
     .graduacao-info-vestibular-title {
         font-size: 18px;
         min-width: auto
     }
-
     .graduacao-info-vestibular-item {
         padding: 20px 10px
     }
-
     .graduacao-info-vestibular-item-header {
         display: none
     }
-
-    .graduacao-info-vestibular-item-box, .graduacao-info-vestibular-item-box-line {
+    .graduacao-info-vestibular-item-box,
+    .graduacao-info-vestibular-item-box-line {
         width: 100%
     }
-
-    .graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-header-text, .graduacao-info-vestibular-item-box .graduacao-info-vestibular-item-header-text {
+    .graduacao-info-vestibular-item-box-line .graduacao-info-vestibular-item-header-text,
+    .graduacao-info-vestibular-item-box .graduacao-info-vestibular-item-header-text {
         display: block
     }
-
     .graduacao-info-vestibular-item-column {
         min-height: auto !important
     }
-
     .graduacao-info-vestibular-item-column:not(:first-child) {
         margin-top: 15px
     }
-
     .graduacao-info-vestibular-item-header-text {
         font-size: 11px;
         position: static;
@@ -18133,11 +17923,9 @@ body::-webkit-scrollbar-thumb {
         transform: none;
         width: auto
     }
-
     .graduacao-info-vestibular-item-header-text br {
         display: none
     }
-
     .graduacao-info-vestibular-item-box-text {
         padding-left: 0;
         position: static;
@@ -18146,230 +17934,184 @@ body::-webkit-scrollbar-thumb {
         transform: none;
         width: 100%
     }
-
     .graduacao-info-vestibular-header {
         padding: 0 0 150px
     }
-
     .graduacao-info-vestibular-header:after {
         display: none
     }
-
     .graduacao-info-vestibular-header {
         padding: 200px 0 80px
     }
-
     .graduacao-info-vestibular-header-content-title:after {
         bottom: -30px
     }
-
     .graduacao-info-vestibular-header-content-title {
         padding: 0
     }
-
     .graduacao-info-vestibular-header-title {
         font: 35px/40px Gotham HTF Medium
     }
-
     .graduacao-info-vestibular-header-title:after {
         display: none
     }
-
     .graduacao-info-vestibular-header-subtitle {
         font: 17px Gotham HTF Book
     }
-
-    .graduacao-info-vestibular-header-column-data, .graduacao-info-vestibular-header-column-title {
+    .graduacao-info-vestibular-header-column-data,
+    .graduacao-info-vestibular-header-column-title {
         font-size: 13px
     }
-
     .graduacao-info-vestibular-opcoes {
         padding: 0 0 150px
     }
-
     .graduacao-info-vestibular-opcoes:after {
         display: none
     }
-
     .graduacao-info-vestibular-opcoes-title {
         font: 35px Gotham HTF Bold
     }
-
     .graduacao-info-vestibular-prova {
         padding: 0 0 150px
     }
-
     .graduacao-info-vestibular-prova:after {
         display: none
     }
-
-    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-box, .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-header {
+    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-box,
+    .graduacao-info-vestibular-prova-composicao-content .graduacao-info-vestibular-item-content-tiny .graduacao-info-vestibular-item-header {
         width: 100%
     }
-
     .graduacao-info-vestibular-aprovados {
         padding: 0 0 150px
     }
-
     .graduacao-info-vestibular-aprovados:after {
         display: none
     }
-
     .graduacao-info-vestibular-matricula {
         padding: 0 0 150px
     }
-
     .graduacao-info-vestibular-matricula:after {
         display: none
     }
-
     .graduacao-matricula-header {
         padding: 0 0 150px
     }
-
     .graduacao-matricula-header:after {
         display: none
     }
-
     .graduacao-matricula-header {
         padding-top: 220px
     }
-
     .slashicorp-2018-conceito:after {
         display: none
     }
-
     .slashicorp-2018-conceito {
         padding: 100px 50px
     }
-
     .slashicorp-2018-conceito-title {
         font-size: 24px;
         line-height: 35px
     }
-
     .slashicorp-2018-conceito-desc {
         font-size: 14px;
         line-height: 24px
     }
-
     .slashicorp-2018-conceito-svg {
         max-width: 180px
     }
-
     .slashicorp-2018-disrupcao {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-disrupcao-title {
         font: 35px/45px Gotham HTF Medium;
         margin: 0 0 30px;
         text-align: left
     }
-
     .slashicorp-2018-disrupcao-figure {
         width: 100%
     }
-
     .slashicorp-2018-disrupcao-column img {
         max-width: 150px
     }
-
-    .slashicorp-2018-future-title, .slashicorp-2018-future-title span, .slashicorp-2018-future-title span:before {
+    .slashicorp-2018-future-title,
+    .slashicorp-2018-future-title span,
+    .slashicorp-2018-future-title span:before {
         font-size: 24px
     }
-
     .slashicorp-2018-future-desc {
         font: 16px/26px Roboto
     }
-
     .slashicorp-2018-future-logos {
         margin: 100px 0 50px;
         padding: 0
     }
-
-    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo,
+    .slashicorp-2018-future-logo.line-two {
         width: 33.3%
     }
-
     .slashicorp-nomad:after {
         display: none
     }
-
     .slashicorp-nomad {
         padding-bottom: 150px
     }
-
-    .slashicorp-nomad-subtitle, .slashicorp-nomad-title {
+    .slashicorp-nomad-subtitle,
+    .slashicorp-nomad-title {
         font: 30px/30px Gotham HTF Light;
         font: 20px/20px Gotham HTF Light;
         margin: 0 auto
     }
-
     .slashicorp-nomad-title span {
         font: 48px/55px Gotham HTF Medium
     }
-
     .slashicorp-nomad-description {
         font-size: 14px;
         margin: 80px 0 30px
     }
-
     .slashicorp-2018-parcerias:after {
         display: none
     }
-
     .slashicorp-2018-parcerias {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-parcerias-title {
         font: 40px/50px Gotham HTF Medium
     }
-
     .slashicorp-2018-parcerias-title:after {
         bottom: -35px;
         height: 5px
     }
-
     .slashicorp-2018-parcerias-desc {
         font: 16px/26px Roboto
     }
-
     .slashicorp-2018-parcerias-logos {
         margin: 50px 0;
         padding: 0
     }
-
     .slashicorp-2018-parcerias-logo {
         line-height: 120px
     }
-
-    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo,
+    .slashicorp-2018-parcerias-logo.line-three,
+    .slashicorp-2018-parcerias-logo.line-two {
         width: 33.3%
     }
-
     .slashicorp-2018-enade {
         padding: 0 0 150px
     }
-
     .slashicorp-2018-enade-content {
         padding-bottom: 50px
     }
-
     .slashicorp-2018-artigos-media-img {
         width: 280px;
         margin-left: 20px
     }
-
     .slashicorp-2018-enade-title {
         font: 25px/36px Gotham HTF Medium
     }
-
     .slashicorp-2018-enade-subtitle {
         font: 25px/36px Gotham HTF Light
     }
-
     .slashicorp-2018-enade-nota-title {
         margin-bottom: 20px;
         margin-left: 0;
@@ -18377,159 +18119,125 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         text-align: center
     }
-
     .slashicorp-2018-enade-text {
         text-align: center
     }
-
     .slashicorp-2018-artigos {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-artigos-box {
         padding: 40px
     }
-
-    .slashicorp-2018-artigos-box > img {
+    .slashicorp-2018-artigos-box>img {
         width: 140px
     }
-
     .slashicorp-2018-artigos-highlight {
         font: 39px/40px Gotham HTF Medium;
         margin-bottom: 30px;
         -webkit-text-stroke: 1px #03fac9
     }
-
     .slashicorp-2018-artigos-title {
         font: 32px/40px Gotham HTF Light;
         margin-bottom: 30px;
         text-align: center;
         font: 29px/36px Gotham HTF Light
     }
-
     .slashicorp-2018-videos:after {
         display: none
     }
-
     .slashicorp-2018-videos {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-videos-title {
         margin-left: unset;
         text-align: center
     }
-
-    .slashicorp-2018-videos-title span, .slashicorp-2018-videos-title span:before {
+    .slashicorp-2018-videos-title span,
+    .slashicorp-2018-videos-title span:before {
         font-size: 35px;
         margin-bottom: 20px
     }
-
     .slashicorp-2018-videos-thumb-button {
         border: none
     }
-
     .slashicorp-2018-unidades {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-unidades-title {
         font-size: 40px
     }
-
     .slashicorp-2018-unidades-item {
         width: 100%
     }
-
     .slashicorp-2018-unidades-media {
         width: 21.5%
     }
-
     .slashicorp-2018-unidades-content {
         padding-left: 20px
     }
-
     .slashicorp-2018-unidades-subtitle {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 15px
     }
-
     .graduacao-lista-de-aprovados {
         padding: 0 0 150px
     }
-
     .graduacao-lista-de-aprovados:after {
         display: none
     }
-
     .graduacao-lista-de-aprovados {
         padding: 200px 0 80px
     }
-
     .graduacao-lista-de-aprovados-header:after {
         bottom: -30px
     }
-
     .graduacao-lista-de-aprovados-header {
         padding: 0
     }
-
     .graduacao-lista-de-aprovados-header-title {
         font: 35px/40px Gotham HTF Medium
     }
-
     .graduacao-lista-de-aprovados-header-title:after {
         display: none
     }
-
     .graduacao-lista-de-aprovados-header-subtitle {
         font: 17px Gotham HTF Book
     }
-
     .graduacao-lista-de-aprovados-consulta-title {
         font-size: 18px;
         min-width: auto
     }
-
     .graduacao-lista-de-aprovados-iframe {
         margin: 20px auto 0
     }
-
     .menu-search .components-menu .components-menu-logo {
         width: 230px
     }
-
     .search-result-categoria {
         font-size: 11px
     }
-
     .search-result-title {
         font-size: 20px;
         margin-bottom: 15px
     }
-
     .search-result-saiba-mais {
         font: 12px Gotham HTF Book
     }
-
     .search-quick-links-title {
         margin-left: 30px;
         margin-bottom: 20px
     }
-
     .search-quick-links-columns {
         width: 90%;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin: 0 auto
     }
-
     .search-quick-links-column {
         width: 50%;
         padding-left: 10px
     }
-
     .search-quick-links-list {
         margin: 0
     }
@@ -18539,7 +18247,6 @@ body::-webkit-scrollbar-thumb {
     .graduacao-n2020-premiacao {
         display: none
     }
-
     .graduacao-n2020-mobile-premiacao {
         display: block
     }
@@ -18549,45 +18256,35 @@ body::-webkit-scrollbar-thumb {
     .br-tablet {
         display: none !important
     }
-
     .br-mobile {
         display: block
     }
-
     .slashicorp-menu {
         text-align: center
     }
-
     .slashicorp-menu-link-dropdown {
         color: #03fac9
     }
-
     .slashicorp-menu-link-dropdown:after {
         border-color: #03fac9
     }
-
     .graduacao-lead-box {
         padding: 25px 30px
     }
-
     .components-cursos-select {
         display: -ms-grid;
         display: grid;
         padding-top: 40px
     }
-
     .shared-startup {
         padding: 50px 0
     }
-
     .shared-startup:after {
         display: none
     }
-
     .shared-startup .wrapper {
         width: 100%
     }
-
     .shared-startup-subtitle {
         font-size: 16px;
         letter-spacing: 0;
@@ -18595,102 +18292,78 @@ body::-webkit-scrollbar-thumb {
         margin: 20px auto 0;
         max-width: 275px
     }
-
     .shared-startup-media {
         display: block;
         width: 100%
     }
-
     .shared-startup-media-img {
         width: 100%
     }
-
     .graduacao-financiamento-bolsas-plus-logo {
         margin-bottom: 25px
     }
-
     .graduacao-vitrine-future .vitrine-title {
         font-size: 45px
     }
-
     .graduacao-vitrine-future .vitrine-logo {
         font-size: 20px
     }
-
     .graduacao-vitrine-future .vitrine-logo-highlight {
         font-size: 25px
     }
-
     .graduacao-vitrine-future .vitrine-subtitle {
         font-size: 12px
     }
-
     .graduacao-vitrine-future-counter .vitrine-logo {
         font-size: 20px
     }
-
     .graduacao-vitrine-future-counter .vitrine-logo-highlight {
         font-size: 25px
     }
-
     .graduacao-vitrine-future-counter .vitrine-title {
         font-size: 45px
     }
-
     .graduacao-vitrine-future-counter .vitrine-subtitle {
         font-size: 12px
     }
-
     .graduacao-vitrine-future-counter .vitrine-clock-description {
         font-size: 12px;
         line-height: 20px
     }
-
     .graduacao-vitrine-future-counter .vitrine-clock-button {
         font-size: 14px
     }
-
     .graduacao-vitrine-rock .vitrine-subtitle {
         font-size: 20px
     }
-
     .graduacao-vitrine-rock .vitrine-description {
         font: 12px Gotham HTF Medium
     }
-
     .graduacao-vitrine-rock .vitrine-description-inscreva-se {
         font-size: 12px
     }
-
     .graduacao-vitrine-rock-vestibular .vitrine-subtitle {
         font-size: 20px
     }
-
     .graduacao-vitrine-rock-vestibular .vitrine-description {
         font: 12px Gotham HTF Medium
     }
-
     .graduacao-vitrine-rock-vestibular .vitrine-description-inscreva-se {
         font-size: 12px
     }
-
     .graduacao-vitrine-rock-counter .vitrine-subtitle {
         font-size: 20px
     }
-
     .graduacao-vitrine-rock-counter .vitrine-description {
         font: 12px Gotham HTF Medium
     }
-
     .graduacao-vitrine-rock-counter .vitrine-clock-description {
         font-size: 12px;
         line-height: 20px
     }
-
     .graduacao-vitrine-rock-counter .vitrine-clock-button {
         font-size: 14px
     }
-
     .graduacao-online {
         background-image: url(../images/graduacao/online/background-mobile.jpg);
         background-position: bottom;
@@ -18699,295 +18372,234 @@ body::-webkit-scrollbar-thumb {
         padding: 50px 0 70%;
         text-align: center
     }
-
     .graduacao-online-title {
         color: #fff;
         font: 24px/30px Gotham HTF Light
     }
-
     .graduacao-online-desc {
         font-size: 14px;
         line-height: 20px;
         margin-top: 20px
     }
-
     .graduacao-online-btn {
         border-width: 1px;
         font-size: 14px;
         margin-top: 15px;
         padding: 12px 22px
     }
-
     .graduacao-resultados {
         font-size: 11px;
         line-height: 16px;
         padding: 50px 0
     }
-
     .graduacao-resultados-column:last-child {
         margin-top: 50px
     }
-
     .graduacao-resultados-title {
         font-size: 22.5px
     }
-
     .graduacao-resultados-subtitle {
         font-size: 16px;
         line-height: 20px
     }
-
     .graduacao-resultados-highlight {
         font-size: 11px
     }
-
     .graduacao-resultados-info {
         margin: 17.5px 0
     }
-
     .graduacao-resultados-btn {
         font-size: 11px;
         padding: 10px 17.5px
     }
-
     .graduacao-vestibular-footer {
         font-size: 10px;
         line-height: 14px
     }
-
     .graduacao-curso-header-label {
         font-size: 12px;
         letter-spacing: 1px;
         padding: 5px 10px
     }
-
     .graduacao-curso-header-title {
         font-size: 26px;
         line-height: 32px;
         padding: 0
     }
-
     .graduacao-curso-header-subtitle {
         font-size: 14px
     }
-
     .graduacao-curso-header-title-desc {
         font-size: 20px;
         padding: 0 15px
     }
-
     .graduacao-curso-header-item-label {
         margin-top: 0;
         position: relative;
         top: 80px
     }
-
     .graduacao-curso-informacoes {
         padding: 50px 0
     }
-
     .graduacao-curso-informacoes-column {
         max-width: 450px
     }
-
     .graduacao-curso-informacoes-column:last-child {
         margin-top: 45px
     }
-
     .graduacao-curso-informacoes-title {
         font: 24px Gotham HTF Light;
         letter-spacing: .05em
     }
-
     .graduacao-curso-informacoes-list {
         margin-top: 20px
     }
-
     .graduacao-curso-informacoes-link-wpp {
         padding: 6px
     }
-
     .graduacao-curso-informacoes-link-icon {
         height: 15px;
         width: 15px
     }
-
     .graduacao-curso-informacoes-link-icon-wpp {
         height: 13px;
         width: 13px
     }
-
     .graduacao-curso-certificacoes {
         background-image: none;
         padding: 50px 0
     }
-
     .graduacao-curso-certificacoes:after {
         display: none
     }
-
     .graduacao-curso-certificacoes-title {
         font-size: 24px;
         margin-bottom: 50px
     }
-
     .graduacao-curso-certificacoes-title:after {
         top: 50px
     }
-
     .graduacao-curso-certificacoes-description {
         font-size: 14px;
         line-height: 22px
     }
-
     .graduacao-curso-certificacoes-list {
         margin-top: 42.5px
     }
-
     .graduacao-curso-certificacoes-item {
         font: 14px Gotham HTF Book;
         max-width: unset;
         padding: 15px
     }
-
     .graduacao-curso-certificacoes-item:after {
         margin-top: 35px
     }
-
     .graduacao-curso-turmas {
         padding: 50px 0
     }
-
     .graduacao-curso-turmas:after {
         display: none
     }
-
     .graduacao-curso-turmas-title {
         font-size: 24px;
         margin-bottom: 50px
     }
-
     .graduacao-curso-turmas-box-icon {
         height: 20px;
         width: 50px
     }
-
     .graduacao-curso-turmas-box-text {
         padding: 0
     }
-
-    .graduacao-curso-turmas-box-label, .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column:first-child .graduacao-curso-turmas-box-text {
+    .graduacao-curso-turmas-box-label,
+    .graduacao-curso-turmas-presencial .graduacao-curso-turmas-box-column:first-child .graduacao-curso-turmas-box-text {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 15px
     }
-
     .graduacao-curso-turmas-btn {
         font-size: 12px;
         line-height: 16px;
         padding: 10px 20px
     }
-
     .graduacao-curso-investimento-title {
         font-family: Gotham HTF Light;
         margin-bottom: 15px
     }
-
     .graduacao-curso-matriz {
         padding: 50px 0
     }
-
     .graduacao-curso-matriz-header {
         margin-bottom: 50px
     }
-
     .graduacao-curso-matriz-header-column {
         font-size: 16px
     }
-
     .graduacao-curso-matriz-header-column:last-child {
         margin-top: 35px
     }
-
     .graduacao-curso-matriz-header-title {
         font-size: 24px
     }
-
     .graduacao-curso-matriz-header-title span {
         font: 17px Gotham HTF Light;
         left: 0
     }
-
     .graduacao-curso-matriz-header-title span:before {
         display: none
     }
-
     .graduacao-curso-matriz-header-icon {
         margin-right: 5px;
         margin-top: -2px;
         height: 15px;
         width: 15px
     }
-
     .graduacao-curso-matriz-ano-header {
         padding: 15px 50px 15px 20px
     }
-
     .graduacao-curso-matriz-ano-title {
         font-size: 18px
     }
-
     .graduacao-curso-matriz-ano-subtitle {
         font-size: 14px;
         margin-left: 30px
     }
-
     .graduacao-curso-matriz-ano-plus {
         right: 20px
     }
-
     .graduacao-curso-matriz-ano-btn {
         height: auto;
         width: 100%
     }
-
     .graduacao-curso-matriz-ano-btn-wrapper {
         padding: 0 20px
     }
-
     .graduacao-curso-disciplinas-close {
         left: 20px;
         top: 20px
     }
-
     .graduacao-curso-disciplina {
         padding: 65px 20px 20px
     }
-
     .graduacao-prova-manual-box {
         padding: 25px 30px
     }
-
     .graduacao-extensao-header {
         padding: 75px 0
     }
-
     .graduacao-extensao-header-label {
         border-width: 1px;
         font-size: 12px;
         padding: 13px 23px
     }
-
     .graduacao-extensao-header-title {
         font-size: 24px;
         margin: 40px 0
     }
-
     .graduacao-extensao-header-logo {
         height: 24px;
         width: 114px
     }
-
     .graduacao-extensao-informacoes {
         background: #252525;
         font-size: 14px;
@@ -18995,15 +18607,12 @@ body::-webkit-scrollbar-thumb {
         padding: 50px 0;
         text-align: center
     }
-
     .graduacao-extensao-informacoes:after {
         display: none
     }
-
     .graduacao-extensao-informacoes-wrapper {
         column-count: 1
     }
-
     .graduacao-extensao-beneficios {
         background-image: url(../images/graduacao/the-entrepreunership-program/beneficios/background-mobile.jpg);
         background-size: 100%;
@@ -19012,97 +18621,78 @@ body::-webkit-scrollbar-thumb {
         line-height: 22px;
         padding: 40px 0 240px
     }
-
     .graduacao-extensao-beneficios-title {
         font-size: 24px;
         margin-bottom: 30px
     }
-
     .graduacao-extensao-beneficios-column {
         display: block;
         width: 100%
     }
-
     .graduacao-extensao-video {
         padding: 0
     }
-
     .graduacao-extensao-video .wrapper {
         width: 100%
     }
-
     .graduacao-extensao-investimento {
         padding: 50px 0
     }
-
     .graduacao-extensao-investimento:after {
         display: none
     }
-
     .graduacao-extensao-investimento-title {
         font-size: 24px;
         margin-bottom: 25px
     }
-
     .graduacao-extensao-investimento-subtitle {
         font-size: 16px;
         line-height: 20px
     }
-
     .graduacao-extensao-investimento-price {
         font-size: 16px;
         line-height: 24px
     }
-
     .graduacao-extensao-investimento-price-highlight {
         font-size: 22px;
         margin-top: -3px
     }
-
     .graduacao-extensao-investimento-columns {
         margin-bottom: 35px;
         margin-top: 45px;
         padding: 25px 0 5px
     }
-
     .graduacao-extensao-investimento-column {
         display: block;
         line-height: 22px;
         padding: 0 25px;
         width: 100%
     }
-
     .graduacao-extensao-investimento-columns-title {
         font: 16px Gotham HTF Book;
         width: 200px
     }
-
     .graduacao-extensao-investimento-item:before {
         height: 3px;
         top: 8px;
         width: 3px
     }
-
     .graduacao-extensao-investimento-footer {
         font-size: 12px
     }
-
     .graduacao-extensao-faq {
         background: #000;
         padding: 50px 0
     }
-
     .graduacao-extensao-faq:after {
         display: none
     }
-
     .graduacao-extensao-faq-header {
         display: block;
         height: auto;
         margin-bottom: 25px;
         text-align: center
     }
-
     .graduacao-extensao-faq-header-title {
         border-right: none;
         color: #03fac9;
@@ -19111,95 +18701,75 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 25px;
         padding-right: 0
     }
-
     .graduacao-extensao-faq-header-subtitle {
         display: block;
         font-size: 16px;
         line-height: 20px;
         padding-left: 0
     }
-
     .graduacao-extensao-faq-item {
         margin: 15px 0
     }
-
     .graduacao-extensao-faq-item-header {
         padding-right: 40px
     }
-
     .graduacao-extensao-faq-item-number {
         font-size: 15px;
         width: 42.5px
     }
-
     .graduacao-extensao-faq-item-title {
         font: 12px/18px Gotham HTF Medium;
         padding: 12.5px
     }
-
     .graduacao-extensao-faq-item-arrow {
         right: 15px;
         width: 20px
     }
-
     .graduacao-extensao-faq-item-content {
         font-size: 14px;
         line-height: 22px
     }
-
     .graduacao-extensao-faq-item-content-wrapper {
         padding: 10px 20px
     }
-
     .graduacao-matricula-header-subtitle {
         font: 16px Gotham HTF Book;
         letter-spacing: 1px;
         margin-top: 50px
     }
-
     .graduacao-matricula-header-subtitle br {
         display: none
     }
-
     .graduacao-transferencia {
         padding: 150px 0 0
     }
-
     .graduacao-transferencia-title {
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 25px
     }
-
     .graduacao-transferencia-desc {
         margin-top: 50px
     }
-
     .graduacao-transferencia-desc br {
         display: none
     }
-
     .graduacao-transferencia-iframe {
         height: 2300px
     }
-
     .slashicorp-graduacao-startup {
         padding: 50px 0
     }
-
     .slashicorp-graduacao-startup:after {
         display: none
     }
-
     .slashicorp-graduacao-startup .wrapper {
         width: 100%
     }
-
     .slashicorp-graduacao-startup-title {
         height: 24px;
         width: 245px
     }
-
     .slashicorp-graduacao-startup-subtitle {
         font-size: 16px;
         letter-spacing: 0;
@@ -19207,56 +18777,44 @@ body::-webkit-scrollbar-thumb {
         margin: 20px auto 0;
         max-width: 275px
     }
-
     .slashicorp-graduacao-startup-columns {
         margin-top: 50px
     }
-
     .slashicorp-graduacao-startup-content {
         width: 90%
     }
-
     .slashicorp-graduacao-startup-content-title {
         font-family: Gotham HTF Light;
         line-height: 22px;
         margin-bottom: 15px
     }
-
     .slashicorp-graduacao-startup-media {
         display: block;
         margin-top: 50px;
         width: 100%
     }
-
     .slashicorp-graduacao-startup-media-icon {
         width: 75px
     }
-
     .slashicorp-graduacao-startup-media-img {
         width: 100%
     }
-
     .slashicorp-fotos {
         padding: 50px 0
     }
-
     .slashicorp-fotos:after {
         display: none
     }
-
     .slashicorp-fotos-wrapper {
         margin-top: 35px
     }
-
     .slashicorp-fotos-title {
         font-size: 24px;
         line-height: 30px
     }
-
     .slashicorp-fotos-miniaturas {
         display: none
     }
-
     .slashicorp-fotos-slider {
         opacity: 1;
         overflow: hidden;
@@ -19264,20 +18822,16 @@ body::-webkit-scrollbar-thumb {
         transform: none;
         visibility: visible
     }
-
     .slashicorp-fotos-slider-item {
         padding: 0;
         width: 100%
     }
-
     .slashicorp-fotos-slider-media:after {
         display: none
     }
-
     .slashicorp-fotos-slider-img {
         position: static
     }
-
     .slashicorp-fotos-slider-desc {
         background: none;
         display: table;
@@ -19290,7 +18844,6 @@ body::-webkit-scrollbar-thumb {
         white-space: normal;
         width: 100%
     }
-
     .slashicorp-fotos-slider-desc-wrapper {
         color: #b8b8b8;
         display: table-cell;
@@ -19299,65 +18852,53 @@ body::-webkit-scrollbar-thumb {
         text-transform: none;
         vertical-align: middle
     }
-
     .slashicorp-fotos-slider-nav {
         display: none
     }
-
     .slashicorp-fotos-btn {
         display: block
     }
-
     .slashicorp-fotos-slider-close {
         display: none
     }
-
     .slashicorp-2018-mec-title {
         font: 54px Gotham HTF Medium
     }
-
     .slashicorp-2018-mec-title span {
         width: 80%
     }
-
     .slashicorp-2018-mec-groups {
         margin: 100px 0 0
     }
-
     .graduacao-n2020-menu {
         display: none
     }
-
     .graduacao-n2020-menu-mobile {
         display: block
     }
-
     .graduacao-n2020-footer-logo-link {
         width: 100%
     }
-
     .graduacao-n2020-footer-links {
         -ms-flex-direction: column;
         flex-direction: column;
         width: 100%
     }
-
     .graduacao-n2020-footer-links-item {
         padding-bottom: 10px
     }
-
-    .graduacao-n2020-header, .graduacao-n2020-programacao {
+    .graduacao-n2020-header,
+    .graduacao-n2020-programacao {
         display: none
     }
-
-    .graduacao-n2020-mobile-header, .graduacao-n2020-mobile-programacao {
+    .graduacao-n2020-mobile-header,
+    .graduacao-n2020-mobile-programacao {
         display: block
     }
-
-    .graduacao-n2020-sobre-content, .graduacao-n2020-sobre-header {
+    .graduacao-n2020-sobre-content,
+    .graduacao-n2020-sobre-header {
         display: none
     }
-
     .graduacao-n2020-mobile-sobre {
         display: block
     }
@@ -19368,21 +18909,18 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
-
-    .graduacao-menu-novidades-btn, .graduacao-menu-novidades-header-open {
+    .graduacao-menu-novidades-btn,
+    .graduacao-menu-novidades-header-open {
         display: -ms-flexbox;
         display: flex
     }
-
     .menu-alerta-content {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
-
     .menu-alerta-iframe {
         display: none
     }
-
     .menu-alerta-btn {
         display: -ms-flexbox;
         display: flex
@@ -19390,7 +18928,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 620px) {
-    .graduacao-menu-novidades-header-title, .graduacao-menu-novidades-header-title:after, .menu-alerta-saiba-antes .menu-alerta-title:after, .menu-alerta-text {
+    .graduacao-menu-novidades-header-title,
+    .graduacao-menu-novidades-header-title:after,
+    .menu-alerta-saiba-antes .menu-alerta-title:after,
+    .menu-alerta-text {
         display: none
     }
 }
@@ -19408,7 +18949,6 @@ body::-webkit-scrollbar-thumb {
         font-size: 22px;
         line-height: 26px
     }
-
     .graduacao-vitrine-enade-label {
         font-size: 14px
     }
@@ -19430,266 +18970,220 @@ body::-webkit-scrollbar-thumb {
     .shared-startup-text-title {
         font-size: 14px
     }
-
-    .graduacao-curso-vestibular-box-text, .graduacao-extensoes-desc, .graduacao-financiamento-description, .graduacao-financiamento-fies-description, .graduacao-financiamento-informacoes-text, .graduacao-financiamento-list-item, .graduacao-info-vestibular-item-box-text, .graduacao-info-vestibular-prova-column-text, .graduacao-info-vestibular-prova-text, .graduacao-labs-description, .graduacao-vestibular-box-text, .shared-startup-text {
+    .graduacao-curso-vestibular-box-text,
+    .graduacao-extensoes-desc,
+    .graduacao-financiamento-description,
+    .graduacao-financiamento-fies-description,
+    .graduacao-financiamento-informacoes-text,
+    .graduacao-financiamento-list-item,
+    .graduacao-info-vestibular-item-box-text,
+    .graduacao-info-vestibular-prova-column-text,
+    .graduacao-info-vestibular-prova-text,
+    .graduacao-labs-description,
+    .graduacao-vestibular-box-text,
+    .shared-startup-text {
         font-size: 13px;
         line-height: 22px
     }
-
     .wrapper-midia {
         width: 100%
     }
-
     .slashicorp-2018-footer-columns {
         padding: 60px 40px
     }
-
     .slashicorp-2018-footer-social-item {
         margin: 0 1px
     }
-
     .slashicorp-2018-footer-social-item:not(:last-child) {
         margin-bottom: 10px
     }
-
     .graduacao-menu-novidades {
         margin-bottom: 5px
     }
-
     .graduacao-menu-novidades .wrapper {
         width: 90%
     }
-
     .graduacao-menu-novidades-header-open {
         max-width: 110px
     }
-
     .graduacao-menu-novidades.is-active .graduacao-menu-novidades-content {
         max-height: 430px
     }
-
     .graduacao-menu-novidades-columns {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .graduacao-menu-novidades-column {
         margin-top: 15px;
         width: 100%
     }
-
     .graduacao-menu-novidades-btn {
         margin-left: 0
     }
-
     .graduacao-lead-input option {
         font: 12px/20px Roboto
     }
-
     .menu-alerta-btn {
         margin-left: 0
     }
-
     .components-menu-logo-link:nth-child(2) {
         margin-left: 50px
     }
-
     .menu-search .components-menu-logo-link:nth-child(2) {
         margin-left: 0
     }
-
     .components-menu-logo-link:first-child .components-menu-svg:not(.menu-mba-digital-talks) {
         display: none
     }
-
     .components-menu-logo-link:first-child .components-menu-svg.menu-mba-digital-taks {
         height: 40px;
         max-width: 90px
     }
-
     .menu-search-logo-slashicorp .components-menu-svg {
         display: block !important
     }
-
     .menu-search .components-menu-center {
         display: none
     }
-
     .components-menu-list.is-active {
         max-height: 505px
     }
-
     .components-menu-button {
         margin-right: 0
     }
-
     .components-menu-button-link {
         font-size: 10px;
         letter-spacing: normal;
         padding: 13px 15px
     }
-
     .components-menu-button-list {
         display: block;
         padding: 0 15px
     }
-
     .components-menu-button:hover .components-menu-button-list {
         padding: 15px
     }
-
     .components-menu-button-list .components-menu-subitem:before {
         display: none
     }
-
     .components-menu-toggle {
         left: 20px;
         right: auto
     }
-
     .menu-search .components-menu-right {
         min-width: 100px
     }
-
     .components-menu-right {
         -ms-flex-pack: end;
         justify-content: flex-end;
         margin-right: 0;
         min-width: auto
     }
-
     .components-menu-search-mobile {
         visibility: initial
     }
-
     .menu-search-bar-mobile {
         display: block;
         padding-bottom: 20px
     }
-
     .shared-conceito {
         padding: 40px 0
     }
-
     .shared-conceito-title-mba {
         font-size: 18px;
         line-height: 30px;
         margin-top: 0
     }
-
     .shared-contato-form {
         border: none;
         margin-top: 50px;
         padding: 0
     }
-
     .shared-startup-title {
         font: 35px/45px Gotham HTF Medium
     }
-
     .shared-startup-subtitle {
         font-size: 14px
     }
-
     .shared-startup-descricao {
         margin-left: 0;
         padding: 0 15px
     }
-
     .shared-startup-text-content {
         padding: 0 15px
     }
-
     .shared-startup-text {
         font: 15px/23px Roboto
     }
-
     .shared-extensao-faq-header-title {
         font-size: 35px
     }
-
     .shared-extensao-faq-header-title:after {
         bottom: -20px;
         height: 3px;
         left: 1px;
         width: 73px
     }
-
     .shared-extensao-faq-header-subtitle {
         font-size: 15px
     }
-
     .shared-extensao-faq-item-content {
         font-size: 13px;
         line-height: 20px
     }
-
     .shared-extensao-investimento-column {
         padding: 0
     }
-
     .shared-extensao-investimento-incluso-text {
         font: 13px/26px Roboto
     }
-
     .shared-vitrine {
         height: 385px
     }
-
     .graduacao-financiamento-header .graduacao-financiamentos-title {
         font-size: 25px
     }
-
     .graduacao-financiamento-header .graduacao-financiamentos-item {
         margin: 10px 0;
         width: 100%
     }
-
     .graduacao-financiamento-estendido-cursos-duracao {
         margin-top: 20px
     }
-
     .graduacao-financiamento-bolsas-header .graduacao-financiamento-title {
         font-size: 35px
     }
-
     .graduacao-extensoes-image-title {
         font: 16px Gotham HTF Book
     }
-
     .graduacao-labs-gallery-thumb {
         height: 245px;
         margin-top: 19px
     }
-
-    .graduacao-labs-slider-next, .graduacao-labs-slider-prev {
+    .graduacao-labs-slider-next,
+    .graduacao-labs-slider-prev {
         top: 50%
     }
-
     .graduacao-vestibular-item {
         padding: 20px 10px
     }
-
     .graduacao-vestibular-header {
         display: none
     }
-
-    .graduacao-vestibular-box, .graduacao-vestibular-box-line {
+    .graduacao-vestibular-box,
+    .graduacao-vestibular-box-line {
         width: 100%
     }
-
-    .graduacao-vestibular-box-line .graduacao-vestibular-header-text, .graduacao-vestibular-box .graduacao-vestibular-header-text {
+    .graduacao-vestibular-box-line .graduacao-vestibular-header-text,
+    .graduacao-vestibular-box .graduacao-vestibular-header-text {
         display: block
     }
-
     .graduacao-vestibular-column {
         min-height: auto !important
     }
-
     .graduacao-vestibular-column:not(:first-child) {
         margin-top: 15px
     }
-
     .graduacao-vestibular-header-text {
         font-size: 11px;
         text-align: left;
@@ -19698,16 +19192,13 @@ body::-webkit-scrollbar-thumb {
         top: 0;
         transform: none
     }
-
     .graduacao-vestibular-box-text-opcao {
         font: 14px Gotham HTF Medium
     }
-
     .graduacao-vestibular-box-text-data {
         font: 14px Gotham HTF Medium;
         white-space: normal
     }
-
     .graduacao-vestibular-box-text {
         padding-left: 0;
         text-align: left;
@@ -19716,58 +19207,47 @@ body::-webkit-scrollbar-thumb {
         transform: none;
         top: 0
     }
-
     .graduacao-curso-header-btn {
         position: static;
         margin: 20px
     }
-
     .graduacao-curso-header-scroll {
         bottom: 30px
     }
-
     .graduacao-curso-header-scroll-text {
         font-size: 10px
     }
-
     .graduacao-curso-header-scroll .components-scroll-circle-icon {
         height: 60px !important
     }
-
     .graduacao-curso-header-scroll .components-scroll-circle-icon:before {
         height: 19px !important;
         width: 19px !important
     }
-
     .graduacao-curso-vestibular {
         padding-top: 50px !important;
         padding-bottom: 100px
     }
-
     .graduacao-curso-vestibular-item {
         padding: 20px 10px
     }
-
     .graduacao-curso-vestibular-column {
         min-height: auto !important
     }
-
     .graduacao-curso-vestibular-column:not(:first-child) {
         margin-top: 15px
     }
-
     .graduacao-curso-vestibular-header {
         display: none
     }
-
-    .graduacao-curso-vestibular-box, .graduacao-curso-vestibular-box-line {
+    .graduacao-curso-vestibular-box,
+    .graduacao-curso-vestibular-box-line {
         width: 100%
     }
-
-    .graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-header-text, .graduacao-curso-vestibular-box .graduacao-curso-vestibular-header-text {
+    .graduacao-curso-vestibular-box-line .graduacao-curso-vestibular-header-text,
+    .graduacao-curso-vestibular-box .graduacao-curso-vestibular-header-text {
         display: block
     }
-
     .graduacao-curso-vestibular-header-text {
         font-size: 11px;
         text-align: left;
@@ -19776,16 +19256,13 @@ body::-webkit-scrollbar-thumb {
         top: 0;
         transform: none
     }
-
     .graduacao-curso-vestibular-box-text-opcao {
         font: 14px Gotham HTF Medium
     }
-
     .graduacao-curso-vestibular-box-text-data {
         font: 14px Gotham HTF Medium;
         white-space: normal
     }
-
     .graduacao-curso-vestibular-box-text {
         padding-left: 0;
         text-align: left;
@@ -19794,151 +19271,121 @@ body::-webkit-scrollbar-thumb {
         transform: none;
         top: 0
     }
-
     .graduacao-curso-turmas-border {
         width: 100%
     }
-
     .graduacao-info-vestibular-header-subtitle {
         font: 15px Gotham HTF Book
     }
-
     .graduacao-info-vestibular-opcoes-box-text-opcao {
         font: 14px Gotham HTF Medium
     }
-
     .graduacao-info-vestibular-matricula-button {
         font-size: 12px;
         padding: 13px 15px
     }
-
     .slashicorp-2018-conceito {
         padding: 80px 50px
     }
-
     .slashicorp-2018-future {
         padding-bottom: 150px
     }
-
     .slashicorp-2018-future-desc {
         font: 14px/24px Roboto
     }
-
-    .slashicorp-2018-future-logo, .slashicorp-2018-future-logo.line-two {
+    .slashicorp-2018-future-logo,
+    .slashicorp-2018-future-logo.line-two {
         width: 50%
     }
-
-    .slashicorp-2018-parcerias-title, .slashicorp-nomad-title span {
+    .slashicorp-2018-parcerias-title,
+    .slashicorp-nomad-title span {
         font: 35px/45px Gotham HTF Medium
     }
-
     .slashicorp-2018-parcerias-title:after {
         bottom: -30px;
         height: 5px;
         width: 60px
     }
-
-    .slashicorp-2018-parcerias-logo, .slashicorp-2018-parcerias-logo.line-three, .slashicorp-2018-parcerias-logo.line-two {
+    .slashicorp-2018-parcerias-logo,
+    .slashicorp-2018-parcerias-logo.line-three,
+    .slashicorp-2018-parcerias-logo.line-two {
         width: 50%
     }
-
     .slashicorp-2018-mec-item-conceito {
         font: 8px Gotham HTF Medium
     }
-
     .slashicorp-2018-mec-item-conceito:after {
         width: 125px
     }
-
     .slashicorp-2018-mec-item-title-number {
         font-size: 37px
     }
-
     .slashicorp-2018-mec-item-title-magenta {
         font-size: 24px
     }
-
     .slashicorp-2018-mec-item-title {
         font-size: 26px
     }
-
     .slashicorp-2018-mec-item-list p {
         font-size: 11px
     }
-
     .slashicorp-2018-enade-title {
         font: 23px/35px Gotham HTF Medium
     }
-
     .slashicorp-2018-videos-box {
         height: 250px
     }
-
     .slashicorp-2018-videos-media {
         height: 250px;
         top: 0
     }
-
     .slashicorp-2018-videos-share-list {
         margin: 10px
     }
-
-    .slashicorp-2018-videos-share, .slashicorp-2018-videos-share-title {
+    .slashicorp-2018-videos-share,
+    .slashicorp-2018-videos-share-title {
         display: none
     }
-
     .slashicorp-2018-unidades.is-contato .wrapper {
         width: 100%
     }
-
     .slashicorp-2018-unidades-title {
         font-size: 35px;
         padding-left: 0
     }
-
     .slashicorp-2018-unidades-title:before {
         display: none
     }
-
     .graduacao-lista-de-aprovados {
         padding: 150px 0 80px
     }
-
     .graduacao-lista-de-aprovados-header-subtitle {
         font: 15px Gotham HTF Book
     }
-
     .graduacao-lista-de-aprovados-consulta {
         margin-top: 120px
     }
-
     .search {
         padding-bottom: 60px;
         padding-top: 40px
     }
-
     .search-result-title {
         font-size: 18px;
         margin-bottom: 15px
     }
-
     .search-result-saiba-mais:before {
         bottom: 7px
     }
-
     .search-result-saiba-mais:after {
         top: 8px
     }
-
     .search-form-content {
         width: 95%;
         margin: 0 auto
     }
-
     .menu-search .search-form {
         padding: 0 10px
     }
-
     .search-form-input {
         margin-right: 5px
     }
@@ -19949,78 +19396,62 @@ body::-webkit-scrollbar-thumb {
         margin: 0 auto;
         width: 85%
     }
-
     .shared-nano-courses-logo {
         max-width: 280px
     }
-
     .shared-nano-courses-logo img {
         height: 100%;
         width: 100%
     }
-
     .graduacao-curso-header-item-label {
         margin-left: auto;
         width: 70%
     }
-
     .slashicorp-2018-mec-title {
         font: 35px Gotham HTF Medium
     }
-
     .slashicorp-2018-mec-title span {
         font: 14px Gotham HTF Light
     }
-
     .slashicorp-2018-unidades-media {
         width: 50%
     }
-
     .graduacao-n2020-footer-content {
         margin: 65px auto 60px;
         width: 80%
     }
-
     .graduacao-n2020-footer-text {
         display: none
     }
-
     .graduacao-n2020-programacao-modal {
         width: 85%
     }
-
     .graduacao-n2020-programacao-modal-text {
         padding: 20px 20px 40px
     }
-
-    .graduacao-n2020-mobile-header-wrapper, .graduacao-n2020-mobile-header-wrapper-bw {
+    .graduacao-n2020-mobile-header-wrapper,
+    .graduacao-n2020-mobile-header-wrapper-bw {
         height: 290px
     }
-
-    .graduacao-n2020-mobile-header-wrapper-bw img, .graduacao-n2020-mobile-header-wrapper img {
+    .graduacao-n2020-mobile-header-wrapper-bw img,
+    .graduacao-n2020-mobile-header-wrapper img {
         transform: scale(1.7) translate(-6px, 33px)
     }
-
     .graduacao-n2020-mobile-programacao-intro-text {
         width: 65%
     }
-
     .graduacao-n2020-mobile-premiacao-header {
         height: 290px
     }
-
     .graduacao-n2020-mobile-premiacao-header img {
         transform: scale(1.7) translate(-6px, 33px)
     }
-
     .graduacao-n2020-mobile-premiacao-text {
         width: 90%
     }
-
     .graduacao-n2020-mobile-sobre-header {
         height: 290px
     }
-
     .graduacao-n2020-mobile-sobre-header img {
         transform: scale(1.7) translate(-6px, 33px)
     }
@@ -20036,24 +19467,20 @@ body::-webkit-scrollbar-thumb {
     .shared-nano-courses-title {
         width: 100vw
     }
-
     .shared-nano-courses-title-image--mobile {
         display: block;
         right: auto;
         width: 100%
     }
-
     .shared-nano-courses-title-image:not(.shared-nano-courses-title-image--mobile) {
         display: none !important
     }
-
     .shared-nano-courses-title-text {
         font: 24px/37px Gotham HTF Book;
         left: 8%;
         top: 5px;
         text-align: left
     }
-
     .shared-nano-courses-certificado {
         padding: 0
     }
@@ -20076,12 +19503,10 @@ body::-webkit-scrollbar-thumb {
     .shared-nano-courses {
         padding: 150px 0 140px
     }
-
     .shared-nano-courses-title-text {
         font: 19px/31px Gotham HTF Light;
         margin-bottom: 170px
     }
-
     .shared-nano-courses-text-quote {
         padding: 0 10px
     }
@@ -20091,7 +19516,6 @@ body::-webkit-scrollbar-thumb {
     .graduacao-menu-novidades {
         height: 75px
     }
-
     .graduacao-menu-novidades-header {
         -ms-flex-direction: column;
         flex-direction: column;
@@ -20099,17 +19523,15 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
         justify-content: center
     }
-
-    .graduacao-menu-novidades-btn, .graduacao-menu-novidades-header-open {
+    .graduacao-menu-novidades-btn,
+    .graduacao-menu-novidades-header-open {
         font: 10px Gotham HTF Bold;
         height: 25px;
         margin-top: 5px
     }
-
     .menu-alerta {
         height: 75px
     }
-
     .menu-alerta-content {
         -ms-flex-pack: center;
         justify-content: center;
@@ -20117,21 +19539,17 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-direction: column;
         flex-direction: column
     }
-
     .menu-alerta-title {
         font: 12px/16px Gotham HTF Medium
     }
-
     .menu-alerta-btn {
         font: 10px Gotham HTF Bold;
         height: 25px;
         margin-top: 5px
     }
-
     .menu-alerta-saiba-antes.menu-alerta {
         height: 60px
     }
-
     .menu-alerta-saiba-antes .menu-alerta-content {
         -ms-flex-pack: center;
         justify-content: center;
@@ -20139,36 +19557,36 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-direction: row;
         flex-direction: row
     }
-
     .shared-vitrine-img.vitrine-img-graduacao {
         padding-top: 190px
     }
 }
 
 @media screen and (max-width: 320px) {
-    .graduacao-extensoes--online .graduacao-extensoes-title, .graduacao-extensoes-title {
+    .graduacao-extensoes--online .graduacao-extensoes-title,
+    .graduacao-extensoes-title {
         font-size: 22px
     }
-
-    .graduacao-extensoes--online .graduacao-extensoes-title-internacional, .graduacao-extensoes-title-internacional {
+    .graduacao-extensoes--online .graduacao-extensoes-title-internacional,
+    .graduacao-extensoes-title-internacional {
         font: 30px/50px Gotham HTF Medium
     }
-
     .slashicorp-2018-enade-subtitle {
         font: 22px/35px Gotham HTF Light
     }
-
     .slashicorp-2018-artigos-box {
         padding: 25px
     }
-
     .slashicorp-2018-artigos-text {
         font: 600 18px/27px Gotham HTF Medium
     }
 }
 
 @media (max-width: 320px) {
-    .graduacao-n2020-mobile-header-wrapper-bw img, .graduacao-n2020-mobile-header-wrapper img, .graduacao-n2020-mobile-premiacao-header img, .graduacao-n2020-mobile-sobre-header img {
+    .graduacao-n2020-mobile-header-wrapper-bw img,
+    .graduacao-n2020-mobile-header-wrapper img,
+    .graduacao-n2020-mobile-premiacao-header img,
+    .graduacao-n2020-mobile-sobre-header img {
         transform: scale(1.7) translate(-6px, 30px)
     }
 }
@@ -20182,7 +19600,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-height: 800px) {
     .shared-conceito:after {
-        background: url(../images/shared/conceito/effects.png) center -50px no-repeat
+        background: url(../../img/background/effects.png) center -50px no-repeat
     }
 }
 
