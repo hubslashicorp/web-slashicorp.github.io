@@ -984,13 +984,14 @@ body::-webkit-scrollbar-thumb {
     margin: 100px auto 40px auto;
     width: 800px;
     height: 400px;
-    background: rgba(187, 19, 19, 0.856);
+    background: rgba(182, 70, 70, 0.856);
     overflow: hidden;
 }
 
 #imageBg {
     width: 800;
     height: 400px;
+    background-image: url('../images/1.jpg');
     background-size: cover;
     transition: 1s;
 }
@@ -1033,20 +1034,28 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(44, 62, 80, .9) !important;
 }
 
-ul#botoes  {
+ul#botoes {
     list-style: none;
-    width: 75px;
+    width: 10%;
     display: flex;
+    margin: 0 auto;
+    padding: 0;
 }
 
-#botoes li {
+ul#botoes li.botao {
     background: #1fc098;
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    cursor: pointer;
-    margin: 0 auto;
-    padding: 0;
+}
+
+li.botao {
+    margin: 10px;
+    padding: 10px;
+}
+
+.selected {
+    background: rgba(75, 219, 159, 0.4)
 }
 
 
@@ -5920,13 +5929,14 @@ ul#botoes  {
     padding-left: 1em
 }
 
+
 /*.coworking-header-list li {
     padding: 1.2em 0 1.5em 15px;
     list-style: none;
     position: relative*/
 
-}
 
+}
 .coworking-header-list li:before {
     content: "";
     background-color: #03fac9;
@@ -5939,13 +5949,11 @@ ul#botoes  {
     left: 0;
     margin-left: -1em
 }
-
 .coworking-header-note {
     font-size: 12px;
     position: relative;
     padding-left: 15px
 }
-
 .coworking-header-note:before {
     content: "*";
     display: block;
@@ -5957,16 +5965,13 @@ ul#botoes  {
     width: 100%;
     font-size: 15px
 }
-
 .coworking-header-font {
     font-size: 12px
 }
-
 .coworking-coworkings {
     padding: 170px 0 200px;
     position: relative
 }
-
 .coworking-coworkings:after {
     content: "";
     display: block;
@@ -5977,60 +5982,49 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/coworking-spaces/coworkings/effects.png) center 50px no-repeat
 }
-
 .coworking-coworkings .wrapper {
     max-width: 1100px
 }
-
 .coworking-coworkings-columns {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around
 }
-
 .coworking-coworkings-item {
     max-width: 400px;
     width: 47%
 }
-
 .coworking-coworkings-olimpia {
     margin-top: 0
 }
-
 .coworking-coworkings-title {
     font-size: 20px;
     color: #91a3ad;
     margin: 0
 }
-
 .coworking-coworkings-subtitle {
     font-size: 30px;
     color: #91a3ad;
     margin: 0;
     padding-bottom: 50px
 }
-
 .coworking-coworkings-header-img {
     display: block;
     width: 100%;
     margin-bottom: 80px
 }
-
 .coworking-coworkings-content {
     font: 14px/24px Roboto;
     letter-spacing: 1px
 }
-
 .coworking-coworkings-content-section {
     margin-bottom: 25px;
     color: #616d72
 }
-
 .coworking-content-text {
     padding-bottom: 33px
 }
-
 .coworking-content-line {
     position: relative;
     font: 18px/28px Gotham HTF Medium;
@@ -6038,7 +6032,6 @@ ul#botoes  {
     text-transform: uppercase;
     color: #91a3ad
 }
-
 .coworking-content-line:after {
     content: "";
     display: block;
@@ -6049,14 +6042,12 @@ ul#botoes  {
     background-color: #616d72;
     width: 100%
 }
-
 .coworking-content-info {
     color: #616d72;
     font-size: 10px;
     position: relative;
     padding-left: 15px
 }
-
 .coworking-content-info:before {
     content: "*";
     display: block;
@@ -6068,17 +6059,14 @@ ul#botoes  {
     width: 100%;
     font-size: 15px
 }
-
 .coworking-coworkings-list {
     list-style: disc;
     padding-left: 1em;
     margin-bottom: 80px
 }
-
 .coworking-coworkings-list-first {
     margin-bottom: 40px
 }
-
 .coworking-coworkings-list-title {
     list-style: none;
     font-size: 18px;
@@ -6108,11 +6096,9 @@ ul#botoes  {
     left: 0;
     margin-left: -1em
 }
-
 .coworking-coworkings-link {
     color: #03fac9
 }
-
 .coworking-utilizacao {
     background: url(../images/slashicorp/coworking-spaces/utilizacao/background.jpg) top no-repeat;
     color: #b8b8b8;
@@ -6121,7 +6107,6 @@ ul#botoes  {
     padding: 50px 0 300px;
     position: relative
 }
-
 .coworking-utilizacao:after {
     content: "";
     display: block;
@@ -6132,12 +6117,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/coworking-spaces/utilizacao/effects.png) center 55px no-repeat
 }
-
 .coworking-utilizacao-content {
     overflow: hidden;
     padding: 0 25px
 }
-
 .coworking-utilizacao-title {
     color: rgba(237, 20, 91, .7);
     font: 30px Gotham HTF Book;
@@ -6145,35 +6128,28 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .coworking-utilizacao-subtitle {
     font-size: 14px;
     margin-bottom: 0
 }
-
 .coworking-utilizacao-columns {
     margin: 0 -25px
 }
-
 .coworking-utilizacao-column {
     float: left;
     padding: 0 25px;
     width: 50%
 }
-
 .coworking-utilizacao-section:not(:last-child) {
     margin-bottom: 25px
 }
-
 .coworking-utilizacao-list {
     list-style: disc;
     padding-left: 1em
 }
-
 .coworking-agendamento {
     padding: 100px 0 200px
 }
-
 .coworking-agendamento-title {
     color: #91a3ad;
     font: 40px Gotham HTF Book;
@@ -6183,7 +6159,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .coworking-agendamento-subtitle {
     color: #616d72;
     font: 16x/22px Roboto;
@@ -6192,12 +6167,10 @@ ul#botoes  {
     margin-top: 0;
     text-align: center
 }
-
 .coworking-agendamento-subtitle:last-child {
     margin-bottom: 30px;
     margin-top: 40px
 }
-
 .coworking-agendamento-iframe {
     border: none;
     display: block;
@@ -6205,12 +6178,10 @@ ul#botoes  {
     margin: auto;
     width: 100%
 }
-
 .slashicorp-carreiras {
     padding-top: 200px;
     position: relative
 }
-
 .slashicorp-carreiras:after {
     content: "";
     display: block;
@@ -6221,7 +6192,6 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/gestao-de-carreiras/effects-header.png) center 120px no-repeat
 }
-
 .slashicorp-carreiras-title {
     color: #91a3ad;
     font: 45px Gotham HTF Medium;
@@ -6229,7 +6199,6 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .slashicorp-carreiras-subtitle {
     color: #616d72;
     font: 22px Gotham HTF Book;
@@ -6237,11 +6206,9 @@ ul#botoes  {
     text-transform: uppercase;
     margin-bottom: 15px
 }
-
 .slashicorp-carreiras-content-iframe {
     position: relative
 }
-
 .slashicorp-carreiras-content-iframe:after {
     content: "";
     display: block;
@@ -6252,53 +6219,44 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/gestao-de-carreiras/effects-content.png) center 108px no-repeat
 }
-
 .slashicorp-carreiras-iframe {
     border: none;
     max-width: 1200px;
     width: 100%;
     height: 100%
 }
-
 .talent-login {
     background: #171717;
     margin-top: 120px;
     padding: 13px 0
 }
-
 .talent-login-wrapper {
     margin: auto;
     max-width: 800px;
     width: 90%
 }
-
 .talent-login-title {
     font: 16px Gotham HTF Medium;
     text-transform: uppercase
 }
-
 .talent-login-columns {
     display: table;
     width: 100%
 }
-
 .talent-login-column {
     display: table-cell;
     font-size: 0;
     vertical-align: middle
 }
-
 .talent-login-iframe {
     border: none;
     height: 35px;
     overflow: hidden;
     width: 515px
 }
-
 .talent-lab {
     background-color: #000
 }
-
 .talent-header {
     background: url(../images/talent-lab/header/background.jpg) 50% no-repeat;
     display: table;
@@ -6306,7 +6264,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .talent-header:before {
     background: url(../images/talent-lab/header/effects.png) center 45px no-repeat;
     content: "";
@@ -6317,39 +6274,33 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-header-wrapper {
     display: table-cell;
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle
 }
-
 .talent-header-logo {
     margin-top: 90px;
     max-width: 444px;
     width: 90%
 }
-
 .talent-header-title {
     color: #03fac9;
     font: 25px Gotham HTF Bold;
     margin-bottom: 0;
     margin-top: 20px
 }
-
 .talent-header-description {
     color: #b8b8b8;
     font: 17px/25px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 190px
 }
-
 .talent-header-highlight {
     font-family: Gotham HTF Bold;
     font-weight: 400
 }
-
 .talent-header-button {
     bottom: 0;
     font-size: 0;
@@ -6359,7 +6310,6 @@ ul#botoes  {
     transform: translateX(-50%);
     width: 100px
 }
-
 .talent-header-button:after {
     border-color: #fff;
     border-style: solid;
@@ -6373,13 +6323,11 @@ ul#botoes  {
     transform: translate(-50%, -75%) rotate(-45deg);
     width: 25px
 }
-
 .talent-career {
     padding-bottom: 100px;
     padding-top: 200px;
     position: relative
 }
-
 .talent-career:after,
 .talent-career:before {
     content: "";
@@ -6390,15 +6338,12 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-career:before {
     background: linear-gradient(180deg, #1a1a1a 0, #000 50%)
 }
-
 .talent-career:after {
     background: url(../images/talent-lab/career-support-and-tools/effects.png) center 40px no-repeat
 }
-
 .talent-career-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
@@ -6406,7 +6351,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .talent-career-subtitle {
     color: #03fac9;
     display: block;
@@ -6414,32 +6358,27 @@ ul#botoes  {
     margin-bottom: 20px;
     margin-top: 0
 }
-
 .talent-career-logo {
     height: 120px;
     margin-right: 30px;
     width: 120px
 }
-
 .talent-career-columns {
     color: #b8b8b8;
     display: table;
     font: 17px Roboto;
     margin: 75px auto 0
 }
-
 .talent-career-column {
     display: table-cell;
     vertical-align: middle
 }
-
 .talent-jobs {
     padding-bottom: 100px;
     padding-top: 195px;
     position: relative;
     text-align: center
 }
-
 .talent-jobs:after {
     background: url(../images/talent-lab/job-posting/effects.png) center 10px no-repeat;
     content: "";
@@ -6450,40 +6389,34 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-jobs-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 75px;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-jobs-description {
     color: #b8b8b8;
     font: 17px/21px Roboto;
     margin-bottom: 0;
     margin-top: 20px
 }
-
 .talent-jobs-highlight {
     color: #03fac9;
     font-weight: 700
 }
-
 .talent-acceleration {
     padding-bottom: 200px;
     padding-top: 245px;
     position: relative;
     text-align: center
 }
-
 .talent-acceleration:before {
     background: url(../images/talent-lab/talent-acceleration/background.jpg) 50% no-repeat;
     height: 200%;
     top: 50%;
     transform: translateY(-50%)
 }
-
 .talent-acceleration:after,
 .talent-acceleration:before {
     content: "";
@@ -6492,20 +6425,17 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .talent-acceleration:after {
     background: url(../images/talent-lab/talent-acceleration/effects.png) top no-repeat;
     height: 100%;
     top: 0
 }
-
 .talent-acceleration-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-acceleration-subtitle {
     color: #03fac9;
     font: 25px Gotham HTF Book;
@@ -6513,21 +6443,18 @@ ul#botoes  {
     margin-top: 50px;
     text-transform: uppercase
 }
-
 .talent-acceleration-description {
     color: #b8b8b8;
     font: 17px/20px Roboto;
     margin-bottom: 0;
     margin-top: 20px
 }
-
 .talent-recruiting {
     padding-bottom: 50px;
     padding-top: 45px;
     position: relative;
     text-align: center
 }
-
 .talent-recruiting:after {
     background: url(../images/talent-lab/on-campus-recruiting/effects.png) top no-repeat;
     content: "";
@@ -6538,14 +6465,12 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-recruiting-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-recruiting-subtitle {
     color: #03fac9;
     font: 25px/30px Gotham HTF Book;
@@ -6553,21 +6478,18 @@ ul#botoes  {
     margin-top: 55px;
     text-transform: uppercase
 }
-
 .talent-recruiting-description {
     color: #b8b8b8;
     font: 17px/22px Roboto;
     margin-bottom: 0;
     margin-top: 50px
 }
-
 .talent-innovation {
     padding-bottom: 205px;
     padding-top: 130px;
     position: relative;
     text-align: center
 }
-
 .talent-innovation:after {
     background: url(../images/talent-lab/open-innovation/effects.png) center 30px no-repeat;
     content: "";
@@ -6578,44 +6500,36 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-innovation-title {
     font: 36px Gotham HTF Book
 }
-
 .talent-innovation-subtitle,
 .talent-innovation-title {
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-innovation-subtitle {
     color: #03fac9;
     font: 25px/30px Gotham HTF Book
 }
-
 .talent-innovation-description {
     color: #b8b8b8;
     font: 17px/22px Roboto;
     margin-bottom: 0;
     margin-top: 50px
 }
-
 .talent-innovation-box {
     margin-top: 95px
 }
-
 .talent-innovation-list {
     position: relative
 }
-
 .talent-innovation-list:before {
     content: "";
     display: block;
     padding-top: 56.3%
 }
-
 .talent-innovation-list-item {
     bottom: 0;
     opacity: 0;
@@ -6626,17 +6540,14 @@ ul#botoes  {
     transition: opacity .4s ease, visibility .4s ease;
     visibility: hidden
 }
-
 .talent-innovation-list-item.is-active {
     opacity: 1;
     visibility: visible
 }
-
 .talent-innovation-list-media {
     background: #000;
     cursor: pointer
 }
-
 .talent-innovation-list-blur {
     background-position: 50%;
     background-size: 100%;
@@ -6652,17 +6563,14 @@ ul#botoes  {
     transition: opacity .4s ease;
     z-index: -1
 }
-
 .talent-innovation-list-item:hover .talent-innovation-list-blur {
     opacity: .75
 }
-
 .talent-innovation-list-img {
     display: block;
     opacity: .3;
     width: 100%
 }
-
 .talent-innovation-list-icon {
     fill: #03fac9;
     height: 130px;
@@ -6673,11 +6581,9 @@ ul#botoes  {
     transition: transform .4s ease;
     width: 150px
 }
-
 .talent-innovation-list-item:hover .talent-innovation-list-icon {
     transform: translate(-50%, -50%) scale(1.2)
 }
-
 .talent-innovation-list-content {
     bottom: 0;
     left: 0;
@@ -6688,27 +6594,23 @@ ul#botoes  {
     right: 0;
     z-index: 1
 }
-
 .talent-innovation-list-content-wrapper {
     color: #fff;
     font: 13px/22px Gotham HTF Medium;
     letter-spacing: .05em;
     text-align: left
 }
-
 .talent-innovation-list-title {
     font: 16px Gotham HTF Bold;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-innovation-list-description {
     margin-bottom: 0;
     margin-top: 10px;
     max-width: 650px
 }
-
 .talent-innovation-btn {
     cursor: pointer;
     font-size: 0;
@@ -6720,7 +6622,6 @@ ul#botoes  {
     width: 80px;
     z-index: 3
 }
-
 .talent-innovation-btn:after {
     border-color: #fff;
     border-style: solid;
@@ -6734,38 +6635,30 @@ ul#botoes  {
     transition: border-color .4s ease;
     width: 60px
 }
-
 .talent-innovation-btn:hover:after {
     border-color: #03fac9
 }
-
 .talent-innovation-btn-next {
     right: -80px
 }
-
 .talent-innovation-btn-next:after {
     border-width: 2px 2px 0 0;
     left: 25%
 }
-
 .talent-innovation-btn-prev {
     left: -80px
 }
-
 .talent-innovation-btn-prev:after {
     border-width: 0 0 2px 2px;
     left: 75%
 }
-
 .talent-innovation-thumbs {
     margin-top: 30px
 }
-
 .talent-innovation-thumbs-list {
     font-size: 0;
     margin: 0 -10px
 }
-
 .talent-innovation-thumbs-item {
     color: #fff;
     cursor: pointer;
@@ -6782,31 +6675,26 @@ ul#botoes  {
     vertical-align: top;
     width: 20%
 }
-
 .talent-innovation-thumbs-item.is-active,
 .talent-innovation-thumbs-item:hover {
     filter: grayscale(0)
 }
-
 .talent-innovation-thumbs-media {
     display: block;
     margin-bottom: 20px;
     position: relative
 }
-
 .talent-innovation-thumbs-media:after {
     content: "";
     display: block;
     padding-top: 56.3%
 }
-
 .talent-innovation-thumbs-media-img {
     left: 0;
     position: absolute;
     top: 0;
     width: 100%
 }
-
 .talent-opportunities {
     border-color: #03fac9;
     border-style: solid;
@@ -6816,7 +6704,6 @@ ul#botoes  {
     position: relative;
     text-align: center
 }
-
 .talent-opportunities:after,
 .talent-opportunities:before {
     content: "";
@@ -6827,22 +6714,18 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-opportunities:before {
     background: url(../images/talent-lab/we-have-opportunities/background.png) bottom no-repeat
 }
-
 .talent-opportunities:after {
     background: url(../images/talent-lab/we-have-opportunities/effects.png) center 60px no-repeat
 }
-
 .talent-opportunities-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-opportunities-iframe {
     border: none;
     height: 35px;
@@ -6851,14 +6734,12 @@ ul#botoes  {
     max-width: 490px;
     width: 100%
 }
-
 .talent-partnerships {
     padding-bottom: 300px;
     padding-top: 90px;
     position: relative;
     text-align: center
 }
-
 .talent-partnerships:before {
     background: url(../images/talent-lab/partnerships/effects.png) center 60px no-repeat;
     content: "";
@@ -6869,29 +6750,24 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-partnerships-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-partnerships-logos {
     font-size: 0;
     margin-top: 60px
 }
-
 .talent-partnerships-logo {
     display: inline-block;
     margin: 13px 24px;
     vertical-align: middle
 }
-
 .talent-partnerships-empresas {
     margin-top: 75px
 }
-
 .talent-partnerships-empresa {
     display: inline-block;
     font: 15px Gotham HTF Medium;
@@ -6900,26 +6776,21 @@ ul#botoes  {
     text-transform: uppercase;
     vertical-align: middle
 }
-
 .talent-partnerships-empresa-small {
     font-size: 15px
 }
-
 .talent-partnerships-empresa-medium {
     font-size: 17px
 }
-
 .talent-partnerships-empresa-large {
     font-size: 20px
 }
-
 .talent-talks {
     padding-bottom: 165px;
     padding-top: 165px;
     position: relative;
     text-align: center
 }
-
 .talent-talks:before {
     background: radial-gradient(ellipse at center, rgb(3, 250, 201) 0, transparent 70%);
     content: "";
@@ -6932,7 +6803,6 @@ ul#botoes  {
     width: 1000px;
     z-index: 2
 }
-
 .talent-talks:after {
     background: url(../images/talent-lab/talent-talks/effects.png) center 50px no-repeat;
     content: "";
@@ -6943,7 +6813,6 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-talks-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
@@ -6952,7 +6821,6 @@ ul#botoes  {
     text-transform: uppercase;
     z-index: 3
 }
-
 .talent-talks-slider {
     margin: 50px auto 0;
     max-width: 1024px;
@@ -6962,23 +6830,19 @@ ul#botoes  {
     width: 90%;
     z-index: 3
 }
-
 .talent-talks-slider-wrapper {
     font-size: 0
 }
-
 .talent-talks-slider-item {
     display: inline-block;
     vertical-align: middle;
     white-space: normal;
     width: 100%
 }
-
 .talents-talks-slider-box {
     margin: auto;
     width: 90%
 }
-
 .talent-talks-slider-icon {
     background: #fff;
     border-radius: 50%;
@@ -6989,25 +6853,21 @@ ul#botoes  {
     margin: auto;
     width: 41px
 }
-
 .talent-talks-slider-quote {
     font: 19px/23px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 45px
 }
-
 .talent-talks-slider-notes {
     font: 14px/19px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 30px;
     text-transform: uppercase
 }
-
 .talent-talks-slider-highlight {
     display: block;
     font-family: Gotham HTF Bold
 }
-
 .talent-talks-button {
     background: none;
     border: none;
@@ -7023,7 +6883,6 @@ ul#botoes  {
     width: 100px;
     z-index: 2
 }
-
 .talent-talks-button:after {
     border-color: #03fac9;
     border-style: solid;
@@ -7036,39 +6895,32 @@ ul#botoes  {
     transform: translate(-50%, -50%) rotate(-45deg);
     width: 60px
 }
-
 .talent-talks-button-previous {
     left: 0
 }
-
 .talent-talks-button-previous:after {
     border-width: 2px 0 0 2px;
     left: 75%
 }
-
 .talent-talks-button-next {
     right: 0
 }
-
 .talent-talks-button-next:after {
     border-width: 0 2px 2px 0;
     left: 25%
 }
-
 .talent-atendimento {
     padding-bottom: 150px;
     padding-top: 350px;
     position: relative;
     text-align: center
 }
-
 .talent-atendimento:before {
     background: url(../images/talent-lab/atendimento-psicopedagogico/background.jpg) 50% no-repeat;
     height: 200%;
     top: 50%;
     transform: translateY(-50%)
 }
-
 .talent-atendimento:after,
 .talent-atendimento:before {
     content: "";
@@ -7077,20 +6929,17 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .talent-atendimento:after {
     background: url(../images/talent-lab/atendimento-psicopedagogico/effects.png) center 70px no-repeat;
     height: 100%;
     top: 0
 }
-
 .talent-atendimento-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: uppercase
 }
-
 .talent-atendimento-subtitle {
     color: #03fac9;
     font: 25px/30px Gotham HTF Book;
@@ -7098,20 +6947,17 @@ ul#botoes  {
     margin-top: 65px;
     text-transform: uppercase
 }
-
 .talento-atendimento-description {
     color: #b8b8b8;
     font: 17px/21px Roboto;
     margin-bottom: 0;
     margin-top: 0
 }
-
 .talent-contact {
     padding-bottom: 400px;
     padding-top: 160px;
     position: relative
 }
-
 .talent-contact:before {
     background: url(../images/talent-lab/keep-in-touch/effects.png) center 55px no-repeat;
     content: "";
@@ -7122,7 +6968,6 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .talent-contact-title {
     font: 36px Gotham HTF Book;
     margin-bottom: 0;
@@ -7130,7 +6975,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .talent-contact-description {
     color: #b8b8b8;
     font: 17px Roboto;
@@ -7138,43 +6982,34 @@ ul#botoes  {
     margin-top: 50px;
     text-align: center
 }
-
 .talent-contact-box,
 .talent-contact-form {
     margin: 75px auto 0;
     max-width: 850px
 }
-
 .talent-contact-row:not(:first-child) {
     margin-top: 20px
 }
-
 .talent-contact-columns {
     margin: 0 -6px
 }
-
 .talent-contact-column {
     display: block;
     float: left;
     padding: 0 6px
 }
-
 .talent-contact-columns-3 .talent-contact-column:first-child {
     width: 50%
 }
-
 .talent-contact-columns-3 .talent-contact-column:nth-child(2) {
     width: 20%
 }
-
 .talent-contact-columns-3 .talent-contact-column:nth-child(3) {
     width: 30%
 }
-
 .talent-contact-columns-2 .talent-contact-column {
     width: 50%
 }
-
 .talent-contact-label {
     color: #03fac9;
     display: block;
@@ -7183,7 +7018,6 @@ ul#botoes  {
     padding-left: 10px;
     text-transform: uppercase
 }
-
 .talent-contact-input {
     background: #2b2b2b;
     color: #fff;
@@ -7194,13 +7028,11 @@ ul#botoes  {
     padding: 0 20px;
     width: 100%
 }
-
 .talent-contact-textarea {
     height: 150px;
     padding: 20px;
     resize: none
 }
-
 .talent-contact-button {
     background: #03fac9;
     color: #fff;
@@ -7213,12 +7045,10 @@ ul#botoes  {
     transition: background .4s ease, color .4s ease;
     width: 140px
 }
-
 .talent-contact-button:hover {
     background: #fff;
     color: #03fac9
 }
-
 .talent-contact-box-label {
     color: #03fac9;
     display: block;
@@ -7227,7 +7057,6 @@ ul#botoes  {
     padding-left: 10px;
     text-transform: uppercase
 }
-
 .talent-contact-box-list {
     color: #b8b8b8;
     font-size: 12px;
@@ -7236,34 +7065,27 @@ ul#botoes  {
     padding-left: 1em;
     text-transform: uppercase
 }
-
 .e-section {
     background: #fff;
     color: #000
 }
-
 .e-section p {
     margin: 25px 0
 }
-
 .e-section p:first-child {
     margin-top: 0
 }
-
 .e-section p:last-child {
     margin-bottom: 0
 }
-
 .e-section-header {
     margin-bottom: 75px;
     text-align: center
 }
-
 .e-section-footer {
     margin-top: 75px;
     text-align: center
 }
-
 .e-section-footer-btn {
     border: 2px solid #03fac9;
     color: #03fac9;
@@ -7274,12 +7096,10 @@ ul#botoes  {
     text-transform: uppercase;
     transition: all .4s
 }
-
 .e-section-footer-btn:hover {
     background: #03fac9;
     color: #fff
 }
-
 .e-section-footer-btn-note {
     display: inline-block;
     font: 12px Gotham HTF Book;
@@ -7287,61 +7107,50 @@ ul#botoes  {
     margin-top: 20px;
     transition: all .4s
 }
-
 .e-section-footer-btn-note:hover {
     color: #03fac9
 }
-
 .e-wrapper {
     margin: auto;
     max-width: 1180px;
     padding: 125px 0;
     width: 90%
 }
-
 .e-columns {
     font: 15px/28px Roboto;
     margin: 0 -25px
 }
-
 .e-columns.equipe {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center
 }
-
 .e-column {
     float: left;
     padding: 0 25px;
     width: 50%
 }
-
 .e-title {
     font: 45px Gotham HTF Light;
     letter-spacing: 4.5px;
     text-transform: uppercase
 }
-
 .e-title-highlight {
     color: #03fac9;
     font-family: Gotham HTF Medium
 }
-
 .e-list {
     list-style: square inside
 }
-
 .e-link {
     border-bottom: 1px solid #03fac9;
     color: #03fac9
 }
-
 .e-highlight {
     color: #03fac9;
     font-family: Gotham HTF Bold
 }
-
 .e-header {
     background: url(../images/slashicorp/empresa-junior/header.jpg) 50%;
     background-size: cover;
@@ -7350,12 +7159,10 @@ ul#botoes  {
     text-align: center;
     width: 100%
 }
-
 .e-header-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .e-header-title {
     color: #03fac9;
     font: 65px Gotham HTF Medium;
@@ -7363,7 +7170,6 @@ ul#botoes  {
     margin-bottom: 50px;
     text-transform: uppercase
 }
-
 .e-header-desc {
     color: #fff;
     font-size: 18px;
@@ -7372,24 +7178,19 @@ ul#botoes  {
     margin: auto;
     max-width: 800px
 }
-
 .e-beneficios .e-wrapper {
     max-width: 975px
 }
-
 .e-apoiados {
     background: #f7f7f7
 }
-
 .e-apoiados .e-wrapper {
     max-width: 900px
 }
-
 .e-apoiados-tabs {
     margin-top: 75px;
     position: relative
 }
-
 .e-apoiados-tabs-btn {
     cursor: pointer;
     float: left;
@@ -7398,20 +7199,17 @@ ul#botoes  {
     transition: all .4s;
     width: 33.33%
 }
-
 .e-apoiados-tabs-btn.is-active,
 .e-apoiados-tabs-btn:hover {
     background: #fff;
     box-shadow: 0 0 25px rgba(0, 0, 0, .1)
 }
-
 .e-apoiados-tabs-logo {
     display: block;
     height: 45px;
     margin: auto;
     width: 200px
 }
-
 .e-apoiados-tab {
     background: #fff;
     box-shadow: 0 0 25px rgba(0, 0, 0, .1);
@@ -7423,38 +7221,30 @@ ul#botoes  {
     width: 100%;
     z-index: 2
 }
-
 .e-apoiados-tab.is-active {
     display: block
 }
-
 .e-palestras .e-wrapper {
     max-width: 900px
 }
-
 .e-calendario {
     display: none;
     font-family: Roboto
 }
-
 .e-calendario strong {
     font-weight: 600
 }
-
 .e-calendario .e-wrapper {
     max-width: 750px
 }
-
 .e-calendario-item {
     margin-top: 50px
 }
-
 .e-calendario-title {
     color: #03fac9;
     font: 24px Gotham HTF Bold;
     text-transform: uppercase
 }
-
 .e-calendario-subtitle {
     display: block;
     font: 14px/22px Gotham HTF Bold;
@@ -7462,16 +7252,13 @@ ul#botoes  {
     margin-bottom: 10px;
     text-transform: uppercase
 }
-
 .e-parcerias .e-wrapper {
     max-width: 1000px
 }
-
 .e-parcerias-tabs {
     margin-top: 75px;
     position: relative
 }
-
 .e-parcerias-tabs-btn {
     cursor: pointer;
     float: left;
@@ -7480,14 +7267,12 @@ ul#botoes  {
     transition: all .4s;
     width: 20%
 }
-
 .e-parcerias-tab,
 .e-parcerias-tabs-btn.is-active,
 .e-parcerias-tabs-btn:hover {
     background: #fff;
     box-shadow: 0 0 25px rgba(0, 0, 0, .1)
 }
-
 .e-parcerias-tab {
     display: none;
     font: 16px/30px Roboto;
@@ -7497,25 +7282,20 @@ ul#botoes  {
     width: 100%;
     z-index: 2
 }
-
 .e-parcerias-tab.is-active {
     display: block
 }
-
 .e-acelerados {
     background: #1c1c1c;
     color: #fff
 }
-
 .e-acelerados .e-wrapper {
     max-width: 900px
 }
-
 .e-acelerados-projetos {
     font-size: 0;
     margin: 50px -1.5% 0
 }
-
 .e-acelerados-projetos-item {
     border: 2px solid #03fac9;
     color: #fff;
@@ -7528,50 +7308,40 @@ ul#botoes  {
     text-transform: uppercase;
     width: 30%
 }
-
 .e-aceleradora .e-wrapper {
     max-width: 900px
 }
-
 .e-equipe {
     background: #f7f7f7
 }
-
 .e-equipe-left {
     text-align: right
 }
-
 .e-equipe-right {
     text-align: left
 }
-
 .e-equipe-title {
     font: 26px Gotham HTF Medium;
     margin-bottom: 35px;
     text-transform: uppercase
 }
-
 .e-equipe-subtitle {
     display: block;
     font-family: Gotham HTF Bold;
     text-transform: uppercase
 }
-
 .e-equipe-membro {
     margin-bottom: 25px
 }
-
 .e-equipe-desc {
     color: #666;
     font-size: 12px;
     line-height: 22px;
     margin-top: 10px
 }
-
 .e-contato {
     text-align: center
 }
-
 .e-contato-btn {
     background: #03fac9;
     border: 2px solid #03fac9;
@@ -7583,18 +7353,15 @@ ul#botoes  {
     text-transform: uppercase;
     transition: all .4s
 }
-
 .e-contato-btn:hover {
     background: none;
     color: #03fac9
 }
-
 .slashicorp-transporte-onibus {
     min-height: 750px;
     padding: 240px 0 0;
     position: relative
 }
-
 .slashicorp-transporte-onibus:after {
     background: url(../images/slashicorp/transporte/onibus/effects.png) center 155px no-repeat;
     content: "";
@@ -7605,7 +7372,6 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-transporte-onibus-title {
     color: #91a3ad;
     font: 50px Gotham HTF Book;
@@ -7617,7 +7383,6 @@ ul#botoes  {
     padding-bottom: 30px;
     position: relative
 }
-
 .slashicorp-transporte-onibus-title:after {
     background-color: #03fac9;
     bottom: -10px;
@@ -7628,11 +7393,9 @@ ul#botoes  {
     transform: translateX(-50%);
     width: 55px
 }
-
 .slashicorp-transporte-onibus-header {
     text-align: center
 }
-
 .slashicorp-transporte-onibus-header-title {
     color: #616d72;
     font: 18px Gotham HTF Medium;
@@ -7640,7 +7403,6 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .slashicorp-transporte-onibus-header-desc {
     color: #616d72;
     font: 14px Gotham HTF Book;
@@ -7648,7 +7410,6 @@ ul#botoes  {
     margin-bottom: 150px;
     margin-top: 0
 }
-
 .slashicorp-transporte-onibus-horarios-title {
     color: #616d72;
     font: 18px Gotham HTF Bold;
@@ -7659,7 +7420,6 @@ ul#botoes  {
     text-transform: uppercase;
     position: relative
 }
-
 .slashicorp-transporte-onibus-horarios-title:after {
     background-color: #616d72;
     bottom: 0;
@@ -7671,7 +7431,6 @@ ul#botoes  {
     transform: translateX(-50%);
     width: 29%
 }
-
 .slashicorp-transporte-onibus-horarios-columns {
     margin: 0 auto;
     display: -ms-flexbox;
@@ -7679,14 +7438,12 @@ ul#botoes  {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-transporte-onibus-horarios-column {
     width: 48%;
     padding: 25px;
     margin: 10px;
     border: .5px solid #616d72
 }
-
 .slashicorp-transporte-onibus-horarios .slashicorp-transporte-onibus-horarios-column-title {
     color: #91a3ad;
     font: 17px Gotham HTF Medium;
@@ -7694,7 +7451,6 @@ ul#botoes  {
     position: relative;
     text-transform: uppercase
 }
-
 .slashicorp-transporte-onibus-horarios .slashicorp-transporte-onibus-horarios-column-title:after {
     background-color: transparent;
     bottom: 0;
@@ -7705,7 +7461,6 @@ ul#botoes  {
     transition: background-color .5s ease;
     width: 35px
 }
-
 .slashicorp-transporte-onibus-horario-header {
     border: 1px solid #838383;
     color: #838383;
@@ -7714,23 +7469,19 @@ ul#botoes  {
     text-transform: uppercase;
     transition: border-color .4s, background .4s, color .4s
 }
-
 .slashicorp-transporte-onibus-horario-header:hover {
     background: #a60e40;
     border-color: #a60e40
 }
-
 .slashicorp-transporte-onibus-horario-content {
     background: #191919;
     font: 14px/18px Gotham HTF Book;
     padding: 30px
 }
-
 .slashicorp-transporte-onibus-horario-list {
     list-style: none;
     padding-left: 2em
 }
-
 .slashicorp-transporte-onibus-horario-list li:before {
     color: #03fac9;
     content: "\25AA";
@@ -7738,20 +7489,16 @@ ul#botoes  {
     margin-left: -1em;
     width: 1em
 }
-
 .slashicorp-transporte-onibus-horario-list-item {
     margin-bottom: 20px
 }
-
 .slashicorp-transporte-onibus-horario-list-text {
     color: #91a3ad;
     font: 15px Roboto
 }
-
 .slashicorp-transporte-onibus-horario-horario {
     color: #616d72
 }
-
 .slashicorp-transporte-onibus-horario-highlight {
     color: #616d72;
     display: block;
@@ -7759,12 +7506,10 @@ ul#botoes  {
     margin: 60px 0 25px 37px;
     text-transform: uppercase
 }
-
 .slashicorp-transporte-bicicletario {
     padding: 160px 0 360px;
     position: relative
 }
-
 .slashicorp-transporte-bicicletario:after {
     content: "";
     display: block;
@@ -7775,7 +7520,6 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/transporte/bicicletario/effects.png) center 105px no-repeat
 }
-
 .slashicorp-transporte-bicicletario-title {
     color: #91a3ad;
     font: 50px Gotham HTF Book;
@@ -7787,7 +7531,6 @@ ul#botoes  {
     padding-bottom: 30px;
     position: relative
 }
-
 .slashicorp-transporte-bicicletario-title:after {
     background-color: #03fac9;
     bottom: -10px;
@@ -7798,7 +7541,6 @@ ul#botoes  {
     transform: translateX(-50%);
     width: 55px
 }
-
 .slashicorp-transporte-bicicletario-media {
     float: left;
     margin: 0;
@@ -7806,11 +7548,9 @@ ul#botoes  {
     padding-right: 25px;
     position: relative
 }
-
 .slashicorp-transporte-bicicletario-media-img {
     display: block
 }
-
 .slashicorp-transporte-bicicletario-media-box {
     background: rgba(0, 0, 0, .8);
     left: 0;
@@ -7820,7 +7560,6 @@ ul#botoes  {
     top: 0;
     white-space: nowrap
 }
-
 .slashicorp-transporte-bicicletario-media-box-title {
     color: #03fac9;
     display: block;
@@ -7828,34 +7567,28 @@ ul#botoes  {
     margin-bottom: 15px;
     text-transform: uppercase
 }
-
 .slashicorp-transporte-bicicletario-media-box-desc {
     font: 14px/19px Roboto;
     letter-spacing: 1px
 }
-
 .slashicorp-transporte-bicicletario-content {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-transporte-bicicletario-content-text {
     color: #616d72;
     font: 17px/30px Roboto;
     letter-spacing: 1px;
     width: 45%
 }
-
 .slashicorp-transporte-bicicletario-content-line .slashicorp-transporte-bicicletario-content-text {
     margin-top: 80px
 }
-
 .slashicorp-transporte-bicicletario-content-line .slashicorp-transporte-bicicletario-content-text:first-child {
     margin-top: 97px
 }
-
 .slashicorp-transporte-bicicletario-content-title {
     color: #91a3ad;
     display: block;
@@ -7868,7 +7601,6 @@ ul#botoes  {
     position: relative;
     text-transform: uppercase
 }
-
 .slashicorp-transporte-bicicletario-content-title:after {
     background-color: #616d72;
     bottom: 0;
@@ -7879,31 +7611,25 @@ ul#botoes  {
     top: -30px;
     width: 92%
 }
-
 .slashicorp-transporte-bicicletario-content-highlight {
     color: #03fac9;
     font-weight: 700
 }
-
 .slashicorp-transporte-bicicletario-content-info {
     font: 12px Roboto
 }
-
 .slashicorp-cpa-conquistas {
     padding-bottom: 100px
 }
-
 .slashicorp-cpa-conquistas-title {
     color: #91a3ad;
     font: 30px Gotham HTF Book;
     margin-bottom: 70px;
     text-align: center
 }
-
 .slashicorp-cpa-conquistas-item:not(:first-child) {
     margin-top: 100px
 }
-
 .slashicorp-cpa-conquistas-item-title {
     color: #91a3ad;
     font: 20px/30px Gotham HTF Book;
@@ -7912,7 +7638,6 @@ ul#botoes  {
     position: relative;
     margin-bottom: 40px
 }
-
 .slashicorp-cpa-conquistas-item-title:before {
     background-color: #03fac9;
     content: "";
@@ -7922,26 +7647,21 @@ ul#botoes  {
     top: 15px;
     width: 45px
 }
-
 .slashicorp-cpa-conquistas-item-columns {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-cpa-conquistas-item-column {
     width: 32.5%
 }
-
 .slashicorp-cpa-conquistas-item-image {
     width: 100%
 }
-
 .slashicorp-cpa-informacoes {
     padding-bottom: 250px
 }
-
 .slashicorp-cpa-informacoes-title {
     color: #91a3ad;
     font: 30px Gotham HTF Book;
@@ -7949,22 +7669,18 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .slashicorp-cpa-informacoes-desc {
     color: #91a3ad;
     font: 16px Gotham HTF Book;
     padding: 10px 0;
     text-align: center
 }
-
 .slashicorp-cpa-informacoes-form {
     width: 100%
 }
-
 .slashicorp-cpa-informacoes-form-content {
     margin-top: 70px
 }
-
 .slashicorp-cpa-informacoes-form-columns {
     display: -ms-flexbox;
     display: flex;
@@ -7973,31 +7689,24 @@ ul#botoes  {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-cpa-informacoes-form-column {
     width: 49%
 }
-
 .slashicorp-cpa-informacoes-form-column-ddd {
     width: 27%
 }
-
 .slashicorp-cpa-informacoes-form-column-telefone {
     width: 64%
 }
-
 .slashicorp-cpa-informacoes-form-column-cidade {
     width: 78%
 }
-
 .slashicorp-cpa-informacoes-form-column-estado {
     width: 17%
 }
-
 .slashicorp-cpa-informacoes-form-group-columns {
     width: 50%
 }
-
 .slashicorp-cpa-informacoes-form-label {
     color: #616d72;
     display: block;
@@ -8006,7 +7715,6 @@ ul#botoes  {
     margin: 20px 15px 8px;
     text-transform: uppercase
 }
-
 .slashicorp-cpa-informacoes-form-input {
     -ms-flex-align: center;
     align-items: center;
@@ -8019,11 +7727,9 @@ ul#botoes  {
     padding: 0 20px;
     width: 100%
 }
-
 .slashicorp-cpa-informacoes-form-input:focus {
     background-color: #151819
 }
-
 .slashicorp-cpa-informacoes-form-textarea {
     -ms-flex-align: center;
     align-items: center;
@@ -8036,11 +7742,9 @@ ul#botoes  {
     padding: 20px;
     width: 100%
 }
-
 .slashicorp-cpa-informacoes-form-textarea:focus {
     background-color: #151819
 }
-
 .slashicorp-cpa-informacoes-form-group-columns-botao {
     display: -ms-flexbox;
     display: flex;
@@ -8049,11 +7753,9 @@ ul#botoes  {
     margin-top: 15px;
     width: 100%
 }
-
 .slashicorp-cpa-informacoes-form-group-columns-botao .slashicorp-cpa-informacoes-form-group {
     max-width: 220px
 }
-
 .slashicorp-cpa-informacoes-form-btn {
     background: none;
     border: 1px solid #03fac9;
@@ -8065,18 +7767,15 @@ ul#botoes  {
     text-transform: uppercase;
     transition: all .4s
 }
-
 .slashicorp-cpa-informacoes-form-btn:hover {
     background: #03fac9;
     color: #000
 }
-
 .slashicorp-cpa-informacoes-form-sucess {
     color: #91a3ad;
     font: 18px Gotham HTF Medium;
     text-align: center
 }
-
 .slashicorp-cpa-informacoes-form-error {
     background: #0f0f0f;
     border: 1px solid #03fac9;
@@ -8085,45 +7784,37 @@ ul#botoes  {
     text-align: center;
     width: 300px
 }
-
 .slashicorp-cpa-informacoes-form-error-label {
     color: #03fac9;
     font: 20px Gotham HTF Medium;
     padding-bottom: 10px;
     text-transform: uppercase
 }
-
 .slashicorp-cpa-informacoes-form-error-list-item {
     color: #91a3ad;
     font: 15px Roboto
 }
-
 .slashicorp-cpa-documentos {
     padding: 20px 0 100px
 }
-
 .slashicorp-cpa-documentos-title {
     font: 30px/40px Gotham HTF Book;
     text-transform: uppercase;
     color: #91a3ad;
     text-align: center
 }
-
 .slashicorp-cpa-documentos-subtitle {
     font: 22px Gotham HTF Medium;
     text-transform: uppercase;
     color: #91a3ad;
     text-align: center
 }
-
 .slashicorp-cpa-documentos-mosaico-content {
     margin: 50px 0
 }
-
 .slashicorp-cpa-documentos-mosaico-content:last-child {
     margin-top: 100px
 }
-
 .slashicorp-cpa-documentos-mosaico {
     display: -ms-flexbox;
     display: flex;
@@ -8132,11 +7823,9 @@ ul#botoes  {
     -ms-flex-pack: center;
     justify-content: center
 }
-
 .slashicorp-cpa-documentos-mosaico-item {
     margin: 10px
 }
-
 .slashicorp-cpa-documentos-mosaico-item-link {
     background-color: transparent;
     border: 1px solid #03fac9;
@@ -8149,12 +7838,10 @@ ul#botoes  {
     transition: all .4s ease-out;
     width: 100%
 }
-
 .slashicorp-cpa-documentos-mosaico-item-link:hover {
     background-color: #03fac9;
     color: #000
 }
-
 .slashicorp-cpa-edicoes {
     border: 1px solid #91a3ad;
     margin: 50px auto;
@@ -8162,14 +7849,12 @@ ul#botoes  {
     padding: 70px 100px;
     width: 90%
 }
-
 .slashicorp-cpa-edicoes-title {
     font: 30px/40px Gotham HTF Book;
     text-transform: uppercase;
     color: #91a3ad;
     text-align: center
 }
-
 .slashicorp-cpa-edicoes-botoes {
     display: -ms-flexbox;
     display: flex;
@@ -8177,7 +7862,6 @@ ul#botoes  {
     justify-content: space-between;
     margin-top: 50px
 }
-
 .slashicorp-cpa-header-botao {
     background-color: transparent;
     border: 1px solid #03fac9;
@@ -8190,16 +7874,13 @@ ul#botoes  {
     transition: all .5s ease;
     z-index: 10
 }
-
 .slashicorp-cpa-header-botao:hover {
     background-color: #03fac9;
     color: #000
 }
-
 .slashicorp-cpa {
     position: relative
 }
-
 .slashicorp-cpa:after {
     background: url(../images/slashicorp/cpa/effects.png) 50% no-repeat;
     content: "";
@@ -8210,15 +7891,12 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-cpa-header {
     padding: 275px 0 175px
 }
-
 .slashicorp-cpa-header .wrapper {
     max-width: 870px
 }
-
 .slashicorp-cpa-header-title-content {
     display: -ms-flexbox;
     display: flex;
@@ -8226,7 +7904,6 @@ ul#botoes  {
     justify-content: space-between;
     width: 100%
 }
-
 .slashicorp-cpa-header-title {
     color: #91a3ad;
     font: 100px Gotham HTF Medium;
@@ -8237,7 +7914,6 @@ ul#botoes  {
     padding-bottom: 0;
     position: relative
 }
-
 .slashicorp-cpa-header-title:after {
     background-color: #03fac9;
     bottom: 30px;
@@ -8248,7 +7924,6 @@ ul#botoes  {
     transform: translateX(0);
     width: 70px
 }
-
 .slashicorp-cpa-header-title-desc {
     color: #91a3ad;
     font: 30px/40px Gotham HTF Bold;
@@ -8256,7 +7931,6 @@ ul#botoes  {
     text-transform: uppercase;
     width: 50%
 }
-
 .slashicorp-cpa-sessao-title {
     font: 30px Gotham HTF Book;
     line-height: 70px;
@@ -8265,35 +7939,29 @@ ul#botoes  {
     text-align: center;
     margin-top: 50px
 }
-
 .slashicorp-cpa-sessao-content {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-cpa-sessao-content-column {
     width: 47%;
     font: 14px/30px Roboto;
     line-height: 22px;
     color: #91a3ad
 }
-
 .slashicorp-cpa-sessao-content-column-text {
     margin: 20px 0 35px
 }
-
 .slashicorp-cpa-sessao-content-list-item {
     list-style: none;
     position: relative;
     padding-bottom: 10px
 }
-
 .slashicorp-cpa-sessao-content-list-item-comissao {
     padding-bottom: 25px
 }
-
 .slashicorp-cpa-sessao-content-list-item:before {
     background-color: #03fac9;
     content: "";
@@ -8303,19 +7971,16 @@ ul#botoes  {
     width: 8px;
     height: 8px
 }
-
 .slashicorp-cpa-sessao-content-list {
     list-style: disc;
     padding-left: 1.25em
 }
-
 .slashicorp-informacoes {
     padding-bottom: 400px;
     padding-top: 275px;
     position: relative;
     text-align: center
 }
-
 .slashicorp-informacoes:after {
     content: "";
     display: block;
@@ -8326,7 +7991,6 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/informacoes-academicas/effects.png) center 100px no-repeat
 }
-
 .slashicorp-informacoes-title {
     color: #e6e7e8;
     font: 36px Gotham HTF Book;
@@ -8334,18 +7998,15 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .slashicorp-informacoes-list {
     font-size: 0;
     margin-top: 80px
 }
-
 .slashicorp-informacoes-item {
     display: inline-block;
     margin: 13px 15px;
     vertical-align: middle
 }
-
 .slashicorp-informacoes-link {
     border: 2px solid #03fac9;
     color: #fff;
@@ -8356,15 +8017,12 @@ ul#botoes  {
     text-transform: uppercase;
     transition: background .4s ease
 }
-
 .slashicorp-informacoes-link:hover {
     background: #03fac9
 }
-
 .slashicorp-informacoes-buttons {
     margin-top: 255px
 }
-
 .slashicorp-informacoes-button {
     background: #03fac9;
     border: 2px solid #03fac9;
@@ -8376,21 +8034,17 @@ ul#botoes  {
     text-transform: uppercase;
     transition: background .4s ease
 }
-
 .slashicorp-informacoes-button:hover {
     background: none
 }
-
 .slashicorp-noticias-arquivo {
     overflow: hidden;
     padding: 270px 0;
     position: relative
 }
-
 .slashicorp-noticias-arquivo .wrapper {
     max-width: 1000px
 }
-
 .slashicorp-noticias-arquivo:after {
     content: "";
     display: block;
@@ -8401,11 +8055,9 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/noticias/effects.png) center 170px no-repeat
 }
-
 .slashicorp-noticias-arquivo-header {
     position: relative
 }
-
 .slashicorp-noticias-arquivo-title {
     font: 50px Gotham HTF Medium;
     margin-bottom: 200px;
@@ -8414,7 +8066,6 @@ ul#botoes  {
     padding-left: 50px;
     position: relative
 }
-
 .slashicorp-noticias-arquivo-title:before {
     background-color: #03fac9;
     content: "";
@@ -8423,7 +8074,6 @@ ul#botoes  {
     top: 80px;
     width: 120px
 }
-
 .slashicorp-noticias-arquivo-description {
     display: table;
     margin: 0 0 30px;
@@ -8431,11 +8081,9 @@ ul#botoes  {
     width: 100%;
     color: #616d72
 }
-
 .slashicorp-noticias-arquivo-content {
     margin: 0 auto
 }
-
 .slashicorp-noticias-arquivo-footer a {
     background: none;
     border: 1px solid #03fac9;
@@ -8451,16 +8099,13 @@ ul#botoes  {
     width: -webkit-fit-content;
     width: fit-content
 }
-
 .slashicorp-noticias-arquivo-footer a:hover {
     background: #03fac9;
     color: #000
 }
-
 .slashicorp-noticias-arquivo-noticias {
     position: relative
 }
-
 .slashicorp-noticias-arquivo-noticias:after {
     content: "";
     display: block;
@@ -8471,13 +8116,11 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/noticias/effects2.png) center 50px repeat-Y
 }
-
 .slashicorp-noticias-artigo {
     padding: 70px 50px 50px;
     position: relative;
     width: 50%
 }
-
 .slashicorp-noticias-artigo-title {
     color: #91a3ad;
     font: 23px Gotham HTF Medium;
@@ -8486,7 +8129,6 @@ ul#botoes  {
     text-transform: uppercase;
     position: relative
 }
-
 .slashicorp-noticias-artigo-line .slashicorp-noticias-artigo-title:after {
     background-color: #616d72;
     bottom: 120%;
@@ -8496,7 +8138,6 @@ ul#botoes  {
     position: absolute;
     width: 97%
 }
-
 .slashicorp-noticias-artigo-date {
     color: #616d72;
     font: 14px Gotham HTF Medium;
@@ -8505,7 +8146,6 @@ ul#botoes  {
     padding-bottom: 40px;
     position: relative
 }
-
 .slashicorp-noticias-artigo-date:after {
     background-color: #03fac9;
     bottom: 10px;
@@ -8516,28 +8156,23 @@ ul#botoes  {
     transform: translateX(0);
     width: 70px
 }
-
 .slashicorp-noticias-artigo-content {
     font: 14px Roboto;
     word-wrap: break-word;
     color: #91a3ad;
     line-height: 20px
 }
-
 .slashicorp-noticias-artigo-link {
     position: relative
 }
-
 .slashicorp-noticias-artigo-link .components-btn-saiba-mais-plus {
     top: 12px
 }
-
 .wp-pagenavi {
     font: 12px Gotham HTF Book;
     margin-top: 50px;
     text-align: center
 }
-
 .wp-pagenavi>.pages {
     border: 1px solid #03fac9;
     color: #03fac9;
@@ -8546,13 +8181,11 @@ ul#botoes  {
     padding: 8px 10px;
     text-transform: uppercase
 }
-
 .wp-pagenavi>.extend,
 .wp-pagenavi>.first,
 .wp-pagenavi>.last {
     display: none
 }
-
 .wp-pagenavi>.current,
 .wp-pagenavi>.page {
     color: #afafaf;
@@ -8562,21 +8195,17 @@ ul#botoes  {
     vertical-align: middle;
     width: 35px
 }
-
 .wp-pagenavi>.current {
     background: #03fac9;
     color: #fff
 }
-
 .slashicorp-noticias-noticia {
     padding: 200px 0;
     position: relative
 }
-
 .slashicorp-noticias-noticia .wrapper {
     max-width: 1050px
 }
-
 .slashicorp-noticias-noticia:after {
     content: "";
     display: block;
@@ -8587,39 +8216,33 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/noticias/effects_LeiaMais.png) center 50px no-repeat
 }
-
 .slashicorp-noticias-noticia-left {
     float: left;
     width: 67.5%;
     padding-right: 20px
 }
-
 .slashicorp-noticias-noticia-right {
     float: right;
     width: 32.5%
 }
-
 .slashicorp-noticias-noticia-title {
     color: #91a3ad;
     font: 40px/42px Gotham HTF Book;
     margin-bottom: 35px;
     text-transform: uppercase
 }
-
 .slashicorp-noticias-noticia-date {
     color: #616d72;
     font: 700 14px Gotham HTF Medium;
     width: 30%;
     margin-top: 15px
 }
-
 .slashicorp-noticias-noticia-info {
     display: -ms-flexbox;
     display: flex;
     position: relative;
     margin-bottom: 100px
 }
-
 .slashicorp-noticias-noticia-info:after {
     background-color: #616d72;
     bottom: 0;
@@ -8631,26 +8254,21 @@ ul#botoes  {
     transition: background-color .5s ease;
     width: 100%
 }
-
 .slashicorp-noticias-noticia-content {
     font: 16px/26px Roboto;
     color: #879399
 }
-
 .slashicorp-noticias-noticia-content .alignleft {
     float: left;
     margin-bottom: 15px
 }
-
 .slashicorp-noticias-noticia-content .size-full {
     height: auto;
     width: 100%
 }
-
 .slashicorp-noticias-noticia-content a {
     color: #03fac9
 }
-
 .slashicorp-noticias-noticia-content p {
     margin-top: 50px
 }
@@ -8660,7 +8278,6 @@ ul#botoes  {
     position: relative;
     margin: 15px
 }*/
-
 .slashicorp-noticias-noticia-content li:after {
     background-color: #03fac9;
     border-radius: 50%;
@@ -8671,20 +8288,17 @@ ul#botoes  {
     position: absolute;
     width: 5px
 }
-
 .slashicorp-noticias-compartilhar {
     color: #616d72;
     font: 700 14px Gotham HTF Medium;
     width: 70%;
     text-align: right
 }
-
 .slashicorp-noticias-compartilhar-title {
     display: inline-block;
     text-transform: uppercase;
     vertical-align: middle
 }
-
 .slashicorp-noticias-compartilhar-link {
     border: 2px solid #616d72;
     border-radius: 50%;
@@ -8698,18 +8312,15 @@ ul#botoes  {
     vertical-align: middle;
     width: 40px
 }
-
 .slashicorp-noticias-compartilhar-link:hover {
     background: #404040;
     fill: #fff
 }
-
 .slashicorp-noticias-ultimas {
     border-left: 1px solid #616d72;
     margin-top: 40px;
     padding: 15px 18px
 }
-
 .slashicorp-noticias-ultimas-title {
     display: block;
     font: 20px Gotham HTF Medium;
@@ -8718,7 +8329,6 @@ ul#botoes  {
     text-transform: uppercase;
     position: relative
 }
-
 .slashicorp-noticias-ultimas-title:before {
     background-color: #03fac9;
     content: "";
@@ -8728,7 +8338,6 @@ ul#botoes  {
     left: 5px;
     width: 80px
 }
-
 .slashicorp-noticias-ultimas-subtitle {
     display: block;
     font: 15px/16px Gotham HTF Bold;
@@ -8738,17 +8347,14 @@ ul#botoes  {
     text-transform: uppercase;
     width: 250px
 }
-
 .slashicorp-noticias-ultimas-item {
     display: table;
     margin-bottom: 60px
 }
-
 .slashicorp-noticias-ultimas-item-column {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-noticias-ultimas-media {
     height: 100px;
     overflow-x: hidden;
@@ -8756,7 +8362,6 @@ ul#botoes  {
     position: relative;
     width: 100px
 }
-
 .slashicorp-noticias-ultimas-img {
     display: block;
     height: 100%;
@@ -8766,7 +8371,6 @@ ul#botoes  {
     transform: translateX(-50%);
     width: auto
 }
-
 .slashicorp-noticias-ultimas-link {
     color: #03fac9;
     display: block;
@@ -8774,7 +8378,6 @@ ul#botoes  {
     letter-spacing: .3px;
     text-transform: uppercase
 }
-
 .slashicorp-noticias-ultimas-link:after {
     background: #03fac9;
     content: "";
@@ -8784,11 +8387,9 @@ ul#botoes  {
     transition: width .4s;
     width: 10px
 }
-
 .slashicorp-noticias-ultimas-item:hover .slashicorp-noticias-ultimas-link:after {
     width: 30px
 }
-
 .slashicorp-noticias-contato {
     padding: 0 170px 0 0;
     position: absolute;
@@ -8799,7 +8400,6 @@ ul#botoes  {
     bottom: -50px;
     right: 0
 }
-
 .slashicorp-noticias-contato:after {
     background-color: #616d72;
     bottom: 7em;
@@ -8809,7 +8409,6 @@ ul#botoes  {
     position: absolute;
     width: 315px
 }
-
 .slashicorp-noticias-contato-title {
     display: block;
     font: 17px/24px Gotham HTF Bold;
@@ -8818,16 +8417,13 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .slashicorp-noticias-contato-small {
     font-size: 10px
 }
-
 .slashicorp-contato {
     padding: 220px 0 250px;
     position: relative
 }
-
 .slashicorp-contato:after {
     content: "";
     display: block;
@@ -8838,19 +8434,15 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/contato/effects-header.png) center 120px no-repeat
 }
-
 .slashicorp-contato-wrapper {
     float: right
 }
-
 .slashicorp-contato-content-center {
     padding-top: 450px
 }
-
 .slashicorp-contato-content-center .slashicorp-contato-content-presencial {
     padding-top: 150px
 }
-
 .slashicorp-contato-title {
     color: #91a3ad;
     font: 62px Gotham HTF Medium;
@@ -8862,7 +8454,6 @@ ul#botoes  {
     padding-bottom: 50px;
     position: relative
 }
-
 .slashicorp-contato-title:after {
     background-color: #03fac9;
     bottom: 0;
@@ -8873,13 +8464,11 @@ ul#botoes  {
     transform: translateX(0);
     width: 55px
 }
-
 .slashicorp-contato-subtitle {
     color: #616d72;
     margin: 0;
     position: relative
 }
-
 .slashicorp-contato-subtitle-highlight {
     color: #91a3ad;
     display: inline-block;
@@ -8888,7 +8477,6 @@ ul#botoes  {
     margin-top: 20px;
     vertical-align: middle
 }
-
 .slashicorp-contato-subtitle-accordion {
     color: #616d72;
     font: 25px Gotham HTF Medium;
@@ -8898,7 +8486,6 @@ ul#botoes  {
     padding-bottom: 45px;
     position: relative
 }
-
 .slashicorp-contato-subtitle-accordion:after {
     background-color: #03fac9;
     bottom: 0;
@@ -8909,7 +8496,6 @@ ul#botoes  {
     transform: translateX(-50%);
     width: 55px
 }
-
 .slashicorp-contato-header-title {
     color: #91a3ad;
     font: 18px Gotham HTF Medium;
@@ -8920,7 +8506,6 @@ ul#botoes  {
     position: relative;
     text-transform: uppercase
 }
-
 .slashicorp-contato-header-title:before {
     background-color: #616d72;
     bottom: 35px;
@@ -8930,29 +8515,24 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .slashicorp-contato-header-desc {
     font: 14px/22px Roboto;
     letter-spacing: 1px;
     margin-bottom: 0;
     margin-top: 0
 }
-
 .slashicorp-contato-section:not(:first-child) {
     margin-top: 20px
 }
-
 .slashicorp-contato-section .components-accordion-title {
     font: 15px Gotham HTF Book;
     text-transform: uppercase
 }
-
 .slashicorp-contato-recesso {
     margin-top: 35px;
     padding-top: 25px;
     position: relative
 }
-
 .slashicorp-contato-recesso:before {
     background-color: #616d72;
     top: 0;
@@ -8962,13 +8542,11 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .slashicorp-contato-recesso-text {
     color: #616d72;
     font: 16px/25px Roboto;
     margin: 5px 0
 }
-
 .slashicorp-contato-informacoes {
     -ms-flex-align: center;
     align-items: center;
@@ -8979,25 +8557,21 @@ ul#botoes  {
     -ms-flex-pack: center;
     justify-content: center
 }
-
 .slashicorp-contato-informacoes-content {
     margin: 10px
 }
-
 .slashicorp-contato-informacoes-item {
     color: #616d72;
     font: 14px Roboto;
     margin-bottom: 200px;
     margin-top: 15px
 }
-
 .slashicorp-contato-informacoes-title {
     color: #03fac9;
     font: 14px Gotham HTF Medium;
     padding: 10px 0;
     text-transform: uppercase
 }
-
 .slashicorp-contato-informacoes-sub-title {
     color: #616d72;
     font: 14px Roboto;
@@ -9005,49 +8579,40 @@ ul#botoes  {
     line-height: 25px;
     text-transform: uppercase
 }
-
 .slashicorp-contato-informacoes-link {
     color: #fff;
     font-family: Gotham HTF Bold;
     text-transform: uppercase;
     transition: color .4s
 }
-
 .slashicorp-contato-informacoes-link:hover {
     color: #03fac9
 }
-
 .slashicorp-contato-informacoes-select {
     padding: 0 20px;
     width: 100%
 }
-
 .slashicorp-contato-informacoes-select .components-select {
     margin: auto;
     width: calc(50% - 15px)
 }
-
 .slashicorp-contato-informacoes-select .components-select-title {
     border: 1px solid #363c40;
     color: #91a3ad;
     font: 15px Roboto;
     padding: 15px
 }
-
 .slashicorp-contato-informacoes-select .components-select-option {
     color: #616d72;
     margin: 20px 40px
 }
-
 .slashicorp-contato-informacoes-select .components-select-list {
     background-color: #1e2324
 }
-
 .slashicorp-contato-informacoes-select-title {
     font: 16px Gotham HTF Medium;
     margin: 40px 15px 20px
 }
-
 .slashicorp-contato-envio,
 .slashicorp-contato-informacoes-select-title {
     color: #91a3ad;
@@ -9056,12 +8621,10 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .slashicorp-contato-envio {
     font: 25px Gotham HTF Medium;
     margin: 70px 15px 20px
 }
-
 .slashicorp-contato-importante {
     background: #fff;
     border-radius: 3px;
@@ -9070,13 +8633,11 @@ ul#botoes  {
     margin-bottom: 25px;
     padding: 5px 10px
 }
-
 .slashicorp-contato-informacoes-curso {
     padding-bottom: 200px;
     z-index: 100;
     position: relative
 }
-
 .slashicorp-contato-informacoes-curso:after {
     content: "";
     display: block;
@@ -9087,12 +8648,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/contato/effects-curso.png) top no-repeat
 }
-
 .slashicorp-contato-informacoes-gerais {
     padding-bottom: 230px;
     position: relative
 }
-
 .slashicorp-contato-informacoes-gerais:after {
     content: "";
     display: block;
@@ -9103,12 +8662,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/contato/effects-gerais.png) top no-repeat
 }
-
 .slashicorp-contato-atendimento {
     padding-bottom: 230px;
     position: relative
 }
-
 .slashicorp-contato-atendimento:after {
     content: "";
     display: block;
@@ -9119,12 +8676,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/contato/effects-atendimento.png) center -60px no-repeat
 }
-
 .slashicorp-trabalhe {
     padding: 170px 0 300px;
     position: relative
 }
-
 .slashicorp-trabalhe:after {
     background: url(../images/slashicorp/trabalhe-conosco/effects.png) top no-repeat;
     content: "";
@@ -9134,11 +8689,9 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-trabalhe .wrapper {
     max-width: 1000px
 }
-
 .slashicorp-trabalhe-title {
     color: #91a3ad;
     font: 60px Gotham HTF Medium;
@@ -9149,7 +8702,6 @@ ul#botoes  {
     padding-bottom: 50px;
     position: relative
 }
-
 .slashicorp-trabalhe-title:after {
     background-color: #03fac9;
     bottom: 0;
@@ -9160,11 +8712,9 @@ ul#botoes  {
     transform: translateX(0);
     width: 55px
 }
-
 .slashicorp-trabalhe-header {
     padding: 40px 0 0 15px
 }
-
 .slashicorp-trabalhe-header-title {
     color: #91a3ad;
     font: 27px/34px Gotham HTF Book;
@@ -9176,7 +8726,6 @@ ul#botoes  {
     width: -webkit-fit-content;
     width: fit-content
 }
-
 .slashicorp-trabalhe-header-title:before {
     background-color: #616d72;
     content: "";
@@ -9186,7 +8735,6 @@ ul#botoes  {
     top: -40px;
     width: 100%
 }
-
 .slashicorp-trabalhe-header-desc {
     color: #79878d;
     font: 15px/30px Gotham HTF Book;
@@ -9195,7 +8743,6 @@ ul#botoes  {
     margin-top: 0;
     width: 50%
 }
-
 .slashicorp-trabalhe-columns {
     display: -ms-flexbox;
     display: flex;
@@ -9204,20 +8751,17 @@ ul#botoes  {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .slashicorp-trabalhe-content {
     font: 12px/20px Gotham HTF Book;
     letter-spacing: 1px;
     text-align: center;
     width: 42%
 }
-
 .slashicorp-trabalhe-link {
     border-bottom: 1px solid #03fac9;
     color: #03fac9;
     font-weight: 700
 }
-
 .slashicorp-trabalhe-btn {
     border: 1px solid #03fac9;
     color: #03fac9;
@@ -9230,18 +8774,15 @@ ul#botoes  {
     transition: background .4s ease;
     width: 100%
 }
-
 .slashicorp-trabalhe-btn:hover {
     background: #03fac9;
     color: #000
 }
-
 .slashicorp-trabalhe-texto-alinhamento {
     text-align: left;
     color: #6d7a80;
     width: 100%
 }
-
 .slashicorp-parceria-microsoft {
     background: #fff;
     color: #000;
@@ -9249,30 +8790,24 @@ ul#botoes  {
     padding-bottom: 50px;
     padding-top: 120px
 }
-
 .slashicorp-parceria-microsoft strong {
     font-family: Gotham HTF Bold
 }
-
 .slashicorp-parceria-microsoft a {
     color: #03fac9
 }
-
 .slashicorp-parceria-microsoft-wrapper {
     margin: auto;
     max-width: 1080px;
     padding-left: 55px;
     width: 90%
 }
-
 .slashicorp-parceria-microsoft-secao {
     margin-top: 120px
 }
-
 .slashicorp-parceria-microsoft-secao-titulo {
     font: 26px Gotham HTF Bold
 }
-
 .slashicorp-parceria-microsoft-secao-titulo span {
     display: inline-block;
     position: relative;
@@ -9281,7 +8816,6 @@ ul#botoes  {
     vertical-align: middle;
     width: 23px
 }
-
 .slashicorp-parceria-microsoft-secao-titulo span:after,
 .slashicorp-parceria-microsoft-secao-titulo span:before {
     background: #03fac9;
@@ -9292,37 +8826,31 @@ ul#botoes  {
     top: 0;
     width: 15px
 }
-
 .slashicorp-parceria-microsoft-secao-titulo span:after {
     right: 0;
     transform: rotate(-45deg)
 }
-
 .slashicorp-parceria-microsoft-secao-titulo span:before {
     left: 0;
     transform: rotate(45deg)
 }
-
 .slashicorp-parceria-microsoft-header {
     border-left: 13px solid #03fac9;
     padding-left: 42px;
     margin-top: 100px
 }
-
 .slashicorp-parceria-microsoft-header-introducao {
     font: 14px Gotham HTF Black;
     letter-spacing: 3px;
     margin-left: 3px;
     text-transform: uppercase
 }
-
 .slashicorp-parceria-microsoft-header-titulo {
     font: 50px Gotham HTF Light;
     margin-bottom: 0;
     margin-top: 20px;
     text-transform: uppercase
 }
-
 .slashicorp-parceria-microsoft-header-subtitulo {
     color: #03fac9;
     font: 30px Gotham HTF Bold;
@@ -9330,13 +8858,11 @@ ul#botoes  {
     margin-top: 0;
     text-transform: uppercase
 }
-
 .slashicorp-parceria-microsoft-passo {
     margin: 75px 0;
     padding-left: 75px;
     position: relative
 }
-
 .slashicorp-parceria-microsoft-passo-numero {
     border: 2px solid #03fac9;
     border-radius: 50px;
@@ -9348,45 +8874,37 @@ ul#botoes  {
     text-align: center;
     width: 50px
 }
-
 .slashicorp-parceria-microsoft-passo-descricao {
     padding-left: 50px
 }
-
 .slashicorp-parceria-microsoft-plataformas {
     margin-top: 25px
 }
-
 .slashicorp-parceria-microsoft-plataforma {
     display: inline-block;
     margin-right: 75px;
     vertical-align: top
 }
-
 .slashicorp-parceria-microsoft-plataforma-imagem {
     line-height: 100px;
     height: 100px
 }
-
 .slashicorp-parceria-microsoft-plataforma-titulo {
     display: block;
     font: 20px Gotham HTF Bold;
     margin-bottom: 10px
 }
-
 .slashicorp-parceria-microsoft-plataforma-lista {
     font-size: 14px;
     list-style: inside;
     list-style-type: disc;
     width: 120px
 }
-
 .slashicorp-parceria-microsoft-plataforma-opcao {
     display: inline-block;
     margin-right: 20px;
     vertical-align: top
 }
-
 .slashicorp-parceria-spfc-header {
     background: url(../images/parcerias/spfc/header.jpg) 50%;
     display: table;
@@ -9396,47 +8914,39 @@ ul#botoes  {
     text-transform: uppercase;
     width: 100%
 }
-
 .slashicorp-parceria-spfc-header-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-parceria-spfc-header-label {
     color: #fff;
     display: block;
     font: 30px Gotham HTF Book
 }
-
 .slashicorp-parceria-spfc-header-title {
     color: #03fac9;
     font: 77px Gotham HTF Light;
     margin-bottom: 0;
     margin-top: 0
 }
-
 .slashicorp-parceria-spfc-header-title-highlight {
     font-family: Gotham HTF Bold
 }
-
 .slashicorp-parceria-spfc-info {
     background: #fff;
     color: #000;
     font: 14px/24px Gotham HTF Book;
     padding: 125px 0
 }
-
 .slashicorp-parceria-spfc-info-wrapper {
     margin: auto;
     max-width: 595px;
     width: 90%
 }
-
 .slashicorp-parceria-spfc-info-columns {
     display: table;
     width: 100%
 }
-
 .slashicorp-parceria-spfc-info-column {
     display: table-cell;
     font: 11px Gotham HTF Bold;
@@ -9446,7 +8956,6 @@ ul#botoes  {
     vertical-align: top;
     width: 50%
 }
-
 .slashicorp-parceria-spfc-info-img {
     background: #fff;
     border: 1px solid #b2b2b2;
@@ -9454,50 +8963,41 @@ ul#botoes  {
     margin: 0 auto 25px;
     padding: 7px
 }
-
 .slashicorp-parceria-spfc-notes {
     border-top: 1px solid #b2b2b2;
     margin-top: 50px;
     padding-top: 50px
 }
-
 .slashicorp-parceria-spfc-notes-title {
     font: 12px Gotham HTF Medium;
     margin-left: 50px;
     text-transform: uppercase
 }
-
 .slashicorp-parceria-spfc-notes-columns {
     display: table;
     width: 100%
 }
-
 .slashicorp-parceria-spfc-notes-column {
     display: table-cell;
     vertical-align: top;
     width: 50%
 }
-
 .slashicorp-parceria-spfc-notes-row {
     display: table;
     font-size: 12px
 }
-
 .slashicorp-parceria-spfc-notes-row-column {
     display: table-cell;
     vertical-align: top
 }
-
 .slashicorp-parceria-spfc-notes-label {
     width: 50px
 }
-
 .slashicorp-erro {
     color: #fff;
     padding: 250px 0;
     text-align: center
 }
-
 .slashicorp-erro-title {
     color: #03fac9;
     font: 150px Borda Regular;
@@ -9506,32 +9006,27 @@ ul#botoes  {
     margin-top: 0;
     text-align: center
 }
-
 .slashicorp-erro-subtitle {
     font: 22px Borda Regular;
     margin-bottom: 0;
     margin-top: 0
 }
-
 .maratona-aplicativos-aguarde {
     padding: 230px 0;
     position: relative;
     text-align: center
 }
-
 .maratona-aplicativos-aguarde-box {
     margin: 0 auto;
     max-width: 400px;
     text-align: center
 }
-
 .maratona-aplicativos-logo {
     fill: #b5b5b5;
     display: block;
     max-width: 550px;
     margin: 50px auto 70px
 }
-
 .maratona-aplicativos-tag {
     background: #03fac9;
     color: #000;
@@ -9540,39 +9035,32 @@ ul#botoes  {
     text-transform: uppercase;
     padding: 8px 30px
 }
-
 .maratona-aplicativos-aguarde-title {
     color: #03fac9;
     font: 34px Gotham HTF Book;
     margin-bottom: 70px;
     text-transform: uppercase
 }
-
 .maratona-aplicativos-aguarde-desc {
     color: #b8b8b8;
     font: 19px/27px Gotham HTF Book;
     margin-bottom: 15px;
     text-transform: uppercase
 }
-
 .maratona-aplicativos-aguarde-desc strong {
     display: block;
     font-family: Gotham HTF Bold
 }
-
 .maratona-aplicativos-aguarde-form {
     margin: 20px 0
 }
-
 .maratona-aplicativos-aguarde-group {
     max-width: 80%;
     margin: 10px auto
 }
-
 .maratona-aplicativos-aguarde-group.text-right {
     text-align: right
 }
-
 .maratona-aplicativos-aguarde-input {
     background: #222;
     border: none;
@@ -9583,7 +9071,6 @@ ul#botoes  {
     padding: 10px 15px;
     width: 100%
 }
-
 .maratona-aplicativos-aguarde-btn {
     background: #03fac9;
     border: 2px solid #03fac9;
@@ -9594,93 +9081,75 @@ ul#botoes  {
     padding: 8px 20px;
     transition: all .4s
 }
-
 .maratona-aplicativos-aguarde-btn:hover {
     background: transparent;
     border-color: #03fac9
 }
-
 .menu-search {
     background: linear-gradient(90deg, #070707, #16191a) !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, .25);
     height: auto;
     position: relative
 }
-
 .menu-search .search-form {
     visibility: initial
 }
-
 .menu-search .components-menu {
     height: 100px;
     -ms-flex-pack: start;
     justify-content: flex-start
 }
-
 .menu-search .components-menu.is-active {
     height: 100px
 }
-
 .menu-search .components-menu-center {
     position: relative;
     width: 80%
 }
-
 .search {
     padding-bottom: 100px;
     padding-top: 70px
 }
-
 .search .wrapper {
     max-width: 800px;
     width: 90%
 }
-
 .search-svg-graduacao,
 .search-svg-mba,
 .search-svg-online {
     fill: #91a3ad
 }
-
 .search-svg-graduacao {
     max-width: 145px !important
 }
-
 .search-svg-mba {
     max-height: 20px;
     max-width: 80px !important
 }
-
 .search-svg-online {
     max-width: 60px !important
 }
-
 .search-total {
     color: #616d72;
     font: 14px/32px Roboto;
     font-style: italic
 }
-
 .search-total.mobile {
     margin-top: 40px;
     padding-top: 60px
 }
-
 .search-result {
     background-color: rgba(39, 44, 46, .5);
     margin: 10px 0;
     padding: 25px;
     transition: all .5s ease
 }
-
 .search-result:hover {
     background-color: rgba(39, 44, 46, .9)
 }
-
 .search-result-link {
     cursor: pointer
 }
-
 .search-result-categoria {
     color: #fff;
     font: 14px/32px Gotham HTF Medium;
@@ -9688,14 +9157,12 @@ ul#botoes  {
     opacity: .5;
     text-transform: uppercase
 }
-
 .search-result-title {
     color: #91a3ad;
     font: 22px/32px Gotham HTF Book;
     margin-bottom: 20px;
     text-transform: uppercase
 }
-
 .search-result-saiba-mais {
     color: #03fac9;
     font: 14px Gotham HTF Light;
@@ -9703,7 +9170,6 @@ ul#botoes  {
     width: -webkit-fit-content;
     width: fit-content
 }
-
 .search-result-saiba-mais:after,
 .search-result-saiba-mais:before {
     background-color: #03fac9;
@@ -9713,19 +9179,16 @@ ul#botoes  {
     position: absolute;
     width: 5px
 }
-
 .search-result-saiba-mais:before {
     bottom: 8px;
     right: -15px;
     transform: rotate(45deg)
 }
-
 .search-result-saiba-mais:after {
     right: -15px;
     top: 9px;
     transform: rotate(135deg)
 }
-
 .search-navegation {
     display: -ms-flexbox;
     display: flex;
@@ -9733,7 +9196,6 @@ ul#botoes  {
     justify-content: center;
     margin-top: 80px
 }
-
 .search-navegation-link {
     color: #03fac9;
     font: 13px/32px Gotham HTF Medium;
@@ -9742,7 +9204,6 @@ ul#botoes  {
     position: relative;
     text-transform: uppercase
 }
-
 .search-navegation-link:after,
 .search-navegation-link:before {
     background-color: #03fac9;
@@ -9752,35 +9213,28 @@ ul#botoes  {
     position: absolute;
     width: 5px
 }
-
 .search-navegation-link:before {
     top: 14px
 }
-
 .search-navegation-link:after {
     bottom: 14px
 }
-
 .search-navegation-link-anterior:before {
     left: -15px;
     transform: rotate(135deg)
 }
-
 .search-navegation-link-anterior:after {
     left: -15px;
     transform: rotate(45deg)
 }
-
 .search-navegation-link-proximo:before {
     right: -15px;
     transform: rotate(45deg)
 }
-
 .search-navegation-link-proximo:after {
     right: -15px;
     transform: rotate(135deg)
 }
-
 .search-form-content {
     left: 50%;
     position: absolute;
@@ -9793,11 +9247,9 @@ ul#botoes  {
     -ms-flex-pack: center;
     justify-content: center
 }
-
 .menu.is-active .search-form-content {
     z-index: 10
 }
-
 .search-form {
     -ms-flex-align: center;
     align-items: center;
@@ -9808,12 +9260,10 @@ ul#botoes  {
     width: 100%;
     padding: 0 60px
 }
-
 .menu-search .search-form {
     padding: 0 60px 0 125px;
     width: 100%
 }
-
 .search-form-input {
     background-color: rgba(66, 75, 80, .3);
     border: 0 none;
@@ -9829,11 +9279,9 @@ ul#botoes  {
     text-transform: uppercase;
     width: 100%
 }
-
 .menu-search-bar-mobile .search-form-input {
     visibility: initial
 }
-
 .search-form-button {
     -ms-flex-align: center;
     align-items: center;
@@ -9851,50 +9299,40 @@ ul#botoes  {
     opacity: 0;
     transition: background .5s ease
 }
-
 .search-form-button:hover {
     background-color: #4b555b
 }
-
 .menu-search-bar-mobile .search-form-button {
     opacity: 1
 }
-
 .search-quick-links {
     padding: 40px 0 10px;
     visibility: hidden
 }
-
 .search-quick-links .wrapper {
     max-width: 850px;
     width: 95%
 }
-
 .menu.is-active .search-quick-links {
     visibility: visible
 }
-
 .search-quick-links-title {
     color: #91a3ad;
     font: 13px Gotham HTF Bold;
     text-transform: uppercase;
     text-align: left
 }
-
 .search-quick-links-columns {
     display: -ms-flexbox;
     display: flex;
     width: 100%
 }
-
 .search-quick-links-column {
     width: 33.33%
 }
-
 .search-quick-links-list {
     padding-right: 20px
 }
-
 .search-quick-links-item {
     cursor: pointer;
     position: relative;
@@ -9903,7 +9341,6 @@ ul#botoes  {
     padding: 6px 0;
     text-align: left
 }
-
 .search-quick-links-item:before {
     background-color: #03fac9;
     content: "";
@@ -9913,7 +9350,6 @@ ul#botoes  {
     top: 19px;
     width: 3px
 }
-
 .search-quick-links-item-link {
     color: #91a3ad;
     font: 10px Gotham HTF Medium;
@@ -9921,11 +9357,9 @@ ul#botoes  {
     text-transform: uppercase;
     transition: all .3s ease
 }
-
 .search-quick-links-item:hover .search-quick-links-item-link {
     color: #03fac9
 }
-
 .slashicorp-nova-vo-header {
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/header.png) no-repeat top;
     background-size: cover;
@@ -9937,7 +9371,6 @@ ul#botoes  {
     text-align: center;
     width: 100%
 }
-
 .slashicorp-nova-vo-header:after {
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/effects-header.png) top no-repeat;
     content: "";
@@ -9948,18 +9381,15 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-nova-vo-header-logo {
     position: absolute;
     top: 72px;
     left: 40px
 }
-
 .slashicorp-nova-vo-header-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-nova-vo-header-title {
     color: #03fac9;
     display: block;
@@ -9971,7 +9401,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-vo-header-title:after {
     background-color: #03fac9;
     bottom: 0;
@@ -9982,7 +9411,6 @@ ul#botoes  {
     position: absolute;
     width: 40px
 }
-
 .slashicorp-nova-vo-header-subtitle {
     color: #91a3ad;
     font: 33px Gotham HTF Medium;
@@ -9990,20 +9418,17 @@ ul#botoes  {
     margin: 20px auto 0;
     text-transform: uppercase
 }
-
 .slashicorp-nova-vo-header-endereco {
     color: #91a3ad;
     font: 25px Gotham HTF Medium;
     margin: 70px auto 0;
     text-transform: uppercase
 }
-
 .slashicorp-nova-vo-header-data {
     color: #91a3ad;
     font: 18px Gotham HTF Light;
     text-transform: uppercase
 }
-
 .slashicorp-nova-vo-transformacao {
     display: table;
     overflow: hidden;
@@ -10012,7 +9437,6 @@ ul#botoes  {
     width: 100%;
     padding: 100px 0 150px
 }
-
 .slashicorp-nova-vo-transformacao:after {
     content: "";
     display: block;
@@ -10023,12 +9447,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/effects-transformacao.png) top no-repeat
 }
-
 .slashicorp-nova-vo-transformacao-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-nova-vo-transformacao-title {
     color: #91a3ad;
     display: block;
@@ -10040,30 +9462,25 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-vo-transformacao-text {
     color: #616d72;
     font: 18px/25px Gotham HTF Book
 }
-
 .slashicorp-nova-vo-carousel {
     margin: 50px auto;
     min-width: 100%;
     overflow: hidden;
     position: relative
 }
-
 .slashicorp-nova-vo-carousel .wrapper {
     max-width: 100%;
     width: 100%
 }
-
 .slashicorp-nova-vo-carousel-slider {
     position: relative;
     width: 100%;
     z-index: 1
 }
-
 .slashicorp-nova-vo-carousel-item {
     left: 50%;
     opacity: 0;
@@ -10074,11 +9491,9 @@ ul#botoes  {
     width: 100%;
     max-width: 1920px
 }
-
 .slashicorp-nova-vo-carousel-item.is-active {
     opacity: 1 !important
 }
-
 .slashicorp-nova-vo-carousel-item:after {
     background-color: rgba(0, 0, 0, .5);
     content: "";
@@ -10089,11 +9504,9 @@ ul#botoes  {
     width: 100%;
     z-index: 10
 }
-
 .slashicorp-nova-vo-carousel-img {
     width: 100%
 }
-
 .slashicorp-nova-vo-mapa {
     -ms-flex-align: center;
     align-items: center;
@@ -10106,7 +9519,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-vo-mapa:after {
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/effects-mapa.png) top no-repeat;
     content: "";
@@ -10118,7 +9530,6 @@ ul#botoes  {
     width: 100%;
     z-index: 1
 }
-
 .slashicorp-nova-vo-mapa-wrapper {
     -ms-flex-align: center;
     align-items: center;
@@ -10131,12 +9542,10 @@ ul#botoes  {
     width: 100%;
     z-index: 2
 }
-
 .slashicorp-nova-vo-mapa-link {
     display: block;
     width: 100%
 }
-
 .slashicorp-nova-alpha-header {
     background: url(../images/slashicorp/institucional/nova-alphaville/header.png) no-repeat top;
     background-size: cover;
@@ -10148,7 +9557,6 @@ ul#botoes  {
     text-align: center;
     width: 100%
 }
-
 .slashicorp-nova-alpha-header:after {
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/effects-header.png) top no-repeat;
     content: "";
@@ -10159,18 +9567,15 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-nova-alpha-header-logo {
     position: absolute;
     top: 72px;
     left: 40px
 }
-
 .slashicorp-nova-alpha-header-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-nova-alpha-header-title {
     color: #03fac9;
     display: block;
@@ -10182,7 +9587,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-alpha-header-title:after {
     background-color: #03fac9;
     bottom: 0;
@@ -10193,7 +9597,6 @@ ul#botoes  {
     position: absolute;
     width: 40px
 }
-
 .slashicorp-nova-alpha-header-subtitle {
     color: #8a9ba5;
     font: 33px Gotham HTF Medium;
@@ -10201,20 +9604,17 @@ ul#botoes  {
     margin: 20px auto 0;
     text-transform: uppercase
 }
-
 .slashicorp-nova-alpha-header-endereco {
     color: #8a9ba5;
     font: 25px Gotham HTF Medium;
     margin: 70px auto 0;
     text-transform: uppercase
 }
-
 .slashicorp-nova-alpha-header-data {
     color: #91a3ad;
     font: 18px Gotham HTF Light;
     text-transform: uppercase
 }
-
 .mba-conceito-scroll {
     bottom: 20px;
     left: 50%;
@@ -10222,15 +9622,12 @@ ul#botoes  {
     transform: translateX(-50%);
     z-index: 5
 }
-
 .mba-conceito-scroll .components-scroll-circle-icon {
     background-color: #03fac9
 }
-
 .mba-conceito-scroll .components-scroll-circle-icon:before {
     border-color: #03fac9
 }
-
 .slashicorp-nova-alpha-transformacao {
     display: table;
     overflow: hidden;
@@ -10239,7 +9636,6 @@ ul#botoes  {
     width: 100%;
     padding: 100px 0 130px
 }
-
 .slashicorp-nova-alpha-transformacao:after {
     content: "";
     display: block;
@@ -10250,12 +9646,10 @@ ul#botoes  {
     width: 100%;
     background: url(../images/slashicorp/institucional/nova-vila-olimpia/effects-transformacao.png) top no-repeat
 }
-
 .slashicorp-nova-alpha-transformacao-wrapper {
     display: table-cell;
     vertical-align: middle
 }
-
 .slashicorp-nova-alpha-transformacao-title {
     color: #a8b7be;
     display: block;
@@ -10267,24 +9661,20 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-alpha-transformacao-text {
     color: #616d72;
     font: 18px/30px Gotham HTF Book
 }
-
 .slashicorp-nova-alpha-carousel {
     margin: 50px auto 200px;
     min-width: 100%;
     overflow: hidden;
     position: relative
 }
-
 .slashicorp-nova-alpha-carousel .wrapper {
     max-width: 100%;
     width: 100%
 }
-
 .slashicorp-nova-alpha-carousel-title {
     color: #8a9ba5;
     font: 33px Gotham HTF Medium;
@@ -10292,13 +9682,11 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .slashicorp-nova-alpha-carousel-slider {
     position: relative;
     width: 100%;
     z-index: 1
 }
-
 .slashicorp-nova-alpha-carousel-item {
     left: 50%;
     opacity: 0;
@@ -10309,11 +9697,9 @@ ul#botoes  {
     width: 100%;
     max-width: 1920px
 }
-
 .slashicorp-nova-alpha-carousel-item.is-active {
     opacity: 1 !important
 }
-
 .slashicorp-nova-alpha-carousel-item:after {
     background-color: rgba(0, 0, 0, .5);
     content: "";
@@ -10324,11 +9710,9 @@ ul#botoes  {
     width: 100%;
     z-index: 10
 }
-
 .slashicorp-nova-alpha-carousel-img {
     width: 100%
 }
-
 .slashicorp-nova-alpha-mapa {
     -ms-flex-align: center;
     align-items: center;
@@ -10341,7 +9725,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .slashicorp-nova-alpha-mapa:after {
     background: url(../images/slashicorp/institucional/nova-alphaville/effects-mapa.png) top no-repeat;
     content: "";
@@ -10353,7 +9736,6 @@ ul#botoes  {
     width: 100%;
     z-index: 1
 }
-
 .slashicorp-nova-alpha-mapa-wrapper {
     -ms-flex-align: center;
     align-items: center;
@@ -10368,12 +9750,10 @@ ul#botoes  {
     width: 100%;
     z-index: 2
 }
-
 .slashicorp-nova-alpha-mapa-link {
     display: block;
     width: 100%
 }
-
 .slashicorp-nova-alpha-mapa-title {
     color: #75838b;
     font: 18px Gotham HTF Book;
@@ -10381,16 +9761,13 @@ ul#botoes  {
     line-height: 26px;
     text-align: center
 }
-
 .slashicorp-nova-alpha-mapa-title:first-child {
     margin-bottom: 10px;
     margin-top: 45px
 }
-
 .slashicorp-nova-alpha-mapa-title:nth-child(2) {
     margin-bottom: 30px
 }
-
 .slashicorp-nova-alpha-mapa-subtitle {
     color: #75838b;
     font: 14px Gotham HTF Book;
@@ -10398,21 +9775,17 @@ ul#botoes  {
     line-height: 13px;
     text-align: center
 }
-
 .slashicorp-unidos {
     background-image: url(../images/slashicorp/unidos/background.png);
     background-size: 100% auto
 }
-
 .slashicorp-unidos .slashicorp-2018-footer {
     background: none
 }
-
 .slashicorp-unidos-header {
     padding: 180px 0 10px;
     position: relative
 }
-
 .slashicorp-unidos-header:before {
     background: url(../images/slashicorp/unidos/effects-header.png) center 20px no-repeat;
     content: "";
@@ -10422,11 +9795,9 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-unidos-header-image {
     position: relative
 }
-
 .slashicorp-unidos-header-image:after {
     background: url(../images/slashicorp/unidos/image-effect.png) 50% no-repeat;
     bottom: -380px;
@@ -10437,12 +9808,10 @@ ul#botoes  {
     width: 103px;
     z-index: 10
 }
-
 .slashicorp-unidos-desc {
     padding-top: 90px;
     position: relative
 }
-
 .slashicorp-unidos-desc:before {
     background: url(../images/slashicorp/unidos/effects-desc.png) center 100px no-repeat;
     content: "";
@@ -10452,11 +9821,9 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .slashicorp-unidos-desc-wrapper {
     max-width: 660px
 }
-
 .slashicorp-unidos-desc-title {
     color: #cee7f5;
     font: 65px Gotham HTF Light;
@@ -10464,34 +9831,28 @@ ul#botoes  {
     margin-bottom: 90px;
     text-transform: uppercase
 }
-
 .slashicorp-unidos-desc-text p {
     color: #80909a;
     font: 20px/32px Roboto;
     font-weight: 300;
     margin: 30px 0
 }
-
 .slashicorp-unidos-desc-text b {
     font-weight: 500
 }
-
 .slashicorp-unidos-desc-svg {
     margin-bottom: 230px;
     margin-top: 80px
 }
-
 .slashicorp-unidos-desc-svg-despedida {
     display: block;
     margin-bottom: 60px;
     width: 460px
 }
-
 .slashicorp-unidos-desc-svg-logo {
     fill: #fff;
     width: 98px
 }
-
 .slashicorp-unidos-desc-topo {
     display: -ms-flexbox;
     display: flex;
@@ -10499,7 +9860,6 @@ ul#botoes  {
     justify-content: flex-end;
     margin-bottom: 200px
 }
-
 .slashicorp-unidos-desc-topo-link {
     -ms-flex-align: center;
     align-items: center;
@@ -10509,7 +9869,6 @@ ul#botoes  {
     font: 11px Gotham HTF Book;
     text-transform: uppercase
 }
-
 .slashicorp-unidos-desc-topo-icon {
     border: 1px solid #03fac9;
     display: block;
@@ -10518,7 +9877,6 @@ ul#botoes  {
     position: relative;
     width: 25px
 }
-
 .slashicorp-unidos-desc-topo-icon:after {
     border: 1px solid #03fac9;
     border-bottom: none;
@@ -10531,7 +9889,6 @@ ul#botoes  {
     transform: rotate(45deg);
     width: 7px
 }
-
 .institucional-digital-talks-header {
     display: -ms-flexbox;
     display: flex;
@@ -10539,7 +9896,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-header:after {
     background: url(../images/mba/digital-talks/header/header-effects.png) top no-repeat;
     background-size: 95%;
@@ -10551,13 +9907,11 @@ ul#botoes  {
     top: 150px;
     width: 100%
 }
-
 .institucional-digital-talks-header-logo {
     display: block;
     width: 220px;
     margin: 200px auto 190px
 }
-
 .institucional-digital-talks-header-title {
     color: #91a3ad;
     font: 36px Gotham HTF Book;
@@ -10565,7 +9919,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-header-title:after {
     background: #03fac9;
     content: "";
@@ -10574,37 +9927,30 @@ ul#botoes  {
     margin: 40px auto 0;
     width: 32px
 }
-
 .institucional-digital-talks-header-subtitle {
     color: #91a3ad;
     font: 18px/24px Roboto;
     max-width: 500px;
     text-align: center
 }
-
 .institucional-digital-talks-header-subtitle.top {
     margin: 40px auto 0
 }
-
 .institucional-digital-talks-header-subtitle.bottom {
     margin: 30px auto 0
 }
-
 .institucional-digital-talks-header-subtitle-faded {
     color: #616d72;
     font: 17px Roboto;
     max-width: 500px;
     text-align: center
 }
-
 .institucional-digital-talks-header-subtitle-faded.top {
     margin: 40px auto 0
 }
-
 .institucional-digital-talks-header-subtitle-faded.bottom {
     margin: 30px auto 0
 }
-
 .institucional-digital-talks-header-title-small {
     color: #91a3ad;
     font: 25px Gotham HTF Book;
@@ -10613,7 +9959,6 @@ ul#botoes  {
     text-transform: uppercase;
     font-weight: 700
 }
-
 .institucional-digital-talks-header-title-small-faded {
     color: #616d72;
     font: 20px Gotham HTF Book;
@@ -10622,26 +9967,22 @@ ul#botoes  {
     text-transform: uppercase;
     font-weight: 700
 }
-
 .institucional-digital-talks-header-accordion {
     border: 1px solid #03fac9;
     width: 650px;
     margin: 30px auto;
     padding: 10px
 }
-
 .institucional-digital-talks-header-accordion__content {
     height: 0;
     transition: height .5s;
     overflow: hidden;
     transform-origin: 0 0
 }
-
 .institucional-digital-talks-header-accordion__content--open {
     height: 340px;
     padding-bottom: 20px
 }
-
 .institucional-digital-talks-header-accordion__header {
     display: -ms-flexbox;
     display: flex;
@@ -10651,7 +9992,6 @@ ul#botoes  {
     justify-content: flex-start;
     cursor: pointer
 }
-
 .institucional-digital-talks-header-accordion__button {
     width: 40px;
     height: 40px;
@@ -10659,7 +9999,6 @@ ul#botoes  {
     border-radius: 100px;
     position: relative
 }
-
 .institucional-digital-talks-header-accordion__button:after {
     content: "";
     position: absolute;
@@ -10671,7 +10010,6 @@ ul#botoes  {
     transform: translate(-50%, -50%);
     transition: transform .3s linear
 }
-
 .institucional-digital-talks-header-accordion__button:before {
     content: "";
     position: absolute;
@@ -10683,7 +10021,6 @@ ul#botoes  {
     transform: translate(-50%, -50%);
     transition: transform .3s linear
 }
-
 .institucional-digital-talks-header-accordion__button--open:after {
     content: "";
     position: absolute;
@@ -10696,7 +10033,6 @@ ul#botoes  {
     transform: translate(-50%, -50%);
     display: none
 }
-
 .institucional-digital-talks-header-accordion__button--open:before {
     content: "";
     position: absolute;
@@ -10707,7 +10043,6 @@ ul#botoes  {
     top: 50%;
     transform: translate(-50%, -50%)
 }
-
 .institucional-digital-talks-header-accordion__title {
     margin-left: 20px;
     color: #03fac9;
@@ -10716,14 +10051,12 @@ ul#botoes  {
     font-weight: 700;
     letter-spacing: 1.5px
 }
-
 .institucional-digital-talks-header__blocks {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around
 }
-
 .institucional-digital-talks-header__adoption {
     max-width: 270px;
     position: relative;
@@ -10736,7 +10069,6 @@ ul#botoes  {
     color: #616d72;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-header__adoption :after {
     content: "";
     position: absolute;
@@ -10748,36 +10080,29 @@ ul#botoes  {
     top: 0;
     left: 50%
 }
-
 .institucional-digital-talks-header__adoption a {
     color: #03fac9;
     text-decoration: underline;
     font-weight: 700
 }
-
 .institucional-digital-talks-header__adoption b {
     color: #91a3ad
 }
-
 .institucional-digital-talks-header__adoption--marginless {
     padding-left: 0;
     padding-right: 0;
     margin-top: 10px
 }
-
 .institucional-digital-talks-header__adoption--marginless:first-child {
     margin-left: -45px
 }
-
 .institucional-digital-talks-header__adoption--marginless:nth-child(2) {
     margin-left: -30px
 }
-
 .institucional-digital-talks-header__adoption--marginless :after {
     content: "";
     display: none
 }
-
 .institucional-digital-talks-header__adoption-div {
     height: 1000px;
     margin-top: 20px;
@@ -10785,7 +10110,6 @@ ul#botoes  {
     border-left: 1px solid;
     color: #616d72
 }
-
 .institucional-digital-talks-talks {
     -ms-flex-align: center;
     align-items: center;
@@ -10797,7 +10121,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-talks:after {
     background: url(../images/mba/digital-talks/header/prox-talk-effects.png) top no-repeat;
     background-size: 95%;
@@ -10809,7 +10132,6 @@ ul#botoes  {
     top: 150px;
     width: 100%
 }
-
 .institucional-digital-talks-talks-title {
     color: #03fac9;
     font: 32px Gotham HTF Medium;
@@ -10818,7 +10140,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talks-title:after {
     background: #485156;
     content: "";
@@ -10827,11 +10148,9 @@ ul#botoes  {
     margin: 40px auto 0;
     width: 32px
 }
-
 .institucional-digital-talks-talks-title.is-active {
     color: #03fac9
 }
-
 .institucional-digital-talks-talks-subtitle {
     color: #03fac9;
     font: 22px Gotham HTF Medium;
@@ -10839,7 +10158,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talks-mode {
     color: #03fac9;
     font: 20px Gotham HTF Medium;
@@ -10847,7 +10165,6 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talks-next {
     display: -ms-flexbox;
     display: flex;
@@ -10855,27 +10172,22 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-talks-next.small {
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
 .institucional-digital-talks-talks-next.large {
     -ms-flex-pack: center;
     justify-content: center
 }
-
 .institucional-digital-talks-talks-next-item {
     position: relative
 }
-
 .institucional-digital-talks-talk-next-item-video {
     position: relative;
     width: 100%;
     margin: auto
 }
-
 .institucional-digital-talks-talk-next-item-video-thumb {
     -ms-flex-align: center;
     align-items: center;
@@ -10891,7 +10203,6 @@ ul#botoes  {
     width: 100%;
     z-index: 1
 }
-
 .institucional-digital-talks-talk-next-item-video-thumb:before {
     background: #000;
     content: "";
@@ -10900,15 +10211,12 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .institucional-digital-talks-talk-next-item-video-thumb.is-disabled {
     z-index: 0
 }
-
 .institucional-digital-talks-talk-next-item-video-thumb:hover .institucional-digital-talks-talk-next-item-video-title {
     color: #03fac9
 }
-
 .institucional-digital-talks-talk-next-item-center {
     -ms-flex-align: center;
     align-items: center;
@@ -10921,28 +10229,23 @@ ul#botoes  {
     position: absolute;
     width: 100%
 }
-
 .institucional-digital-talks-talk-next-item-center.data-item-talk-anterior {
     top: 15px
 }
-
 .institucional-digital-talks-talk-next-item-center.data-item-talk-anterior .institucional-digital-talks-programacao-next-item-data {
     position: relative
 }
-
 .institucional-digital-talks-talk-next-item-video-iframe {
     opacity: 0;
     pointer-events: none;
     transition: opacity .4s ease;
     z-index: 0
 }
-
 .institucional-digital-talks-talk-next-item-video-iframe.is-active {
     opacity: 1;
     pointer-events: auto;
     z-index: 1
 }
-
 .institucional-digital-talks-talk-next-item-video-title {
     color: #91a3ad;
     font: 22px/23px Gotham HTF Medium;
@@ -10954,17 +10257,14 @@ ul#botoes  {
     text-transform: uppercase;
     transition: color .8s ease
 }
-
 .institucional-digital-talks-talk-next-item-video-title.mobile {
     display: none;
     position: relative
 }
-
 .institucional-digital-talks-talk-next-item-video-title.large {
     font-size: 25px;
     padding-bottom: 25px
 }
-
 .institucional-digital-talks-talk-next-item-video-text {
     color: #03fac9;
     font: 13px Gotham HTF Bold;
@@ -10974,37 +10274,30 @@ ul#botoes  {
     text-transform: uppercase;
     transition: opacity .8s ease
 }
-
 .institucional-digital-talks-talk-next-item-video-text.assista-agora {
     border: 1px solid #03fac9;
     padding: 10px 25px
 }
-
 .institucional-digital-talks-talk-next-item-video-text.text-video-talk-anterior {
     opacity: 0
 }
-
 .institucional-digital-talks-talk-next-item-video-thumb-player {
     bottom: 20px;
     position: absolute;
     width: 90%
 }
-
 .institucional-digital-talks-talk-next-item-info {
     margin: auto;
     width: 85%
 }
-
 .institucional-digital-talks-talk-next-item-convidado,
 .institucional-digital-talks-talk-next-item-desc {
     color: #91a3ad;
     font: 18px/26px Roboto
 }
-
 .institucional-digital-talks-talk-next-item-desc {
     margin: 30px 0
 }
-
 .institucional-digital-talks-talk-next-item-data {
     -ms-flex-align: center;
     align-items: center;
@@ -11018,58 +10311,47 @@ ul#botoes  {
     justify-content: center;
     position: relative
 }
-
 .institucional-digital-talks-talk-next-item-data.small {
     height: 100px;
     width: 100px
 }
-
 .institucional-digital-talks-talk-next-item-data.large {
     height: 125px;
     width: 125px
 }
-
 .institucional-digital-talks-talk-next-item-data-dia {
     color: #03fac9;
     margin: 0 auto 5px;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talk-next-item-data-dia.small {
     font: 18px Gotham HTF Medium
 }
-
 .institucional-digital-talks-talk-next-item-data-dia.large {
     font: 22px Gotham HTF Medium
 }
-
 .institucional-digital-talks-talk-next-item-data-hora {
     color: #03fac9;
     font: 18px Gotham HTF Book;
     margin: 0;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talk-next-item-data-hora.small {
     font: 18px Gotham HTF Medium
 }
-
 .institucional-digital-talks-talk-next-item-data-hora.large {
     font: 22px Gotham HTF Book
 }
-
 .institucional-digital-talks-talk-next-item-convidado-por {
     color: #616d72;
     display: block;
     font: 12px Gotham HTF Book;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-talk-next-item-shortbio {
     color: #616d72;
     font: 15px/20px Roboto
 }
-
 .institucional-digital-talks-programacao__button-holder {
     margin: auto;
     width: 600px;
@@ -11085,13 +10367,11 @@ ul#botoes  {
     margin-bottom: 50px;
     cursor: pointer
 }
-
 .institucional-digital-talks-programacao__button-load {
     text-transform: uppercase;
     color: #03fac9;
     margin-top: 10px
 }
-
 .institucional-digital-talks-programacao {
     display: -ms-flexbox;
     display: flex;
@@ -11099,7 +10379,6 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-programacao:after {
     background: url(../images/mba/digital-talks/header/talks-effects.png) top no-repeat;
     background-size: 95%;
@@ -11111,7 +10390,6 @@ ul#botoes  {
     top: -150px;
     width: 100%
 }
-
 .institucional-digital-talks-programacao-title {
     color: #03fac9;
     font: 32px Gotham HTF Medium;
@@ -11120,42 +10398,36 @@ ul#botoes  {
     text-align: center;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-programacao-desc {
     color: #91a3ad;
     font: 16px Roboto;
     margin: 0 auto 65px;
     text-align: center
 }
-
 .institucional-digital-talks-programacao-list {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
-
 .institucional-digital-talks-programacao-list-item {
     background: #171b1d;
     margin: 0 0 65px;
     padding: 30px 24px 41px;
     max-width: 31.3%
 }
-
 .institucional-digital-talks-programacao-list-item-mode {
     color: #616d72;
     font: 16px Gotham HTF Medium;
     margin: 0 0 10px;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-programacao-list-item-info {
     color: #03fac9;
     font: 15px Gotham HTF Medium;
     margin: 0 0 20px;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-programacao-list-item-title {
     color: #b2c3cd;
     font: 22px/26px Roboto;
@@ -11163,19 +10435,16 @@ ul#botoes  {
     height: 100px;
     margin: 0 0 12px
 }
-
 .institucional-digital-talks-programacao-list-item-convidado {
     color: #91a3ad;
     font: 16px/26px Roboto;
     margin: 0 0 18px
 }
-
 .institucional-digital-talks-programacao-next-item-video {
     margin-bottom: 25px;
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb {
     -ms-flex-align: center;
     align-items: center;
@@ -11189,7 +10458,6 @@ ul#botoes  {
     width: 100%;
     z-index: 1
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb:before {
     background: #000;
     content: "";
@@ -11200,72 +10468,58 @@ ul#botoes  {
     transition: opacity .8s ease;
     width: 100%
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb.is-disabled {
     z-index: 0
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb:hover:before {
     opacity: .3
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb:hover .institucional-digital-talks-programacao-next-item-data {
     opacity: 1
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb:hover.thumb-talk-anterior {
     cursor: pointer
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb:hover.thumb-talk-anterior .institucional-digital-talks-talk-next-item-video-text {
     opacity: 1
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb.js-digital-talks-programacao-thumb {
     cursor: pointer
 }
-
 .institucional-digital-talks-programacao-next-item-video-iframe {
     opacity: 0;
     pointer-events: none;
     transition: opacity .4s ease;
     z-index: 0
 }
-
 .institucional-digital-talks-programacao-next-item-video-iframe.is-active {
     opacity: 1;
     pointer-events: auto;
     z-index: 1
 }
-
 .institucional-digital-talks-programacao-next-item-video-thumb-player {
     bottom: 20px;
     position: absolute;
     width: 90%
 }
-
 .institucional-digital-talks-programacao-list-item-desc {
     color: #91a3ad;
     font: 16px/22px Roboto;
     margin: 0 0 20px
 }
-
 .institucional-digital-talks-programacao-list-item-desc a {
     border-bottom: 1px solid #91a3ad;
     color: #91a3ad;
     transition: border-bottom .8s ease
 }
-
 .institucional-digital-talks-programacao-list-item-desc a:hover {
     border-bottom: 1px solid #03fac9
 }
-
 .institucional-digital-talks-programacao-list-item-shortbio {
     color: #616d72;
     font: 15px/20px Roboto;
     margin: 0
 }
-
 .institucional-digital-talks-programacao-next-item-data {
     -ms-flex-align: center;
     align-items: center;
@@ -11283,12 +10537,10 @@ ul#botoes  {
     transition: border .8s ease, opacity .8s ease;
     width: 100px
 }
-
 .institucional-digital-talks-programacao-next-item-data.modal {
     opacity: 1;
     margin: auto
 }
-
 .institucional-digital-talks-programacao-next-item-data-dia {
     color: #03fac9;
     font: 18px Gotham HTF Medium;
@@ -11296,7 +10548,6 @@ ul#botoes  {
     text-transform: uppercase;
     transition: color .8s ease
 }
-
 .institucional-digital-talks-programacao-next-item-data-hora {
     color: #03fac9;
     font: 18px Gotham HTF Book;
@@ -11304,7 +10555,6 @@ ul#botoes  {
     text-transform: uppercase;
     transition: color .8s ease
 }
-
 .institucional-digital-talks-programacao-list-item-detalhes {
     border-bottom: 1px solid #03fac9;
     color: #03fac9;
@@ -11315,15 +10565,12 @@ ul#botoes  {
     text-transform: uppercase;
     transition: color .4s ease
 }
-
 .institucional-digital-talks-programacao-list-item-detalhes:hover {
     color: #b2c3cd
 }
-
 .institucional-digital-talks-programacao-list-item-detalhes:hover:after {
     background: #b2c3cd
 }
-
 .institucional-digital-talks-programacao-modal {
     background: linear-gradient(0deg, #141517, #141517), linear-gradient(270deg, #202425, #000);
     height: 100%;
@@ -11335,17 +10582,14 @@ ul#botoes  {
     transition: opacity .8s ease;
     z-index: -1
 }
-
 .institucional-digital-talks-programacao-modal.is-active {
     opacity: 1;
     overflow-y: scroll;
     z-index: 901
 }
-
 .institucional-digital-talks-programacao-modal-content {
     padding: 40px 25px
 }
-
 .institucional-digital-talks-programacao-modal-btn-close {
     height: 25px;
     position: absolute;
@@ -11353,7 +10597,6 @@ ul#botoes  {
     right: 20px;
     width: 25px
 }
-
 .institucional-digital-talks-programacao-modal-btn-close:after,
 .institucional-digital-talks-programacao-modal-btn-close:before {
     background: #03fac9;
@@ -11364,15 +10607,12 @@ ul#botoes  {
     top: 10px;
     width: 100%
 }
-
 .institucional-digital-talks-programacao-modal-btn-close:before {
     transform: rotate(45deg)
 }
-
 .institucional-digital-talks-programacao-modal-btn-close:after {
     transform: rotate(-45deg)
 }
-
 .institucional-digital-talks-video-modal {
     height: 100%;
     opacity: 0;
@@ -11383,7 +10623,6 @@ ul#botoes  {
     transition: opacity .8s ease;
     z-index: -1
 }
-
 .institucional-digital-talks-video-modal:before {
     background: linear-gradient(0deg, #141517, #141517), linear-gradient(270deg, #202425, #000);
     content: "";
@@ -11394,12 +10633,10 @@ ul#botoes  {
     top: 0;
     width: 100%
 }
-
 .institucional-digital-talks-video-modal.is-active {
     opacity: 1;
     z-index: 901
 }
-
 .institucional-digital-talks-video-modal-content {
     -ms-flex-align: center;
     align-items: center;
@@ -11411,13 +10648,11 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-video-modal-iframe-parent {
     padding-top: 56.25%;
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-video-modal-btn-close {
     -ms-flex-align: center;
     align-items: center;
@@ -11433,18 +10668,15 @@ ul#botoes  {
     text-transform: uppercase;
     transition: color .8s ease
 }
-
 .institucional-digital-talks-video-modal-btn-close:hover {
     color: #fff
 }
-
 .institucional-digital-talks-video-modal-btn-close-icon {
     height: 25px;
     position: relative;
     margin-left: 5px;
     width: 30px
 }
-
 .institucional-digital-talks-video-modal-btn-close-icon:after,
 .institucional-digital-talks-video-modal-btn-close-icon:before {
     background: #03fac9;
@@ -11455,21 +10687,17 @@ ul#botoes  {
     top: 12px;
     width: 100%
 }
-
 .institucional-digital-talks-video-modal-btn-close-icon:before {
     transform: rotate(45deg)
 }
-
 .institucional-digital-talks-video-modal-btn-close-icon:after {
     transform: rotate(-45deg)
 }
-
 .institucional-digital-talks-anteriores {
     padding-bottom: 70px;
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-anteriores:before {
     background: url(../images/mba/digital-talks/header/talks-anteriores-effects.png) top no-repeat;
     background-size: 95%;
@@ -11483,7 +10711,6 @@ ul#botoes  {
     pointer-events: none;
     z-index: 7
 }
-
 .institucional-digital-talks-anteriores-accordion {
     border: 1px solid #485156;
     height: 90px;
@@ -11491,20 +10718,16 @@ ul#botoes  {
     position: relative;
     transition: border .4s ease, height .4s ease
 }
-
 .institucional-digital-talks-anteriores-accordion.is-active {
     border: 1px solid #03fac9
 }
-
 .institucional-digital-talks-anteriores-accordion.is-active .institucional-digital-talks-anteriores-accordion-head-button:after,
 .institucional-digital-talks-anteriores-accordion.is-active .institucional-digital-talks-anteriores-accordion-head-button:before {
     transform: rotate(180deg)
 }
-
 .institucional-digital-talks-anteriores-accordion:hover {
     border: 1px solid #03fac9
 }
-
 .institucional-digital-talks-anteriores-accordion-head {
     -ms-flex-align: center;
     align-items: center;
@@ -11518,14 +10741,12 @@ ul#botoes  {
     position: relative;
     width: 100%
 }
-
 .institucional-digital-talks-anteriores-accordion-head-title {
     color: #91a3ad;
     font: 20px Gotham HTF Bold;
     margin: 0;
     text-transform: uppercase
 }
-
 .institucional-digital-talks-anteriores-accordion-head-button {
     -ms-flex-align: center;
     align-items: center;
@@ -11539,7 +10760,6 @@ ul#botoes  {
     position: relative;
     width: 35px
 }
-
 .institucional-digital-talks-anteriores-accordion-head-button:after,
 .institucional-digital-talks-anteriores-accordion-head-button:before {
     background: #03fac9;
@@ -11549,11 +10769,9 @@ ul#botoes  {
     transition: transform .4s ease;
     width: 50%
 }
-
 .institucional-digital-talks-anteriores-accordion-head-button:after {
     transform: rotate(90deg)
 }
-
 .institucional-digital-talks-anteriores-accordion-list {
     display: -ms-flexbox;
     display: flex;
@@ -11561,175 +10779,187 @@ ul#botoes  {
     flex-wrap: wrap;
     padding: 0 30px 30px
 }
-
 @font-face {
     font-family: Borda Regular;
     src: url(../_fonts/borda/borda-regular.woff2) format("woff2"), url(../_fonts/borda/borda-regular.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: DIN Pro Bold;
     src: url(../_fonts/din/din-pro-bold.woff2) format("woff2"), url(../_fonts/din/din-pro-bold.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: DIN Pro Light;
     src: url(../_fonts/din/din-pro-light.woff2) format("woff2"), url(../_fonts/din/din-pro-light.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Black;
     src: url(../_fonts/gotham/gotham-htf-black.woff2) format("woff2"), url(../_fonts/gotham/gotham-htf-black.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Bold;
     src: url(../_fonts/gotham/gotham-htf-bold.woff2) format("woff2"), url(../_fonts/gotham/gotham-htf-bold.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Book;
     src: url(../_fonts/gotham/gotham-htf-book.woff2) format("woff2"), url(../_fonts/gotham/gotham-htf-book.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Light;
     src: url(../_fonts/gotham/gotham-htf-light.woff2) format("woff2"), url(../_fonts/gotham/gotham-htf-light.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Medium;
     src: url(../_fonts/gotham/gotham-htf-medium.woff2) format("woff2"), url(../_fonts/gotham/gotham-htf-medium.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Medium Condensed;
     src: url(../_fonts/gotham-condensed/gotham-htf-condensed-medium.woff2) format("woff2"), url(../_fonts/gotham-condensed/gotham-htf-condensed-medium.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Light Condensed;
     src: url(../_fonts/gotham-condensed/gotham-htf-condensed-light.woff2) format("woff2"), url(../_fonts/gotham-condensed/gotham-htf-condensed-light.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @font-face {
     font-family: Gotham HTF Book Condensed;
     src: url(../_fonts/gotham-condensed/gotham-htf-condensed-book.woff2) format("woff2"), url(../_fonts/gotham-condensed/gotham-htf-condensed-book.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
-
 @media (min-width: 480px) {
     .col-xs-1 {
         width: 8.3333333333%
     }
+    
     .col-xs-2 {
         width: 16.6666666667%
     }
+    
     .col-xs-3 {
         width: 25%
     }
+    
     .col-xs-4 {
         width: 33.3333333333%
     }
+    
     .col-xs-5 {
         width: 41.6666666667%
     }
+    
     .col-xs-6 {
         width: 50%
     }
+    
     .col-xs-7 {
         width: 58.3333333333%
     }
+    
     .col-xs-8 {
         width: 66.6666666667%
     }
+    
     .col-xs-9 {
         width: 75%
     }
+    
     .col-xs-10 {
         width: 83.3333333333%
     }
+    
     .col-xs-11 {
         width: 91.6666666667%
     }
+    
     .col-xs-12 {
         width: 100%
     }
+    
     .components-menu-item-button {
         display: none
     }
 }
-
 @media (min-width: 768px) and (max-width: 1199px) {
     .br-tablet {
         display: block !important
     }
 }
-
 @media (min-width: 768px) {
     .col-s-1 {
         width: 8.3333333333%
     }
+    
     .col-s-2 {
         width: 16.6666666667%
     }
+    
     .col-s-3 {
         width: 25%
     }
+    
     .col-s-4 {
         width: 33.3333333333%
     }
+    
     .col-s-5 {
         width: 41.6666666667%
     }
+    
     .col-s-6 {
         width: 50%
     }
+    
     .col-s-7 {
         width: 58.3333333333%
     }
+    
     .col-s-8 {
         width: 66.6666666667%
     }
+    
     .col-s-9 {
         width: 75%
     }
+    
     .col-s-10 {
         width: 83.3333333333%
     }
+    
     .col-s-11 {
         width: 91.6666666667%
     }
+    
     .col-s-12 {
         width: 100%
     }
+    
     .institucional-digital-talks-talks-next-item.small {
         width: 48%
     }
+    
     .institucional-digital-talks-talks-next-item.large {
         width: 70%
     }
+    
     .institucional-digital-talks-talk-next-item-info.large {
         display: -ms-flexbox;
         display: flex;
@@ -11737,120 +10967,153 @@ ul#botoes  {
         justify-content: space-between;
         margin-top: 40px
     }
+    
     .institucional-digital-talks-talk-next-item-info.large .institucional-digital-talks-talk-next-item-desc {
         margin: 0
     }
+    
     .institucional-digital-talks-talk-next-item-info-column.small {
         width: 48%
     }
+    
     .institucional-digital-talks-talk-next-item-info-column.small .institucional-digital-talks-talk-next-item-convidado {
         margin-top: 0
     }
 }
-
 @media (min-width: 960px) {
     .col-m-1 {
         width: 8.3333333333%
     }
+    
     .col-m-2 {
         width: 16.6666666667%
     }
+    
     .col-m-3 {
         width: 25%
     }
+    
     .col-m-4 {
         width: 33.3333333333%
     }
+    
     .col-m-5 {
         width: 41.6666666667%
     }
+    
     .col-m-6 {
         width: 50%
     }
+    
     .col-m-7 {
         width: 58.3333333333%
     }
+    
     .col-m-8 {
         width: 66.6666666667%
     }
+    
     .col-m-9 {
         width: 75%
     }
+    
     .col-m-10 {
         width: 83.3333333333%
     }
+    
     .col-m-11 {
         width: 91.6666666667%
     }
+    
     .col-m-12 {
         width: 100%
     }
+    
     .components-slider-item {
         padding: 0 15px
     }
+    
     .slashicorp-2018-multicloud-column:first-child {
         padding-left: 40px
     }
+    
     .slashicorp-2018-multicloud-column:last-child {
         padding-left: 25px
     }
+    
     .slashicorp-2018-elasticstack-column:first-child {
         padding-left: 40px
     }
+    
     .slashicorp-2018-elasticstack-column:last-child {
         padding-left: 25px
     }
+    
     .slashicorp-2018-monitoring-column:first-child {
         padding-left: 40px
     }
+    
     .slashicorp-2018-monitoring-column:last-child {
         padding-left: 25px
     }
+    
     .slashicorp-2018-automação-column:first-child {
         padding-left: 40px
     }
+    
     .slashicorp-2018-automação-column:last-child {
         padding-left: 25px
     }
 }
-
 @media (min-width: 1024px) {
     .col-l-1 {
         width: 8.3333333333%
     }
+    
     .col-l-2 {
         width: 16.6666666667%
     }
+    
     .col-l-3 {
         width: 25%
     }
+    
     .col-l-4 {
         width: 33.3333333333%
     }
+    
     .col-l-5 {
         width: 41.6666666667%
     }
+    
     .col-l-6 {
         width: 50%
     }
+    
     .col-l-7 {
         width: 58.3333333333%
     }
+    
     .col-l-8 {
         width: 66.6666666667%
     }
+    
     .col-l-9 {
         width: 75%
     }
+    
     .col-l-10 {
         width: 83.3333333333%
     }
+    
     .col-l-11 {
         width: 91.6666666667%
     }
+    
     .col-l-12 {
         width: 100%
     }
+    
     .slashicorp-2018-sxsw-image {
         background: url(../images/slashicorp/institucional/sxsw-2018/background-logos.png) 0 0 no-repeat;
         height: 100%;
@@ -11859,6 +11122,7 @@ ul#botoes  {
         position: relative;
         width: 100%
     }
+    
     .slashicorp-2018-sxsw-image-content {
         text-align: initial;
         position: absolute;
@@ -11866,9 +11130,11 @@ ul#botoes  {
         transform: translateY(-50%);
         width: 100%
     }
+    
     .slashicorp-2018-sxsw-logo {
         display: initial
     }
+    
     .slashicorp-2018-sxsw-logo.slashicorp {
         bottom: 10px;
         left: 112px;
@@ -11876,6 +11142,7 @@ ul#botoes  {
         width: 140px;
         fill: #03fac9
     }
+    
     .slashicorp-2018-sxsw-logo.at {
         bottom: 21px;
         color: #86969f;
@@ -11884,6 +11151,7 @@ ul#botoes  {
         position: absolute;
         text-transform: uppercase
     }
+    
     .slashicorp-2018-sxsw-logo.sxsw {
         left: 190px;
         position: absolute;
@@ -11891,82 +11159,90 @@ ul#botoes  {
         fill: #91a3ad
     }
 }
-
 @media (min-width: 1130px) {
     .col-xl-1 {
         width: 8.3333333333%
     }
+    
     .col-xl-2 {
         width: 16.6666666667%
     }
+    
     .col-xl-3 {
         width: 25%
     }
+    
     .col-xl-4 {
         width: 33.3333333333%
     }
+    
     .col-xl-5 {
         width: 41.6666666667%
     }
+    
     .col-xl-6 {
         width: 50%
     }
+    
     .col-xl-7 {
         width: 58.3333333333%
     }
+    
     .col-xl-8 {
         width: 66.6666666667%
     }
+    
     .col-xl-9 {
         width: 75%
     }
+    
     .col-xl-10 {
         width: 83.3333333333%
     }
+    
     .col-xl-11 {
         width: 91.6666666667%
     }
+    
     .col-xl-12,
     .components-cursos-item {
         width: 100%
     }
 }
-
 @media (max-width: 1152px) and (min-width: 480px) {
     .institucional-digital-talks-programacao-list-item {
         margin: 0 0 40px;
         max-width: 48%
     }
+    
     .institucional-digital-talks-programacao-list-item:nth-child(2n) {
         margin: 0 0 40px 2%
     }
 }
-
 @media (min-width: 1153px) {
     .institucional-digital-talks-programacao-list-item:nth-child(3n-1) {
         margin: 0 2% 65px
     }
 }
-
 @media (min-width: 1200px) {
     .br-desktop {
         display: block
     }
+    
     .components-gallery-slider .components-slider-image {
         height: 568px
     }
+    
     .components-gallery-slider .components-slider-item {
         padding: 0 15px
     }
 }
-
 @media (min-width: 1220px) {
     .slashicorp-2018-enade-box.left,
     .slashicorp-2018-enade-box.right {
         width: 305px
     }
 }
-
 @media (max-width: 1231px) and (min-width: 1070px) {
     .vitrine-graduacao .vitrine-media-img,
     .vitrine-mba .vitrine-media-img,
@@ -11974,27 +11250,26 @@ ul#botoes  {
         max-height: 500px
     }
 }
-
 @media (min-width: 1355px) {
     .components-menu.is-active .components-menu-link {
         line-height: 80px
     }
+    
     .components-menu-item:hover .components-menu-sublist {
         padding: 30px;
         max-height: 450px
     }
+    
     .components-menu-toggle {
         display: none
     }
 }
-
 @media (min-width: 1355px) and (max-width: 1590px) {
     .components-menu-link {
         font-size: 13px;
         letter-spacing: normal
     }
 }
-
 @media (max-width: 1360px) and (min-width: 1230px) {
     .vitrine-graduacao .vitrine-media-img,
     .vitrine-mba .vitrine-media-img,
@@ -12002,13 +11277,11 @@ ul#botoes  {
         max-height: 600px
     }
 }
-
 @media (max-width: 1360px) and (min-width: 1070px) {
     .vitrine-vestibular-final .vitrine-media-img {
         max-height: 600px
     }
 }
-
 @media (max-width: 1600px) and (min-width: 1070px) {
     .vitrine-graduacao .vitrine-media-img,
     .vitrine-mba .vitrine-media-img,
@@ -12016,16 +11289,17 @@ ul#botoes  {
         right: -1%;
         left: auto
     }
+    
     .vitrine-vestibular-final .vitrine-media-img {
         left: -150px
     }
 }
-
 @media screen and (min-width: 1920px) {
     .vitrine-effects:after,
     .vitrine-effects:before {
         background-size: cover
     }
+    
     .vitrine-graduacao .vitrine-effects:after,
     .vitrine-graduacao .vitrine-effects:before,
     .vitrine-mba-cursos.vitrine-mba-artificial-intelligence .vitrine-effects:after,
@@ -12050,35 +11324,31 @@ ul#botoes  {
         background-size: cover;
         background-position: 0
     }
+    
     .vitrine-shift .vitrine-effects:before {
         background-size: 93%
     }
 }
-
 @media screen and (max-width: 1700px) {
     .institucional-evento-ia-header:after {
         width: 60%
     }
 }
-
 @media (max-width: 1600px) {
     .institucional-digital-talks-anteriores:before {
         display: none
     }
 }
-
 @media screen and (max-width: 1590px) {
     .components-menu-item {
         padding: 0 15px
     }
 }
-
 @media (max-width: 1550px) {
     .vitrine-mba .vitrine-list-desc {
         font: 11px/18px Gotham HTF Medium
     }
 }
-
 @media (max-width: 1535px) {
     .vitrine-cpbr11 .vitrine-background-cpbr {
         width: 700px;
@@ -12086,55 +11356,54 @@ ul#botoes  {
         top: 150px
     }
 }
-
 @media screen and (max-width: 1500px) {
     .institucional-evento-ia-header:after {
         width: 70%
     }
 }
-
 @media screen and (max-width: 1400px) {
     .components-menu-item-mobile {
         display: none
     }
+    
     .vitrine-rock-inscreva-se .vitrine-title,
     .vitrine-rock-inscreva-se .vitrine-title-highlight {
         font-size: 40px
     }
+    
     .vitrine-rock-inscreva-se .vitrine-subtitle {
         font-size: 24px
     }
 }
-
 @media (max-width: 1400px) {
     .institucional-digital-talks-header-logo {
         margin: 200px auto 130px
     }
 }
-
 @media screen and (max-width: 1370px) {
     .vitrine-vestibular-final .vitrine-content {
         margin-top: 40px
     }
 }
-
 @media (max-width: 1365px) {
     .vitrine-rock-inscreva-se .vitrine-content,
     .vitrine-rock-inscreva-se .vitrine-media {
         width: 50%
     }
+    
     .vitrine-graduacao .vitrine-content {
         width: 50%;
         margin-left: 50px
     }
+    
     .vitrine-graduacao .vitrine-content-wrapper {
         margin-left: 150px
     }
+    
     .vitrine-graduacao .vitrine-media {
         width: 50%
     }
 }
-
 @media screen and (max-width: 100px) {
     .components-menu {
         background-color: #151819;
@@ -12143,12 +11412,15 @@ ul#botoes  {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+    
     .components-menu-logo {
         width: 32%;
     }
+    
     .components-menu-center {
         position: static
     }
+    
     .components-menu-list {
         background-color: #151819;
         display: block;
@@ -12160,46 +11432,58 @@ ul#botoes  {
         top: 80px;
         width: 100%
     }
+    
     .components-menu-list.is-active {
         max-height: -webkit-fit-content;
         max-height: fit-content
     }
+    
     .components-menu-item {
         height: auto;
         opacity: 1 !important
     }
+    
     .components-menu-item-mobile {
         display: block
     }
+    
     .components-menu-link {
         line-height: normal;
         padding: 12px 0
     }
+    
     .components-menu-sublist {
         background-color: transparent;
         padding: 0;
         position: relative
     }
+    
     .components-menu-subitem {
         padding: 0 25px
     }
+    
     .menu-home .components-menu-button {
         margin-right: 0;
         width: auto
     }
+    
     .components-menu-button {
         margin-right: 60px;
         width: auto
     }
+    
     .ON-base__menu-right .components-menu-button {
         margin-right: 80px
     }
+    
     .components-menu-button-list .components-menu-subitem {
         padding: 0 2px
     }
+    
     .components-menu-button-list .components-menu-subitem:before {
         left: -20px
     }
+    
     .components-menu-button-list {
         top: 160%;
         background-color: #212527;
@@ -12208,99 +11492,113 @@ ul#botoes  {
         left: 50%;
         transform: translateX(-50%)
     }
+    
     .menu-home .components-menu-right {
         min-width: auto
     }
+    
     .components-menu-right {
         width: 25%;
         margin-right: 55px;
         min-width: 218px
     }
+    
     .components-menu-search {
         display: none
     }
+    
     .menu.is-active .components-menu-search-mobile {
         margin-bottom: 50px;
         visibility: initial
     }
+    
     .menu.is-active .components-menu-search-mobile .search-form {
         padding: 0
     }
+    
     .menu.is-active .components-menu-search-mobile .search-form-input {
         visibility: initial
     }
+    
     .menu.is-active .components-menu-search-mobile .search-form-button {
         opacity: 1
     }
+    
     .components-menu-search-button-parent {
         padding-right: 10px
     }
+    
     .menu-left-logo {
         margin-left: 50px
     }
+    
     .menu-main-list {
         -ms-flex-direction: column;
         flex-direction: column;
         height: auto;
         width: 100%
     }
+    
     .menu-main-item {
         line-height: normal
     }
+    
     .menu-main-link:after {
         display: none
     }
 }
-
 @media screen and (max-width: 1350px) {
     .slashicorp-menu-wrapper {
         padding-right: 50px
     }
+    
     .slashicorp-menu-sub {
         left: -30px
     }
 }
-
 @media (max-width: 1350px) {
     .vitrine-cpbr11 .vitrine-title-svg {
         width: 100%
     }
+    
     .vitrine-cpbr11 .vitrine-background-cpbr {
         width: 600px;
         left: -80px;
         top: 190px
     }
+    
     .vitrine-cpbr11 .vitrine-description,
     .vitrine-cpbr11 .vitrine-highlight {
         font-size: 16px
     }
 }
-
 @media screen and (max-width: 1280px) {
     .components-cursos-radios {
         display: none
     }
+    
     .components-cursos-select {
         display: block
     }
 }
-
 @media screen and (max-width: 1260px) {
     .vitrine-mba-cursos .vitrine-wrapper {
         padding: 0 30px
     }
 }
-
 @media screen and (max-width: 1250px) {
     .vitrine-on .vitrine-media {
         right: 10px
     }
+    
     .vitrine-on .vitrine-media-mba {
         right: -15%
     }
+    
     .menu-search .components-menu .components-menu-logo {
         width: 320px
     }
+    
     .search-form-content {
         left: auto;
         position: static;
@@ -12313,22 +11611,24 @@ ul#botoes  {
         -ms-flex-align: center;
         align-items: center
     }
+    
     .search-form {
         width: 100%
     }
 }
-
 @media (max-width: 1250px) {
     .slashicorp-2018-unidades-list {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin: 100px 0 0
     }
+    
     .slashicorp-2018-unidades-item {
         margin: 40px auto;
         padding: 0 7px;
         width: 33.3%
     }
+    
     .slashicorp-2018-unidades-content {
         color: #91a3ad;
         display: table-cell;
@@ -12337,202 +11637,238 @@ ul#botoes  {
         vertical-align: middle;
         width: 50%
     }
+    
     .slashicorp-2018-unidades-desc.special {
         -ms-flex-pack: center;
         justify-content: center;
         margin-left: 0
     }
+    
     .slashicorp-2018-unidades-desc.special:before {
         width: 0
     }
 }
-
 @media screen and (max-width: 1208px) {
     .slashicorp-2018-videos-thumbs {
         -ms-flex-pack: left;
         justify-content: left;
         margin: 0
     }
+    
     .slashicorp-2018-videos-thumb-item {
         max-width: 130px;
         margin: 10px;
         text-align: center
     }
+    
     .slashicorp-2018-videos-thumb-figure {
         width: 130px;
         height: 65px
     }
 }
-
 @media screen and (max-width: 1200px) {
     .background-gradient {
         background: url(../images/shared/background/gradiente-mobile.jpg) top repeat-y
     }
+    
     .components-gallery {
         width: 100%;
         min-height: auto
     }
+    
     .components-gallery .components-slider {
         position: relative;
         width: 100%
     }
+    
     .components-gallery-mosaico {
         display: none
     }
+    
     .components-gallery-slider .components-slider-item:before {
         left: 0;
         right: 0
     }
+    
     .components-gallery-options-mosaico,
     .components-gallery-options-slider {
         pointer-events: none
     }
+    
     .components-gallery-options {
         height: auto
     }
+    
     .components-gallery-options-mosaico {
         display: none
     }
+    
     .components-gallery-options-slider {
         opacity: 1;
         z-index: 101
     }
+    
     .shared-fotos {
         padding: 0 0 190px
     }
+    
     .shared-fotos:after {
         display: none
     }
+    
     .vitrine-item {
         background: url(../images/shared/background/gradiente-mobile.jpg) top repeat-y
     }
+    
     .vitrine-rock-inscreva-se .vitrine-title,
     .vitrine-rock-inscreva-se .vitrine-title-highlight {
         font-size: 35px
     }
+    
     .vitrine-rock-inscreva-se .vitrine-subtitle {
         font-size: 20px
     }
+    
     .slashicorp-nomad-description {
         margin-top: 50px
     }
 }
-
 @media (max-width: 1200px) {
     .menu-sub {
         display: none
     }
+    
     .vitrine-rock-inscreva-se .vitrine-content-wrapper {
         text-align: center
     }
+    
     .vitrine-text-line {
         font-size: 14px
     }
 }
-
 @media (max-width: 1199px) {
     .br-desktop {
         display: none
     }
+    
     .slashicorp-fotos {
         padding-bottom: 100px
     }
 }
-
 @media screen and (max-width: 1199px) {
     .shared-conceito-desc {
         max-width: 740px
     }
 }
-
 @media (max-width: 1190px) {
     .slashicorp-destaques {
         text-align: center
     }
+    
     .slashicorp-destaques-item-small {
         height: 300px;
         width: 300px
     }
+    
     .slashicorp-destaques-item-medium {
         height: 300px;
         margin-left: 150px;
         width: 450px
     }
+    
     .slashicorp-destaques-item-large {
         height: 600px;
         width: 600px
     }
+    
     .vitrine-cpbr11 .vitrine-background-cpbr {
         width: 100%;
         left: 0;
         top: 190px
     }
 }
-
 @media screen and (max-width: 1130px) {
     .background-gradient-home-mba:before {
         background-size: auto
     }
+    
     .components-cursos-item-link:before {
         left: 0;
         width: 100%
     }
+    
     .institucional-evento-ia-header:after {
         width: 90%
     }
+    
     .shared-conceito {
         padding: 100px 0
     }
+    
     .slashicorp-2018-multicloud-title {
         padding: 0
     }
+    
     .slashicorp-2018-multicloud-figure:after,
     .slashicorp-2018-multicloud-title:before {
         display: none
     }
+    
     .slashicorp-2018-elasticstack-title {
         padding: 0
     }
+    
     .slashicorp-2018-elasticstack-figure:after,
     .slashicorp-2018-elasticstack-title:before {
         display: none
     }
+    
     .slashicorp-2018-monitoring-title {
         padding: 0
     }
+    
     .slashicorp-2018-monitoring-figure:after,
     .slashicorp-2018-monitoring-title:before {
         display: none
     }
+    
     .slashicorp-2018-automação-title {
         padding: 0
     }
+    
     .slashicorp-2018-automação-figure:after,
     .slashicorp-2018-automação-title:before {
         display: none
     }
+    
     .slashicorp-2018-sxsw-title {
         font: 32px/40px Gotham HTF Light
     }
+    
     .slashicorp-2018-sxsw-subtitle {
         font: 17px/27px Gotham HTF Medium;
         margin-top: -20px;
         padding-bottom: 50px
     }
+    
     .slashicorp-2018-sxsw-subtitle:after {
         left: -110px;
         width: 150px
     }
+    
     .slashicorp-noticias-noticia-left,
     .slashicorp-noticias-noticia-right {
         width: 100%
     }
+    
     .slashicorp-noticias-ultimas {
         border: none
     }
+    
     .slashicorp-noticias-ultimas-title {
         padding: 50px 0 20px
     }
+    
     .slashicorp-noticias-ultimas-title:after {
         background-color: #616d72;
         bottom: 0;
@@ -12544,33 +11880,34 @@ ul#botoes  {
         transition: background-color .5s ease;
         width: 100%
     }
+    
     .slashicorp-noticias-ultimas-title:before {
         top: 90px
     }
+    
     .slashicorp-noticias-ultimas-item {
         width: 50%;
         float: left
     }
 }
-
 @media (max-width: 1130px) {
     .institucional-digital-talks-talk-next-item-center.data-item-talk-anterior {
         top: 35px
     }
 }
-
 @media (max-width: 1080px) {
     .slashicorp-menu-side-item-mobile {
         display: block
     }
+    
     .talent-login {
         margin-top: 80px
     }
+    
     .slashicorp-noticias-artigo {
         width: 50%
     }
 }
-
 @media (max-width: 1071px) {
     .vitrine-graduacao .vitrine-media-img,
     .vitrine-rock-inscreva-se .vitrine-media-img {
@@ -12578,68 +11915,79 @@ ul#botoes  {
         right: -3px;
         left: auto
     }
+    
     .vitrine-mba .vitrine-desc {
         font: 16px Gotham HTF Medium
     }
+    
     .vitrine-mba .vitrine-list-square {
         top: 5px
     }
+    
     .vitrine-mba .vitrine-list-title {
         font: 13px Gotham HTF Medium
     }
+    
     .vitrine-mba .vitrine-media-img {
         max-height: 400px;
         right: -3px;
         left: auto
     }
+    
     .vitrine-vestibular-final .vitrine-media-img {
         max-height: 500px;
         left: -100px
     }
 }
-
 @media (max-width: 1070px) {
     .vitrine-mba .vitrine-content {
         margin-left: 50px
     }
+    
     .vitrine-mba .vitrine-title-svg {
         width: 120px
     }
 }
-
 @media screen and (max-width: 1055px) {
     .vitrine-graduacao .vitrine-subtitle {
         font-size: 18px
     }
+    
     .vitrine-vestibular-final .vitrine-title,
     .vitrine-vestibular-final .vitrine-title-highlight {
         font-size: 40px
     }
+    
     .vitrine-vestibular-final .vitrine-subtitle {
         font-size: 16px
     }
 }
-
 @media (max-width: 1024px) {
     .slashicorp-2018-footer {
         text-align: center
     }
+    
     .slashicorp-2018-footer-column {
         width: 100%
     }
+    
     .slashicorp-2018-footer-column:not(:first-child) {
         display: none
     }
+    
     .slashicorp-footer {
         padding: 75px 0;
         text-align: center
     }
+    
     .slashicorp-footer-column {
         width: 100%
     }
+    
     .slashicorp-footer-column:not(:first-child) {
         display: none
     }
+    
     .slashicorp-2018-mec-groups {
         -ms-flex-align: center;
         align-items: center;
@@ -12647,124 +11995,156 @@ ul#botoes  {
         flex-direction: column;
         margin: 130px 0 0
     }
+    
     .slashicorp-2018-enade-box.center,
     .slashicorp-2018-enade-box.left,
     .slashicorp-2018-enade-box.right {
         margin: 40px auto;
         width: 80%
     }
+    
     .slashicorp-contato-content,
     .slashicorp-contato-header {
         float: none;
         width: 100%
     }
 }
-
 @media screen and (max-width: 1024px) {
     .vitrine-on .vitrine-effects-mba:before {
         background: url(../images/slashicorp/vitrines/online/effects-mba-on-left-1024.png) top no-repeat
     }
+    
     .vitrine-on .vitrine-title-mba {
         margin-bottom: 30px
     }
+    
     .vitrine-on .vitrine-title-svg-mba:last-child {
         margin-left: -15px
     }
+    
     .vitrine-on .vitrine-text-desc-large {
         font: 13px/18px Gotham HTF Book
     }
+    
     .vitrine-on .vitrine-text-desc-large.margin-bottom {
         margin-bottom: 10px
     }
+    
     .vitrine-on .vitrine-text-desc-small {
         font: 10px/14px Gotham HTF Book
     }
+    
     .vitrine-on .vitrine-title-container-flex {
         width: 188px
     }
+    
     .slashicorp-2018-multicloud:after {
         display: none
     }
+    
     .slashicorp-2018-multicloud {
         padding: 0 0 250px
     }
+    
     .slashicorp-2018-elasticstack:after {
         display: none
     }
+    
     .slashicorp-2018-elasticstack {
         padding: 0 0 250px
     }
+    
     .slashicorp-2018-monitoring:after {
         display: none
     }
+    
     .slashicorp-2018-monitoring {
         padding: 0 0 250px
     }
+    
     .slashicorp-2018-multicloud {
         padding: 0 0 250px
     }
+    
     .slashicorp-2018-automação:after {
         display: none
     }
+    
     .slashicorp-2018-automação {
         padding: 0 0 250px
     }
+    
     .slashicorp-2018-future-logo {
         text-align: center
     }
+    
     .slashicorp-2018-future-logo,
     .slashicorp-2018-future-logo.line-two {
         width: 25%
     }
+    
     .slashicorp-2018-sxsw-column {
         width: 100%
     }
+    
     .slashicorp-2018-sxsw-subtitle:after {
         left: 0;
         width: 100px
     }
+    
     .slashicorp-nomad-slider {
         margin: 20px 0
     }
+    
     .slashicorp-nomad-slider-item {
         width: 100%
     }
+    
     .slashicorp-2018-parcerias-logo {
         text-align: center
     }
+    
     .slashicorp-2018-parcerias-logo,
     .slashicorp-2018-parcerias-logo.line-three,
     .slashicorp-2018-parcerias-logo.line-two {
         width: 25%
     }
+    
     .slashicorp-2018-mec:after {
         display: none
     }
+    
     .slashicorp-2018-mec {
         padding-bottom: 250px;
         padding-bottom: 150px
     }
+    
     .slashicorp-2018-mec-item,
     .slashicorp-2018-mec-item-excelencia {
         margin: 40px 0;
         width: 100%
     }
+    
     .slashicorp-2018-enade:after,
     .slashicorp-2018-enade:before {
         display: none
     }
+    
     .slashicorp-2018-enade-row {
         -ms-flex-direction: column;
         flex-direction: column
     }
+    
     .slashicorp-2018-enade-col-center,
     .slashicorp-2018-enade-col-side {
         width: 100%
     }
+    
     .slashicorp-2018-enade-box-title,
     .slashicorp-2018-enade-box-title-engenharia {
         font: 20px/26px Gotham HTF Medium
     }
+    
     .slashicorp-2018-enade-box.center,
     .slashicorp-2018-enade-box.left,
     .slashicorp-2018-enade-box.right {
@@ -12773,9 +12153,11 @@ ul#botoes  {
         text-align: center;
         width: 100%
     }
+    
     .slashicorp-2018-enade-box.right:last-child {
         margin: 0
     }
+    
     .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota-subtitle,
     .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota-subtitle,
     .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota-subtitle {
@@ -12784,6 +12166,7 @@ ul#botoes  {
         top: -24px;
         transform: translateX(-50%)
     }
+    
     .slashicorp-2018-enade-box.center .slashicorp-2018-enade-nota,
     .slashicorp-2018-enade-box.left .slashicorp-2018-enade-nota,
     .slashicorp-2018-enade-box.right .slashicorp-2018-enade-nota {
@@ -12794,255 +12177,318 @@ ul#botoes  {
         transform: translateX(-50%);
         width: 75%
     }
+    
     .slashicorp-2018-videos-box {
         margin: 30px 0
     }
+    
     .slashicorp-cpa-header-title {
         font: 85px Gotham HTF Medium
     }
+    
     .slashicorp-cpa-header-title-desc {
         font: 25px/35px Gotham HTF Bold
     }
+    
     .slashicorp-nova-vo-header-title {
         font-size: 55px
     }
+    
     .slashicorp-nova-vo-header-subtitle {
         font-size: 22px
     }
+    
     .slashicorp-nova-vo-header-endereco {
         font-size: 18px
     }
+    
     .slashicorp-nova-vo-header-data {
         font-size: 15px
     }
+    
     .slashicorp-nova-vo-transformacao-title {
         font-size: 40px
     }
+    
     .slashicorp-nova-vo-transformacao-text {
         font-size: 15px;
         padding: 10px 15px 0
     }
+    
     .slashicorp-nova-alpha-header-title {
         font-size: 55px
     }
+    
     .slashicorp-nova-alpha-header-subtitle {
         font-size: 22px
     }
+    
     .slashicorp-nova-alpha-header-endereco {
         font-size: 18px
     }
+    
     .slashicorp-nova-alpha-header-data {
         font-size: 15px
     }
+    
     .slashicorp-nova-alpha-transformacao-title {
         font-size: 40px
     }
+    
     .slashicorp-nova-alpha-transformacao-text {
         font-size: 15px;
         padding: 10px 15px 0
     }
 }
-
 @media screen and (max-width: 1000px) {
     .vitrine-rock-inscreva-se .vitrine-title,
     .vitrine-rock-inscreva-se .vitrine-title-highlight {
         font-size: 30px
     }
+    
     .vitrine-rock-inscreva-se .vitrine-subtitle {
         font-size: 18px
     }
 }
-
 @media (max-width: 1000px) {
     .slashicorp-2018-unidades-newdesc-text:first-child {
         font-size: 13px
     }
+    
     .slashicorp-2018-unidades-newdesc-text:nth-child(2) {
         font-size: 21px
     }
+    
     .slashicorp-2018-unidades-newdesc-text:last-child {
         font-size: 14px
     }
 }
-
 @media screen and (max-width: 960px) {
     .components-cursos-search {
         display: block;
         margin-top: 25px;
         text-align: center
     }
+    
     .slashicorp-busca-input {
         margin-top: 70px;
         width: 100%
     }
+    
     .vitrine-mba-cursos.vitrine-mba-artificial-intelligence .vitrine-curso-nome {
         font-size: 50px
     }
+    
     .institucional-evento-ia-header {
         padding-bottom: 230px
     }
+    
     .institucional-evento-ia-header:after {
         width: 100%
     }
+    
     .institucional-evento-ia-sucesso-conteudo-background {
         width: 600px;
         padding-left: 20px
     }
+    
     .institucional-evento-ia-conteudo-feedback-text {
         font-size: 13px
     }
+    
     .slashicorp-2018-multicloud-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
+    
     .slashicorp-2018-multicloud-column {
         width: 100%
     }
+    
     .slashicorp-2018-multicloud-description:first-child {
         padding-top: 0
     }
+    
     .slashicorp-2018-multicloud-description:first-child:before {
         display: none
     }
+    
     .slashicorp-2018-elasticstack-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
+    
     .slashicorp-2018-elasticstack-column {
         width: 100%
     }
+    
     .slashicorp-2018-elasticstack-description:first-child {
         padding-top: 0
     }
+    
     .slashicorp-2018-elasticstack-description:first-child:before {
         display: none
     }
+    
     .slashicorp-2018-monitoring-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
+    
     .slashicorp-2018-monitoring-column {
         width: 100%
     }
+    
     .slashicorp-2018-monitoring-description:first-child {
         padding-top: 0
     }
+    
     .slashicorp-2018-monitoring-description:first-child:before {
         display: none
     }
+    
     .slashicorp-2018-automação-columns {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px
     }
+    
     .slashicorp-2018-automação-column {
         width: 100%
     }
+    
     .slashicorp-2018-automação-description:first-child {
         padding-top: 0
     }
+    
     .slashicorp-2018-automação-description:first-child:before {
         display: none
     }
+    
     .slashicorp-2018-future-title {
         font-size: 41px;
         line-height: 30px
     }
+    
     .slashicorp-2018-future-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
+    
     .slashicorp-2018-future-title span:before {
         display: none
     }
+    
     .slashicorp-2018-enade {
         padding: 0 0 200px
     }
+    
     .slashicorp-2018-enade-main {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-order: -1;
         order: -1
     }
+    
     .slashicorp-2018-enade-content {
         padding-bottom: 120px;
         text-align: center
     }
+    
     .slashicorp-2018-artigos-media-img {
         width: 400px
     }
+    
     .slashicorp-2018-enade-nota-title {
         -ms-flex-pack: center;
         justify-content: center
     }
+    
     .slashicorp-2018-artigos:after,
     .slashicorp-2018-enade-nota-title:before {
         display: none
     }
+    
     .slashicorp-2018-artigos {
         padding-bottom: 250px
     }
+    
     .slashicorp-2018-artigos-main {
         -ms-flex-direction: column;
         flex-direction: column
     }
+    
     .slashicorp-2018-artigos-box {
         margin: 0 0 90px
     }
+    
     .slashicorp-2018-artigos-text {
         text-align: center
     }
+    
     .slashicorp-2018-artigos-text:after {
         display: none
     }
+    
     .slashicorp-2018-artigos-number {
         font-size: 170px;
         line-height: 105px;
         left: 5px
     }
+    
     .slashicorp-2018-videos-title {
         font-size: 41px;
         line-height: 30px
     }
+    
     .slashicorp-2018-videos-title span {
         display: inline-block;
         font-size: 41px;
         left: 0
     }
+    
     .slashicorp-2018-unidades:after,
     .slashicorp-2018-videos-title span:before {
         display: none
     }
+    
     .slashicorp-2018-unidades-subtitle {
         color: #03fac9
     }
+    
     .iniciativa-title-svg {
         width: 200px
     }
+    
     .iniciativa-content-title {
         position: relative;
         text-align: center
     }
+    
     .iniciativa-title {
         font-size: 60px;
         line-height: 20px
     }
+    
     .iniciativa-title .text-magenta {
         display: inline;
         margin-left: 20px
     }
+    
     .iniciativa-subtitle {
         margin-top: 30px
     }
+    
     .slashicorp-iniciativas-iniciativa-left .iniciativa-media,
     .slashicorp-iniciativas-iniciativa-right .iniciativa-media {
         float: none;
         margin: 0 auto
     }
+    
     .coworking-header-column {
         padding: 0;
         width: 100%
@@ -13051,44 +12497,44 @@ ul#botoes  {
         width: -webkit-fit-content;
         width: fit-content;
         margin: 0 auto*/
-    }
-    .slashicorp-cpa-header-title {
-        font-size: 80px
-    }
-    .slashicorp-noticias-noticia-title {
-        padding: 0 0 20px
-    }
-    .slashicorp-noticias-contato {
-        position: relative;
-        bottom: 0;
-        margin-left: 50px
-    }
-    .slashicorp-nova-vo-header-title {
-        font-size: 50px
-    }
-    .slashicorp-nova-vo-header-subtitle {
-        font-size: 18px
-    }
-    .slashicorp-nova-vo-transformacao-title {
-        font-size: 30px
-    }
-    .slashicorp-nova-alpha-header-title {
-        font-size: 50px
-    }
-    .slashicorp-nova-alpha-header-subtitle {
-        font-size: 18px
-    }
-    .slashicorp-nova-alpha-transformacao-title {
-        font-size: 30px
-    }
-    .slashicorp-unidos-desc-title {
-        font: 50px Gotham HTF Light
-    }
-    .slashicorp-unidos-desc-text p {
-        font: 16px/26px Roboto
-    }
+}
+.slashicorp-cpa-header-title {
+    font-size: 80px
+}
+.slashicorp-noticias-noticia-title {
+    padding: 0 0 20px
+}
+.slashicorp-noticias-contato {
+    position: relative;
+    bottom: 0;
+    margin-left: 50px
+}
+.slashicorp-nova-vo-header-title {
+    font-size: 50px
+}
+.slashicorp-nova-vo-header-subtitle {
+    font-size: 18px
+}
+.slashicorp-nova-vo-transformacao-title {
+    font-size: 30px
+}
+.slashicorp-nova-alpha-header-title {
+    font-size: 50px
+}
+.slashicorp-nova-alpha-header-subtitle {
+    font-size: 18px
+}
+.slashicorp-nova-alpha-transformacao-title {
+    font-size: 30px
+}
+.slashicorp-unidos-desc-title {
+    font: 50px Gotham HTF Light
+}
+.slashicorp-unidos-desc-text p {
+    font: 16px/26px Roboto
 }
 
+}
 @media (max-width: 960px) {
     .vitrine-next:before {
         background: url(../images/slashicorp/vitrines/next/effects-960.png) center -50px no-repeat
@@ -13123,7 +12569,6 @@ ul#botoes  {
         top: 25px
     }
 }
-
 @media (max-width: 900px) {
     .vitrine-rock-inscreva-se .vitrine-content {
         width: 90%;
@@ -13197,13 +12642,11 @@ ul#botoes  {
         font-size: 20px
     }
 }
-
 @media screen and (max-width: 830px) {
     .slashicorp-trabalhe-title {
         font-size: 50px
     }
 }
-
 @media screen and (max-width: 800px) {
     .vitrine-on .vitrine-effects:after {
         background: url(../images/slashicorp/vitrines/online/effects.png) -820px 100px no-repeat
@@ -13224,13 +12667,11 @@ ul#botoes  {
         display: block
     }
 }
-
 @media (max-width: 800px) {
     .slashicorp-noticias-artigo {
         width: 100%
     }
 }
-
 @media screen and (max-width: 768px) {
     .slashicorp-contato-subtitle {
         font-size: 16px
@@ -14054,7 +13495,6 @@ ul#botoes  {
         font: 14px/24px Roboto
     }
 }
-
 @media (max-width: 768px) {
     .institucional-digital-talks-talks {
         margin: 0 auto 70px;
@@ -14113,7 +13553,6 @@ ul#botoes  {
         display: inline
     }
 }
-
 @media (max-width: 767px) {
     .br-tablet {
         display: none !important
@@ -14374,7 +13813,6 @@ ul#botoes  {
         width: calc(50% - 3px)
     }
 }
-
 @media screen and (max-width: 767px) {
     .institucional-evento-ia-form-input {
         width: 270px
@@ -14394,7 +13832,6 @@ ul#botoes  {
         margin: 4em 0 0 28px
     }
 }
-
 @media (max-width: 700px) {
     .slashicorp-parceria-microsoft-header {
         border-left: none;
@@ -14415,13 +13852,11 @@ ul#botoes  {
         padding: 0 5%
     }
 }
-
 @media (max-width: 670px) {
     .institucional-evento-ia-sobre-convidados-col:hover {
         min-height: auto
     }
 }
-
 @media screen and (max-width: 650px) {
     .institucional-evento-ia-header {
         padding-bottom: 120px
@@ -14433,7 +13868,6 @@ ul#botoes  {
         font-size: 40px
     }
 }
-
 @media screen and (max-width: 610px) {
     .slashicorp-2018-unidades-list {
         -ms-flex-direction: column;
@@ -14441,19 +13875,16 @@ ul#botoes  {
         margin-top: 30px
     }
 }
-
 @media screen and (max-width: 548px) {
     .talent-opportunities-iframe {
         height: 185px
     }
 }
-
 @media screen and (max-width: 536px) {
     .search-quick-links-column:last-child {
         margin-top: -25px
     }
 }
-
 @media screen and (max-width: 520px) {
     .institucional-evento-ia-header {
         padding-bottom: 70px
@@ -14491,7 +13922,6 @@ ul#botoes  {
         line-height: 17px
     }
 }
-
 @media (max-width: 500px) {
     .institucional-evento-ia-conteudo-background {
         border: none;
@@ -14508,7 +13938,6 @@ ul#botoes  {
         width: 90%
     }
 }
-
 @media screen and (max-width: 500px) {
     .institucional-evento-ia-sucesso-conteudo-background {
         width: 300px
@@ -14517,7 +13946,6 @@ ul#botoes  {
         font-size: 12px
     }
 }
-
 @media screen and (max-width: 480px) {
     .slashicorp-contato-subtitle {
         font-size: 14px
@@ -14850,7 +14278,6 @@ ul#botoes  {
         margin-right: 5px
     }
 }
-
 @media (max-width: 480px) {
     .slashicorp-2018-mec-title {
         font: 35px Gotham HTF Medium
@@ -14912,13 +14339,11 @@ ul#botoes  {
         display: none
     }
 }
-
 @media screen and (max-width: 413px) {
     .search-quick-links-column:last-child {
         margin-top: 0
     }
 }
-
 @media (max-width: 400px) {
     .vitrine-next .vitrine-list-title {
         font-size: 25px
@@ -14930,14 +14355,12 @@ ul#botoes  {
         font-size: 16px
     }
 }
-
 @media screen and (max-width: 382px) {
     .slashicorp-2018-videos-thumbs {
         -ms-flex-pack: center;
         justify-content: center
     }
 }
-
 @media screen and (max-width: 380px) {
     .slashicorp-noticias-noticia-info:after {
         top: 145px
@@ -14950,7 +14373,6 @@ ul#botoes  {
         margin: 0 10px 0 0
     }
 }
-
 @media screen and (max-width: 320px) {
     .slashicorp-2018-enade-subtitle {
         font: 22px/35px Gotham HTF Light
@@ -14962,7 +14384,6 @@ ul#botoes  {
         font: 600 18px/27px Gotham HTF Medium
     }
 }
-
 @media (max-height: 900px) {
     .vitrine-rock-counter .vitrine-subtitle {
         font-size: 40px
@@ -14976,13 +14397,11 @@ ul#botoes  {
         width: 270px
     }
 }
-
 @media (max-height: 800px) {
     .shared-conceito:after {
         background: url(../images/shared/conceito/effects.png) center -50px no-repeat
     }
 }
-
 @media (max-height: 720px) {
     .vitrine-nav {
         bottom: 15px
@@ -15000,13 +14419,11 @@ ul#botoes  {
         font-size: 13px
     }
 }
-
 .background-gradient {
     background: url(../img/background/gradiente.jpg) top repeat-y;
     background-size: contain;
     position: relative;
 }
-
 .menu-main-link:after {
     background: #03fac9!important;
     content: ""!important;
@@ -15018,30 +14435,25 @@ ul#botoes  {
     transition: all .4s ease!important;
     width: 10px!important;
 }
-
 .menu-main-link:hover {
     color: #03fac9;
 }
-
 :after,
  :before {
     text-decoration: inherit;
     vertical-align: inherit;
 }
-
 *,
  :after,
  :before {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
-
 ::selection {
     background-color: #03fac9;
     color: #fff;
     text-shadow: none;
 }
-
 .slashicorp-2018-multicloud:after {
     background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
@@ -15052,7 +14464,6 @@ ul#botoes  {
     top: 0;
     width: 100%;
 }
-
 .slashicorp-2018-elasticstack:after {
     background: url(../img/background/effects-inv.png) center 0 no-repeat;
     content: "";
@@ -15063,7 +14474,6 @@ ul#botoes  {
     top: 0;
     width: 100%;
 }
-
 .slashicorp-2018-monitoring:after {
     background: url(../img/background/effects.png) center 0 no-repeat;
     content: "";
@@ -15074,7 +14484,6 @@ ul#botoes  {
     top: 0;
     width: 100%;
 }
-
 .slashicorp-2018-automação:after {
     background: url(../img/background/effects-inv.png) center 0 no-repeat;
     content: "";
@@ -15085,20 +14494,17 @@ ul#botoes  {
     top: 0;
     width: 100%;
 }
-
 :after,
  :before {
     text-decoration: inherit;
     vertical-align: inherit;
 }
-
 *,
  :after,
  :before {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
-
 .menu {
     background: transparent;
     left: 0;
@@ -15108,12 +14514,10 @@ ul#botoes  {
     width: 100%;
     z-index: 400;
 }
-
 .menu {
     z-index: 800;
     height: 110px;
 }
-
 article,
 aside,
 details,
@@ -15128,18 +14532,15 @@ section,
 summary {
     display: block;
 }
-
 *,
  :after,
  :before {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
-
 user agent stylesheet nav {
     display: block;
 }
-
 body {
     background: #000;
     color: #fff;
@@ -15147,7 +14548,6 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-
 html {
     box-sizing: border-box;
     cursor: default;
@@ -15157,49 +14557,41 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 }
-
 :after,
  :before {
     text-decoration: inherit;
     vertical-align: inherit;
 }
-
 *,
  :after,
  :before {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
-
 :after,
  :before {
     text-decoration: inherit;
     vertical-align: inherit;
 }
-
 *,
  :after,
  :before {
     background-repeat: no-repeat;
     box-sizing: inherit;
 }
-
 ::selection {
     background-color: #03fac9;
     color: #fff;
     text-shadow: none;
 }
 
-
 /* Transição de preto e branco pra colorido - START */
-
 ul#box-automation-peb {
     width: 298px;
     margin: auto;
     overflow: hidden;
     list-style: none;
 }
-
 ul#box-automation-peb li#box-automation {
     float: left;
     width: 298px;
@@ -15207,25 +14599,21 @@ ul#box-automation-peb li#box-automation {
     background-color: #ffffff;
     -webkit-transition: all .2s ease-in;
 }
-
 ul#box-automation-peb li#box-automation {
     background: url("../img/box-automation-peb.png") no-repeat;
     background-size: 298.5px 455.92px;
     background-color: #ffffff;
 }
-
 ul#box-automation-peb li#box-automation:hover {
     background: url("../img/box-automation.png") no-repeat;
     background-size: 298.5px 455.92px;
 }
-
 ul#box-cloud-peb {
     width: 298px;
     margin: auto;
     overflow: hidden;
     list-style: none;
 }
-
 ul#box-cloud-peb li#box-cloud {
     float: left;
     width: 298px;
@@ -15233,25 +14621,21 @@ ul#box-cloud-peb li#box-cloud {
     background-color: #ffffff;
     -webkit-transition: all .2s ease-in;
 }
-
 ul#box-cloud-peb li#box-cloud {
     background: url("../img/box-cloud-peb.png") no-repeat;
     background-size: 298.5px 455.92px;
     background-color: #ffffff;
 }
-
 ul#box-cloud-peb li#box-cloud:hover {
     background: url("../img/box-cloud.png") no-repeat;
     background-size: 298.5px 455.92px;
 }
-
 ul#box-elk-peb {
     width: 298px;
     margin: auto;
     overflow: hidden;
     list-style: none;
 }
-
 ul#box-elk-peb li#box-elk {
     float: left;
     width: 298px;
@@ -15259,25 +14643,21 @@ ul#box-elk-peb li#box-elk {
     background-color: #ffffff;
     -webkit-transition: all .2s ease-in;
 }
-
 ul#box-elk-peb li#box-elk {
     background: url("../img/box-elk-peb.png") no-repeat;
     background-size: 298.5px 455.92px;
     background-color: #ffffff;
 }
-
 ul#box-elk-peb li#box-elk:hover {
     background: url("../img/box-elk.png") no-repeat;
     background-size: 298.5px 455.92px;
 }
-
 ul#box-monitoring-peb {
     width: 298px;
     margin: auto;
     overflow: hidden;
     list-style: none;
 }
-
 ul#box-monitoring-peb li#box-monitoring {
     float: left;
     width: 298px;
@@ -15285,18 +14665,15 @@ ul#box-monitoring-peb li#box-monitoring {
     background-color: #ffffff;
     -webkit-transition: all .2s ease-in;
 }
-
 ul#box-monitoring-peb li#box-monitoring {
     background: url("../img/box-monitoring-peb.png") no-repeat;
     background-size: 298.5px 455.92px;
     background-color: #ffffff;
 }
-
 ul#box-monitoring-peb li#box-monitoring:hover {
     background: url("../img/box-monitoring.png") no-repeat;
     background-size: 298.5px 455.92px;
 }
-
 ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-unidades-btn:hover {
     background: #03fac9;
     color: #000;
@@ -15305,9 +14682,7 @@ ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-unidades-btn:hov
     background-color: #ffffff;
 }
 
-
 /* Transição de preto e branco pra colorido - END */
-
 .teste {
     width: 50px !important;
 }

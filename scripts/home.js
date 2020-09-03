@@ -8,6 +8,8 @@ let scrolldown = document.querySelector('.js-scroll')
 
 
 
+
+
 function bpoly() {
     title.innerHTML = "ATLASSIAN JIRA ALIGN";
     modal.style.display = "block";
@@ -920,43 +922,3 @@ window.onkeydown = function(event) {
         modal.style.display = "none";
     }
 }
-
-/*Slider Show*/
-
-window.load = (1);
-
-var bgNumber = 1;
-
-function slide(n) {
-    var allBgs = 4;
-    document.getElementById("imageBg").style.backgroundImage = "url('images/"+n+".jpg')";
-    botoes(n, allBgs)
-}
-
-function anterior(){
-    if (bgNumber>1){
-        bgNumber--;
-        slide(bgNumber);
-    }
-}
-
-
-function proximo(){
-    if (bgNumber<4){
-        bgNumber++;
-        slide(bgNumber);
-    }
-}
-
-
-function botoes(n, m){
-    document.getElementById('botoes').innerHTML = "";
-    for(a=1;a<=m;a++){
-        if (a==n) {
-             document.getElementById('botoes').innerHTML += "<li class='selected' onclick='slide("+a+")'></li>";
-        }else{
-             document.getElementById('botoes').innerHTML += "<li onclick='slide("+a+")'></li>";
-        }
-    }
-}
-
