@@ -982,15 +982,15 @@ body::-webkit-scrollbar-thumb {
 
 .contencao {
     margin: 100px auto 40px auto;
-    width: 800px;
-    height: 400px;
-    background: rgba(182, 70, 70, 0.856);
+    width: 1000px;
+    height: 550px;
+    background: rgba(182, 70, 70, 0);
     overflow: hidden;
 }
 
 #imageBg {
-    width: 800;
-    height: 400px;
+    width: 1000;
+    height: 550px;
     background-image: url('../images/1.jpg');
     background-size: cover;
     transition: 1s;
@@ -999,7 +999,7 @@ body::-webkit-scrollbar-thumb {
 .anterior,
 .proximo {
     position: relative;
-    margin-top: -250px;
+    margin-top: -325px;
     width: 50px;
     height: 100px;
     background-color: rgba(82, 218, 166, 0.4);
@@ -14682,7 +14682,7 @@ ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-unidades-btn:hov
     background-color: #ffffff;
 }
 
-/* Transição de preto e branco pra colorido - END */
+/* Transição de preto e branco pra colorido - END 
 .teste {
     width: 50px !important;
-}
+}ul */
