@@ -1503,7 +1503,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .vitrine {
-    cursor: pointer;
     position: relative
 }
 
@@ -1767,6 +1766,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 1.5px;
     overflow: hidden;
     padding: 13px 50px;
+    cursor: pointer;
     position: relative;
     text-transform: uppercase;
     text-shadow: 2px 0 10px rgba(237, 20, 91, .7)
