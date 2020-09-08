@@ -1625,7 +1625,7 @@ body::-webkit-scrollbar-thumb {
 .vitrine-nav-counter {
     position: absolute;
     transform: translate(-51%, -47%);
-    width: 22px;
+    width: 37px;
     z-index: 105
 }
 

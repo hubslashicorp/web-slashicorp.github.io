@@ -93,6 +93,39 @@ function slide5(){
     setTimeout("slide1()", 5000)
 }
 
-// this.active.classList.remove("is-active"),
-//                               a.classList.add("is-active"),
 
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var al=0;
+var start=4.72;
+var cw=context.canvas.width/1.9;
+var ch=context.canvas.height/2.1;
+var diff;
+ 
+function progressBar(){
+diff=(al/100)*Math.PI*2;
+context.clearRect(0,0,400,200);
+context.beginPath();
+context.arc(cw,ch,50,0,2*Math.PI,false);
+context.fillStyle='transparent';
+context.fill();
+context.strokeStyle='#91a3ad';
+context.stroke();
+context.fillStyle='transparent';
+context.strokeStyle='#03fac9';
+context.textAlign='center';
+context.lineWidth=10;
+context.font = '10pt Verdana';
+context.beginPath();
+context.arc(cw,ch,50,start,diff+start,false);
+context.stroke();
+context.fillText(al+'%',cw+2,ch+6);
+if(al>=100){
+clearTimeout(bar);
+
+}
+ 
+al++;
+}
+ 
+var bar=setInterval(progressBar,50);
