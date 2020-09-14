@@ -5182,21 +5182,22 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades {
+.slashicorp-2018-especialidades {
+    padding-top: 25%;
     padding-bottom: 85px;
     position: relative width: 50%
 }
 
-.slashicorp-2018-unidades.is-contato {
+.slashicorp-2018-especialidades.is-contato {
     padding-bottom: 0
 }
 
-.slashicorp-2018-unidades.is-contato:after {
+.slashicorp-2018-especialidades.is-contato:after {
     display: none
 }
 
-.slashicorp-2018-unidades:after {
-    background: url(../images/slashicorp/institucional/unidades/effects-2018.png) top no-repeat;
+.slashicorp-2018-especialidades:after {
+    background: url(../images/slashicorp/institucional/especialidades/effects-2018.png) top no-repeat;
     content: "";
     display: block;
     height: 100%;
@@ -5206,7 +5207,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.slashicorp-2018-unidades-title {
+.slashicorp-2018-especialidades-title {
     color: #91a3ad;
     font: 63px/50px Gotham HTF Medium;
     margin-bottom: 0;
@@ -5216,7 +5217,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades-title:before {
+.slashicorp-2018-especialidades-title:before {
     background-color: #03fac9;
     content: "";
     display: block;
@@ -5228,30 +5229,30 @@ body::-webkit-scrollbar-thumb {
     width: 13px
 }
 
-.slashicorp-2018-unidades-list {
+.slashicorp-2018-especialidades-list {
     display: -ms-flexbox;
     display: flex;
     margin: 110px -7px 0 width=100%;
 }
 
-.slashicorp-2018-unidades-item {
+.slashicorp-2018-especialidades-item {
     padding: 0 7px;
     width: 100%
 }
 
-.slashicorp-2018-unidades-mediaa {
+.slashicorp-2018-especialidades-mediaa {
     margin-bottom: 60px;
     overflow: hidden;
     position: relative;
     transition: opacity .4s
 }
 
-.slashicorp-2018-unidades-mediaa:before {
+.slashicorp-2018-especialidades-mediaa:before {
     content: "";
     padding-top: 25%
 }
 
-.slashicorp-2018-unidades-mediaa:after {
+.slashicorp-2018-especialidades-mediaa:after {
     background-color: transparent;
     content: "";
     display: block;
@@ -5264,16 +5265,16 @@ body::-webkit-scrollbar-thumb {
     z-index: 10;
 }
 
-.slashicorp-2018-unidades-list:hover .slashicorp-2018-unidades-media:after {
+.slashicorp-2018-especialidades-list:hover .slashicorp-2018-especialidades-media:after {
     background-color: rgba(0, 0, 0, .5)
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-mediaa:after,
-.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-mediaa:after {
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-mediaa:after,
+.slashicorp-2018-especialidades-item:hover .slashicorp-2018-especialidades-mediaa:after {
     opacity: 0
 }
 
-.slashicorp-2018-unidades-img {
+.slashicorp-2018-especialidades-img {
     display: block;
     left: 0;
     position: absolute;
@@ -5282,16 +5283,16 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.slashicorp-2018-unidades-list:hover .slashicorp-2018-unidades-img {
+.slashicorp-2018-especialidades-list:hover .slashicorp-2018-especialidades-img {
     filter: grayscale(100%)
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-img,
-.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-img {
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-img,
+.slashicorp-2018-especialidades-item:hover .slashicorp-2018-especialidades-img {
     filter: none
 }
 
-.slashicorp-2018-unidades-newdesc {
+.slashicorp-2018-especialidades-newdesc {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -5306,14 +5307,14 @@ body::-webkit-scrollbar-thumb {
     width: 100%
 }
 
-.slashicorp-2018-unidades-newdesc-text:first-child {
+.slashicorp-2018-especialidades-newdesc-text:first-child {
     color: #91a3ad;
     font: 18px/23px Gotham HTF Book;
     text-align: center;
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(2) {
+.slashicorp-2018-especialidades-newdesc-text:nth-child(2) {
     -ms-flex-align: center;
     align-items: center;
     color: #03fac9;
@@ -5326,8 +5327,8 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(2):after,
-.slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
+.slashicorp-2018-especialidades-newdesc-text:nth-child(2):after,
+.slashicorp-2018-especialidades-newdesc-text:nth-child(2):before {
     background: #03fac9;
     content: "";
     display: block;
@@ -5336,21 +5337,21 @@ body::-webkit-scrollbar-thumb {
     width: 40px
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(2):before {
+.slashicorp-2018-especialidades-newdesc-text:nth-child(2):before {
     top: -20px
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(2):after {
+.slashicorp-2018-especialidades-newdesc-text:nth-child(2):after {
     top: 20px
 }
 
-.slashicorp-2018-unidades-newdesc-text:nth-child(3) {
+.slashicorp-2018-especialidades-newdesc-text:nth-child(3) {
     color: #91a3ad;
     font: 16px/23px Roboto;
     text-align: center
 }
 
-.slashicorp-2018-unidades-tag {
+.slashicorp-2018-especialidades-tag {
     background: #03fac9;
     bottom: 0;
     color: #fff;
@@ -5363,7 +5364,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase
 }
 
-.slashicorp-2018-unidades-tag:after {
+.slashicorp-2018-especialidades-tag:after {
     border-color: transparent transparent transparent #03fac9;
     border-style: solid;
     border-width: 40px 0 0 25px;
@@ -5376,16 +5377,16 @@ body::-webkit-scrollbar-thumb {
     width: 0
 }
 
-.slashicorp-2018-unidades-content {
+.slashicorp-2018-especialidades-content {
     color: #616d72;
     margin-bottom: 120px
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-content {
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-content {
     color: #91a3ad
 }
 
-.slashicorp-2018-unidades-subtitle {
+.slashicorp-2018-especialidades-subtitle {
     color: #616d72;
     display: block;
     font: 18px Gotham HTF Medium;
@@ -5395,24 +5396,24 @@ body::-webkit-scrollbar-thumb {
     transition: all .5s ease
 }
 
-.slashicorp-2018-unidades-subtitle span {
+.slashicorp-2018-especialidades-subtitle span {
     display: block
 }
 
-.slashicorp-2018-unidades-item:hover .slashicorp-2018-unidades-subtitle {
+.slashicorp-2018-especialidades-item:hover .slashicorp-2018-especialidades-subtitle {
     color: #91a3ad
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-subtitle {
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-subtitle {
     color: #03fac9
 }
 
-.slashicorp-2018-unidades-desc {
+.slashicorp-2018-especialidades-desc {
     font: 16px/25px Roboto;
     margin-bottom: 0
 }
 
-.slashicorp-2018-unidades-desc.special {
+.slashicorp-2018-especialidades-desc.special {
     -ms-flex-align: center;
     align-items: center;
     color: #4a5358;
@@ -5423,7 +5424,7 @@ body::-webkit-scrollbar-thumb {
     position: relative
 }
 
-.slashicorp-2018-unidades-desc.special:before {
+.slashicorp-2018-especialidades-desc.special:before {
     background: #3b4750;
     content: "";
     height: 1px;
@@ -5432,8 +5433,8 @@ body::-webkit-scrollbar-thumb {
     width: 15px
 }
 
-.slashicorp-2018-unidades-btn,
-.slashicorp-2018-unidades-btn-close {
+.slashicorp-2018-especialidades-btn,
+.slashicorp-2018-especialidades-btn-close {
     border: 1px solid #03fac9;
     color: #03fac9;
     display: inline-block;
@@ -5446,25 +5447,25 @@ body::-webkit-scrollbar-thumb {
     transition: background .4s ease, color .4s ease
 }
 
-.slashicorp-2018-unidades-btn-close:hover,
-.slashicorp-2018-unidades-btn:hover {
+.slashicorp-2018-especialidades-btn-close:hover,
+.slashicorp-2018-especialidades-btn:hover {
     background: #03fac9;
     color: #000
 }
 
-.slashicorp-2018-unidades-btn-close,
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn,
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
+.slashicorp-2018-especialidades-btn-close,
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-btn,
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-btn-close {
     display: none
 }
 
-.slashicorp-2018-unidades-item.is-active .slashicorp-2018-unidades-btn-close {
+.slashicorp-2018-especialidades-item.is-active .slashicorp-2018-especialidades-btn-close {
     background: #03fac9;
     color: #000;
     display: inline-block
 }
 
-.slashicorp-2018-unidades-btn-bg {
+.slashicorp-2018-especialidades-btn-bg {
     bottom: 0;
     content: "";
     left: 0;
@@ -5475,47 +5476,47 @@ body::-webkit-scrollbar-thumb {
     z-index: -2
 }
 
-.slashicorp-2018-unidades-btn-bg-bottom,
-.slashicorp-2018-unidades-btn-bg-left,
-.slashicorp-2018-unidades-btn-bg-right,
-.slashicorp-2018-unidades-btn-bg-top {
+.slashicorp-2018-especialidades-btn-bg-bottom,
+.slashicorp-2018-especialidades-btn-bg-left,
+.slashicorp-2018-especialidades-btn-bg-right,
+.slashicorp-2018-especialidades-btn-bg-top {
     background: #03fac9;
     position: absolute
 }
 
-.slashicorp-2018-unidades-btn-bg-bottom,
-.slashicorp-2018-unidades-btn-bg-top {
+.slashicorp-2018-especialidades-btn-bg-bottom,
+.slashicorp-2018-especialidades-btn-bg-top {
     height: 1px;
     width: 100%
 }
 
-.slashicorp-2018-unidades-btn-bg-left,
-.slashicorp-2018-unidades-btn-bg-right {
+.slashicorp-2018-especialidades-btn-bg-left,
+.slashicorp-2018-especialidades-btn-bg-right {
     height: 100%;
     width: 1px
 }
 
-.slashicorp-2018-unidades-btn-bg-top {
+.slashicorp-2018-especialidades-btn-bg-top {
     left: 0;
     top: 0
 }
 
-.slashicorp-2018-unidades-btn-bg-right {
+.slashicorp-2018-especialidades-btn-bg-right {
     right: 0;
     top: 0
 }
 
-.slashicorp-2018-unidades-btn-bg-bottom {
+.slashicorp-2018-especialidades-btn-bg-bottom {
     bottom: 0;
     left: 0
 }
 
-.slashicorp-2018-unidades-btn-bg-left {
+.slashicorp-2018-especialidades-btn-bg-left {
     left: 0;
     top: 0
 }
 
-.slashicorp-2018-unidades-newbtn {
+.slashicorp-2018-especialidades-newbtn {
     border: 1px solid #03fac9;
     color: #03fac9;
     font: 10px/27px Gotham HTF Medium;
@@ -5526,7 +5527,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 20
 }
 
-.slashicorp-2018-unidades-newbtn:hover {
+.slashicorp-2018-especialidades-newbtn:hover {
     color: #000;
     background: #03fac9;
     transition: all .5s ease
@@ -12246,17 +12247,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1250px) {
-    .slashicorp-2018-unidades-list {
+    .slashicorp-2018-especialidades-list {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin: 100px 0 0
     }
-    .slashicorp-2018-unidades-item {
+    .slashicorp-2018-especialidades-item {
         margin: 40px auto;
         padding: 0 7px;
         width: 33.3%
     }
-    .slashicorp-2018-unidades-content {
+    .slashicorp-2018-especialidades-content {
         color: #91a3ad;
         display: table-cell;
         padding: 0 15px;
@@ -12264,12 +12265,12 @@ body::-webkit-scrollbar-thumb {
         vertical-align: middle;
         width: 50%
     }
-    .slashicorp-2018-unidades-desc.special {
+    .slashicorp-2018-especialidades-desc.special {
         -ms-flex-pack: center;
         justify-content: center;
         margin-left: 0
     }
-    .slashicorp-2018-unidades-desc.special:before {
+    .slashicorp-2018-especialidades-desc.special:before {
         width: 0
     }
 }
@@ -12781,13 +12782,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1000px) {
-    .slashicorp-2018-unidades-newdesc-text:first-child {
+    .slashicorp-2018-especialidades-newdesc-text:first-child {
         font-size: 13px
     }
-    .slashicorp-2018-unidades-newdesc-text:nth-child(2) {
+    .slashicorp-2018-especialidades-newdesc-text:nth-child(2) {
         font-size: 21px
     }
-    .slashicorp-2018-unidades-newdesc-text:last-child {
+    .slashicorp-2018-especialidades-newdesc-text:last-child {
         font-size: 14px
     }
 }
@@ -12940,11 +12941,11 @@ body::-webkit-scrollbar-thumb {
         font-size: 41px;
         left: 0
     }
-    .slashicorp-2018-unidades:after,
+    .slashicorp-2018-especialidades:after,
     .slashicorp-2018-videos-title span:before {
         display: none
     }
-    .slashicorp-2018-unidades-subtitle {
+    .slashicorp-2018-especialidades-subtitle {
         color: #03fac9
     }
     .iniciativa-title-svg {
@@ -13031,19 +13032,19 @@ body::-webkit-scrollbar-thumb {
     .vitrine-next .vitrine-title {
         width: 250px
     }
-    .slashicorp-2018-unidades-item {
+    .slashicorp-2018-especialidades-item {
         width: 50%
     }
-    .slashicorp-2018-unidades-mediaa {
+    .slashicorp-2018-especialidades-mediaa {
         display: table-cell;
         opacity: .9;
         vertical-align: middle;
         width: 50%
     }
     .slashicorp-2018-mapa,
-    .slashicorp-2018-unidades-btn,
-    .slashicorp-2018-unidades-btn-close,
-    .slashicorp-2018-unidades-tag {
+    .slashicorp-2018-especialidades-btn,
+    .slashicorp-2018-especialidades-btn-close,
+    .slashicorp-2018-especialidades-tag {
         display: none
     }
     .institucional-digital-talks-talk-next-item-center.data-item-talk-anterior {
@@ -13543,22 +13544,22 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-videos-thumb-button {
         border: none
     }
-    .slashicorp-2018-unidades {
+    .slashicorp-2018-especialidades {
         padding-bottom: 150px
     }
-    .slashicorp-2018-unidades-title {
+    .slashicorp-2018-especialidades-title {
         font-size: 40px
     }
-    .slashicorp-2018-unidades-item {
+    .slashicorp-2018-especialidades-item {
         width: 100%
     }
-    .slashicorp-2018-unidades-mediaa {
+    .slashicorp-2018-especialidades-mediaa {
         width: 21.5%
     }
-    .slashicorp-2018-unidades-content {
+    .slashicorp-2018-especialidades-content {
         padding-left: 20px
     }
-    .slashicorp-2018-unidades-subtitle {
+    .slashicorp-2018-especialidades-subtitle {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 15px
@@ -14362,7 +14363,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 610px) {
-    .slashicorp-2018-unidades-list {
+    .slashicorp-2018-especialidades-list {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 30px
@@ -14660,14 +14661,14 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-videos-share-title {
         display: none
     }
-    .slashicorp-2018-unidades.is-contato .wrapper {
+    .slashicorp-2018-especialidades.is-contato .wrapper {
         width: 100%
     }
-    .slashicorp-2018-unidades-title {
+    .slashicorp-2018-especialidades-title {
         font-size: 35px;
         padding-left: 0
     }
-    .slashicorp-2018-unidades-title:before {
+    .slashicorp-2018-especialidades-title:before {
         display: none
     }
     .slashicorp-iniciativas-header {
@@ -14785,7 +14786,7 @@ body::-webkit-scrollbar-thumb {
     .slashicorp-2018-mec-title span {
         font: 14px Gotham HTF Light
     }
-    .slashicorp-2018-unidades-mediaa {
+    .slashicorp-2018-especialidades-mediaa {
         width: 50%
     }
     .institucional-digital-talks-header-logo {
@@ -15224,7 +15225,7 @@ ul#box-monitoring-peb li#box-monitoring:hover {
     background-size: 298.5px 455.92px;
 }
 
-ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-unidades-btn:hover {
+ul#box-monitoring-peb li#box-monitoring:hover a.slashicorp-2018-especialidades-btn:hover {
     background: #03fac9;
     color: #000;
     background: url("../img/box-monitoring-peb.png") no-repeat;
