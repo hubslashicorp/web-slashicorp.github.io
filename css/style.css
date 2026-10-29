@@ -304,3 +304,9 @@ form.form { background: var(--surface); border: 1px solid var(--line); border-ra
 .hint { color: var(--muted); font-size: .85rem; margin: .75rem 0 0; display: none; }
 @media (max-width: 920px) { .hint { display: block; } }
 .nav-links a { padding-inline: .75rem; }
+
+/* Página atual no menu: contorno luminoso */
+.nav-links a[aria-current="page"] {
+  color: var(--text); background: rgba(42, 245, 192, .10);
+  box-shadow: 0 0 0 1px rgba(42, 245, 192, .6), 0 0 16px rgba(42, 245, 192, .35), inset 0 0 12px rgba(42, 245, 192, .12);
+}
