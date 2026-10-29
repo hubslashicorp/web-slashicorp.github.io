@@ -3,666 +3,777 @@
   "name": "Atlassian Jira Align",
   "text": "Jira Align é uma solução de nível empresarial que permite que a liderança da empresa vincule os desenvolvimentos atuais aos resultados de negócios sem interromper o trabalho das equipes Agile.",
   "web": "https://www.atlassian.com/br/software/jira/align",
-  "wiki": "https://en.wikipedia.org/wiki/Atlassian"
+  "wiki": "https://en.wikipedia.org/wiki/Atlassian",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Git",
   "text": "Git é um sistema de controle de revisão distribuído com ênfase na integridade de dados de velocidade e suporte para fluxos de trabalho não lineares distribuídos.",
   "web": "https://git-scm.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Git"
+  "wiki": "https://pt.wikipedia.org/wiki/Git",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Digital.Ai Versionone",
+  "name": "Digital.ai VersionOne",
   "text": "Aproveite o potencial dos processos e ferramentas de conhecimento de seu pessoal com o VersionOne. Use-o em toda a sua empresa e envolva as partes interessadas para ajudar a identificar possíveis problemas de negócios e produtos e melhorar a qualidade do software.",
   "web": "https://digital.ai/versionone",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Targetprocess",
   "text": "Gerencie visualmente trabalhos complexos. Reduza a desordem e concentre-se nas coisas que importam. Esteja você escalando o Agile em toda a sua empresa ou adotando-o pela primeira vez, estamos sempre a sua disposição. De Kanban e Scrum a SAFe e NEXUS Targetprocess se adapta à sua abordagem de gerenciamento.",
   "web": "https://www.targetprocess.com/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Azure Devops Pipelines",
+  "name": "Azure DevOps Pipelines",
   "text": "O Azure DevOps fornece serviços de desenvolvedor para dar suporte às equipes para planejar o trabalho, colaborar no desenvolvimento de código e criar e implantar aplicativos. Os desenvolvedores podem trabalhar na nuvem usando o Azure DevOps Services ou no local usando o Azure DevOps Server.",
   "web": "https://azure.microsoft.com/pt-br/services/devops/pipelines/",
-  "wiki": "https://en.wikipedia.org/wiki/Azure_DevOps"
+  "wiki": "https://en.wikipedia.org/wiki/Azure_DevOps",
+  "cat": "CI/CD"
  },
  {
-  "name": "Owasp Zap",
+  "name": "OWASP ZAP",
   "text": "O OWASP Zed Attack Proxy (ZAP) é uma das ferramentas de segurança gratuitas mais populares do mundo dos anos 92 e é mantido ativamente por centenas de voluntários internacionais.",
   "web": "https://owasp.org/www-project-zap/",
-  "wiki": "https://en.wikipedia.org/wiki/OWASP_ZAP"
+  "wiki": "https://en.wikipedia.org/wiki/OWASP_ZAP",
+  "cat": "Segurança"
  },
  {
-  "name": "Digital.Ai App Protection",
+  "name": "Digital.ai App Protection",
   "text": "Quando tratada adequadamente com soluções de segurança de proteção de aplicativo - incluindo proteção JavaScript, detecção de ameaças e limitação de conexões de API a sites bons conhecidos, junto com medidas defensivas que podem desligar a funcionalidade do aplicativo no caso de um ataque - a segurança eficaz do…",
   "web": "https://digital.ai/resources/application-security/protect-all-code-your-hybrid-ios-and-android-apps",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Segurança"
  },
  {
-  "name": "Digital.Ai Release",
+  "name": "Digital.ai Release",
   "text": "Digital.ai Release é uma ferramenta de gerenciamento de lançamento especificamente para CD. Ele permite que equipes em uma organização modelem e monitorem lançamentos, automatizem tarefas dentro da infraestrutura de TI e reduzam os tempos de lançamento analisando e melhorando os processos de lançamento.",
   "web": "https://digital.ai/xl-release",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Aws Codepipeline",
+  "name": "AWS CodePipeline",
   "text": "O AWS CodePipeline cria testes e implanta seu código sempre que há uma alteração no código com base nos modelos de processo de liberação que você define. Isso permite que você forneça recursos e atualizações de forma rápida e confiável.",
   "web": "https://aws.amazon.com/pt/codepipeline/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Github",
+  "name": "GitHub",
   "text": "GitHub é um serviço de hospedagem de repositório Git baseado na web que oferece todas as funcionalidades de controle de revisão distribuída e gerenciamento de código-fonte (SCM) do Git, além de adicionar seus próprios recursos.",
   "web": "https://github.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/GitHub"
+  "wiki": "https://pt.wikipedia.org/wiki/GitHub",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Planview",
   "text": "Planview tem um único foco em ajudar as empresas a transformar a estratégia em entrega nos mercados de hoje em dia, altamente disruptivos. Nossas soluções criam foco organizacional nos resultados estratégicos que importam e capacitam as equipes a entregar seu melhor trabalho, não importa como eles trabalhem.",
   "web": "https://www.planview.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Planview"
+  "wiki": "https://en.wikipedia.org/wiki/Planview",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Broadcom Rally",
   "text": "Rally (anteriormente CA Agile Central) é uma plataforma de classe corporativa construída especificamente para escalar práticas de desenvolvimento ágil.",
   "web": "https://www.broadcom.com/products/software/agile-development/rally-software",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Digital.Ai Deploy",
+  "name": "Digital.ai Deploy",
   "text": "Digital.ai Deploy é uma ferramenta de automação de implantação sem agente que ajuda as empresas a entregar valor 10 vezes mais rápido para ambientes de middleware complexos. Ele permite que os usuários implantem rollback e diagnostiquem problemas sem escrever ou manter scripts ou fluxos de trabalho.",
   "web": "https://digital.ai/xl-deploy",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Sonatype Nexus Iq",
+  "name": "Sonatype Nexus IQ",
   "text": "O Nexus IQ compartilha inteligência de componentes com suas equipes no início, com frequência e em toda a cadeia de suprimentos de software para que tomem decisões melhores e criem softwares melhores.",
   "web": "https://www.sonatype.com/nexus-iq-server",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Segurança"
  },
  {
   "name": "Aqua Security",
   "text": "Aqua Security ajuda as empresas a proteger seus aplicativos nativos em nuvem, desde o desenvolvimento até a produção, sejam eles executados em contêineres sem servidor ou máquinas virtuais. A Aqua preenche a lacuna entre DevOps e segurança, promovendo agilidade nos negócios e acelerando a transformação digital.",
   "web": "https://www.aquasec.com/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Segurança"
  },
  {
-  "name": "Cloudbees Flow",
+  "name": "CloudBees Flow",
   "text": "O CloudBees Flow é uma plataforma Adaptive Release Orchestration agora disponível como SaaS corporativo ou local que permite que as equipes implementem com rapidez e se adaptem facilmente com uma visão e controle sem precedentes de todos os tipos de lançamentos em qualquer escala.",
   "web": "https://www.cloudbees.com/products/continuous-delivery",
-  "wiki": "https://en.wikipedia.org/wiki/CloudBees"
+  "wiki": "https://en.wikipedia.org/wiki/CloudBees",
+  "cat": "CI/CD"
  },
  {
-  "name": "Bmc Rlm",
+  "name": "BMC RLM",
   "text": "O BMC Release Process Management é uma ferramenta de gerenciamento de versões que permite implementar mudanças em seus aplicativos críticos de negócios com coordenação e execução de tarefas leves baseadas na web.",
   "web": "https://www.bmc.com/education/courses/release-lifecycle-mgmt-4-x-f-ebk.html",
-  "wiki": "https://en.wikipedia.org/wiki/BMC_Software"
+  "wiki": "https://en.wikipedia.org/wiki/BMC_Software",
+  "cat": "CI/CD"
  },
  {
-  "name": "Gitlab Scm",
+  "name": "GitLab SCM",
   "text": "GitLab é um gerenciador de repositório Git baseado na web com wiki e recursos de rastreamento de problemas. O GitLab é semelhante ao GitHub, mas o GitLab tem uma versão de código aberto diferente do GitHub.",
   "web": "https://git-scm.com/book/pt-br/v2/Git-on-the-Server-GitLab",
-  "wiki": "https://pt.wikipedia.org/wiki/GitLab"
+  "wiki": "https://pt.wikipedia.org/wiki/GitLab",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Instana",
   "text": "APM com tecnologia AI para aplicativos dinâmicos em contêineres modernos. Como o APM tradicional, apenas totalmente automatizado usando descoberta automática de pilha de tecnologia e análise de dados alimentada por IA de métricas de série temporal e rastreamentos distribuídos.",
   "web": "https://www.instana.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Instana"
+  "wiki": "https://en.wikipedia.org/wiki/Instana",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Datadog",
   "text": "Datadog é uma plataforma de monitoramento e análise baseada em SaaS para operações de infraestrutura de TI e equipes de desenvolvimento. Ele reúne dados de ferramentas e serviços de aplicativos de bancos de dados de servidores para apresentar uma visão unificada dos aplicativos que são executados em escala na nuvem.",
   "web": "https://www.datadoghq.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Datadog"
+  "wiki": "https://en.wikipedia.org/wiki/Datadog",
+  "cat": "Monitoramento e logs"
  },
  {
-  "name": "Jfrog Artifactory",
+  "name": "JFrog Artifactory",
   "text": "Como o primeiro e único Artifact Repository Manager universal no mercado, o JFrog Artifactory oferece suporte total a pacotes de software criados por qualquer idioma ou tecnologia.",
   "web": "https://jfrog.com/artifactory/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
   "name": "Amazon Web Services",
   "text": "Amazon Web Services (AWS) é uma coleção de serviços de computação remota também chamados de serviços da web que compõem uma plataforma de computação em nuvem oferecida pela Amazon.com. Esses serviços são baseados em 11 regiões geográficas em todo o mundo.",
   "web": "https://aws.amazon.com/pt/",
-  "wiki": "https://pt.wikipedia.org/wiki/Amazon_Web_Services"
+  "wiki": "https://pt.wikipedia.org/wiki/Amazon_Web_Services",
+  "cat": "Cloud"
  },
  {
   "name": "Slack",
   "text": "Slack é uma ferramenta de comunicação de equipe co-fundada por Stewart Butterfield Eric Costello Cal Henderson e Serguei Mourachov. O Slack começou como uma ferramenta interna usada por sua empresa Tiny Speck no desenvolvimento de Glitch, um jogo online extinto.",
   "web": "https://slack.com/intl/pt-br/",
-  "wiki": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Slack"
+  "wiki": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Slack",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Microsoft Teams",
   "text": "O Microsoft Teams é uma plataforma unificada de comunicação e colaboração que combina armazenamento persistente de arquivos de videoconferências no local de trabalho (incluindo colaboração em arquivos) e integração de aplicativos.",
   "web": "https://www.microsoft.com/pt-br/microsoft-365/microsoft-teams/free",
-  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Teams"
+  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Teams",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Red Hat Ansible",
   "text": "Ansible é uma plataforma de software de código aberto para configurar e gerenciar computadores. Ele combina implantação de software de vários nós, execução de tarefas ad hoc e gerenciamento de configuração. Ele gerencia nós por SSH ou PowerShell e requer Python (2.4 ou posterior) para ser instalado neles.",
   "web": "https://www.redhat.com/pt-br/technologies/management/ansible",
-  "wiki": "https://pt.wikipedia.org/wiki/Ansible_(software)"
+  "wiki": "https://pt.wikipedia.org/wiki/Ansible_(software)",
+  "cat": "Infra como código"
  },
  {
-  "name": "Hashicorp Terraform",
+  "name": "HashiCorp Terraform",
   "text": "Terraform by HashiCorp é uma ferramenta para construir, combinar e lançar infraestrutura com segurança e eficiência. De servidores físicos a contêineres e produtos SaaS, o Terraform é capaz de criar e compor todos os componentes necessários para executar qualquer serviço ou aplicativo.",
   "web": "https://www.terraform.io/",
-  "wiki": "https://en.wikipedia.org/wiki/Terraform_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Terraform_(software)",
+  "cat": "Infra como código"
  },
  {
   "name": "Docker",
   "text": "Docker é um projeto de código aberto que automatiza a implantação de aplicativos dentro de contêineres de software, usando recursos de isolamento do kernel Linux para executar contêineres independentes sem a sobrecarga de máquinas virtuais.",
   "web": "https://www.docker.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Docker_(software)"
+  "wiki": "https://pt.wikipedia.org/wiki/Docker_(software)",
+  "cat": "Contêineres"
  },
  {
-  "name": "Red Hat Openshift",
+  "name": "Red Hat OpenShift",
   "text": "OpenShift é uma plataforma como um produto de serviço da Red Hat. É também uma infraestrutura como serviço (IaaS) comparável aos serviços de armazenamento online do Google Storage e Amazon S3.",
   "web": "https://www.openshift.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/OpenShift"
+  "wiki": "https://pt.wikipedia.org/wiki/OpenShift",
+  "cat": "Contêineres"
  },
  {
   "name": "Liquibase",
   "text": "Liquibase é uma biblioteca independente de banco de dados de código aberto para rastrear, gerenciar e aplicar alterações no esquema do banco de dados. Foi iniciado em 2006 para permitir um rastreamento mais fácil das alterações do banco de dados, especialmente em um ambiente de desenvolvimento ágil de software.",
   "web": "https://www.liquibase.org/",
-  "wiki": "https://pt.qwe.wiki/wiki/Liquibase"
+  "wiki": "https://pt.qwe.wiki/wiki/Liquibase",
+  "cat": "Banco de dados"
  },
  {
   "name": "Delphix",
   "text": "Delphix é uma empresa de software com sede em Menlo Park, Califórnia, que desenvolve software para simplificar o teste de construção e atualização de aplicativos construídos em bancos de dados relacionais.",
   "web": "https://www.delphix.com/br",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Banco de dados"
  },
  {
-  "name": "Urbancode Deploy",
+  "name": "UrbanCode Deploy",
   "text": "IBM UrbanCode Deploy é uma ferramenta para automatizar implementações de aplicativos em seus ambientes. Ele foi projetado para facilitar o feedback rápido e a entrega contínua no desenvolvimento ágil, ao mesmo tempo que fornece as versões das trilhas de auditoria e as aprovações necessárias na produção.",
   "web": "https://www.ibm.com/links?url=https://www.urbancode.com/products/urbancode-deploy/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Cyberark Conjur",
+  "name": "CyberArk Conjur",
   "text": "Disponível como uma ferramenta de código aberto e para a empresa, o CyberArk Conjur é uma solução de gerenciamento de segredos adaptada especificamente para os requisitos exclusivos de infraestrutura de nuvem nativa e ambientes DevOps.",
   "web": "https://www.conjur.org/",
-  "wiki": "https://en.wikipedia.org/wiki/CyberArk"
+  "wiki": "https://en.wikipedia.org/wiki/CyberArk",
+  "cat": "Segurança"
  },
  {
-  "name": "Hashicorp Vault",
+  "name": "HashiCorp Vault",
   "text": "O Vault da HashiCorp protege os armazenamentos e controla o acesso a chaves de API de certificados de senhas de tokens e outros recursos confidenciais em datacenters modernos. Para cada recurso, o Vault lida com a revisão de locação e auditoria.",
   "web": "https://www.hashicorp.com/products/vault/",
-  "wiki": "https://en.wikipedia.org/wiki/HashiCorp"
+  "wiki": "https://en.wikipedia.org/wiki/HashiCorp",
+  "cat": "Segurança"
  },
  {
-  "name": "Urbancode Release",
+  "name": "UrbanCode Release",
   "text": "O IBM UrbanCode Release, anteriormente chamado de uRelease, é uma ferramenta de gerenciamento de versão colaborativa que ajuda a lidar com o número crescente e a complexidade das versões. Você pode planejar, executar e rastrear uma liberação em cada estágio do ciclo de vida da entrega.",
   "web": "https://www.ibm.com/cloud/urbancode/release#:~:text=IBM%20UrbanCode%C2%AE%20Release%20is,stage%20of%20the%20delivery%20lifecycle.",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Aws Lambda",
+  "name": "AWS Lambda",
   "text": "O AWS Lambda permite que você execute código sem provisionar ou gerenciar servidores. Você paga apenas pelo tempo de computação que consome - não há cobrança quando seu código não está em execução.",
   "web": "https://aws.amazon.com/pt/lambda/",
-  "wiki": "https://en.wikipedia.org/wiki/AWS_Lambda"
+  "wiki": "https://en.wikipedia.org/wiki/AWS_Lambda",
+  "cat": "Cloud"
  },
  {
   "name": "Atlassian Bitbucket",
   "text": "O Bitbucket é um serviço de hospedagem baseado na web para projetos que usam os sistemas de controle de revisão Mercurial (desde o lançamento) ou Git (desde outubro de 2011 [1]). O Bitbucket oferece planos comerciais e contas gratuitas.",
   "web": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiD_MiI1LzrAhVBCpEKHY5jBBkYABAAGgJjZQ&ohost=www.google.com&cid=CAESQOD2Da2BOfNU5B_MKwJJWDNhST2SpcNsQDfwKSh41SDctnqfeOyuU2nbkDbL2HfSnnZuGrRqDZJTUQ0kq66k7zk&sig=AOD64_2LWGdeE0-M_9RXHxXCcjM-dPfvHg&q&adurl&ved=2ahUKEwi177-I1LzrAhWVD7kGHYMnBCMQ0Qx6BAgaEAE",
-  "wiki": "https://pt.wikipedia.org/wiki/Bitbucket"
+  "wiki": "https://pt.wikipedia.org/wiki/Bitbucket",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Splunk",
   "text": "Splunk é uma empresa multinacional americana com sede em San Francisco, Califórnia, que produz software para pesquisar, monitorar e analisar big data gerados por máquina por meio de uma interface estilo web.",
   "web": "https://www.splunk.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Splunk"
+  "wiki": "https://en.wikipedia.org/wiki/Splunk",
+  "cat": "Monitoramento e logs"
  },
  {
-  "name": "Appdynamics",
+  "name": "AppDynamics",
   "text": "AppDynamics Inc. é uma empresa americana privada de gerenciamento de desempenho de aplicativos (APM) e ITOA IT Operations Analytics com sede em San Francisco CA.",
   "web": "https://www.dynatrace.com/monitoring/platform/comparison/dynatrace-vs-appdynamics-1/?utm_source=google&utm_medium=cpc&utm_term=why-dynatrace-ad&utm_campaign=br-why-dynatrace&gclid=Cj0KCQjws536BRDTARIsANeUZ5-tpitHgg3XIvfKGtAP34L-BSn-vGOpUY-JR7htGlKDHHBAXm7ew58aAgtLEALw_wcB",
-  "wiki": "https://en.wikipedia.org/wiki/AppDynamics"
+  "wiki": "https://en.wikipedia.org/wiki/AppDynamics",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Sonatype Nexus",
   "text": "O Nexus Lifecycle dá a você controle total sobre sua cadeia de suprimentos de software, identificando continuamente a política de aplicação de risco e ajudando a remediar vulnerabilidades em cada estágio do SDLC.",
   "web": "https://www.sonatype.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Software_repository"
+  "wiki": "https://en.wikipedia.org/wiki/Software_repository",
+  "cat": "CI/CD"
  },
  {
   "name": "Azure",
   "text": "O Microsoft Azure é uma plataforma e infraestrutura de computação em nuvem criada pela Microsoft para construir, implantar e gerenciar aplicativos e serviços por meio de uma rede global de datacenters gerenciados pela Microsoft.",
   "web": "https://azure.microsoft.com/pt-br/services/devops/",
-  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Azure"
+  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Azure",
+  "cat": "Cloud"
  },
  {
   "name": "Google Cloud",
   "text": "Google Cloud Platform é uma plataforma de computação em nuvem do Google que oferece hospedagem na mesma infraestrutura de suporte que o Google usa internamente para produtos de usuário final, como Pesquisa Google e YouTube.",
   "web": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjegImp3rzrAhWXCpEKHdheBeEYABAAGgJjZQ&ohost=www.google.com&cid=CAESQOD2l0tMGgeGKPtAIfShSnjahWslWXOt4hPQ3pXWwEZ7XIIDn94i3spUHtcayVsvp5aK0oW5dvxrflKeyAdgYdM&sig=AOD64_0FyEOu4zS-OAyzd7lFxMhagdAvDA&q&adurl&ved=2ahUKEwihk_-o3rzrAhXsJ7kGHYOMDOEQ0Qx6BAgfEAE",
-  "wiki": "https://pt.wikipedia.org/wiki/Google_Cloud_Platform"
+  "wiki": "https://pt.wikipedia.org/wiki/Google_Cloud_Platform",
+  "cat": "Cloud"
  },
  {
   "name": "Atlassian Confluence",
   "text": "Confluence é um software de colaboração de conteúdo e equipe que muda a forma como as equipes modernas trabalham. Confluence é o wiki para a equipe moderna dos anos 92, dando a cada projeto e pessoa seu próprio espaço para criar e compartilhar.",
   "web": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjCvfGI37zrAhWLgpEKHXFgB2AYABAAGgJjZQ&ohost=www.google.com&cid=CAESQOD2Y24DCPnErkgof7h1IAewLJ8iX5Nj6sKcwOhEMLiKcHcbd4S1deHULY4yNLTDczstVehOVPFRkWZUsAHKLHI&sig=AOD64_2yT1_98UxPBN9Z9YyoSZ7JawVlIg&q&adurl&ved=2ahUKEwiU3OiI37zrAhWQHLkGHWgMAgkQ0Qx6BAgaEAE",
-  "wiki": "https://en.wikipedia.org/wiki/Confluence_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Confluence_(software)",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Chef",
   "text": "Chef é uma ferramenta de gerenciamento de configuração usada para agilizar a tarefa de configurar e manter os servidores de uma empresa e pode se integrar com plataformas baseadas em nuvem, como Rackspace Internap Amazon EC2 Google Cloud Platform OpenStack SoftLayer e Microsoft Azure para provisionar e configurar…",
   "web": "https://www.chef.io/products/chef-infra/",
-  "wiki": "https://en.wikipedia.org/wiki/Chef_(software)#:~:text=Chef%20is%20a%20company%20and,writing%20system%20configuration%20%22recipes%22.&text=Chef%20contains%20solutions%20for%20both,pricing%20for%20the%20respective%20ranges."
+  "wiki": "https://en.wikipedia.org/wiki/Chef_(software)#:~:text=Chef%20is%20a%20company%20and,writing%20system%20configuration%20%22recipes%22.&text=Chef%20contains%20solutions%20for%20both,pricing%20for%20the%20respective%20ranges.",
+  "cat": "Infra como código"
  },
  {
-  "name": "Aws Cloud Formation",
+  "name": "AWS CloudFormation",
   "text": "Uma ferramenta declarativa de infraestrutura como código (IaC) para automatizar o gerenciamento e a implantação de pilhas de aplicativos amplamente usadas na AWS.",
   "web": "https://aws.amazon.com/pt/cloudformation/",
-  "wiki": "https://pt.wikipedia.org/wiki/Amazon_Web_Services"
+  "wiki": "https://pt.wikipedia.org/wiki/Amazon_Web_Services",
+  "cat": "Infra como código"
  },
  {
   "name": "Kubernetes",
   "text": "Kubernetes é um sistema de código aberto para gerenciar aplicativos em contêineres em vários hosts, fornecendo mecanismos básicos para manutenção de implantação e escalonamento de aplicativos.",
   "web": "https://kubernetes.io/pt/",
-  "wiki": "https://pt.wikipedia.org/wiki/Kubernetes"
+  "wiki": "https://pt.wikipedia.org/wiki/Kubernetes",
+  "cat": "Contêineres"
  },
  {
-  "name": "Amazon Eks",
+  "name": "Amazon EKS",
   "text": "O Amazon EKS facilita a execução do Kubernetes no AWS sem a necessidade de instalar e operar seus próprios clusters do Kubernetes.",
   "web": "https://aws.amazon.com/pt/eks/",
-  "wiki": "https://en.wikipedia.org/wiki/EKS"
+  "wiki": "https://en.wikipedia.org/wiki/EKS",
+  "cat": "Contêineres"
  },
  {
   "name": "Docker Enterprise",
   "text": "O Docker Enterprise Edition (EE) 2.0 é a única plataforma de contêiner pronta para empresas que permite que os líderes de TI escolham como construir e gerenciar de maneira econômica todo o portfólio de aplicativos em seu próprio ritmo, sem medo do bloqueio de arquitetura e infraestrutura.",
   "web": "https://www.mirantis.com/software/docker/docker-enterprise/",
-  "wiki": "https://pt.wikipedia.org/wiki/Docker_(software)"
+  "wiki": "https://pt.wikipedia.org/wiki/Docker_(software)",
+  "cat": "Contêineres"
  },
  {
-  "name": "Idera",
+  "name": "IDERA",
   "text": "IDERA capacita profissionais de banco de dados e TI para projetar, monitorar e gerenciar sistemas de dados com total confiança.",
   "web": "https://www.idera.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Idera,_Inc."
+  "wiki": "https://en.wikipedia.org/wiki/Idera,_Inc.",
+  "cat": "Banco de dados"
  },
  {
   "name": "Harness",
   "text": "Harness é uma plataforma de entrega contínua como serviço que automatiza e protege o processo de entrega contínua para equipes e que usa aprendizado de máquina para reverter implantações com falha.",
   "web": "https://harness.io/",
-  "wiki": "https://en.wikipedia.org/wiki/Test_harness"
+  "wiki": "https://en.wikipedia.org/wiki/Test_harness",
+  "cat": "CI/CD"
  },
  {
   "name": "Veracode",
   "text": "Veracode é uma empresa de segurança de aplicativos com sede em Burlington Massachusetts. Fundada em 2006, a empresa oferece um serviço automatizado baseado em nuvem para proteger aplicativos corporativos móveis e de terceiros na web.",
   "web": "https://www.veracode.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Veracode"
+  "wiki": "https://en.wikipedia.org/wiki/Veracode",
+  "cat": "Segurança"
  },
  {
-  "name": "Sonarqube",
+  "name": "SonarQube",
   "text": "SonarQube é uma plataforma aberta para gerenciar a qualidade do código. A cobertura de novas linguagens adicionando mecanismos de regras e computando métricas avançadas pode ser feita por meio de um poderoso mecanismo de extensão. Mais de 50 plugins estão disponíveis.",
   "web": "https://www.sonarqube.org/",
-  "wiki": "https://en.wikipedia.org/wiki/SonarQube"
+  "wiki": "https://en.wikipedia.org/wiki/SonarQube",
+  "cat": "Segurança"
  },
  {
-  "name": "Micro Focus Fortify Sca",
+  "name": "Micro Focus Fortify SCA",
   "text": "O Micro Focus Fortify Static Code Analyzer reduz o risco de software ao identificar vulnerabilidades de segurança que representam as maiores ameaças à sua organização.",
   "web": "https://www.microfocus.com/pt-br/products/static-code-analysis-sast/overview",
-  "wiki": "https://en.wikipedia.org/wiki/Fortify_Software"
+  "wiki": "https://en.wikipedia.org/wiki/Fortify_Software",
+  "cat": "Segurança"
  },
  {
   "name": "Azure Functions",
   "text": "Crie aplicativos mais rapidamente com uma arquitetura sem servidor. Acelere seu desenvolvimento com uma experiência de computação sem servidor orientada a eventos. Dimensione sob demanda e pague apenas pelos recursos que consumir.",
   "web": "https://azure.microsoft.com/pt-br/services/functions/",
-  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Azure"
+  "wiki": "https://pt.wikipedia.org/wiki/Microsoft_Azure",
+  "cat": "Cloud"
  },
  {
-  "name": "Compuware Ispw",
+  "name": "Compuware ISPW",
   "text": "O ISPW é uma ferramenta de automação de liberação e gerenciamento de código-fonte ponta a ponta moderna e ágil que permite aos desenvolvedores em todos os níveis de habilidade atender aos requisitos de negócios, otimizar a qualidade do código e melhorar a produtividade do desenvolvedor.",
   "web": "https://www.compuware.com/ispw-source-code-management/",
-  "wiki": "https://en.wikipedia.org/wiki/Compuware"
+  "wiki": "https://en.wikipedia.org/wiki/Compuware",
+  "cat": "CI/CD"
  },
  {
   "name": "Dynatrace",
   "text": "DevOps para NoOps em ação — automaticamente em qualquer plataforma de nuvem ou pilha — automatiza e usa o monitoramento estrategicamente como recurso do pipeline de ponta a ponta; constrói portas de qualidade (shift-left) automatizando o pipeline e interrompendo alterações de código incorretas antes que elas cheguem…",
   "web": "https://www.dynatrace.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Dynatrace"
+  "wiki": "https://en.wikipedia.org/wiki/Dynatrace",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "New Relic",
   "text": "New Relic é uma empresa americana de análise de software com sede em San Francisco, Califórnia. Lew Cirne fundou a New Relic em 2008 e atualmente atua como CEO da empresa.",
   "web": "https://newrelic.com/",
-  "wiki": "https://en.wikipedia.org/wiki/New_Relic"
+  "wiki": "https://en.wikipedia.org/wiki/New_Relic",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Docker Hub",
   "text": "O Docker Hub é um serviço de registro baseado em nuvem para construir e enviar aplicativos ou contêineres de serviço. Ele fornece um recurso centralizado para distribuição de descoberta de imagens de contêiner e gerenciamento de alterações de colaboração de usuários e equipes e automação de fluxo de trabalho em todo o…",
   "web": "https://hub.docker.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Docker,_Inc."
+  "wiki": "https://en.wikipedia.org/wiki/Docker,_Inc.",
+  "cat": "CI/CD"
  },
  {
-  "name": "Npm",
+  "name": "npm",
   "text": "npm é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js.",
   "web": "https://www.npmjs.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Npm_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Npm_(software)",
+  "cat": "CI/CD"
  },
  {
-  "name": "Ibm Cloud",
+  "name": "IBM Cloud",
   "text": "IBM Cloud é uma plataforma de nuvem de padrões abertos para a construção de aplicativos em execução e gerenciamento. Com o IBM Cloud, os desenvolvedores podem se concentrar na construção de excelentes experiências de usuário com opções de computação flexíveis, escolha de ferramentas DevOps e um poderoso conjunto de…",
   "web": "https://www.ibm.com/br-pt/cloud",
-  "wiki": "https://en.wikipedia.org/wiki/IBM_Cloud"
+  "wiki": "https://en.wikipedia.org/wiki/IBM_Cloud",
+  "cat": "Cloud"
  },
  {
   "name": "Stack Overflow",
   "text": "Stack Overflow for Teams é a melhor maneira de colaborar e compartilhar conhecimento em sua organização. Conectamos as perguntas e respostas de seus colegas 92, tornando o compartilhamento de informações rápido e fácil com nossa base de conhecimento atualizada.",
   "web": "https://pt.stackoverflow.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Stack_Overflow"
+  "wiki": "https://pt.wikipedia.org/wiki/Stack_Overflow",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Puppet",
   "text": "Puppet é um utilitário de gerenciamento de configuração de código aberto. Ele roda em muitos sistemas do tipo Unix, bem como no Microsoft Windows e inclui sua própria linguagem declarativa para descrever a configuração do sistema. A versão atual é o Puppet 4.",
   "web": "https://puppet.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Puppet"
+  "wiki": "https://pt.wikipedia.org/wiki/Puppet",
+  "cat": "Infra como código"
  },
  {
-  "name": "Hashicorp Consul",
+  "name": "HashiCorp Consul",
   "text": "Consul é uma solução de rede de serviços para conectar e proteger serviços em qualquer plataforma de tempo de execução e nuvem pública ou privada.",
   "web": "https://www.consul.io/",
-  "wiki": "https://en.wikipedia.org/wiki/Consul_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Consul_(software)",
+  "cat": "Contêineres"
  },
  {
-  "name": "Amazon Ecs",
+  "name": "Amazon ECS",
   "text": "O Amazon Elastic Container Service (Amazon ECS) é um serviço de orquestração de contêineres de alto desempenho altamente escalonável que oferece suporte a contêineres Docker e permite que você execute e dimensione facilmente aplicativos em contêineres na AWS.",
   "web": "https://aws.amazon.com/pt/ecs/",
-  "wiki": "https://pt.wikipedia.org/wiki/Amazon_EC2"
+  "wiki": "https://pt.wikipedia.org/wiki/Amazon_EC2",
+  "cat": "Contêineres"
  },
  {
   "name": "Azure Aks",
   "text": "O Azure Kubernetes Service (AKS) simplifica a implantação de um cluster gerenciado do Kubernetes no Azure. O AKS reduz a complexidade e a sobrecarga operacional do gerenciamento de Kubernetes, transferindo grande parte dessa responsabilidade para o Azure.",
   "web": "https://azure.microsoft.com/pt-br/services/kubernetes-service/",
-  "wiki": "https://en.wikipedia.org/wiki/Kubernetes"
+  "wiki": "https://en.wikipedia.org/wiki/Kubernetes",
+  "cat": "Contêineres"
  },
  {
   "name": "Rancher",
   "text": "Rancher é uma plataforma de código aberto completa para implantar e gerenciar contêineres em produção. Inclui distribuições com suporte comercial de Kubernetes Mesos e Docker Swarm, facilitando a execução de aplicativos em contêineres em qualquer infraestrutura.",
   "web": "https://rancher.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Rancher_Labs"
+  "wiki": "https://en.wikipedia.org/wiki/Rancher_Labs",
+  "cat": "Contêineres"
  },
  {
   "name": "Quest Toad",
   "text": "O Toad Software é um conjunto de ferramentas de gerenciamento de banco de dados da Quest que os desenvolvedores de banco de dados, administradores de banco de dados e analistas de dados usam para gerenciar bancos de dados relacionais e não relacionais usando SQL. Faça uma abordagem proativa ao gerenciamento de dados.",
   "web": "https://www.quest.com/br-pt/toad/",
-  "wiki": "https://en.wikipedia.org/wiki/Toad_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Toad_(software)",
+  "cat": "Banco de dados"
  },
  {
   "name": "Spinnaker",
   "text": "O Spinnaker é uma plataforma de entrega contínua de várias nuvens de código aberto para liberar alterações de software com alta velocidade e confiança. Ele fornece dois conjuntos principais de recursos: gerenciamento de cluster e gerenciamento de implantação.",
   "web": "https://spinnaker.io/",
-  "wiki": "https://en.wikipedia.org/wiki/Spinnaker_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Spinnaker_(software)",
+  "cat": "CI/CD"
  },
  {
   "name": "Octopus Deploy",
   "text": "O Octopus Deploy é um servidor automatizado de implantação e gerenciamento de liberação. Ele foi projetado para simplificar a implantação de aplicativos ASP.NET, serviços do Windows e bancos de dados.",
   "web": "https://octopus.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Octopus_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Octopus_(software)",
+  "cat": "CI/CD"
  },
  {
   "name": "Synopsys Black Duck",
   "text": "A Black Duck fornece uma solução abrangente de análise de composição de software (SCA) para gerenciar riscos de segurança, qualidade e conformidade de licença que vem do uso de código aberto e código de terceiros em aplicativos e contêineres.",
   "web": "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html",
-  "wiki": "https://en.wikipedia.org/wiki/Black_Duck"
+  "wiki": "https://en.wikipedia.org/wiki/Black_Duck",
+  "cat": "Segurança"
  },
  {
-  "name": "Checkmarx Sast",
+  "name": "Checkmarx SAST",
   "text": "Checkmarx SAST (CxSAST) é uma solução de análise estática precisa e flexível de nível corporativo usada para identificar centenas de vulnerabilidades de segurança em código personalizado.",
   "web": "https://www.checkmarx.com/products/static-application-security-testing",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Segurança"
  },
  {
   "name": "Heroku",
   "text": "Heroku é uma plataforma como serviço em nuvem (PaaS) que suporta várias linguagens de programação. Heroku foi adquirido pela Salesforce.com em 2010.",
   "web": "https://www.heroku.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Heroku"
+  "wiki": "https://en.wikipedia.org/wiki/Heroku",
+  "cat": "Cloud"
  },
  {
-  "name": "Gitlab",
+  "name": "GitLab",
   "text": "GitLab é um gerenciador de repositório Git baseado na web com wiki e recursos de rastreamento de problemas. O GitLab é semelhante ao GitHub, mas o GitLab tem uma versão de código aberto diferente do GitHub.",
   "web": "https://about.gitlab.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/GitLab"
+  "wiki": "https://pt.wikipedia.org/wiki/GitLab",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Subversion",
   "text": "Apache Subversion (freqüentemente abreviado como SVN após o nome de comando svn) é um sistema de controle de versão e revisão de software distribuído como software livre sob a Licença Apache.",
   "web": "https://subversion.apache.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/Subversion"
+  "wiki": "https://pt.wikipedia.org/wiki/Subversion",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Grafana",
   "text": "A plataforma analítica para todas as suas métricas. Grafana permite que você visualize alertas de consulta e entenda suas métricas, não importa onde estejam armazenadas. Crie, explore e compartilhe painéis com sua equipe e promova uma cultura baseada em dados.",
   "web": "https://grafana.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Grafana"
+  "wiki": "https://pt.wikipedia.org/wiki/Grafana",
+  "cat": "Monitoramento e logs"
  },
  {
-  "name": "Jmeter",
+  "name": "JMeter",
   "text": "Apache JMeter é um projeto Apache que pode ser usado como uma ferramenta de teste de carga para analisar e medir o desempenho de uma variedade de serviços com foco em aplicativos da web.",
   "web": "https://jmeter.apache.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/JMeter"
+  "wiki": "https://pt.wikipedia.org/wiki/JMeter",
+  "cat": "Testes"
  },
  {
-  "name": "Elastic Elk Stack",
+  "name": "Elastic ELK Stack",
   "text": "Então, o que é ELK Stack? 'ELK' é a sigla para três projetos de código aberto: Elasticsearch, Logstash e Kibana. Elasticsearch é um mecanismo de pesquisa e análise.",
   "web": "https://www.elastic.co/pt/what-is/elk-stack",
-  "wiki": "https://pt.wikipedia.org/wiki/Elasticsearch"
+  "wiki": "https://pt.wikipedia.org/wiki/Elasticsearch",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Yarn",
   "text": "Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores de todo o mundo. O Yarn faz isso de forma rápida, segura e confiável para que você não precise se preocupar.",
   "web": "https://yarnpkg.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Yarn"
+  "wiki": "https://en.wikipedia.org/wiki/Yarn",
+  "cat": "CI/CD"
  },
  {
-  "name": "Nuget",
+  "name": "NuGet",
   "text": "NuGet é um gerenciador de pacotes gratuito e de código aberto para a plataforma de desenvolvimento da Microsoft (anteriormente conhecido como NuPack). Desde a sua introdução em 2010, o NuGet evoluiu para um ecossistema maior de ferramentas e serviços.",
   "web": "https://www.nuget.org/",
-  "wiki": "https://en.wikipedia.org/wiki/NuGet"
+  "wiki": "https://en.wikipedia.org/wiki/NuGet",
+  "cat": "CI/CD"
  },
  {
-  "name": "Openstack",
+  "name": "OpenStack",
   "text": "OpenStack é uma plataforma de software de computação em nuvem gratuita e de código aberto. Os usuários o implantam principalmente como uma solução de infraestrutura como serviço (IaaS).",
   "web": "https://www.openstack.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/Openstack"
+  "wiki": "https://pt.wikipedia.org/wiki/Openstack",
+  "cat": "Cloud"
  },
  {
   "name": "Mattermost",
   "text": "Mattermost é uma alternativa ao Slack auto-hospedada de código aberto. Mattermost é: Compatível com Slack, não limitado ao Slack — O Mattermost apresenta recursos rivais do Slack e oferece suporte a um superconjunto de integrações de webhook de entrada e saída do Slack — s, incluindo compatibilidade com integrações…",
   "web": "https://mattermost.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Mattermost"
+  "wiki": "https://en.wikipedia.org/wiki/Mattermost",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Salt",
   "text": "Salt platform ou SaltStack é um aplicativo de gerenciamento de configuração e execução remota baseado em Python. Apoiando a abordagem de 'infraestrutura como código' para implantação e gerenciamento de nuvem, ele compete principalmente com Puppet Chef e Ansible.",
   "web": "https://www.saltstack.com/saltstack-enterprise-for-devops/",
-  "wiki": "https://en.wikipedia.org/wiki/Salt_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Salt_(software)",
+  "cat": "Infra como código"
  },
  {
-  "name": "Hashicorp Vagrant",
+  "name": "HashiCorp Vagrant",
   "text": "O Vagrant by HashiCorp é uma ferramenta de código aberto que cria e configura ambientes de desenvolvimento virtual. Ele pode ser visto como um invólucro em torno do software de virtualização, como VirtualBox VMware KVM LXC, e do software de gerenciamento de configuração, como Ansible Chef Salt ou Puppet.",
   "web": "https://www.vagrantup.com/",
-  "wiki": "https://pt.wikipedia.org/wiki/Vagrant_(software)"
+  "wiki": "https://pt.wikipedia.org/wiki/Vagrant_(software)",
+  "cat": "Infra como código"
  },
  {
-  "name": "Hashicorp Packer",
+  "name": "HashiCorp Packer",
   "text": "O Packer é um software gratuito e de código aberto para a criação de imagens de máquina idênticas ou contêineres para várias plataformas a partir de uma configuração de fonte única.",
   "web": "https://www.packer.io/",
-  "wiki": "https://en.wikipedia.org/wiki/HashiCorp"
+  "wiki": "https://en.wikipedia.org/wiki/HashiCorp",
+  "cat": "Infra como código"
  },
  {
-  "name": "Google Gke",
+  "name": "Google GKE",
   "text": "O Kubernetes Engine é um ambiente gerenciado pronto para produção para implantar aplicativos em contêineres. Ele traz nossas mais recentes inovações em operações automatizadas de eficiência de recursos de produtividade de desenvolvedor e flexibilidade de código aberto para acelerar seu tempo de colocação no mercado.",
   "web": "https://cloud.google.com/kubernetes-engine",
-  "wiki": "https://en.wikipedia.org/wiki/GKE"
+  "wiki": "https://en.wikipedia.org/wiki/GKE",
+  "cat": "Contêineres"
  },
  {
   "name": "Helm",
   "text": "Helm ajuda a gerenciar aplicativos Kubernetes — Helm Charts ajuda a definir a instalação e atualização até mesmo o aplicativo Kubernetes mais complexo. Os gráficos são fáceis de criar, compartilhar e publicar versão — , então comece a usar o Helm e pare a loucura de copiar e colar.",
   "web": "https://helm.sh/",
-  "wiki": "https://en.wikipedia.org/wiki/Kubernetes"
+  "wiki": "https://en.wikipedia.org/wiki/Kubernetes",
+  "cat": "Contêineres"
  },
  {
-  "name": "Dbmaestro",
+  "name": "DBmaestro",
   "text": "DBmaestro permite o desenvolvimento ágil e integração e entrega contínua para o banco de dados. DBmaestro oferece suporte à simplificação do gerenciamento do processo de desenvolvimento e à aplicação de práticas de política de mudança.",
   "web": "https://www.dbmaestro.com/",
-  "wiki": "https://en.wikipedia.org/wiki/DBmaestro"
+  "wiki": "https://en.wikipedia.org/wiki/DBmaestro",
+  "cat": "Banco de dados"
  },
  {
-  "name": "Aws Codedeploy",
+  "name": "AWS CodeDeploy",
   "text": "AWS CodeDeploy é um serviço que automatiza implantações de código para qualquer instância, incluindo instâncias do Amazon EC2 e instâncias em execução no local.",
   "web": "https://aws.amazon.com/pt/codedeploy/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
   "name": "Snort",
   "text": "Snort é um sistema de prevenção de intrusão de rede gratuito e de código aberto (NIPS) e sistema de detecção de intrusão de rede (NIDS) criado por Martin Roesch em 1998. Snort é agora desenvolvido pela Sourcefire, da qual Roesch é o fundador e CTO.",
   "web": "https://www.snort.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/Snort"
+  "wiki": "https://pt.wikipedia.org/wiki/Snort",
+  "cat": "Segurança"
  },
  {
-  "name": "Portswigger Burp Suite",
+  "name": "PortSwigger Burp Suite",
   "text": "Burp Suite é o kit de ferramentas de teste de segurança de aplicativos mais confiável. 45.000 engenheiros de segurança e testadores de penetração contam com o Burp Suite para descobrir e verificar vulnerabilidades em aplicativos da web.",
   "web": "https://portswigger.net/burp",
-  "wiki": "https://pt.wikipedia.org/wiki/Burp_Suite"
+  "wiki": "https://pt.wikipedia.org/wiki/Burp_Suite",
+  "cat": "Segurança"
  },
  {
   "name": "Google Firebase",
   "text": "Firebase é a plataforma móvel do Google que ajuda você a desenvolver aplicativos de alta qualidade rapidamente e expandir seus negócios. O Firebase oferece funcionalidades como mensagens de bancos de dados analíticos e relatórios de falhas para que você possa agir rapidamente e se concentrar nos usuários.",
   "web": "https://firebase.google.com/?hl=pt",
-  "wiki": "https://en.wikipedia.org/wiki/Firebase"
+  "wiki": "https://en.wikipedia.org/wiki/Firebase",
+  "cat": "Cloud"
  },
  {
   "name": "Cloud Foundry",
   "text": "Cloud Foundry é uma plataforma de computação em nuvem de código aberto como serviço (PaaS) desenvolvida originalmente pela VMware e agora de propriedade da Pivotal Software - uma joint venture entre a EMC VMware e a General Electric.",
   "web": "https://www.cloudfoundry.org/",
-  "wiki": "https://en.wikipedia.org/wiki/Cloud_Foundry"
+  "wiki": "https://en.wikipedia.org/wiki/Cloud_Foundry",
+  "cat": "Cloud"
  },
  {
   "name": "Jenkins",
   "text": "Jenkins é uma ferramenta de integração contínua de software livre escrita em Java. Jenkins fornece serviços de integração contínua para desenvolvimento de software. É um sistema baseado em servidor em execução em um contêiner de servlet, como o Apache Tomcat.",
   "web": "https://www.jenkins.io/",
-  "wiki": "https://pt.wikipedia.org/wiki/Jenkins"
+  "wiki": "https://pt.wikipedia.org/wiki/Jenkins",
+  "cat": "CI/CD"
  },
  {
-  "name": "Azure Devops Code",
+  "name": "Azure DevOps Code",
   "text": "O Azure DevOps fornece serviços de desenvolvedor para dar suporte às equipes para planejar o trabalho, colaborar no desenvolvimento de código e criar e implantar aplicativos. Os desenvolvedores podem trabalhar na nuvem usando o Azure DevOps Services ou no local usando o Azure DevOps Server.",
   "web": "https://azure.microsoft.com/pt-br/services/devops/",
-  "wiki": "https://en.wikipedia.org/wiki/Azure_DevOps"
+  "wiki": "https://en.wikipedia.org/wiki/Azure_DevOps",
+  "cat": "CI/CD"
  },
  {
-  "name": "Gitlab Ci",
+  "name": "GitLab CI",
   "text": "GitLab CI é uma parte do GitLab, um aplicativo da web com uma API que armazena seu estado em um banco de dados. Ele gerencia projetos / compilações e fornece uma interface de usuário agradável, além de todos os recursos do GitLab. GitLab Runner é uma aplicação que processa builds.",
   "web": "https://docs.gitlab.com/ee/ci/",
-  "wiki": "https://pt.wikipedia.org/wiki/GitLab"
+  "wiki": "https://pt.wikipedia.org/wiki/GitLab",
+  "cat": "CI/CD"
  },
  {
-  "name": "Travis Ci",
+  "name": "Travis CI",
   "text": "Travis CI é um serviço de integração contínua distribuída e hospedado de código aberto usado para construir e testar projetos hospedados no GitHub. O Travis CI é configurado adicionando um arquivo chamado .travis.yml que é um arquivo de texto no formato YAML ao diretório raiz do repositório GitHub.",
   "web": "https://travis-ci.org/",
-  "wiki": "https://en.wikipedia.org/wiki/Travis_CI"
+  "wiki": "https://en.wikipedia.org/wiki/Travis_CI",
+  "cat": "CI/CD"
  },
  {
-  "name": "Circleci",
+  "name": "CircleCI",
   "text": "CircleCI é a maior plataforma de integração contínua compartilhada e entrega contínua (CI / CD) do mundo dos anos 92 e o hub central onde o código passa da ideia à entrega.",
   "web": "https://circleci.com/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "",
+  "name": "Maven",
   "text": "Maven é uma ferramenta de automação de construção usada principalmente para projetos Java. A palavra maven significa 'acumulador de conhecimento' em iídiche. O Maven aborda dois aspectos da construção de software: primeiro, descreve como o software é construído e, segundo, descreve suas dependências.",
   "web": "https://maven.apache.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/Apache_Maven"
+  "wiki": "https://pt.wikipedia.org/wiki/Apache_Maven",
+  "cat": "CI/CD"
  },
  {
   "name": "Atlassian Bamboo",
   "text": "Bamboo é um servidor de integração contínua da Atlassian, os criadores do JIRA Confluence e Crowd. O Bamboo oferece suporte a compilações em qualquer linguagem de programação, usando qualquer ferramenta de compilação, incluindo Ant Maven make e quaisquer ferramentas de linha de comando.",
   "web": "https://www.atlassian.com/br/software/bamboo",
-  "wiki": "https://en.wikipedia.org/wiki/Talk%3ABamboo_%28software%29"
+  "wiki": "https://en.wikipedia.org/wiki/Talk%3ABamboo_%28software%29",
+  "cat": "CI/CD"
  },
  {
   "name": "Gradle",
   "text": "Gradle é uma ferramenta de automação de projeto baseada nos conceitos de Apache Ant e Maven, com uma DSL baseada em Groovy e um grafo acíclico dirigido (DAG) para determinar a ordem de execução das tarefas.",
   "web": "https://gradle.org/",
-  "wiki": "https://pt.wikipedia.org/wiki/Gradle"
+  "wiki": "https://pt.wikipedia.org/wiki/Gradle",
+  "cat": "CI/CD"
  },
  {
-  "name": "Digital.Ai",
+  "name": "Digital.ai",
   "text": "O gerenciamento de fluxo de valor (VSM) Digital.ai ajuda as organizações a perceber o impacto geral nos negócios do desenvolvimento de software e esforços de entrega.",
   "web": "https://digital.ai/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
-  "name": "Aws Codebuild",
+  "name": "AWS CodeBuild",
   "text": "O AWS CodeBuild é um serviço de construção totalmente gerenciado que compila códigos-fonte, executa testes e produz pacotes de software prontos para implantação. Com CodeBuild você não precisa provisionar, gerenciar e escalar seus próprios servidores de construção.",
   "web": "https://aws.amazon.com/pt/codebuild/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "CI/CD"
  },
  {
   "name": "Tasktop",
   "text": "O Tasktop fornece integração de software para todas as suas ferramentas enquanto cria um fluxo de valor integrado para sua organização e melhora a maneira como você entrega aplicativos.",
   "web": "https://www.tasktop.com/",
-  "wiki": ""
+  "wiki": "",
+  "cat": "Código e colaboração"
  },
  {
   "name": "Atlassian Jira",
   "text": "JIRA é um produto proprietário de rastreamento de problemas desenvolvido pela Atlassian. Ele fornece rastreamento de problemas de rastreamento de bug e funções de gerenciamento de projeto. Embora normalmente denominado JIRA, o nome do produto não é um acrônimo, mas um truncamento de Gojira, o nome japonês de Godzilla.",
   "web": "https://www.atlassian.com/br/software/jira",
-  "wiki": "https://pt.wikipedia.org/wiki/Jira"
+  "wiki": "https://pt.wikipedia.org/wiki/Jira",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Bmc Helix Itsm",
+  "name": "BMC Helix ITSM",
   "text": "As soluções de ITSM da BMC combinam o design moderno de serviços digitais com os princípios de ITSM das melhores práticas para liderar uma nova era em excelência de gerenciamento de serviços. Modernize sua central de serviços com a solução certa de ITSM da BMC.",
   "web": "https://www.bmcsoftware.pt/it-solutions/bmc-helix-itsm.html?301-bmcsoftware-com-br",
-  "wiki": "https://pt.wikipedia.org/wiki/BMC_Software"
+  "wiki": "https://pt.wikipedia.org/wiki/BMC_Software",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Atlassian Trello",
   "text": "Trello é um aplicativo gratuito de gerenciamento de projeto baseado na web originalmente feito pela Fog Creek Software em 2011, que se tornou sua própria empresa em 2014. Ele opera um modelo de negócios freemium, além de ser subsidiado por outros produtos da Fog Creek Software.",
   "web": "https://www.atlassian.com/br/software/trello",
-  "wiki": "https://pt.wikipedia.org/wiki/Trello"
+  "wiki": "https://pt.wikipedia.org/wiki/Trello",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Topdesk",
+  "name": "TOPdesk",
   "text": "Clientes satisfeitos são a meta de todo departamento de suporte. Nós entendemos. É por isso que criamos uma solução que ajuda você a melhorar a comunicação com o cliente, gerenciar fluxos de trabalho e controlar ativos. Mas acima de tudo: nosso software é simples e atraente.",
   "web": "https://www.topdesk.com/br/",
-  "wiki": "https://en.wikipedia.org/wiki/TOPdesk"
+  "wiki": "https://en.wikipedia.org/wiki/TOPdesk",
+  "cat": "Código e colaboração"
  },
  {
-  "name": "Pagerduty",
+  "name": "PagerDuty",
   "text": "Em um mundo sempre conectado, as equipes confiam no 'a0PagerDuty ' a0para ajudá-los a fornecer uma experiência digital perfeita para seus clientes sempre. 'A0PagerDuty ' a0é o sistema nervoso central para as operações digitais de uma empresa dos anos 92.",
   "web": "https://www.pagerduty.com/",
-  "wiki": "https://en.wikipedia.org/wiki/PagerDuty"
+  "wiki": "https://en.wikipedia.org/wiki/PagerDuty",
+  "cat": "Monitoramento e logs"
  },
  {
   "name": "Tricentis Tosca",
   "text": "Tricentis Tosca é uma plataforma de teste contínuo que acelera os testes para acompanhar o Agile e DevOps.",
   "web": "https://www.tricentis.com/products/automate-continuous-testing-tosca/",
-  "wiki": "https://en.wikipedia.org/wiki/Tricentis_Tosca"
+  "wiki": "https://en.wikipedia.org/wiki/Tricentis_Tosca",
+  "cat": "Testes"
  },
  {
-  "name": "Neotys Neoload",
+  "name": "Neotys NeoLoad",
   "text": "Fortune 100 companies use NeoLoad to automate API and application performance testing within continuous integration pipelines. NeoLoad is the only performance and load testing tool on the market that delivers performance testing as code plus covers all Enterprise requirements.",
   "web": "https://www.neotys.com/",
-  "wiki": "https://en.wikipedia.org/wiki/Neotys"
+  "wiki": "https://en.wikipedia.org/wiki/Neotys",
+  "cat": "Testes"
  },
  {
   "name": "Selenium",
   "text": "Selenium é uma estrutura de teste de software portátil para aplicativos da web. O Selenium fornece uma ferramenta de gravação / reprodução para testes de autoria sem aprender uma linguagem de script de teste (Selenium IDE).",
   "web": "https://www.selenium.dev/",
-  "wiki": "https://en.wikipedia.org/wiki/Selenium_(software)"
+  "wiki": "https://en.wikipedia.org/wiki/Selenium_(software)",
+  "cat": "Testes"
  },
  {
-  "name": "Junit",
+  "name": "JUnit",
   "text": "JUnit é uma estrutura de teste de unidade para a linguagem de programação Java. JUnit tem sido importante no desenvolvimento de desenvolvimento orientado por teste e faz parte de uma família de estruturas de teste de unidade que é coletivamente conhecida como xUnit que se originou com SUnit.",
   "web": "https://junit.org/junit5/",
-  "wiki": "https://pt.wikipedia.org/wiki/JUnit"
+  "wiki": "https://pt.wikipedia.org/wiki/JUnit",
+  "cat": "Testes"
  }
 ]

@@ -52,6 +52,8 @@
     const dlg = $('#tool-dialog');
     const search = $('#search');
     const empty = $('#empty');
+    const catsEl = $('#cats');
+    let cat = 'Todas';
     fetch('/data/tools.json')
       .then((r) => r.json())
       .then((tools) => {
@@ -61,6 +63,7 @@
           b.className = 'tool';
           b.type = 'button';
           b.textContent = t.name;
+          b.dataset.cat = t.cat;
           b.addEventListener('click', () => {
             $('h3', dlg).textContent = t.name;
             $('.desc', dlg).textContent = t.text;
@@ -75,11 +78,22 @@
           const q = search.value.trim().toLowerCase();
           let n = 0;
           $$('.tool', grid).forEach((b) => {
-            const show = b.textContent.toLowerCase().includes(q);
+            const show = b.textContent.toLowerCase().includes(q) && (cat === 'Todas' || b.dataset.cat === cat);
             b.hidden = !show; n += show;
           });
           empty.style.display = n ? 'none' : 'block';
         };
+        ['Todas', ...new Set(tools.map((t) => t.cat))].forEach((name) => {
+          const c = document.createElement('button');
+          c.type = 'button'; c.className = 'chip'; c.textContent = name;
+          c.setAttribute('aria-pressed', name === cat);
+          c.addEventListener('click', () => {
+            cat = name;
+            $$('button', catsEl).forEach((x) => x.setAttribute('aria-pressed', x === c));
+            filter();
+          });
+          catsEl.append(c);
+        });
         search.addEventListener('input', filter);
         const hash = decodeURIComponent(location.hash.slice(1)).toLowerCase();
         if (hash) { search.value = hash; filter(); }
