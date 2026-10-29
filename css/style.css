@@ -331,3 +331,10 @@ form.form { background: var(--surface); border: 1px solid var(--line); border-ra
 .logos .lg img { height: 22px; width: 22px; opacity: .75; filter: brightness(0) invert(1); }
 .logos .lg:hover { border-color: rgba(42,245,192,.5); color: var(--text); }
 .logos .lg:hover img { opacity: 1; }
+
+/* Fábrica de software */
+.factory { display: grid; grid-template-columns: 1fr 1.1fr; gap: 3rem; align-items: center; }
+.grid-2c { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 900px) { .factory { grid-template-columns: 1fr; gap: 2rem; } }
+@media (max-width: 520px) { .grid-2c { grid-template-columns: 1fr; } }
+.factory .btn { margin-top: .5rem; }
