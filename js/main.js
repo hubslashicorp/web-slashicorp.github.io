@@ -2,6 +2,8 @@
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 
+  document.documentElement.classList.add('js');
+
   // Mobile menu
   const toggle = $('.nav-toggle');
   const links = $('.nav-links');
@@ -17,6 +19,7 @@
       }), { threshold: 0.12 })
     : null;
   $$('.reveal').forEach((el) => (io ? io.observe(el) : el.classList.add('in')));
+  setTimeout(() => $$('.reveal').forEach((el) => el.classList.add('in')), 2500);
 
   // Terminal typing (home)
   const term = $('#term');
