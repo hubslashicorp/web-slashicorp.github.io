@@ -310,3 +310,24 @@ form.form { background: var(--surface); border: 1px solid var(--line); border-ra
   color: var(--text); background: rgba(42, 245, 192, .10);
   box-shadow: 0 0 0 1px rgba(42, 245, 192, .6), 0 0 16px rgba(42, 245, 192, .35), inset 0 0 12px rgba(42, 245, 192, .12);
 }
+
+/* Produtos */
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+.product { background: linear-gradient(180deg, var(--surface), var(--bg-2)); border: 1px solid var(--line); border-radius: 24px; padding: clamp(1.5rem, 3vw, 2.25rem); display: flex; flex-direction: column; gap: .25rem; transition: border-color .25s, transform .25s; }
+.product:hover { border-color: rgba(42, 245, 192, .4); transform: translateY(-4px); }
+.product-head { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+.product-head img { width: 64px; height: 64px; border-radius: 16px; flex: none; box-shadow: 0 10px 30px -10px rgba(0,0,0,.6); }
+.product-head h3 { margin: 0; font-size: 1.5rem; }
+.product-tag { color: var(--accent); font: 500 .8rem/1.4 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.checks { list-style: none; margin: .5rem 0 1rem; padding: 0; display: grid; gap: .55rem; flex: 1; }
+.checks li { position: relative; padding-left: 1.6rem; color: var(--text); font-size: .95rem; }
+.checks li::before { content: ""; position: absolute; left: 0; top: .45em; width: .9rem; height: .9rem; border-radius: 50%; background: rgba(42,245,192,.15) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232af5c0' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12 5 5 9-10'/%3E%3C/svg%3E") center/70% no-repeat; }
+.product-note { font-size: .85rem; margin: 0 0 1.25rem; }
+.product .btn { align-self: flex-start; }
+
+/* Faixa de tecnologias */
+.logos { gap: .75rem; }
+.logos .lg { display: inline-flex; align-items: center; gap: .6rem; padding: .55rem 1rem; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.03); color: var(--muted); font-size: .9rem; font-weight: 500; transition: border-color .2s, color .2s; }
+.logos .lg img { height: 22px; width: 22px; opacity: .75; filter: brightness(0) invert(1); }
+.logos .lg:hover { border-color: rgba(42,245,192,.5); color: var(--text); }
+.logos .lg:hover img { opacity: 1; }
