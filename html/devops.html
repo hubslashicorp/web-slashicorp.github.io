@@ -1,382 +1,63 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>DevOps - SlashiCorp</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Institucional">
-    <link rel="shortcut icon" href="../img/icons/logo.png">
-    <link rel="stylesheet" id="slashicorp-css" href="../css/main-devops.css" type="text/css" media="all">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevOps - SlashiCorp</title>
+  <meta name="description" content="DevOps como cultura e solução: CI/CD, contêineres, monitoria e logging com ferramentas consolidadas.">
+  <meta name="theme-color" content="#060d0c">
+  <link rel="canonical" href="https://slashicorp.com.br/html/devops.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DevOps - SlashiCorp">
+  <meta property="og:description" content="DevOps como cultura e solução: CI/CD, contêineres, monitoria e logging com ferramentas consolidadas.">
+  <meta property="og:url" content="https://slashicorp.com.br/html/devops.html">
+  <meta property="og:image" content="https://slashicorp.com.br/img/logo-social.png">
+  <link rel="icon" href="/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
-    <div style="display: none;">
-        <!--?xml version="1.0" encoding="UTF-8"?-->
-        <svg xmlns="http://www.w3.org/2000/svg">
-            <symbol id="icon-social-facebook" viewBox="0 0 512 512">
-                <path d="M211.9 197.4h-36.7v59.9h36.7v175.8h70.5V256.5h49.2l5.2-59.1h-54.4v-33.7c0-13.9 2.8-19.5 16.3-19.5h38.2V82.9h-48.8c-52.5 0-76.1 23.1-76.1 67.3-.1 38.6-.1 47.2-.1 47.2z"></path>
-            </symbol>
-            <symbol id="icon-social-google" viewBox="0 0 512 512">
-                <path d="M179.7 237.6v46.6h77c-3.1 20-23.3 58.7-77 58.7-46.3 0-84.1-38.5-84.1-85.9 0-47.4 37.8-85.9 84.1-85.9 26.4 0 44 11.3 54.1 21l36.8-35.5C247 134.4 216.4 121 179.7 121 104.7 121 44 181.8 44 257s60.7 136 135.7 136C258 393 310 337.8 310 260.1c0-8.9-1-15.7-2.1-22.5H179.7zm288.3-.9h-38.7V198h-38.6v38.7H352v38.6h38.7V314h38.6v-38.7H468"></path>
-            </symbol>
-            <symbol id="icon-social-instagram" viewBox="0 0 512 512">
-                <path d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5s-87.5-39.2-87.5-87.5c0-7.6 1.1-14.9 2.9-21.9h-24.7v120.3c0 6 4.9 10.9 10.9 10.9h196.8c6 0 10.9-4.9 10.9-10.9V234.1zm0-76.5c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9v-32.8zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7 0-30.2-24.5-54.7-54.7-54.7m109.3 196.8H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7c-.1 18-14.7 32.7-32.9 32.7"></path>
-            </symbol>
-            <symbol id="icon-social-linkedin" viewBox="0 0 512 512">
-                <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5-18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5 18.9 0 34.2 15.5 34.2 34.5zm-5 58.9h-57.8v186.8h57.8V201.3zm92.4 0h-55.4v186.8h55.4v-98c0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9v98H398V269.8c0-50-28.3-74.2-68-74.2-39.6 0-56.3 30.9-56.3 30.9v-25.2h.1z"></path>
-            </symbol>
-            <symbol id="icon-social-twitter" viewBox="0 0 512 512">
-                <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36-12.6 7.5-26.5 12.9-41.3 15.8C357.6 146 340.7 138 322 138c-42 0-72.9 39.2-63.4 79.9-54.1-2.7-102.1-28.6-134.2-68-17 29.2-8.8 67.5 20.1 86.9-10.7-.3-20.7-3.3-29.5-8.1-.7 30.2 20.9 58.4 52.2 64.6-9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2-27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6 12.9-9.1 23.9-20.5 32.6-33.6z"></path>
-            </symbol>
-            <symbol id="icon-social-youtube" viewBox="0 0 512 512">
-                <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54-50.8-3.5-164.3-3.5-215.1 0-35.7 2.4-53.7 8.7-59 54-4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54 4-33.6 4-91.1 0-124.8zM222.2 303.4v-94.6l90.7 47.3-90.7 47.3z"></path>
-            </symbol>
-        </svg>
-    </div>
-
-    <nav id="menu" class="menu">
-        <div class="components-menu is-active">
-            <div class="components-menu-logo">
-                <img src="../img/icons/Logotipo-Slashicorp.png" class="components-menu-svg">
-            </div>
-
-            <div class="components-menu-center">
-                <ul class="components-menu-list">
-                    <li class="components-menu-item">
-                        <a href="../index.html" class="components-menu-link menu-main-link">
-                        Home
-                    </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="especialidades.html" class="components-menu-link menu-main-link">
-                        Especialidades
-                    </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="cloud.html" class="components-menu-link menu-main-link">
-                        Cloud
-                    </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="devops.html" class="components-menu-link menu-main-link">
-                        DevOps
-                    </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="contato.html" class="components-menu-link menu-main-link">
-                        Contato
-                    </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <header class="header">
+    <nav class="container nav" aria-label="Principal">
+      <a class="nav-logo" href="/" aria-label="SlashiCorp - início"><img src="/img/logo-horizontal.png" alt="SlashiCorp" width="110" height="40"></a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/html/especialidades.html">Especialidades</a></li><li><a href="/html/cloud.html">Cloud</a></li><li><a href="/html/devops.html" aria-current="page">DevOps</a></li><li><a class="btn btn-primary" href="/html/contato.html">Fale conosco</a></li></ul>
     </nav>
+  </header>
+  <main>
 
-
-    <div class="background-gradient">
-
-        <section id="automação" class="slashicorp-2018-automação">
-            <div class="wrapper">
-                <h1 class="slashicorp-2018-automação-title">
-                    DEVOPS
-                </h1>
-            </div>
-            <div class="wrapper-midia">
-                <div class="slashicorp-2018-automação-figure">
-                </div>
-                <div class="slashicorp-2018-automação-symbol">
-                </div>
-
-                <div class="wrapper">
-                    <div class="slashicorp-2018-automação-columns">
-                        <div class="slashicorp-2018-automação-column">
-                            <p class="slashicorp-2018-automação-description">
-                              
-                            <div align="justify" class="texto-geral">
-                            DevOps é uma Cultura e também uma Solução.<br class="br-desktop">
-                           </p>
-                                         <p class="texto-geral">
-                                            O conceito Devops surgiu como uma alternativa de integração entre as equipes e uma nova forma colaborativa de trabalhar, com tecnologias já consolidadas no mercado como solução, para auxiliar neste objetivo.
-                                         </p>
-
-                            <p class="texto-geral">
-
-                                A metodologia Devops vem ganhando um grande impulso nas empresas pelo movimento da transformação digital e pela necessidade de melhorar a estratégia de software, alinhando a colaboração, agilidade e segurança, com base em: pessoas, processos e as tecnologias
-                                que nos auxiliam a construir uma nova cultura e estratégia na gestão de aplicações modernas.<br class="texto-geral">
-                                
-                            </p>
-                            <p class="texto-geral">  
-                                A SlashiCorp é uma empresa que já nasceu DevOps, por isso apoiamos as empresas
-                                a se dedicarem ao que importa, enquanto nós cuidamos do seu negócio com soluções técnologicas inovadoras.
-
-                            </p>
-                            </div>
-
-                            <a href="contato.html" target="_blank" class="slashicorp-2018-unidades-left-btn">
-                      Contrate-nos
-                  </a>
-                        </div>
-
-                    </div>
-
-                </div>
-                
-        </section>
-
-        <section id="multicloud" class="slashicorp-2018-multicloud">
-            <div class="wrapper">
-                <h1 class="slashicorp-2018-multicloud-title">
-                    CULTURA
-                </h1>
-            </div>
-            <div class="wrapper-midia">
-                <div class="slashicorp-2018-multicloud-figure">
-                </div>
-                <div class="slashicorp-2018-multicloud-symbol">
-                </div>
-                <div class="wrapper" class="texto-geral">
-                    <div class="slashicorp-2018-multicloud-columns">
-                        <div class="slashicorp-2018-multicloud-column">
-                            <p class="slashicorp-2018-multicloud-description">
-                                <div align="justify" class="texto-geral">
-                                    O termo DevOps surgiu da união das palavras inglesas Development e Operations, logo após o movimento que já vinha sendo conhecido como "Movimento ágil" que visava reunir as melhores práticas para área de TI, com intuito de ajudar o desenvolvedor a entregar
-                                    seus projetos rapidamente e a ter uma fácil resposta as mudanças, enfatizando a comunicação entre as equipes de desenvolvimento e operacional, construindo assim pontes ao invés de muros. <br class="br-desktop"> 
-                                    <p class="texto-geral">
-                                    O termo se firmou em 2009 de uma idéia que surgiu muito antes disso. Com diversas discussões acontecendo entre 2001 e 2008 sobre como agilizar as entregas, uma delas sendo a palestra Infraestrura
-                                    Ágil de Andrew Schafer durante a (Agile Conference) de 2008 onde ele conheceu Patrick Debois, pela primeira vez houve uma discussão sobre o assunto.<br class="br-desktop"> 
-                                    <p class="texto-geral"> 
-                                            Patrick Debois motivado por uma palestra chamada "10+ Deploys per Day: Dev and Ops Cooperation at Flickr" dos engenheiros da Flickr na (Velocity Conference) de 2009 por não poder comparecer, decidiu criar sua própria conferência na Bélgica seu país de origem, chamada
-                                        "DevOpsDays'09" Sendo lançada uma tag no twitter #DevOps que posteriormente daria nome a Cultura.
-                                    </p>
-
-                                    <br class="texto-geral"> A Slashcorp já faz parte dessa cultura e podemos ajudar a sua empresa a entrar nessa revolução!
-                            </p>
-                            </div>
-                            <a href="contato.html" target="_blank" class="slashicorp-2018-unidades-btn">
-                Contrate-nos
-            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section id="elasticstack" class="slashicorp-2018-elasticstack">
-            <div class="wrapper">
-                <h1 class="slashicorp-2018-elasticstack-title">
-                    FERRAMENTAS
-                </h1>
-            </div>
-            <div class="wrapper-midia">
-                <div class="slashicorp-2018-elasticstack-figure">
-                </div>
-                <div class="slashicorp-2018-elasticstack-symbol">
-                </div>
-                <div class="wrapper">
-                    <div class="slashicorp-2018-elasticstack-columns">
-                        <div class="slashicorp-2018-elasticstack-column">
-                            <p class="slashicorp-2018-elasticstack-description">
-                                <div align="justify" class="texto-geral">
-                                    Devops é cultura, mas, também é solução, e para nos auxiliar nesse processo cultural e tecnológico, foram desenvolvidas novas ferramentas que alinhadas com algumas metodologias já existentes nos auxiliam a alcançar os nossos objetivos, de um jeito mais
-                                    rápido, padronizado, automatizado e interativo.
-                                    <br class="br-desktop">
-                                    <p class="texto-geral">
-                                        A SlashCorp incorpora algumas metodologias e framework que dominamos para nos auxiliar nesse processo, como por exemplo, Agile, Lean e Scrum para gestão de projetos e produtos.
-                                    </p>
-
-                                    <br class="br-desktop"> 
-
-                                    Para aumentar a produtividade das equipes de desenvolvimento trabalhamos com as ferramentas opensource de ci/cd mais reconhecidas e consolidadas do mercado como por exemplo: Jenkis, Gitlab, Azure
-                                    Devops Services, Travis CI, Heroku CI e CicleCI.
-                                    
-                                    <p class="texto-geral">
-                                        A Slashcorp pode auxiliar a sua empresa a implantar a solução de ci/cd que melhor se adequa a realidade do seu projeto e a demanda causada por ele.
-                                    </p>
-
-                            </p>
-                                     <p class="texto-geral">
-                                        Como Ferramentas de web service proxy, a SlashCorp domina algumas tecnologias proporcionando assim uma gama de possibilidades quando falamos de proxy reverso, balanceador de carga HTTP e proxy de e-mail. A Slashcorp domina para esses fins, as seguintes
-                                            ferramentas: Nginx, Apache, Traefik e Kong.<br class="br-desktop"> Como solução de monitoria a SlashCorp domina as seguinte ferramentas: Zabbix, Nagios, Prometheus e Grafana. <br class="br-desktop">
-                                    </p>
-                                         <p class="texto-geral">
-
-                                             Quando falamos de ferramenta devops não podemos esquecer de citar as ferramentas de conteineres que a Slashcorp domina com maestria como por exemplos, Docker, LXC, Rancher, Kubernetes, CoreOS e Openshift.
-                                              <br class="texto-geral">
-                                        </p>
-                                             Quando o assunto é solução de logging para o seu projeto, a SlashCorp domina as seguintes tecnologias, Elastic Stack, Graylog e Syslog.
-                                                 <br class="texto-geral"> 
-                                                     Com essas ferramentas implantadas no seu projeto os problemas serão
-                                                     rastreados com muito mais eficiência, possibilitando uma rapida ação da equipe.
-                                                        <br class="texto-geral"> 
-                                                             Conseguimos projetar dashboards personalizadas e alertas das inconformidades/problemas identificados no monitoramento através de uma única console. Agende uma consultoria gratuita, fazemos questão de
-                                                             entender o seu projeto e propor soluções para ele.<br class="br-desktop">
-                            </p>
-                            </div>
-                            <a href="contato.html" target="_blank" class="slashicorp-2018-unidades-left-btn">
-                  Contrate-nos
-              </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
+    <section class="page-head"><div class="container">
+      <span class="eyebrow">DevOps</span><h1>DevOps é cultura<br>e também solução.</h1>
+      <p class="lead">O DevOps surgiu como uma alternativa de integração entre as equipes e uma nova forma colaborativa de trabalhar, apoiada por tecnologias já consolidadas no mercado.</p>
+    </div></section>
+    <section><div class="container">
+      <div class="block reveal" style="border-top:0;padding-top:0"><h2>Visão geral</h2><div><p>A metodologia ganha impulso com a transformação digital e a necessidade de melhorar a estratégia de software, alinhando colaboração, agilidade e segurança, com base em pessoas, processos e tecnologia.</p><p>A SlashiCorp já nasceu DevOps. Apoiamos empresas a se dedicarem ao que importa, enquanto cuidamos do seu negócio com soluções tecnológicas inovadoras.</p><a class="btn btn-primary" href="/html/contato.html">Contrate-nos</a></div></div>
+      <div class="block reveal"><h2>Cultura</h2><div><p>O termo DevOps vem da união de Development e Operations, no rastro do movimento ágil, e busca ajudar o desenvolvedor a entregar rápido e responder bem a mudanças, construindo pontes ao invés de muros entre desenvolvimento e operação.</p><p>O termo se firmou em 2009. Entre 2001 e 2008 houve diversas discussões sobre como agilizar entregas, entre elas a palestra de Andrew Schafer na Agile Conference de 2008, onde conheceu Patrick Debois. Motivado pela palestra &ldquo;10+ Deploys per Day&rdquo;, dos engenheiros do Flickr na Velocity Conference de 2009, Debois criou na Bélgica a conferência DevOpsDays, e a hashtag #DevOps no Twitter deu nome à cultura.</p><p>A SlashiCorp faz parte dessa cultura e pode ajudar a sua empresa a entrar nessa revolução.</p><a class="btn btn-ghost" href="/html/contato.html">Contrate-nos</a></div></div><div class="block reveal"><h2>Ferramentas</h2><div><p>DevOps é cultura, mas também é solução. Novas ferramentas, alinhadas a metodologias existentes como Agile, Lean e Scrum, ajudam a trabalhar de forma mais rápida, padronizada, automatizada e interativa.</p><p>Implantamos a solução de CI/CD que melhor se adequa à realidade e à demanda do seu projeto, e projetamos dashboards personalizados e alertas em uma única console.</p><div class="chips"><span class=chip>Jenkins</span><span class=chip>GitLab CI</span><span class=chip>Azure DevOps</span><span class=chip>Travis CI</span><span class=chip>CircleCI</span><span class=chip>Nginx</span><span class=chip>Apache</span><span class=chip>Traefik</span><span class=chip>Kong</span><span class=chip>Zabbix</span><span class=chip>Nagios</span><span class=chip>Prometheus</span><span class=chip>Grafana</span><span class=chip>Docker</span><span class=chip>LXC</span><span class=chip>Rancher</span><span class=chip>Kubernetes</span><span class=chip>CoreOS</span><span class=chip>OpenShift</span><span class=chip>Elastic Stack</span><span class=chip>Graylog</span><span class=chip>Syslog</span></div><a class="btn btn-ghost" href="/html/contato.html">Contrate-nos</a></div></div>
+    </div></section>
+<section class="section"><div class="container"><div class="cta reveal">
+      <h2>Vamos conversar sobre o seu projeto?</h2><p>Agende uma consultoria gratuita. Fazemos questão de entender o seu problema e propor a melhor solução.</p>
+      <a class="btn btn-primary" href="/html/contato.html">Fale com um especialista</a>
+    </div></div></section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="/img/logo-horizontal.png" alt="SlashiCorp" width="110" height="40">
+          <p>Construção e sustentação DevOps, Cloud e Observabilidade para o seu negócio.</p>
+          <a href="tel:+5511939350218">+55 11 93935-0218</a><br>
+          <a href="mailto:contato@slashicorp.com.br">contato@slashicorp.com.br</a>
+          <div class="social"><a href="https://www.facebook.com/slashicorp/" rel="noopener" target="_blank" aria-label="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7v175.8h70.5V256.5h49.2l5.2-59.1h-54.4v-33.7c0-13.9 2.8-19.5 16.3-19.5h38.2V82.9h-48.8c-52.5 0-76.1 23.1-76.1 67.3-.1 38.6-.1 47.2-.1 47.2z"/></svg></a><a href="https://www.twitter.com/slashicorp/" rel="noopener" target="_blank" aria-label="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36-12.6 7.5-26.5 12.9-41.3 15.8C357.6 146 340.7 138 322 138c-42 0-72.9 39.2-63.4 79.9-54.1-2.7-102.1-28.6-134.2-68-17 29.2-8.8 67.5 20.1 86.9-10.7-.3-20.7-3.3-29.5-8.1-.7 30.2 20.9 58.4 52.2 64.6-9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2-27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6 12.9-9.1 23.9-20.5 32.6-33.6z"/></svg></a><a href="https://www.youtube.com/tvslashicorp/" rel="noopener" target="_blank" aria-label="YouTube"><svg viewBox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54-50.8-3.5-164.3-3.5-215.1 0-35.7 2.4-53.7 8.7-59 54-4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54 4-33.6 4-91.1 0-124.8zM222.2 303.4v-94.6l90.7 47.3-90.7 47.3z"/></svg></a><a href="https://www.instagram.com/slashicorpoficial/" rel="noopener" target="_blank" aria-label="Instagram"><svg viewBox="0 0 512 512"><path d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5s-87.5-39.2-87.5-87.5c0-7.6 1.1-14.9 2.9-21.9h-24.7v120.3c0 6 4.9 10.9 10.9 10.9h196.8c6 0 10.9-4.9 10.9-10.9V234.1zm0-76.5c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9v-32.8zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7 0-30.2-24.5-54.7-54.7-54.7m109.3 196.8H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7c-.1 18-14.7 32.7-32.9 32.7"/></svg></a><a href="https://www.linkedin.com/company/slashicorp/" rel="noopener" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5-18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5 18.9 0 34.2 15.5 34.2 34.5zm-5 58.9h-57.8v186.8h57.8V201.3zm92.4 0h-55.4v186.8h55.4v-98c0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9v98H398V269.8c0-50-28.3-74.2-68-74.2-39.6 0-56.3 30.9-56.3 30.9v-25.2h.1z"/></svg></a></div>
         </div>
-
-        <footer class="slashicorp-2018-footer background-gradient">
-            <div class="wrapper">
-                <div class="slashicorp-2018-footer-columns">
-                    <div class="slashicorp-2018-footer-column">
-                        <div class="slashicorp-2018-footer-section">
-                            <img src="../img/icons/jenkins-preto-branco-01.png">
-                        </div>
-
-                        <div class="slashicorp-2018-footer-section">
-                            <span class="slashicorp-2018-footer-title">Siga-nos</span>
-
-                            <ul class="slashicorp-2018-footer-social">
-                                <li class="slashicorp-2018-footer-social-item">
-                                    <a href="http://www.facebook.com/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                        <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-facebook"></use>
-                            </svg>
-                                    </a>
-                                </li>
-                                <li class="slashicorp-2018-footer-social-item">
-                                    <a href="http://www.twitter.com/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                        <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-twitter"></use>
-                            </svg>
-                                    </a>
-                                </li>
-                                <li class="slashicorp-2018-footer-social-item">
-                                    <a href="http://www.youtube.com/tvslashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                        <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-youtube"></use>
-                            </svg>
-                                    </a>
-                                </li>
-                                <li class="slashicorp-2018-footer-social-item">
-                                    <a href="https://www.instagram.com/slashicorpoficial/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                        <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-instagram"></use>
-                            </svg>
-                                    </a>
-                                </li>
-                                <li class="slashicorp-2018-footer-social-item">
-                                    <a href="https://www.linkedin.com/company/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                        <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-linkedin"></use>
-                            </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="slashicorp-2018-footer-section">
-                            <a href="tel:+5511939350218" target="_blank" class="slashicorp-2018-footer-link">11 93935-0218</a>
-                            <br>
-                            <br>
-                            <strong class="text-roboto-bold">slashicorp 2020.</strong>
-                            <br> Todos os direitos reservados.
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-footer-column">
-                        <div class="slashicorp-2018-footer-section">
-                            <span class="slashicorp-2018-footer-title">Parceiros</span>
-
-                            <ul class="slashicorp-2018-footer-list">
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://aws.amazon.com/pt/" target="_blank" class="slashicorp-2018-footer-link">AWS</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://cloud.google.com/" target="_blank" class="slashicorp-2018-footer-link">GCP</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://azure.microsoft.com/pt-br/" target="_blank" class="slashicorp-2018-footer-link">AZURE</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.digitalocean.com/" target="_blank" class="slashicorp-2018-footer-link">Digital Ocean</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.openstack.org/" target="_blank" class="slashicorp-2018-footer-link">OpenStack</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.cloudfoundry.org/" target="_blank" class="slashicorp-2018-footer-link">Cloud Foundry</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.oracle.com/br/cloud/" target="_blank" class="slashicorp-2018-footer-link">Oracle Cloud</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://cloud.ibm.com/login" target="_blank" class="slashicorp-2018-footer-link">IBM</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.redhat.com/pt-br/technologies/cloud-computing/cloud-suite" target="_blank" class="slashicorp-2018-footer-link">RedHat</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-footer-column">
-                        <div class="slashicorp-2018-footer-section">
-                            <span class="slashicorp-2018-footer-title">Links Uteis</span>
-
-                            <ul class="slashicorp-2018-footer-list">
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="../index.html" target="_blank" class="slashicorp-2018-footer-link">Blog</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://github.com/hubslashicorp" target="_blank" class="slashicorp-2018-footer-link">Github</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.workana.com/freelancer/136de77640a2b9301e7f3e1c927cff2a?utm_source=share-profile&utm_medium=email&utm_campaign=share-2020-08-08&fbclid=IwAR3THZ2NIXn-5m1jgbdEDRKYnPIYteZW9g7mQWahKiUABoOv0xTJ9gidbeU" target="_blank" class="slashicorp-2018-footer-link">Workana</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.br.freelancer.com/?w=f&ngsw-bypass=" target="_blank" class="slashicorp-2018-footer-link">Freelancer</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="https://www.getninjas.com.br" target="_blank" class="slashicorp-2018-footer-link">GetNinjas</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-footer-column">
-
-                        <div class="slashicorp-2018-footer-section">
-                            <span class="slashicorp-2018-footer-title">Treinamentos</span>
-
-                            <ul class="slashicorp-2018-footer-list">
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Linux</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Docker</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Kubernetes</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento OpenShift</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento DevOps</a>
-                                </li>
-                                <li class="slashicorp-2018-footer-item">
-                                    <a href="contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Elastic Stack</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <div><h4>Parceiros</h4><ul><li><a href="https://aws.amazon.com/pt/" rel="noopener" target="_blank">AWS</a></li><li><a href="https://cloud.google.com/" rel="noopener" target="_blank">Google Cloud</a></li><li><a href="https://azure.microsoft.com/pt-br/" rel="noopener" target="_blank">Azure</a></li><li><a href="https://www.digitalocean.com/" rel="noopener" target="_blank">DigitalOcean</a></li><li><a href="https://www.openstack.org/" rel="noopener" target="_blank">OpenStack</a></li><li><a href="https://www.redhat.com/pt-br" rel="noopener" target="_blank">Red Hat</a></li><li><a href="https://www.oracle.com/br/cloud/" rel="noopener" target="_blank">Oracle Cloud</a></li><li><a href="https://cloud.ibm.com/" rel="noopener" target="_blank">IBM Cloud</a></li></ul></div>
+        <div><h4>Links úteis</h4><ul><li><a href="https://github.com/hubslashicorp" rel="noopener" target="_blank">GitHub</a></li><li><a href="https://www.workana.com/freelancer/136de77640a2b9301e7f3e1c927cff2a" rel="noopener" target="_blank">Workana</a></li><li><a href="https://www.br.freelancer.com/" rel="noopener" target="_blank">Freelancer</a></li><li><a href="https://www.getninjas.com.br" rel="noopener" target="_blank">GetNinjas</a></li></ul></div>
+        <div><h4>Treinamentos</h4><ul><li><a href="/html/contato.html">Treinamento Linux</a></li><li><a href="/html/contato.html">Treinamento Docker</a></li><li><a href="/html/contato.html">Treinamento Kubernetes</a></li><li><a href="/html/contato.html">Treinamento OpenShift</a></li><li><a href="/html/contato.html">Treinamento DevOps</a></li><li><a href="/html/contato.html">Treinamento Elastic Stack</a></li></ul></div>
+      </div>
+      <div class="copy"><span>© 2020–2026 SlashiCorp. Todos os direitos reservados.</span><span>slashicorp.com.br</span></div>
+    </div>
+  </footer>
+  <script src="/js/main.js" defer></script>
 </body>
-
 </html>

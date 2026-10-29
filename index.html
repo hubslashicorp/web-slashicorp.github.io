@@ -1,483 +1,97 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css ">
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Home - SlashiCorp</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/icons/logo.png">
-    <link rel="stylesheet" id="slashicorp-css" href="css/main.css" type="text/css" media="all">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SlashiCorp - DevOps, Cloud e Observabilidade</title>
+  <meta name="description" content="Consultoria DevOps, multicloud, ELK Stack e monitoramento. Infra 100% código, CI/CD e treinamentos.">
+  <meta name="theme-color" content="#060d0c">
+  <link rel="canonical" href="https://slashicorp.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SlashiCorp - DevOps, Cloud e Observabilidade">
+  <meta property="og:description" content="Consultoria DevOps, multicloud, ELK Stack e monitoramento. Infra 100% código, CI/CD e treinamentos.">
+  <meta property="og:url" content="https://slashicorp.com.br/">
+  <meta property="og:image" content="https://slashicorp.com.br/img/logo-social.png">
+  <link rel="icon" href="/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
-    <div style="display: none;">
-        <!--?xml version="1.0" encoding="UTF-8"?-->
-        <svg xmlns="http://www.w3.org/2000/svg">
-            <symbol id="icon-social-facebook" viewBox="0 0 512 512">
-                <path d="M211.9 197.4h-36.7v59.9h36.7v175.8h70.5V256.5h49.2l5.2-59.1h-54.4v-33.7c0-13.9 2.8-19.5 16.3-19.5h38.2V82.9h-48.8c-52.5 0-76.1 23.1-76.1 67.3-.1 38.6-.1 47.2-.1 47.2z"></path>
-            </symbol>
-            <symbol id="icon-social-google" viewBox="0 0 512 512">
-                <path d="M179.7 237.6v46.6h77c-3.1 20-23.3 58.7-77 58.7-46.3 0-84.1-38.5-84.1-85.9 0-47.4 37.8-85.9 84.1-85.9 26.4 0 44 11.3 54.1 21l36.8-35.5C247 134.4 216.4 121 179.7 121 104.7 121 44 181.8 44 257s60.7 136 135.7 136C258 393 310 337.8 310 260.1c0-8.9-1-15.7-2.1-22.5H179.7zm288.3-.9h-38.7V198h-38.6v38.7H352v38.6h38.7V314h38.6v-38.7H468"></path>
-            </symbol>
-            <symbol id="icon-social-instagram" viewBox="0 0 512 512">
-                <path d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5s-87.5-39.2-87.5-87.5c0-7.6 1.1-14.9 2.9-21.9h-24.7v120.3c0 6 4.9 10.9 10.9 10.9h196.8c6 0 10.9-4.9 10.9-10.9V234.1zm0-76.5c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9v-32.8zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7 0-30.2-24.5-54.7-54.7-54.7m109.3 196.8H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7c-.1 18-14.7 32.7-32.9 32.7"></path>
-            </symbol>
-            <symbol id="icon-social-linkedin" viewBox="0 0 512 512">
-                <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5-18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5 18.9 0 34.2 15.5 34.2 34.5zm-5 58.9h-57.8v186.8h57.8V201.3zm92.4 0h-55.4v186.8h55.4v-98c0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9v98H398V269.8c0-50-28.3-74.2-68-74.2-39.6 0-56.3 30.9-56.3 30.9v-25.2h.1z"></path>
-            </symbol>
-            <symbol id="icon-social-twitter" viewBox="0 0 512 512">
-                <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36-12.6 7.5-26.5 12.9-41.3 15.8C357.6 146 340.7 138 322 138c-42 0-72.9 39.2-63.4 79.9-54.1-2.7-102.1-28.6-134.2-68-17 29.2-8.8 67.5 20.1 86.9-10.7-.3-20.7-3.3-29.5-8.1-.7 30.2 20.9 58.4 52.2 64.6-9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2-27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6 12.9-9.1 23.9-20.5 32.6-33.6z"></path>
-            </symbol>
-            <symbol id="icon-social-youtube" viewBox="0 0 512 512">
-                <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54-50.8-3.5-164.3-3.5-215.1 0-35.7 2.4-53.7 8.7-59 54-4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54 4-33.6 4-91.1 0-124.8zM222.2 303.4v-94.6l90.7 47.3-90.7 47.3z"></path>
-            </symbol>
-        </svg>
-    </div>
-
-    <nav id="menu" class="menu">
-        <div class="components-menu is-active">
-            <div class="components-menu-logo">
-                <img src="img/icons/Logotipo-Slashicorp.png" class="components-menu-svg">
-            </div>
-
-            <div class="components-menu-center">
-                <ul class="components-menu-list">
-                    <li class="components-menu-item">
-                        <a href="index.html" class="components-menu-link menu-main-link">
-                            Home
-                        </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="html/especialidades.html" class="components-menu-link menu-main-link">
-                            Especialidades
-                        </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="html/cloud.html" class="components-menu-link menu-main-link">
-                            Cloud
-                        </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="html/devops.html" class="components-menu-link menu-main-link">
-                            DevOps
-                        </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="html/lab.html" class="components-menu-link menu-main-link">
-                            Laboratório
-                        </a>
-                    </li>
-                    <li class="components-menu-item">
-                        <a href="html/contato.html" class="components-menu-link menu-main-link">
-                            Contato
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <header class="header">
+    <nav class="container nav" aria-label="Principal">
+      <a class="nav-logo" href="/" aria-label="SlashiCorp - início"><img src="/img/logo-horizontal.png" alt="SlashiCorp" width="110" height="40"></a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <ul class="nav-links"><li><a href="/" aria-current="page">Home</a></li><li><a href="/html/especialidades.html">Especialidades</a></li><li><a href="/html/cloud.html">Cloud</a></li><li><a href="/html/devops.html">DevOps</a></li><li><a class="btn btn-primary" href="/html/contato.html">Fale conosco</a></li></ul>
     </nav>
+  </header>
+  <main>
 
-    <div class="background-gradient">
-        <div id="vitrine" class="vitrine">
-            <div class="vitrine-list">
-                <a href="https://www.slashicorp.com.br/" class="vitrine-item vitrine-mba js-lazyloaded is-active" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                    <div class="vitrine-effects">
-                        <div class="vitrine-wrapper">
-                            <div class="vitrine-content">
-                                <div class="vitrine-content-wrapper">
-                                    <div class="vitrine-title texto-geral">
-                                        <div class="vitrine-title-fill js-vitrine-svg-fill" style="width: 100%;">
-                                        </div>
-                                        <!-- <span class="vitrine-desc js-vitrine-text-terminal"> -->
-
-                                        <H3 class="line typing-animation"> >_ " ISSO É DEVOPS "</H3>
-                                        <!--  <span style="visibility: inherit; opacity: 1;">"I</span>
-                                        <span style="visibility: inherit; opacity: 1;">S</span>
-                                        <span style="visibility: inherit; opacity: 1;">S</span>
-                                        <span style="visibility: inherit; opacity: 1;">O</span>
-                                        <span style="visibility: inherit; opacity: 1;">_</span>
-                                        <span style="visibility: inherit; opacity: 1;">É</span>
-                                        <span style="visibility: inherit; opacity: 1;">_</span>
-                                        <span style="visibility: inherit; opacity: 1;">D</span>
-                                        <span style="visibility: inherit; opacity: 1;">E</span>
-                                        <span style="visibility: inherit; opacity: 1;">V</span>
-                                        <span style="visibility: inherit; opacity: 1;">O</span>
-                                        <span style="visibility: inherit; opacity: 1;">P</span>
-                                        <span style="visibility: inherit; opacity: 1;">S"</span>
-                                        <span class="vitrine-terminal" style="right: -2.5%;"></span> -->
-                                        <!--</span>-->
-                                    </div>
-
-                                    <div class="vitrine-text">
-                                        <ul class="vitrine-list">
-                                            <li class="vitrine-list-item">
-                                                <span class="vitrine-list-square js-vitrine-zoom" style="visibility: inherit; opacity: 1;"></span>
-
-                                                <span class="vitrine-list-title js-vitrine-text-y" style="overflow: hidden;"><span
-                                                    style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: inline-block;">Aqui você controla seus gastos</span></span>
-                                            </li>
-                                            <li class="vitrine-list-item">
-                                                <span class="vitrine-list-square js-vitrine-zoom" style="visibility: inherit; opacity: 1;"></span>
-
-                                                <span class="vitrine-list-title js-vitrine-text-y" style="overflow: hidden;"><span
-                                                    style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: inline-block;">Infra 100% codigo</span></span>
-
-                                                <span class="vitrine-list-desc js-vitrine-text-y" style="overflow: hidden;"><span
-                                                    style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: inline-block;">Provisione onde for,</span></span>
-
-                                                <span class="vitrine-list-desc js-vitrine-text-y" style="overflow: hidden;"><span
-                                                    style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); display: inline-block;">CI/CD customize &amp; economize</span></span>
-                                            </li>
-                                        </ul>
-
-                                        <span class="vitrine-btn" style="text-shadow: rgb(3,250,201) 4px 0px 20px; color: rgb(2,137,110);">
-                            LET'S DEVOPS
-
-                            <span class="vitrine-btn-top" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
-                                        <span class="vitrine-btn-right" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
-                                        <span class="vitrine-btn-bottom" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
-                                        <span class="vitrine-btn-left" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span>
-
-                                        <span class="vitrine-btn-sombra" style="visibility: inherit; opacity: 1;"></span>
-                                        <span class="vitrine-btn-bg" style="transform: matrix(0.9848, -0.17364, 0.17364, 0.9848, 0, 0);"></span>
-                                        </span>
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="vitrine-media">
-                                <div class="vitrine-media-wrapper">
-                                    <img src="img/icons/artificial-intelligence-science.png" class="vitrine-media-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">&gt;_ Isso é DevOps</span>
+            <h1>Infra <span class="accent">100% código</span>.<br>Deploy sem drama.</h1>
+            <p class="lead">Provisione onde for, customize e economize com CI/CD. Aqui você controla seus gastos e a sua infraestrutura.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="/html/contato.html">Let's DevOps</a>
+              <a class="btn btn-ghost" href="/html/especialidades.html">Ver especialidades</a>
             </div>
-
-            <div class="vitrine-nav">
-                <button class="vitrine-nav-btn vitrine-nav-btn-prev js-vitrine-prev">
-                Anterior
-            </button>
-
-
-                <div class="vitrine-nav-bullet"><span class="vitrine-nav-dot">
-
-            </span><span class="vitrine-nav-dot">
-                <canvas class="vitrine-nav-counter" height="200" width="200"></canvas></span><span class="vitrine-nav-dot"></span><span class="vitrine-nav-dot"></span><span class="vitrine-nav-dot"></span><span class="vitrine-nav-dot"></span></div>
-
-                <button class="vitrine-nav-btn vitrine-nav-btn-next js-vitrine-next">
-                Próximo
-            </button>
-            </div>
+          </div>
+          <div class="terminal" aria-hidden="true">
+            <div class="terminal-bar"><i></i><i></i><i></i></div>
+            <div class="terminal-body" id="term"></div>
+          </div>
         </div>
+        <div class="stats">
+          <div class="stat"><b>+10 anos</b><span>de experiência</span></div>
+          <div class="stat"><b>Multicloud</b><span>AWS · GCP · Azure</span></div>
+          <div class="stat"><b>100+</b><span>ferramentas dominadas</span></div>
+          <div class="stat"><b>Open source</b><span>primeiro, sempre</span></div>
+        </div>
+      </div>
+    </section>
 
-        <section id="especialidades" class="slashicorp-2018-especialidades">
-            <div class="wrapper">
-                <h1 class="slashicorp-2018-especialidades-title">
-                    Especialidades
-                </h1>
-                <br /> <br />
+    <section class="section" id="especialidades">
+      <div class="container">
+        <span class="eyebrow">Especialidades</span>
+        <h2>O que fazemos de melhor</h2>
+        <p class="lead">Construímos e sustentamos ambientes modernos, de ponta a ponta.</p>
+        <div class="grid grid-4" style="margin-top:2.5rem"><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.5"/></svg></div><h3>Automação</h3><p>Infraestrutura como código. Chega de builds manuais, com Terraform, Ansible, Puppet e muito mais.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9.5a4.25 4.25 0 0 1-.5 8.5H7z"/></svg></div><h3>Multicloud</h3><p>Provisione nas principais clouds públicas e privadas: AWS, GCP, Azure, DigitalOcean e OpenStack.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="17" r="2.5"/><path d="m20 19 1.5 1.5"/></svg></div><h3>ELK Stack Logging</h3><p>Implementação, gestão e tuning do seu cluster Elastic. Pare de perder tempo caçando log.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Monitoring</h3><p>Construímos e treinamos o seu time com ferramentas 100% open source. Quer montar o seu NOC? Conte conosco.</p><span class="more">Saiba como</span></a></div>
+      </div>
+    </section>
 
-                <div class="slashicorp-2018-especialidades-list">
-                    <div class="slashicorp-2018-especialidades-item">
-                        <div class="slashicorp-2018-especialidades-mediaa">
-                            <ul id="box-automation-peb">
-                                <li id="box-automation"></li>
-                            </ul>
-                        </div>
-
-                        <div class="slashicorp-2018-especialidades-content">
-                            <h2 class="slashicorp-2018-especialidades-subtitle">
-                                Automação
-                            </h2>
-
-                            <p class="slashicorp-2018-especialidades-desc texto-geral">
-                                Automação de Infraestrutura,<br> Chega de builds manuais!<br>
-                            </p>
-
-                            <p class="slashicorp-2018-especialidades-desc special texto-geral">
-                                Muito Terraform, <br> Ansible, Puppet e <br> "tudo o mais!"<br>
-                            </p>
-
-                            <a href="html/especialidades.html#automação" target="_blank" class="slashicorp-2018-especialidades-btn">
-                            Saiba como
-                        </a>
-
-                            <a class="slashicorp-2018-especialidades-btn-close">
-                            Fechar
-                        </a>
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-especialidades-item">
-                        <div class="slashicorp-2018-especialidades-mediaa">
-                            <ul id="box-cloud-peb">
-                                <li id="box-cloud"></li>
-                            </ul>
-                        </div>
-
-                        <div class="slashicorp-2018-especialidades-content">
-                            <h2 class="slashicorp-2018-especialidades-subtitle">
-                                Multicloud
-                            </h2>
-
-                            <p class="slashicorp-2018-especialidades-desc texto-geral">
-                                Provisione nas principais<br> Clouds Publicas e Privadas!<br>
-                            </p>
-
-                            <p class="slashicorp-2018-especialidades-desc special texto-geral">
-                                AWS, GCP –<br> Azure, Digital Ocean e <br> OpenStack.
-                            </p>
-
-                            <a href="html/especialidades.html#multicloud" target="_blank" class="slashicorp-2018-especialidades-btn">
-                            Saiba como
-                        </a>
-
-                            <a class="slashicorp-2018-especialidades-btn-close">
-                            Fechar
-                        </a>
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-especialidades-item">
-                        <div class="slashicorp-2018-especialidades-mediaa">
-                            <ul id="box-elk-peb">
-                                <li id="box-elk"></li>
-                            </ul>
-                        </div>
-
-                        <div class="slashicorp-2018-especialidades-content">
-                            <h2 class="slashicorp-2018-especialidades-subtitle">
-                                ELK Stack Logging
-                            </h2>
-
-                            <p class="slashicorp-2018-especialidades-desc texto-geral">
-                                Pouca resiliencia e rastreabilidade<br> com sua aplicação? para de perder<br> tempo e dinheiro caçando Log!<br>
-                            </p>
-
-                            <p class="slashicorp-2018-especialidades-desc special texto-geral">
-                                Trabalhamos com implementação,<br> gestão e tunning da sua stack cluster!<br>
-                            </p>
-
-                            <a href="html/especialidades.html#elasticstack" target="_blank" class="slashicorp-2018-especialidades-btn">
-                            Saiba como
-                        </a>
-                        </div>
-                    </div>
-
-                    <div class="slashicorp-2018-especialidades-item">
-                        <div class="slashicorp-2018-especialidades-mediaa">
-                            <ul id="box-monitoring-peb">
-                                <li id="box-monitoring"></li>
-                            </ul>
-                        </div>
-                        <div class="slashicorp-2018-especialidades-content">
-                            <h2 class="slashicorp-2018-especialidades-subtitle">
-                                Monitoring
-                            </h2>
-
-                            <p class="slashicorp-2018-especialidades-desc texto-geral">
-                                Construimos para você,<br> treinamos o seu time<br> com ferramentas 100% OpenSource!<br>
-                            </p>
-
-                            <p class="slashicorp-2018-especialidades-desc special texto-geral">
-                                Gostaria de construir seu próprio<br> NOC? Conte conosco!<br>
-                            </p>
-
-                            <a href="html/especialidades.html#monitoring" target="_blank" class="slashicorp-2018-especialidades-btn">
-                            Saiba como
-                        </a>
-
-                            <a class="slashicorp-2018-especialidades-btn-close">
-                            Fechar
-                        </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="mapa" class="slashicorp-2018-mapa">
-
-                </div>
-            </div>
-        </section>
-
-
+    <section class="section" style="padding-top:0">
+      <div class="container center">
+        <span class="eyebrow">Stack</span>
+        <h2>Tecnologias com as quais trabalhamos</h2>
+        <div class="logos"><img src="/img/icons/aws.png" alt="" loading="lazy" height="38"><img src="/img/icons/azure.png" alt="" loading="lazy" height="38"><img src="/img/icons/gcp.png" alt="" loading="lazy" height="38"><img src="/img/icons/docker.png" alt="" loading="lazy" height="38"><img src="/img/icons/kubernetes-logo.png" alt="" loading="lazy" height="38"><img src="/img/icons/terraform.png" alt="" loading="lazy" height="38"><img src="/img/icons/jenkins-01.png" alt="" loading="lazy" height="38"><img src="/img/icons/gitlab.png" alt="" loading="lazy" height="38"><img src="/img/icons/grafana-logo.png" alt="" loading="lazy" height="38"><img src="/img/icons/prometheus.png" alt="" loading="lazy" height="38"><img src="/img/icons/red-hat.png" alt="" loading="lazy" height="38"></div>
+      </div>
+    </section>
+<section class="section"><div class="container"><div class="cta reveal">
+      <h2>Vamos conversar sobre o seu projeto?</h2><p>Agende uma consultoria gratuita. Fazemos questão de entender o seu problema e propor a melhor solução.</p>
+      <a class="btn btn-primary" href="/html/contato.html">Fale com um especialista</a>
+    </div></div></section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="/img/logo-horizontal.png" alt="SlashiCorp" width="110" height="40">
+          <p>Construção e sustentação DevOps, Cloud e Observabilidade para o seu negócio.</p>
+          <a href="tel:+5511939350218">+55 11 93935-0218</a><br>
+          <a href="mailto:contato@slashicorp.com.br">contato@slashicorp.com.br</a>
+          <div class="social"><a href="https://www.facebook.com/slashicorp/" rel="noopener" target="_blank" aria-label="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7v175.8h70.5V256.5h49.2l5.2-59.1h-54.4v-33.7c0-13.9 2.8-19.5 16.3-19.5h38.2V82.9h-48.8c-52.5 0-76.1 23.1-76.1 67.3-.1 38.6-.1 47.2-.1 47.2z"/></svg></a><a href="https://www.twitter.com/slashicorp/" rel="noopener" target="_blank" aria-label="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36-12.6 7.5-26.5 12.9-41.3 15.8C357.6 146 340.7 138 322 138c-42 0-72.9 39.2-63.4 79.9-54.1-2.7-102.1-28.6-134.2-68-17 29.2-8.8 67.5 20.1 86.9-10.7-.3-20.7-3.3-29.5-8.1-.7 30.2 20.9 58.4 52.2 64.6-9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2-27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6 12.9-9.1 23.9-20.5 32.6-33.6z"/></svg></a><a href="https://www.youtube.com/tvslashicorp/" rel="noopener" target="_blank" aria-label="YouTube"><svg viewBox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54-50.8-3.5-164.3-3.5-215.1 0-35.7 2.4-53.7 8.7-59 54-4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54 4-33.6 4-91.1 0-124.8zM222.2 303.4v-94.6l90.7 47.3-90.7 47.3z"/></svg></a><a href="https://www.instagram.com/slashicorpoficial/" rel="noopener" target="_blank" aria-label="Instagram"><svg viewBox="0 0 512 512"><path d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5s-87.5-39.2-87.5-87.5c0-7.6 1.1-14.9 2.9-21.9h-24.7v120.3c0 6 4.9 10.9 10.9 10.9h196.8c6 0 10.9-4.9 10.9-10.9V234.1zm0-76.5c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9v-32.8zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7 0-30.2-24.5-54.7-54.7-54.7m109.3 196.8H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7c-.1 18-14.7 32.7-32.9 32.7"/></svg></a><a href="https://www.linkedin.com/company/slashicorp/" rel="noopener" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5-18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5 18.9 0 34.2 15.5 34.2 34.5zm-5 58.9h-57.8v186.8h57.8V201.3zm92.4 0h-55.4v186.8h55.4v-98c0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9v98H398V269.8c0-50-28.3-74.2-68-74.2-39.6 0-56.3 30.9-56.3 30.9v-25.2h.1z"/></svg></a></div>
+        </div>
+        <div><h4>Parceiros</h4><ul><li><a href="https://aws.amazon.com/pt/" rel="noopener" target="_blank">AWS</a></li><li><a href="https://cloud.google.com/" rel="noopener" target="_blank">Google Cloud</a></li><li><a href="https://azure.microsoft.com/pt-br/" rel="noopener" target="_blank">Azure</a></li><li><a href="https://www.digitalocean.com/" rel="noopener" target="_blank">DigitalOcean</a></li><li><a href="https://www.openstack.org/" rel="noopener" target="_blank">OpenStack</a></li><li><a href="https://www.redhat.com/pt-br" rel="noopener" target="_blank">Red Hat</a></li><li><a href="https://www.oracle.com/br/cloud/" rel="noopener" target="_blank">Oracle Cloud</a></li><li><a href="https://cloud.ibm.com/" rel="noopener" target="_blank">IBM Cloud</a></li></ul></div>
+        <div><h4>Links úteis</h4><ul><li><a href="https://github.com/hubslashicorp" rel="noopener" target="_blank">GitHub</a></li><li><a href="https://www.workana.com/freelancer/136de77640a2b9301e7f3e1c927cff2a" rel="noopener" target="_blank">Workana</a></li><li><a href="https://www.br.freelancer.com/" rel="noopener" target="_blank">Freelancer</a></li><li><a href="https://www.getninjas.com.br" rel="noopener" target="_blank">GetNinjas</a></li></ul></div>
+        <div><h4>Treinamentos</h4><ul><li><a href="/html/contato.html">Treinamento Linux</a></li><li><a href="/html/contato.html">Treinamento Docker</a></li><li><a href="/html/contato.html">Treinamento Kubernetes</a></li><li><a href="/html/contato.html">Treinamento OpenShift</a></li><li><a href="/html/contato.html">Treinamento DevOps</a></li><li><a href="/html/contato.html">Treinamento Elastic Stack</a></li></ul></div>
+      </div>
+      <div class="copy"><span>© 2020–2026 SlashiCorp. Todos os direitos reservados.</span><span>slashicorp.com.br</span></div>
     </div>
-
-    <footer class="slashicorp-2018-footer background-gradient">
-        <div class="wrapper">
-            <div class="slashicorp-2018-footer-columns">
-                <div class="slashicorp-2018-footer-column">
-                    <div class="slashicorp-2018-footer-section">
-                        <img src="img/icons/jenkins-preto-branco-01.png">
-                    </div>
-
-                    <div class="slashicorp-2018-footer-section">
-                        <span class="slashicorp-2018-footer-title">Siga-nos</span>
-
-                        <ul class="slashicorp-2018-footer-social">
-                            <li class="slashicorp-2018-footer-social-item">
-                                <a href="http://www.facebook.com/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                    <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-facebook"></use>
-                            </svg>
-                                </a>
-                            </li>
-                            <li class="slashicorp-2018-footer-social-item">
-                                <a href="http://www.twitter.com/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                    <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-twitter"></use>
-                            </svg>
-                                </a>
-                            </li>
-                            <li class="slashicorp-2018-footer-social-item">
-                                <a href="http://www.youtube.com/tvslashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                    <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-youtube"></use>
-                            </svg>
-                                </a>
-                            </li>
-                            <li class="slashicorp-2018-footer-social-item">
-                                <a href="https://www.instagram.com/slashicorpoficial/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                    <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-instagram"></use>
-                            </svg>
-                                </a>
-                            </li>
-                            <li class="slashicorp-2018-footer-social-item">
-                                <a href="https://www.linkedin.com/company/slashicorp/" rel="noopener" target="_blank" class="slashicorp-2018-footer-social-link">
-                                    <svg class="slashicorp-2018-footer-social-icon" viewBox="0 0 512 512">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     xlink:href="#icon-social-linkedin"></use>
-                            </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="slashicorp-2018-footer-section">
-                        <a href="tel:+5511939350218" target="_blank" class="slashicorp-2018-footer-link">11 93935-0218</a>
-                        <br>
-                        <br>
-                        <strong class="text-roboto-bold">slashicorp 2020.</strong>
-                        <br> Todos os direitos reservados.
-                    </div>
-                </div>
-
-                <div class="slashicorp-2018-footer-column">
-                    <div class="slashicorp-2018-footer-section">
-                        <span class="slashicorp-2018-footer-title">Parceiros</span>
-
-                        <ul class="slashicorp-2018-footer-list">
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://aws.amazon.com/pt/" target="_blank" class="slashicorp-2018-footer-link">AWS</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://cloud.google.com/" target="_blank" class="slashicorp-2018-footer-link">GCP</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://azure.microsoft.com/pt-br/" target="_blank" class="slashicorp-2018-footer-link">AZURE</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.digitalocean.com/" target="_blank" class="slashicorp-2018-footer-link">Digital Ocean</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.openstack.org/" target="_blank" class="slashicorp-2018-footer-link">OpenStack</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.cloudfoundry.org/" target="_blank" class="slashicorp-2018-footer-link">Cloud Foundry</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.oracle.com/br/cloud/" target="_blank" class="slashicorp-2018-footer-link">Oracle Cloud</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://cloud.ibm.com/login" target="_blank" class="slashicorp-2018-footer-link">IBM</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.redhat.com/pt-br/technologies/cloud-computing/cloud-suite" target="_blank" class="slashicorp-2018-footer-link">RedHat</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slashicorp-2018-footer-column">
-                    <div class="slashicorp-2018-footer-section">
-                        <span class="slashicorp-2018-footer-title">Links Uteis</span>
-
-                        <ul class="slashicorp-2018-footer-list">
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="index.html" target="_blank" class="slashicorp-2018-footer-link">Blog</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://github.com/hubslashicorp" target="_blank" class="slashicorp-2018-footer-link">Github</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.workana.com/freelancer/136de77640a2b9301e7f3e1c927cff2a?utm_source=share-profile&utm_medium=email&utm_campaign=share-2020-08-08&fbclid=IwAR3THZ2NIXn-5m1jgbdEDRKYnPIYteZW9g7mQWahKiUABoOv0xTJ9gidbeU" target="_blank" class="slashicorp-2018-footer-link">Workana</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.br.freelancer.com/?w=f&ngsw-bypass=" target="_blank" class="slashicorp-2018-footer-link">Freelancer</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="https://www.getninjas.com.br" target="_blank" class="slashicorp-2018-footer-link">GetNinjas</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slashicorp-2018-footer-column">
-
-                    <div class="slashicorp-2018-footer-section">
-                        <span class="slashicorp-2018-footer-title">Treinamentos</span>
-
-                        <ul class="slashicorp-2018-footer-list">
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Linux</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Docker</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Kubernetes</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento OpenShift</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento DevOps</a>
-                            </li>
-                            <li class="slashicorp-2018-footer-item">
-                                <a href="html/contato.html" target="_blank" class="slashicorp-2018-footer-link">Treinamento Elastic Stack</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.js">
-    </script>
-    <script src="node_modules/popper.js/dist/popper.js">
-    </script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js">
-    </script>
-
+  </footer>
+  <script src="/js/main.js" defer></script>
 </body>
-
 </html>
