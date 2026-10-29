@@ -4,26 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SlashiCorp - Fábrica de Software, DevOps e Cloud</title>
-  <meta name="description" content="Fábrica de software com microsserviços e Clean Code, consultoria DevOps, multicloud, ELK Stack e monitoramento.">
+  <meta name="description" content="Fábrica de software e consultoria DevOps e Cloud: construímos, colocamos no ar e sustentamos o seu sistema. Diagnóstico gratuito.">
   <meta name="theme-color" content="#060d0c">
   <link rel="canonical" href="https://slashicorp.com.br/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="SlashiCorp - Fábrica de Software, DevOps e Cloud">
-  <meta property="og:description" content="Fábrica de software com microsserviços e Clean Code, consultoria DevOps, multicloud, ELK Stack e monitoramento.">
+  <meta property="og:description" content="Fábrica de software e consultoria DevOps e Cloud: construímos, colocamos no ar e sustentamos o seu sistema. Diagnóstico gratuito.">
   <meta property="og:url" content="https://slashicorp.com.br/">
   <meta property="og:image" content="https://slashicorp.com.br/img/logo-social.png">
   <link rel="icon" href="/img/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap">
-  <link rel="stylesheet" href="/css/style.css?v=202610282252">
+  <link rel="stylesheet" href="/css/style.css?v=202610291120">
 </head>
 <body>
   <header class="header">
     <nav class="container nav" aria-label="Principal">
       <a class="nav-logo" href="/" aria-label="SlashiCorp - início"><img src="/img/logo-horizontal.png" alt="SlashiCorp" width="110" height="40"></a>
+      <a class="btn btn-primary nav-cta" href="/html/contato.html">Fale conosco</a>
       <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-      <ul class="nav-links"><li><a href="/" aria-current="page">Home</a></li><li><a href="/html/especialidades.html">Especialidades</a></li><li><a href="/html/cloud.html">Cloud</a></li><li><a href="/html/devops.html">DevOps</a></li><li><a href="/html/consultoria.html">Consultoria</a></li><li><a href="/html/produtos.html">Produtos</a></li><li><a class="btn btn-primary" href="/html/contato.html">Fale conosco</a></li></ul>
+      <ul class="nav-links"><li><a href="/" aria-current="page">Home</a></li><li><a href="/html/especialidades.html">Especialidades</a></li><li><a href="/html/cloud.html">Cloud</a></li><li><a href="/html/devops.html">DevOps</a></li><li><a href="/html/consultoria.html">Consultoria</a></li><li><a href="/html/produtos.html">Produtos</a></li><li class="nav-cta-li"><a class="btn btn-primary" href="/html/contato.html">Fale conosco</a></li></ul>
     </nav>
   </header>
   <main>
@@ -32,96 +33,98 @@
       <div class="container">
         <div class="hero-grid">
           <div>
-            <span class="eyebrow">&gt;_ Isso é DevOps</span>
             <h1>Infra <span class="accent">100% código</span>.<br>Deploy sem drama.</h1>
-            <p class="lead">Provisione onde for, customize e economize com CI/CD. Aqui você controla seus gastos e a sua infraestrutura.</p>
+            <p class="lead">Fábrica de software e consultoria DevOps e Cloud. Construímos o seu sistema, colocamos no ar com CI/CD e sustentamos em produção. O primeiro diagnóstico é gratuito.</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="/html/contato.html">Let's DevOps</a>
+              <a class="btn btn-primary" href="/html/contato.html">Agendar diagnóstico gratuito</a>
               <a class="btn btn-ghost" href="/html/especialidades.html">Ver especialidades</a>
             </div>
           </div>
           <div class="terminal" aria-hidden="true">
             <div class="terminal-bar"><i></i><i></i><i></i></div>
-            <div class="terminal-body" id="term"></div>
+            <div class="terminal-body" id="term"><noscript><div class="p">$ terraform apply -auto-approve</div><div class="ok">✔ Infra provisionada em 42s</div><div class="p">$ git push origin main</div><div class="ok">✔ Pipeline CI/CD executado</div><div class="p">$ kubectl rollout status deploy/app</div><div class="ok">✔ Deploy concluído, zero downtime</div></noscript></div>
           </div>
         </div>
-        <div class="stats">
-          <div class="stat"><b>+10 anos</b><span>de experiência</span></div>
-          <div class="stat"><b>Multicloud</b><span>AWS · GCP · Azure</span></div>
-          <div class="stat"><b>100+</b><span>ferramentas dominadas</span></div>
-          <div class="stat"><b>Open source</b><span>primeiro, sempre</span></div>
+        <ul class="facts">
+          <li>+10 anos de experiência</li>
+          <li>Multicloud</li>
+          <li>100+ ferramentas dominadas</li>
+          <li>Open source primeiro, sempre</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="live" id="em-producao">
+      <div class="container">
+        <div class="live-head">
+          <h2>Já no ar: produtos da SlashiCorp</h2>
+          <a class="more-link" href="/html/produtos.html">Ver todos os produtos</a>
         </div>
+        <div class="live-grid"><a class="live-item reveal" href="https://sncr-suite.onrender.com/" target="_blank" rel="noopener"><img src="/img/products/sncr-suite.svg" alt="" width="72" height="72"><h3>SNCR Suite</h3><span class="live-tag">Prescrição eletrônica de controlados</span><p>Prepara, confere, emite e assina receitas controladas no formato oficial da Anvisa, integrado ao SNCR.</p><span class="live-note">Em piloto para médicos, com acesso por convite.</span><span class="more">Acessar</span></a><a class="live-item reveal" href="https://radar-politico-jbq9.onrender.com/" target="_blank" rel="noopener"><img src="/img/products/radar-politico.svg" alt="" width="72" height="72"><h3>Radar Político</h3><span class="live-tag">O Congresso, como vota, sem filtro</span><p>Perfil, gastos, votos e projetos de todos os deputados e senadores, com dados abertos oficiais.</p><span class="live-note">Baseado em dados abertos oficiais.</span><span class="more">Acessar</span></a></div>
+        <p class="live-foot">Os produtos rodam em instâncias gratuitas e podem levar alguns segundos para abrir na primeira visita.</p>
       </div>
     </section>
 
     <section class="section" id="fabrica">
       <div class="container factory">
         <div class="reveal">
-          <span class="eyebrow">Fábrica de software</span>
           <h2>Também desenvolvemos o seu software</h2>
           <p class="lead">Somos uma fábrica de software. Criamos aplicações web com arquitetura de microsserviços, estruturadas com Clean Code e boas práticas, e já nascem prontas para publicar com DevOps e cloud.</p>
           <a class="btn btn-primary" href="/html/produtos.html#fabrica">Saiba mais</a>
         </div>
-        <div class="grid grid-2c"><div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></div><h3>Aplicações web</h3><p>Do front-end à API, com interfaces modernas, responsivas e prontas para escalar.</p></div><div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="m12 3 9 5-9 5-9-5 9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5"/></svg></div><h3>Microsserviços</h3><p>Arquitetura em microsserviços: serviços independentes, escaláveis e fáceis de evoluir.</p></div><div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M8 6 3 12l5 6M16 6l5 6-5 6M14 5l-4 14"/></svg></div><h3>Clean Code</h3><p>Código limpo, em camadas e coberto por testes, simples de manter e de evoluir.</p></div><div class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3 4.5 6v5.5c0 4.5 3.2 7.8 7.5 9.5 4.3-1.7 7.5-5 7.5-9.5V6L12 3z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>DevOps desde o início</h3><p>CI/CD, infraestrutura como código e observabilidade, publicando em cloud e Kubernetes.</p></div></div>
+        <div class="rows reveal"><div class="row-item"><h3>Aplicações web</h3><p>Do front-end à API, com interfaces modernas, responsivas e prontas para escalar.</p></div><div class="row-item"><h3>Microsserviços</h3><p>Arquitetura em microsserviços: serviços independentes, escaláveis e fáceis de evoluir.</p></div><div class="row-item"><h3>Clean Code</h3><p>Código limpo, em camadas e coberto por testes, simples de manter e de evoluir.</p></div><div class="row-item"><h3>DevOps desde o início</h3><p>CI/CD, infraestrutura como código e observabilidade, publicando em cloud e Kubernetes.</p></div></div>
       </div>
     </section>
 
-    <section class="section" id="especialidades">
+    <section class="band" id="especialidades">
       <div class="container">
-        <span class="eyebrow">Especialidades</span>
         <h2>O que fazemos de melhor</h2>
         <p class="lead">Construímos e sustentamos ambientes modernos, de ponta a ponta.</p>
-        <div class="grid grid-4" style="margin-top:2.5rem"><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.5"/></svg></div><h3>Automação</h3><p>Infraestrutura como código. Chega de builds manuais, com Terraform, Ansible, Puppet e muito mais.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9.5a4.25 4.25 0 0 1-.5 8.5H7z"/></svg></div><h3>Multicloud</h3><p>Provisione nas principais clouds públicas e privadas: AWS, GCP, Azure, DigitalOcean e OpenStack.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="17" r="2.5"/><path d="m20 19 1.5 1.5"/></svg></div><h3>ELK Stack Logging</h3><p>Implementação, gestão e tuning do seu cluster Elastic. Pare de perder tempo caçando log.</p><span class="more">Saiba como</span></a><a class="card reveal" href="/html/especialidades.html"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Monitoring</h3><p>Construímos e treinamos o seu time com ferramentas 100% open source. Quer montar o seu NOC? Conte conosco.</p><span class="more">Saiba como</span></a></div>
+        <div class="spec"><a class="spec-col reveal" href="/html/especialidades.html#cat=Infra%20como%20c%C3%B3digo"><h3>Automação</h3><p>Infraestrutura como código. Chega de builds manuais, com Terraform, Ansible, Puppet e muito mais.</p><span class="spec-tools">Terraform · Ansible · Puppet</span><span class="more">Ver ferramentas de automação</span></a><a class="spec-col reveal" href="/html/especialidades.html#cat=Cloud"><h3>Multicloud</h3><p>Provisione nas principais clouds públicas e privadas: AWS, GCP, Azure, DigitalOcean e OpenStack.</p><span class="spec-tools">AWS · GCP · Azure · OpenStack</span><span class="more">Ver ferramentas de cloud</span></a><a class="spec-col reveal" href="/html/especialidades.html#elastic"><h3>ELK Stack Logging</h3><p>Implementação, gestão e tuning do seu cluster Elastic. Pare de perder tempo caçando log.</p><span class="spec-tools">Elasticsearch · Logstash · Kibana</span><span class="more">Ver ferramentas Elastic</span></a><a class="spec-col reveal" href="/html/especialidades.html#cat=Monitoramento%20e%20logs"><h3>Monitoring</h3><p>Construímos e treinamos o seu time com ferramentas 100% open source. Quer montar o seu NOC? Conte conosco.</p><span class="spec-tools">Prometheus · Grafana</span><span class="more">Ver ferramentas de monitoramento</span></a></div>
       </div>
     </section>
 
-    <section class="section" style="padding-top:0">
+    <section class="stack">
       <div class="container center">
-        <span class="eyebrow">Stack</span>
         <h2>Tecnologias com as quais trabalhamos</h2>
         <div class="logos"><span class="lg"><img src="/img/tech/aws.svg" alt="" width="22" height="22" loading="lazy">AWS</span><span class="lg"><img src="/img/tech/azure.svg" alt="" width="22" height="22" loading="lazy">Azure</span><span class="lg"><img src="/img/tech/googlecloud.svg" alt="" width="22" height="22" loading="lazy">Google Cloud</span><span class="lg"><img src="/img/tech/docker.svg" alt="" width="22" height="22" loading="lazy">Docker</span><span class="lg"><img src="/img/tech/kubernetes.svg" alt="" width="22" height="22" loading="lazy">Kubernetes</span><span class="lg"><img src="/img/tech/helm.svg" alt="" width="22" height="22" loading="lazy">Helm</span><span class="lg"><img src="/img/tech/terraform.svg" alt="" width="22" height="22" loading="lazy">Terraform</span><span class="lg"><img src="/img/tech/ansible.svg" alt="" width="22" height="22" loading="lazy">Ansible</span><span class="lg"><img src="/img/tech/jenkins.svg" alt="" width="22" height="22" loading="lazy">Jenkins</span><span class="lg"><img src="/img/tech/gitlab.svg" alt="" width="22" height="22" loading="lazy">GitLab</span><span class="lg"><img src="/img/tech/grafana.svg" alt="" width="22" height="22" loading="lazy">Grafana</span><span class="lg"><img src="/img/tech/prometheus.svg" alt="" width="22" height="22" loading="lazy">Prometheus</span><span class="lg"><img src="/img/tech/elasticsearch.svg" alt="" width="22" height="22" loading="lazy">Elastic</span><span class="lg"><img src="/img/tech/redhat.svg" alt="" width="22" height="22" loading="lazy">Red Hat</span></div>
       </div>
     </section>
 
-    <section class="section" style="padding-top:0">
-      <div class="container"><div class="cta reveal" style="text-align:left;display:grid;gap:1rem;justify-items:start">
-        <span class="eyebrow" style="margin:0">Consultoria</span>
-        <h2 style="margin:0">CI/CD em EKS e AKS, do commit à produção</h2>
-        <p style="margin:0">Helm, GitHub ou GitLab CI, Rancher, WAF, Istio e observabilidade. Veja o desenho da arquitetura e do pipeline.</p>
-        <a class="btn btn-primary" href="/html/consultoria.html">Ver arquitetura</a>
-      </div></div>
-    </section>
-
-    <section class="section" style="padding-top:0">
-      <div class="container">
-        <span class="eyebrow">Como trabalhamos</span>
-        <h2>Do diagnóstico à sustentação</h2>
-        <div class="grid grid-4 steps" style="margin-top:2.5rem">
-          <div class="card reveal"><span class="step">01</span><h3>Diagnóstico</h3><p>Entendemos o seu problema, o ambiente atual e os objetivos do negócio em uma consultoria gratuita.</p></div>
-          <div class="card reveal"><span class="step">02</span><h3>Projeto</h3><p>Desenhamos a solução com as ferramentas certas para o seu cenário, priorizando open source.</p></div>
-          <div class="card reveal"><span class="step">03</span><h3>Implantação</h3><p>Provisionamos tudo como código, com pipelines CI/CD, monitoramento e logs desde o primeiro dia.</p></div>
-          <div class="card reveal"><span class="step">04</span><h3>Sustentação</h3><p>Acompanhamos, ajustamos e treinamos o seu time para evoluir o ambiente com autonomia.</p></div>
+    <section class="peak">
+      <div class="container peak-grid">
+        <div class="reveal">
+          <h2>CI/CD em EKS e AKS, do commit à produção</h2>
+          <p class="lead">Helm, GitHub ou GitLab CI, Rancher, WAF, Istio e observabilidade. Veja o desenho da arquitetura e do pipeline.</p>
+          <a class="btn btn-primary" href="/html/consultoria.html">Ver arquitetura</a>
         </div>
+        <ol class="pipe reveal" aria-label="Etapas do pipeline"><li>Commit</li><li>Build e testes</li><li>Imagem no registry</li><li>Deploy com Helm</li><li>Cluster EKS ou AKS</li></ol>
       </div>
     </section>
 
-    <section class="section" style="padding-top:0">
-      <div class="container" style="max-width:820px">
-        <span class="eyebrow">FAQ</span>
+    <section class="section">
+      <div class="container">
+        <h2>Como trabalhamos: do diagnóstico à sustentação</h2>
+        <ol class="rail"><li class="reveal"><span class="n">01</span><h3>Diagnóstico</h3><p>Entendemos o seu problema, o ambiente atual e os objetivos do negócio em um diagnóstico gratuito.</p></li><li class="reveal"><span class="n">02</span><h3>Projeto</h3><p>Desenhamos a solução com as ferramentas certas para o seu cenário, priorizando open source.</p></li><li class="reveal"><span class="n">03</span><h3>Implantação</h3><p>Provisionamos tudo como código, com pipelines CI/CD, monitoramento e logs desde o primeiro dia.</p></li><li class="reveal"><span class="n">04</span><h3>Sustentação</h3><p>Acompanhamos, ajustamos e treinamos o seu time para evoluir o ambiente com autonomia.</p></li></ol>
+      </div>
+    </section>
+
+    <section class="section faq-sec">
+      <div class="container">
         <h2>Perguntas frequentes</h2>
-        <div class="faq" style="margin-top:2rem">
-          <details><summary>Como funciona o orçamento?</summary><p>O primeiro passo é uma consultoria gratuita. Você conta o seu cenário pelo formulário de contato, por telefone ou por e-mail, e propomos a melhor solução para o seu projeto.</p></details>
+        <div class="faq">
+          <details><summary>Como funciona o orçamento?</summary><p>O primeiro passo é um diagnóstico gratuito. Você conta o seu cenário pelo formulário de contato, por telefone ou por e-mail, e propomos a melhor solução para o seu projeto.</p></details>
           <details><summary>Com quais clouds vocês trabalham?</summary><p>Trabalhamos com nuvem pública (AWS, Google Cloud, Azure, DigitalOcean), privada (OpenStack, OpenShift, Cloud Foundry) e híbrida. Ajudamos você a escolher a que melhor atende o projeto.</p></details>
           <details><summary>Vocês usam ferramentas open source?</summary><p>Sim. Priorizamos soluções open source de CI/CD, monitoramento, logging e contêineres, sem deixar de atuar com ferramentas proprietárias quando fazem sentido para você.</p></details>
           <details><summary>Quais treinamentos vocês oferecem?</summary><p>Linux, Docker, Kubernetes, OpenShift, DevOps e Elastic Stack. Fale conosco para combinar formato e conteúdo para o seu time.</p></details>
           <details><summary>Vocês implantam e também sustentam o ambiente?</summary><p>Os dois. Atuamos na construção e na sustentação DevOps, com implantação, gestão e monitoramento dos ambientes.</p></details>
-          <details><summary>Como falo com vocês?</summary><p>Pelo formulário em <a href="/html/contato.html" style="color:var(--accent)">Contato</a>, pelo e-mail contato@slashicorp.com.br ou pelo telefone +55 11 93935-0218.</p></details>
+          <details><summary>Como falo com vocês?</summary><p>Pelo formulário em <a class="inline" href="/html/contato.html">Contato</a>, pelo e-mail contato@slashicorp.com.br ou pelo telefone +55 11 93935-0218.</p></details>
         </div>
       </div>
     </section>
 <section class="section"><div class="container"><div class="cta reveal">
-      <h2>Vamos conversar sobre o seu projeto?</h2><p>Agende uma consultoria gratuita. Fazemos questão de entender o seu problema e propor a melhor solução.</p>
-      <a class="btn btn-primary" href="/html/contato.html">Fale com um especialista</a>
+      <h2>Vamos conversar sobre o seu projeto?</h2><p>Agende um diagnóstico gratuito. Fazemos questão de entender o seu problema e propor a melhor solução.</p>
+      <a class="btn btn-primary" href="/html/contato.html">Agendar diagnóstico gratuito</a>
     </div></div></section>
   </main>
   <footer class="footer">
@@ -134,13 +137,12 @@
           <a href="mailto:contato@slashicorp.com.br">contato@slashicorp.com.br</a>
           <div class="social"><a href="https://www.facebook.com/slashicorp/" rel="noopener" target="_blank" aria-label="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7v175.8h70.5V256.5h49.2l5.2-59.1h-54.4v-33.7c0-13.9 2.8-19.5 16.3-19.5h38.2V82.9h-48.8c-52.5 0-76.1 23.1-76.1 67.3-.1 38.6-.1 47.2-.1 47.2z"/></svg></a><a href="https://www.twitter.com/slashicorp/" rel="noopener" target="_blank" aria-label="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36-12.6 7.5-26.5 12.9-41.3 15.8C357.6 146 340.7 138 322 138c-42 0-72.9 39.2-63.4 79.9-54.1-2.7-102.1-28.6-134.2-68-17 29.2-8.8 67.5 20.1 86.9-10.7-.3-20.7-3.3-29.5-8.1-.7 30.2 20.9 58.4 52.2 64.6-9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2-27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6 12.9-9.1 23.9-20.5 32.6-33.6z"/></svg></a><a href="https://www.youtube.com/tvslashicorp/" rel="noopener" target="_blank" aria-label="YouTube"><svg viewBox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54-50.8-3.5-164.3-3.5-215.1 0-35.7 2.4-53.7 8.7-59 54-4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54 4-33.6 4-91.1 0-124.8zM222.2 303.4v-94.6l90.7 47.3-90.7 47.3z"/></svg></a><a href="https://www.instagram.com/slashicorpoficial/" rel="noopener" target="_blank" aria-label="Instagram"><svg viewBox="0 0 512 512"><path d="M365.3 234.1h-24.7c1.8 7 2.9 14.3 2.9 21.9 0 48.3-39.2 87.5-87.5 87.5s-87.5-39.2-87.5-87.5c0-7.6 1.1-14.9 2.9-21.9h-24.7v120.3c0 6 4.9 10.9 10.9 10.9h196.8c6 0 10.9-4.9 10.9-10.9V234.1zm0-76.5c0-6-4.9-10.9-10.9-10.9h-32.8c-6 0-10.9 4.9-10.9 10.9v32.8c0 6 4.9 10.9 10.9 10.9h32.8c6 0 10.9-4.9 10.9-10.9v-32.8zM256 201.3c-30.2 0-54.7 24.5-54.7 54.7 0 30.2 24.5 54.7 54.7 54.7 30.2 0 54.7-24.5 54.7-54.7 0-30.2-24.5-54.7-54.7-54.7m109.3 196.8H146.7c-18.1 0-32.8-14.7-32.8-32.8V146.7c0-18.1 14.7-32.8 32.8-32.8h218.7c18.1 0 32.8 14.7 32.8 32.8v218.7c-.1 18-14.7 32.7-32.9 32.7"/></svg></a><a href="https://www.linkedin.com/company/slashicorp/" rel="noopener" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5-18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5 18.9 0 34.2 15.5 34.2 34.5zm-5 58.9h-57.8v186.8h57.8V201.3zm92.4 0h-55.4v186.8h55.4v-98c0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9v98H398V269.8c0-50-28.3-74.2-68-74.2-39.6 0-56.3 30.9-56.3 30.9v-25.2h.1z"/></svg></a></div>
         </div>
-        <div><h4>Parceiros</h4><ul><li><a href="https://aws.amazon.com/pt/" rel="noopener" target="_blank">AWS</a></li><li><a href="https://cloud.google.com/" rel="noopener" target="_blank">Google Cloud</a></li><li><a href="https://azure.microsoft.com/pt-br/" rel="noopener" target="_blank">Azure</a></li><li><a href="https://www.digitalocean.com/" rel="noopener" target="_blank">DigitalOcean</a></li><li><a href="https://www.openstack.org/" rel="noopener" target="_blank">OpenStack</a></li><li><a href="https://www.redhat.com/pt-br" rel="noopener" target="_blank">Red Hat</a></li><li><a href="https://www.oracle.com/br/cloud/" rel="noopener" target="_blank">Oracle Cloud</a></li><li><a href="https://cloud.ibm.com/" rel="noopener" target="_blank">IBM Cloud</a></li></ul></div>
-        <div><h4>Links úteis</h4><ul><li><a href="https://github.com/hubslashicorp" rel="noopener" target="_blank">GitHub</a></li><li><a href="https://www.workana.com/freelancer/136de77640a2b9301e7f3e1c927cff2a" rel="noopener" target="_blank">Workana</a></li><li><a href="https://www.br.freelancer.com/" rel="noopener" target="_blank">Freelancer</a></li><li><a href="https://www.getninjas.com.br" rel="noopener" target="_blank">GetNinjas</a></li></ul></div>
-        <div><h4>Treinamentos</h4><ul><li><a href="/html/contato.html">Treinamento Linux</a></li><li><a href="/html/contato.html">Treinamento Docker</a></li><li><a href="/html/contato.html">Treinamento Kubernetes</a></li><li><a href="/html/contato.html">Treinamento OpenShift</a></li><li><a href="/html/contato.html">Treinamento DevOps</a></li><li><a href="/html/contato.html">Treinamento Elastic Stack</a></li></ul></div>
+        <div><h4>Site</h4><ul><li><a href="/html/especialidades.html">Especialidades</a></li><li><a href="/html/cloud.html">Cloud</a></li><li><a href="/html/devops.html">DevOps</a></li><li><a href="/html/consultoria.html">Consultoria</a></li><li><a href="/html/produtos.html">Produtos</a></li><li><a href="/html/contato.html">Contato</a></li><li><a href="https://github.com/hubslashicorp" rel="noopener" target="_blank">GitHub</a></li></ul></div>
+        <div><h4>Treinamentos</h4><p>Linux, Docker, Kubernetes, OpenShift, DevOps e Elastic Stack.</p><a href="/html/contato.html">Solicitar treinamento</a></div>
       </div>
       <div class="copy"><span>© 2020–2026 SlashiCorp. Todos os direitos reservados.</span><span>slashicorp.com.br</span></div>
     </div>
   </footer>
-  <script src="/js/main.js?v=202610282252" defer></script>
+  <script src="/js/main.js?v=202610291120" defer></script>
 </body>
 </html>

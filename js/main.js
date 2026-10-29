@@ -68,7 +68,7 @@
           b.textContent = t.name;
           b.dataset.cat = t.cat;
           b.addEventListener('click', () => {
-            $('h3', dlg).textContent = t.name;
+            $('h2', dlg).textContent = t.name;
             $('.desc', dlg).textContent = t.text;
             const w = $('.web', dlg), k = $('.wiki', dlg);
             w.hidden = !t.web; w.href = t.web || '#';
@@ -98,8 +98,12 @@
           catsEl.append(c);
         });
         search.addEventListener('input', filter);
-        const hash = decodeURIComponent(location.hash.slice(1)).toLowerCase();
-        if (hash) { search.value = hash; filter(); }
+        const hash = decodeURIComponent(location.hash.slice(1));
+        if (hash.startsWith('cat=')) {
+          $$('button', catsEl).find((b) => b.textContent === hash.slice(4))?.click();
+        } else if (hash) {
+          search.value = hash.toLowerCase(); filter();
+        }
       })
       .catch(() => { grid.innerHTML = '<p>Não foi possível carregar a lista.</p>'; });
     dlg.addEventListener('click', (e) => { if (e.target === dlg || e.target.closest('.close')) dlg.close(); });
