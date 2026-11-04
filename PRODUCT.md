@@ -26,13 +26,13 @@ Constrói o software e o entrega pronto para produção, com CI/CD, infraestrutu
 
 ## Operating Context
 
-Conteúdo em português do Brasil. Páginas: Home, Especialidades (111 ferramentas filtráveis por categoria), Cloud, DevOps, Consultoria (diagramas animados de pipeline CI/CD e arquitetura EKS), Produtos e Contato. Os produtos rodam em instâncias gratuitas do Render (`*.onrender.com`), que podem demorar alguns segundos na primeira abertura.
+Conteúdo em português do Brasil. Páginas: Home, Especialidades (111 ferramentas filtráveis por categoria), Cloud, DevOps, Consultoria (diagramas animados de pipeline CI/CD e arquitetura EKS), Produtos, Clientes e Contato. Os produtos rodam em instâncias gratuitas do Render (`*.onrender.com`), que podem demorar alguns segundos na primeira abertura.
 
 ## Capabilities and Constraints
 
 - Hospedagem estática, sem backend próprio.
 - Envio de formulário limitado pelo plano gratuito do Formspree.
-- Produtos: SNCR Suite (`https://sncr-suite.onrender.com/`) e Radar Político (`https://radar-politico-jbq9.onrender.com/`).
+- Produtos: SNCR Suite (`https://sncr-suite.onrender.com/`), Radar Político (`https://radar-politico-jbq9.onrender.com/`) e Omnirail (`https://omnirail-hml.slashicorp.com.br/`, homologação). Rampa Suite aguarda descrição, link e logo.
 - Domínios próprios para os produtos ainda não existem (decisão em aberto).
 
 ## Brand Commitments
@@ -41,9 +41,10 @@ Nome SlashiCorp, logo atual (`img/logo.png`, `img/logo-horizontal.png`) e a cor 
 
 ## Evidence on Hand
 
-- Dois produtos reais no ar, com logos em `img/products/`.
+- Produtos reais, com logos em `img/products/` (SNCR Suite, Radar Político, Omnirail).
+- Clientes informados pelo dono do site: Itaú, PicPay, Mercado Libre, Banco Central, Estabilis e 4Linux. Logos em `img/clients/`, em branco e preto, de fontes públicas (Wikimedia Commons, simple-icons e os sites da Estabilis e da 4Linux); a autorização de uso das marcas é de responsabilidade do dono do site.
 - Diagramas de arquitetura próprios na página Consultoria.
-- Não há clientes ou cases públicos, depoimentos nem métricas verificadas. Não inventar nenhum deles.
+- Não há cases detalhados, depoimentos nem métricas verificadas. Não inventar nenhum deles; a página Clientes mostra só os nomes e logos.
 
 ## Product Principles
 

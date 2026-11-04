@@ -416,3 +416,11 @@ form .btn[type="submit"] { justify-self: start; }
 .more-link { display: inline-flex; align-items: center; min-height: 44px; }
 .footer a[href^="mailto:"], .footer a[href^="tel:"] { display: inline-flex; align-items: center; min-height: 44px; }
 .nav-cta { white-space: nowrap; font-size: .9rem; padding-inline: .9rem; }
+
+/* Clientes */
+.clients { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+@media (max-width: 760px) { .clients { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.clients li { min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; min-height: 190px; padding: 2rem 1.5rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.clients img { height: 64px; width: auto; max-width: min(190px, 100%); object-fit: contain; filter: brightness(0) invert(1); opacity: .85; transition: opacity .2s; }
+.clients li:hover img { opacity: 1; }
+.clients span { color: var(--muted); font-size: .9rem; }
