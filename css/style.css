@@ -414,7 +414,7 @@ form .btn[type="submit"] { justify-self: start; }
 .nav { gap: .75rem; }
 .nav-cta { min-height: 44px; }
 .more-link { display: inline-flex; align-items: center; min-height: 44px; }
-.footer a[href^="mailto:"], .footer a[href^="tel:"] { display: inline-flex; align-items: center; min-height: 44px; }
+.footer a[href^="mailto:"] { display: inline-flex; align-items: center; min-height: 44px; }
 .nav-cta { white-space: nowrap; font-size: .9rem; padding-inline: .9rem; }
 
 /* Clientes */
@@ -424,3 +424,9 @@ form .btn[type="submit"] { justify-self: start; }
 .clients img { height: 64px; width: auto; max-width: min(190px, 100%); object-fit: contain; filter: brightness(0) invert(1); opacity: .85; transition: opacity .2s; }
 .clients li:hover img { opacity: 1; }
 .clients span { color: var(--muted); font-size: .9rem; }
+
+/* WhatsApp */
+.btn-wa svg { width: 20px; height: 20px; fill: currentColor; flex: none; }
+.footer .btn-wa { display: inline-flex; color: var(--text); margin: .25rem 0 .5rem; font-size: .9rem; padding: .7rem 1.1rem; min-height: 44px; }
+.footer .btn-wa:hover { color: var(--text); }
+.info-item .ico svg[viewBox="0 0 24 24"] path[d^="M17.472"] { fill: currentColor; stroke: none; }
