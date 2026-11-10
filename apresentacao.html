@@ -23,6 +23,20 @@
   *, *::before, *::after { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 400 1rem/1.65 var(--font); -webkit-font-smoothing: antialiased; }
+  /* Fundo da capa do LinkedIn: degradê verde-água nos cantos e grade que some nas bordas. */
+  body::before, body::after { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+  body::before {
+    background:
+      radial-gradient(60rem 34rem at 82% -8%, rgba(42,245,192,.15), transparent 60%),
+      radial-gradient(50rem 30rem at 12% 112%, rgba(2,137,110,.24), transparent 60%),
+      var(--bg);
+  }
+  body::after {
+    background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px; opacity: .55;
+    -webkit-mask-image: radial-gradient(ellipse 75% 70% at 50% 45%, #000 35%, transparent 100%);
+    mask-image: radial-gradient(ellipse 75% 70% at 50% 45%, #000 35%, transparent 100%);
+  }
   img { max-width: 100%; display: block; }
   a { color: inherit; text-decoration: none; }
   h1, h2, h3 { margin: 0 0 .5em; line-height: 1.12; letter-spacing: -.02em; }
@@ -34,17 +48,21 @@
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 
   .slide { min-height: 100vh; min-height: 100svh; display: flex; align-items: center; padding: clamp(4rem, 9vh, 6rem) 0; border-bottom: 1px solid var(--line); position: relative; }
-  .slide:nth-child(even) { background: var(--bg-2); }
   .wrap { width: min(100% - 2rem, 1120px); margin-inline: auto; }
-  .kicker { font: 600 .8rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; display: flex; align-items: center; gap: .75rem; }
-  .kicker::before { content: ""; width: 28px; height: 2px; background: var(--accent); }
+  .kicker { font: 700 .9rem/1 var(--mono); letter-spacing: .02em; color: var(--accent); margin-bottom: 1.2rem; display: flex; align-items: center; gap: .55rem; }
+  .kicker::before { content: "//"; color: var(--accent-2); }
   .lead { font-size: clamp(1.05rem, 1.6vw, 1.25rem); max-width: 60ch; }
 
   /* Capa */
-  .cover { background: radial-gradient(60rem 30rem at 85% -10%, rgba(42,245,192,.14), transparent 60%), var(--bg) !important; }
   .cover .logo { height: 52px; width: auto; margin-bottom: 3rem; }
+  .cover-main { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3rem; align-items: center; }
+  .cover h1 { letter-spacing: -.035em; line-height: 1.02; }
+  .cover .lead b { color: var(--text); font-weight: 600; }
+  .term { font: 500 1.05rem/1.85 var(--mono); color: var(--muted); background: rgba(15,28,26,.6); border: 1px solid var(--line); border-radius: 16px; padding: 1.3rem 1.6rem; backdrop-filter: blur(6px); }
+  .term .p { color: var(--accent); }
+  .term b { color: var(--text); font-weight: 500; }
   .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-top: 3rem; }
-  .stats div { background: var(--surface); padding: 1.3rem 1.2rem; }
+  .stats div { background: rgba(15,28,26,.82); padding: 1.3rem 1.2rem; }
   .stats strong { display: block; font-size: 1.35rem; color: var(--text); }
   .stats span { color: var(--muted); font-size: .9rem; }
   .scroll-hint { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .1em; }
@@ -53,7 +71,7 @@
   .grid { display: grid; gap: 1rem; margin-top: 2.5rem; }
   .g4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
   .g3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 1.6rem; }
+  .card { background: rgba(15,28,26,.78); backdrop-filter: blur(6px); border: 1px solid var(--line); border-radius: 16px; padding: 1.6rem; }
   .card p { margin: 0; font-size: .95rem; }
   .card .ico { width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; background: rgba(42,245,192,.1); color: var(--accent); margin-bottom: 1.1rem; }
   .card .ico svg { width: 22px; height: 22px; }
@@ -62,7 +80,7 @@
 
   /* Pipeline */
   .pipe { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: .75rem; margin-top: 2.5rem; counter-reset: s; }
-  .pipe div { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1rem; text-align: center; }
+  .pipe div { position: relative; background: rgba(15,28,26,.78); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1rem; text-align: center; }
   .pipe div::before { counter-increment: s; content: "0" counter(s); display: block; font: 600 .75rem var(--mono); color: var(--accent); margin-bottom: .4rem; }
   .pipe div:not(:last-child)::after { content: "→"; position: absolute; right: -.68rem; top: 50%; transform: translateY(-50%); color: var(--accent); font-weight: 700; z-index: 1; }
   .pipe b { display: block; font-size: .98rem; }
@@ -88,7 +106,7 @@
   .steps .card b { font: 600 .8rem var(--mono); color: var(--accent); display: block; margin-bottom: .6rem; }
 
   /* CTA */
-  .cta { text-align: center; background: radial-gradient(50rem 25rem at 50% 110%, rgba(42,245,192,.16), transparent 60%), var(--bg) !important; }
+  .cta { text-align: center; background: radial-gradient(50rem 25rem at 50% 110%, rgba(42,245,192,.14), transparent 60%); }
   .cta .lead { margin-inline: auto; }
   .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin-top: 2rem; }
   .btn { display: inline-flex; align-items: center; gap: .5rem; padding: .95rem 1.6rem; border-radius: 999px; font-weight: 600; border: 1px solid transparent; transition: transform .2s, background .2s; }
@@ -110,6 +128,8 @@
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } }
 
   @media (max-width: 900px) {
+    .cover-main { grid-template-columns: 1fr; gap: 1.5rem; }
+    .term { font-size: .9rem; justify-self: start; }
     .g4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
     .g3 { grid-template-columns: 1fr; }
     .pipe { grid-template-columns: 1fr; }
@@ -142,9 +162,19 @@
   <section class="slide cover" id="inicio">
     <div class="wrap">
       <img class="logo" src="img/logo-horizontal.png" alt="SlashiCorp">
-      <div class="kicker">Fábrica de software · DevOps · Cloud</div>
-      <h1>Construímos o seu sistema.<br><span class="accent">Colocamos no ar. Sustentamos.</span></h1>
-      <p class="lead">Desenvolvemos software sob medida que já nasce pronto para produção, com CI/CD, infraestrutura como código e observabilidade desde o primeiro dia.</p>
+      <div class="cover-main">
+        <div>
+          <div class="kicker">fábrica de software · DevOps · cloud</div>
+          <h1>Infra 100% código.<br><span class="accent">Deploy sem drama.</span></h1>
+          <p class="lead">Construímos, <b>colocamos no ar</b> e <b>sustentamos</b> o seu sistema. Software sob medida que já nasce pronto para produção.</p>
+        </div>
+        <div class="term" aria-hidden="true">
+          <div><span class="p">$</span> <b>terraform apply</b></div>
+          <div><span class="p">✔</span> infra provisionada</div>
+          <div><span class="p">$</span> <b>git push</b></div>
+          <div><span class="p">✔</span> deploy no cluster</div>
+        </div>
+      </div>
       <div class="stats">
         <div><strong>+10 anos</strong><span>de experiência</span></div>
         <div><strong>Multicloud</strong><span>AWS, Azure, GCP, OpenStack</span></div>
@@ -157,7 +187,7 @@
 
   <section class="slide" id="servicos">
     <div class="wrap">
-      <div class="kicker reveal">O que fazemos</div>
+      <div class="kicker reveal">o que fazemos</div>
       <h2 class="reveal">Do código à produção, com um time só</h2>
       <p class="lead reveal">Você não precisa contratar um fornecedor para desenvolver e outro para colocar no ar. Fazemos as duas coisas juntas.</p>
       <div class="grid g4">
@@ -192,7 +222,7 @@
 
   <section class="slide" id="diferencial">
     <div class="wrap">
-      <div class="kicker reveal">Nosso diferencial</div>
+      <div class="kicker reveal">nosso diferencial</div>
       <h2 class="reveal">Software que já nasce <span class="accent">pronto para produção</span></h2>
       <p class="lead reveal">Cada alteração percorre o mesmo caminho automatizado, auditável e reversível.</p>
       <div class="pipe reveal">
@@ -213,7 +243,7 @@
 
   <section class="slide" id="produtos">
     <div class="wrap">
-      <div class="kicker reveal">Prova de execução</div>
+      <div class="kicker reveal">prova de execução</div>
       <h2 class="reveal">Produtos próprios, já no ar</h2>
       <p class="lead reveal">Construímos e operamos as nossas próprias plataformas com o mesmo processo que usamos com os clientes.</p>
       <div class="grid g3">
@@ -244,7 +274,7 @@
 
   <section class="slide" id="clientes">
     <div class="wrap">
-      <div class="kicker reveal">Quem já confiou na gente</div>
+      <div class="kicker reveal">quem já confiou na gente</div>
       <h2 class="reveal">Empresas e instituições que já atendemos</h2>
       <ul class="clients reveal">
         <li><img src="img/clients/itau.svg" alt="Itaú"><span>Itaú</span></li>
@@ -259,7 +289,7 @@
 
   <section class="slide" id="processo">
     <div class="wrap">
-      <div class="kicker reveal">Como trabalhamos</div>
+      <div class="kicker reveal">como trabalhamos</div>
       <h2 class="reveal">Do diagnóstico à sustentação</h2>
       <div class="grid g4 steps">
         <article class="card reveal"><b>01</b><h3>Diagnóstico</h3><p>Entendemos o problema, o ambiente atual e os objetivos do negócio. É gratuito.</p></article>
@@ -272,7 +302,7 @@
 
   <section class="slide cta" id="contato">
     <div class="wrap">
-      <div class="kicker reveal" style="justify-content:center">Próximo passo</div>
+      <div class="kicker reveal" style="justify-content:center">próximo passo</div>
       <h2 class="reveal">Vamos conversar sobre o seu projeto?</h2>
       <p class="lead reveal">O primeiro diagnóstico é gratuito. Conte o seu cenário e propomos a melhor solução.</p>
       <div class="btns reveal">
