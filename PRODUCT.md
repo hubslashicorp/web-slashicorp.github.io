@@ -37,7 +37,7 @@ Conteúdo em português do Brasil. Páginas: Home, Especialidades (111 ferrament
 
 ## Brand Commitments
 
-Nome SlashiCorp, logo atual (`img/logo.png`, `img/logo-horizontal.png`) e a cor verde-água de acento fazem parte da identidade e devem ser preservados. Tom técnico e direto, em português.
+Nome SlashiCorp, logo novo (`img/logo.png`, `img/logo-horizontal.png`, `img/favicon.svg`; fonte: marketing/logo/placas do projeto SNCR Suite) e a cor verde-água de acento fazem parte da identidade e devem ser preservados. Tom técnico e direto, em português.
 
 ## Evidence on Hand
 
