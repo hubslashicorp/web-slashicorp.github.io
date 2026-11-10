@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Gerador de Mensagens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060d0c; --bg-2: #0b1514; --surface: #0f1c1a; --surface-2: #142624;
+    --line: rgba(255,255,255,.09); --text: #e8f1ef; --muted: #8fa6a2;
+    --accent: #2af5c0; --accent-ink: #032019; --warn: #f5c26b; --danger: #f57a6b;
+    --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 400 15px/1.55 var(--font); }
+  a { color: var(--accent); }
+  h1, h2, h3 { margin: 0; letter-spacing: -.01em; }
+  .wrap { width: min(100% - 2rem, 1100px); margin: 0 auto; padding: 2rem 0 4rem; }
+  header.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; }
+  header.top h1 { font-size: 1.6rem; }
+  header.top p { margin: .3rem 0 0; color: var(--muted); }
+  .today { font: 500 .85rem var(--mono); padding: .55rem .9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); white-space: nowrap; }
+  .today b { color: var(--accent); }
+  .today.over b { color: var(--warn); }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.25rem; margin-bottom: 1rem; }
+  .panel h2 { font-size: 1.05rem; margin-bottom: .75rem; }
+  .muted { color: var(--muted); }
+  .small { font-size: .85rem; }
+  ol.how { margin: .25rem 0 0; padding-left: 1.2rem; color: var(--muted); }
+  ol.how li { margin: .25rem 0; }
+  ol.how b { color: var(--text); font-weight: 600; }
+
+  .drop { border: 1.5px dashed rgba(42,245,192,.4); border-radius: 12px; padding: 1.4rem; text-align: center; margin-top: 1rem; background: rgba(42,245,192,.03); transition: background .2s; }
+  .drop.hover { background: rgba(42,245,192,.1); }
+  .row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  .btn { font: 600 .85rem var(--font); border-radius: 999px; padding: .6rem 1.05rem; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); cursor: pointer; display: inline-flex; align-items: center; gap: .4rem; }
+  .btn:hover { border-color: rgba(42,245,192,.5); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .btn.primary:hover { background: #5ff7d2; }
+  .btn.ghost { background: transparent; }
+  .btn.ok { background: rgba(42,245,192,.15); color: var(--accent); border-color: rgba(42,245,192,.4); }
+  .btn:disabled { opacity: .45; cursor: default; }
+  label.field { display: flex; flex-direction: column; gap: .3rem; font-size: .82rem; color: var(--muted); flex: 1 1 220px; }
+  input[type=text], input[type=number], input[type=search], textarea, select {
+    font: inherit; color: var(--text); background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: .55rem .7rem; width: 100%;
+  }
+  textarea { resize: vertical; min-height: 220px; line-height: 1.5; }
+  input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .tabs { display: flex; gap: .3rem; border-bottom: 1px solid var(--line); margin: 1.5rem 0 1rem; overflow-x: auto; }
+  .tabs button { font: 600 .9rem var(--font); background: none; border: none; color: var(--muted); padding: .7rem 1rem; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { color: var(--text); border-color: var(--accent); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .chip { font: 500 .8rem var(--font); border: 1px solid var(--line); background: var(--bg-2); color: var(--muted); padding: .35rem .75rem; border-radius: 999px; cursor: pointer; }
+  .chip.on { color: var(--accent-ink); background: var(--accent); border-color: transparent; }
+  .chip .n { font-family: var(--mono); opacity: .8; margin-left: .25rem; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: .6rem; margin-bottom: 1rem; }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: .8rem 1rem; }
+  .stat b { font-size: 1.35rem; display: block; }
+  .stat span { font-size: .8rem; color: var(--muted); }
+
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.1rem; margin-bottom: .7rem; }
+  .contact.sent { opacity: .55; }
+  .contact.skip { opacity: .4; }
+  .contact .head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; align-items: start; }
+  .contact .who b { font-size: 1rem; }
+  .contact .who div { color: var(--muted); font-size: .86rem; }
+  .badge { font: 500 .72rem var(--mono); padding: .2rem .55rem; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .badge.tech { color: #7fd8ff; border-color: rgba(127,216,255,.35); }
+  .badge.exec { color: var(--accent); border-color: rgba(42,245,192,.35); }
+  .badge.produto { color: #c9a8ff; border-color: rgba(201,168,255,.35); }
+  .badge.agencia { color: var(--warn); border-color: rgba(245,194,107,.35); }
+  .badge.st-sent { color: var(--accent); }
+  .contact details { margin-top: .7rem; }
+  .contact summary { cursor: pointer; color: var(--muted); font-size: .85rem; }
+  .contact textarea { min-height: 200px; margin-top: .5rem; font-size: .88rem; }
+  .contact .actions { margin-top: .75rem; }
+  .contact .actions .hint { font-size: .8rem; color: var(--warn); }
+
+  .tpl-grid { display: grid; grid-template-columns: 220px 1fr; gap: 1rem; }
+  .tpl-list button { display: block; width: 100%; text-align: left; font: 500 .9rem var(--font); background: var(--bg-2); color: var(--muted); border: 1px solid var(--line); border-radius: 10px; padding: .65rem .8rem; margin-bottom: .4rem; cursor: pointer; }
+  .tpl-list button.on { color: var(--text); border-color: var(--accent); }
+  .vars code { font: 500 .8rem var(--mono); background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: .1rem .35rem; color: var(--accent); }
+  .preview { white-space: pre-wrap; background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: .9rem; font-size: .88rem; margin-top: .6rem; }
+
+  .empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+  .toast { position: fixed; bottom: 1.2rem; left: 50%; transform: translateX(-50%) translateY(150%); background: var(--accent); color: var(--accent-ink); font-weight: 600; padding: .7rem 1.2rem; border-radius: 999px; transition: transform .25s; z-index: 20; max-width: calc(100% - 2rem); text-align: center; }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+  .warnbox { border: 1px solid rgba(245,194,107,.35); background: rgba(245,194,107,.06); color: var(--text); border-radius: 12px; padding: .8rem 1rem; font-size: .88rem; margin-bottom: 1rem; }
+  .hidden { display: none !important; }
+
+  @media (max-width: 760px) {
+    .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .tpl-grid { grid-template-columns: 1fr; }
+    .tpl-list { display: flex; gap: .4rem; overflow-x: auto; }
+    .tpl-list button { white-space: nowrap; width: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Gerador de mensagens · SlashiCorp</h1>
+      <p>Mensagens personalizadas para as suas conexões do LinkedIn. Tudo fica só neste navegador.</p>
+    </div>
+    <div class="today" id="today">Enviadas hoje: <b>0</b> / 25</div>
+  </header>
+
+  <!-- Importação -->
+  <section class="panel" id="importPanel">
+    <h2>1. Importe as suas conexões</h2>
+    <ol class="how">
+      <li>No LinkedIn, abra <b>Eu → Configurações e privacidade → Privacidade de dados → Obter uma cópia dos seus dados</b>.</li>
+      <li>Marque só <b>Conexões</b> e clique em <b>Solicitar arquivo</b>. Chega por e-mail em uns 10 minutos.</li>
+      <li>Descompacte o .zip e arraste o arquivo <b>Connections.csv</b> aqui embaixo.</li>
+    </ol>
+    <div class="drop" id="drop">
+      <p style="margin:0 0 .8rem">Arraste o <b>Connections.csv</b> aqui ou</p>
+      <div class="row" style="justify-content:center">
+        <label class="btn primary">Escolher arquivo<input type="file" id="file" accept=".csv,text/csv" hidden></label>
+        <button class="btn ghost" id="demo">Ver com dados de exemplo</button>
+      </div>
+      <p class="small muted" id="importInfo" style="margin:.8rem 0 0"></p>
+    </div>
+  </section>
+
+  <!-- Configurações -->
+  <section class="panel">
+    <h2>2. Configurações</h2>
+    <div class="row">
+      <label class="field">Link da apresentação ({link})
+        <input type="text" id="cfgLink">
+      </label>
+      <label class="field" style="flex:0 1 180px">Meta de envios por dia
+        <input type="number" id="cfgLimit" min="1" max="100">
+      </label>
+    </div>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button class="on" data-tab="contacts" role="tab">Contatos</button>
+    <button data-tab="templates" role="tab">Modelos de mensagem</button>
+  </nav>
+
+  <!-- Contatos -->
+  <section id="tab-contacts">
+    <div class="warnbox">
+      Para proteger a sua conta, o envio é manual: <b>Copiar e abrir perfil</b> copia a mensagem e abre o perfil. Lá você clica em <b>Mensagem</b>, cola (⌘V) e envia. Mantenha um ritmo de até uns 25 a 40 por dia.
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="sTotal">0</b><span>conexões importadas</span></div>
+      <div class="stat"><b id="sLeads">0</b><span>possíveis clientes</span></div>
+      <div class="stat"><b id="sSent">0</b><span>mensagens enviadas</span></div>
+      <div class="stat"><b id="sLeft">0</b><span>faltam enviar</span></div>
+    </div>
+    <div class="panel">
+      <div class="chips" id="segChips"></div>
+      <div class="row" style="margin-top:.8rem">
+        <input type="search" id="q" placeholder="Buscar por nome, cargo ou empresa" style="flex:1 1 260px">
+        <select id="status" style="flex:0 1 180px">
+          <option value="pending">Pendentes</option>
+          <option value="sent">Enviados</option>
+          <option value="skip">Pulados</option>
+          <option value="all">Todos</option>
+        </select>
+        <button class="btn" id="export">Exportar CSV</button>
+      </div>
+    </div>
+    <div id="list"></div>
+    <div class="row" style="justify-content:center"><button class="btn hidden" id="more">Mostrar mais</button></div>
+  </section>
+
+  <!-- Modelos -->
+  <section id="tab-templates" class="hidden">
+    <div class="panel">
+      <p class="small muted" style="margin-top:0">Cada grupo de contatos recebe um modelo diferente. Variáveis disponíveis (clique para inserir):
+        <span class="vars"><code data-var="{nome}">{nome}</code> <code data-var="{empresa}">{empresa}</code> <code data-var="{cargo}">{cargo}</code> <code data-var="{link}">{link}</code></span>
+      </p>
+      <div class="tpl-grid">
+        <div class="tpl-list" id="tplList"></div>
+        <div>
+          <textarea id="tplText" aria-label="Texto do modelo"></textarea>
+          <div class="row" style="margin-top:.6rem;justify-content:space-between">
+            <span class="small muted" id="tplCount"></span>
+            <button class="btn ghost" id="tplReset">Restaurar modelo padrão</button>
+          </div>
+          <p class="small muted" style="margin:1rem 0 0">Prévia com um contato de exemplo:</p>
+          <div class="preview" id="tplPreview"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const SEGMENTS = {
+  tech:    { label: 'Liderança de tecnologia', score: 3 },
+  exec:    { label: 'Donos e executivos', score: 3 },
+  produto: { label: 'Produto e inovação', score: 2 },
+  agencia: { label: 'Agências', score: 2 },
+  outros:  { label: 'Outros (indicação)', score: 1 },
+  fora:    { label: 'Fora do perfil', score: 0 },
+};
+
+const RULES = {
+  fora: /\b(recrut|recruiter|talent|talentos|human resources|recursos humanos|\brh\b|people partner|estudante|student|estagi|intern\b|trainee|aprendiz|desempregad|open to work|em busca de|procurando)/,
+  tech: /\b(cto|cio|ciso|chief (technology|information|digital)|head (de |of )?(tecnologia|technology|engineering|engenharia|ti|it|infra|infraestrutura|devops|platform|plataforma|dados|data|software|desenvolvimento|development|sre|cloud)|diretor(a)? (de )?(tecnologia|ti|engenharia|sistemas|infraestrutura|desenvolvimento)|(it|technology|engineering|software) (director|manager)|director of (engineering|technology|it)|vp (of )?(engineering|technology)|gerente (de )?(ti|tecnologia|sistemas|infraestrutura|engenharia|desenvolvimento|projetos de ti)|engineering manager|coordenador(a)? (de )?(ti|tecnologia|sistemas|infraestrutura|desenvolvimento)|tech lead|lider tecnico|arquitet[oa]|architect|superintendente de tecnologia)/,
+  produto: /\b(cpo|product (manager|director|lead|owner|head)|head (de |of )?produto|gerente de produto|diretor(a)? de produto|inovacao|innovation|transformacao digital|digital transformation)/,
+  exec: /\b(ceo|coo|cfo|founder|co-?founder|fundador|fundadora|cofundador|socio|socia|partner|owner|proprietari|presidente|president|managing director|diretor(a)?( executiv| geral| comercial| de operacoes)?|director|empresari|empreendedor|general manager|gerente geral|country manager)/,
+  agenciaCompany: /\b(agencia|agency|studio|estudio|marketing|publicidade|propaganda|comunicacao|branding)\b/,
+};
+
+const DEFAULT_TEMPLATES = {
+  tech:
+`Oi {nome}, tudo bem?
+
+Queria te apresentar a SlashiCorp, a minha empresa de fábrica de software e consultoria DevOps e Cloud.
+
+A gente desenvolve sistemas sob medida que já nascem prontos para produção: CI/CD, Kubernetes (EKS e AKS), infraestrutura como código e observabilidade desde o primeiro dia. Já atendemos empresas como Itaú, PicPay, Mercado Libre e Banco Central.
+
+Se na {empresa} tiver algum projeto parado por falta de time, ou vontade de melhorar pipeline, cloud ou monitoramento, o primeiro diagnóstico é gratuito.
+
+Montei uma apresentação rápida: {link}
+
+Topa uma conversa de 20 minutos nos próximos dias?`,
+  exec:
+`Oi {nome}, tudo bem?
+
+Queria te apresentar a SlashiCorp, a minha empresa de desenvolvimento de software.
+
+A gente tira do papel sistemas, plataformas e aplicações web sob medida, e entrega tudo funcionando em produção, com o time de tecnologia completo do nosso lado. Já atendemos empresas como Itaú, PicPay, Mercado Libre e Banco Central, e temos produtos próprios no ar.
+
+Se a {empresa} tiver algum sistema para criar, modernizar ou colocar na nuvem, fazemos um diagnóstico gratuito para entender o cenário.
+
+Dá uma olhada na nossa apresentação: {link}
+
+Faz sentido conversarmos 20 minutos?`,
+  produto:
+`Oi {nome}, tudo bem?
+
+Queria te apresentar a SlashiCorp, a minha empresa de fábrica de software e consultoria DevOps e Cloud.
+
+Ajudamos times de produto a entregar mais rápido: desenvolvemos funcionalidades e produtos sob medida e já entregamos com deploy automatizado e monitoramento. Já atendemos empresas como Itaú, PicPay, Mercado Libre e Banco Central.
+
+Se na {empresa} o roadmap estiver maior que o time, podemos reforçar a entrega. O primeiro diagnóstico é gratuito.
+
+Apresentação rápida: {link}
+
+Topa uma conversa de 20 minutos?`,
+  agencia:
+`Oi {nome}, tudo bem?
+
+Queria te apresentar a SlashiCorp, a minha empresa de fábrica de software e consultoria DevOps e Cloud.
+
+Muitas agências vendem projetos de sistemas, apps e plataformas e precisam de um parceiro técnico para desenvolver e manter no ar. A gente pode ser esse time por trás da {empresa}, inclusive em white-label. Já atendemos empresas como Itaú, PicPay, Mercado Libre e Banco Central.
+
+Apresentação rápida: {link}
+
+Faz sentido conversarmos sobre uma parceria?`,
+  outros:
+`Oi {nome}, tudo bem?
+
+Passando para contar que estou à frente da SlashiCorp, uma fábrica de software e consultoria DevOps e Cloud. Desenvolvemos sistemas sob medida e colocamos tudo em produção na nuvem, e já atendemos empresas como Itaú, PicPay, Mercado Libre e Banco Central.
+
+Se você souber de alguém (ou de alguma empresa) que precise desenvolver um sistema ou organizar a parte de cloud e DevOps, uma indicação ajuda muito!
+
+Apresentação rápida: {link}
+
+Abraço!`,
+};
+DEFAULT_TEMPLATES.fora = DEFAULT_TEMPLATES.outros;
+
+const SAMPLE = [
+  ['Mariana','Souza','https://www.linkedin.com/in/exemplo-1','','Varejo Rápido S.A.','CTO'],
+  ['Carlos','Pereira','https://www.linkedin.com/in/exemplo-2','','AgroDados','Fundador e CEO'],
+  ['Juliana','Almeida','https://www.linkedin.com/in/exemplo-3','','Clínica Vida','Gerente de TI'],
+  ['RAFAEL','LIMA, MBA','https://www.linkedin.com/in/exemplo-4','','Pixel Agência Digital','Sócio-diretor'],
+  ['Beatriz','Costa','https://www.linkedin.com/in/exemplo-5','','LogX','Product Manager'],
+  ['Thiago','Ramos','https://www.linkedin.com/in/exemplo-6','','Banco Exemplo','Desenvolvedor Backend'],
+  ['Fernanda','Oliveira','https://www.linkedin.com/in/exemplo-7','','Tech Talents','Tech Recruiter'],
+  ['Paulo','Martins','https://www.linkedin.com/in/exemplo-8','','','Head de Engenharia'],
+];
+
+/* ---------- storage ---------- */
+const KEY = 'slashi-gerador-v1';
+let state = { contacts: [], status: {}, overrides: {}, templates: {}, link: 'https://slashicorp.com.br/apresentacao.html', limit: 25, log: {} };
+function load() { try { const s = JSON.parse(localStorage.getItem(KEY)); if (s) state = Object.assign(state, s); } catch (e) {} }
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { toast('Não foi possível salvar o progresso neste navegador'); } }
+
+/* ---------- helpers ---------- */
+const $ = s => document.querySelector(s);
+const norm = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const todayKey = () => new Date().toISOString().slice(0, 10);
+
+function firstName(raw) {
+  const t = (raw || '').replace(/[^\p{L}\s'-]/gu, ' ').trim().split(/\s+/)[0] || '';
+  return t ? t.charAt(0).toUpperCase() + t.slice(1).toLowerCase() : '';
+}
+
+function cleanCompany(s) {
+  return (s || '').replace(/[,\s]+(ltda\.?|s\.?\/?a\.?|me|eireli|inc\.?|llc|ltd\.?)$/i, '').trim();
+}
+
+function segmentOf(c) {
+  const p = norm(c.position), co = norm(c.company);
+  if (RULES.fora.test(p)) return 'fora';
+  if (RULES.tech.test(p)) return 'tech';
+  if (RULES.produto.test(p)) return 'produto';
+  if (RULES.agenciaCompany.test(co) && RULES.exec.test(p)) return 'agencia';
+  if (RULES.exec.test(p)) return 'exec';
+  return 'outros';
+}
+
+function parseCSV(text) {
+  const rows = []; let row = [], f = '', q = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (q) {
+      if (ch === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; }
+      else f += ch;
+    } else if (ch === '"') q = true;
+    else if (ch === ',') { row.push(f); f = ''; }
+    else if (ch === '\n' || ch === '\r') {
+      if (ch === '\r' && text[i + 1] === '\n') i++;
+      row.push(f); rows.push(row); row = []; f = '';
+    } else f += ch;
+  }
+  if (f || row.length) { row.push(f); rows.push(row); }
+  return rows;
+}
+
+function importRows(rows) {
+  const hi = rows.findIndex(r => norm(r[0]).trim() === 'first name');
+  if (hi < 0) throw new Error('Não encontrei a linha de cabeçalho "First Name". Confira se é o arquivo Connections.csv do LinkedIn.');
+  const h = rows[hi].map(x => norm(x).trim());
+  const col = name => h.indexOf(name);
+  const iF = col('first name'), iL = col('last name'), iU = col('url'), iC = col('company'), iP = col('position'), iD = col('connected on');
+  const seen = new Set(), out = [];
+  for (const r of rows.slice(hi + 1)) {
+    const url = (r[iU] || '').trim();
+    if (!url && !r[iF]) continue;
+    const id = url || (r[iF] + r[iL]);
+    if (seen.has(id)) continue; seen.add(id);
+    out.push({ id, first: (r[iF] || '').trim(), last: (r[iL] || '').trim(), url, company: (r[iC] || '').trim(), position: (r[iP] || '').trim(), connected: iD >= 0 ? (r[iD] || '').trim() : '' });
+  }
+  return out;
+}
+
+function setContacts(list, source) {
+  state.contacts = list; save();
+  $('#importInfo').textContent = `${list.length} conexões carregadas${source ? ' de ' + source : ''}.`;
+  render();
+}
+
+function templateFor(seg) { return state.templates[seg] ?? DEFAULT_TEMPLATES[seg]; }
+function fill(tpl, c) {
+  return tpl
+    .replaceAll('{nome}', firstName(c.first) || 'tudo certo')
+    .replaceAll('{empresa}', cleanCompany(c.company) || 'sua empresa')
+    .replaceAll('{cargo}', c.position || '')
+    .replaceAll('{link}', state.link || '');
+}
+function messageFor(c) { return state.overrides[c.id] ?? fill(templateFor(segmentOf(c)), c); }
+
+async function copy(text) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch (e) {
+    const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select();
+    let ok = false; try { ok = document.execCommand('copy'); } catch (_) {}
+    t.remove(); return ok;
+  }
+}
+
+let toastTimer;
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2600); }
+
+/* ---------- render ---------- */
+let activeSeg = 'leads', page = 1;
+const PAGE = 40;
+
+function sentToday() { return state.log[todayKey()] || 0; }
+function renderToday() {
+  const n = sentToday(), el = $('#today');
+  el.innerHTML = `Enviadas hoje: <b>${n}</b> / ${state.limit}`;
+  el.classList.toggle('over', n >= state.limit);
+}
+
+function render() {
+  const cs = state.contacts.map(c => ({ c, seg: segmentOf(c), st: state.status[c.id] || 'pending' }));
+  const leads = cs.filter(x => SEGMENTS[x.seg].score >= 2);
+  $('#sTotal').textContent = cs.length;
+  $('#sLeads').textContent = leads.length;
+  $('#sSent').textContent = cs.filter(x => x.st === 'sent').length;
+  $('#sLeft').textContent = cs.filter(x => x.seg !== 'fora' && x.st === 'pending').length;
+  renderToday();
+
+  const counts = { leads: leads.length, all: cs.length };
+  for (const k in SEGMENTS) counts[k] = cs.filter(x => x.seg === k).length;
+  const chips = [['leads', 'Possíveis clientes'], ...Object.entries(SEGMENTS).map(([k, v]) => [k, v.label]), ['all', 'Todos']];
+  $('#segChips').innerHTML = chips.map(([k, l]) => `<button class="chip ${k === activeSeg ? 'on' : ''}" data-seg="${k}">${l}<span class="n">${counts[k]}</span></button>`).join('');
+
+  const q = norm($('#q').value), st = $('#status').value;
+  let list = cs.filter(x =>
+    (activeSeg === 'all' || (activeSeg === 'leads' ? SEGMENTS[x.seg].score >= 2 : x.seg === activeSeg)) &&
+    (st === 'all' || x.st === st) &&
+    (!q || norm(`${x.c.first} ${x.c.last} ${x.c.position} ${x.c.company}`).includes(q)));
+  list.sort((a, b) => SEGMENTS[b.seg].score - SEGMENTS[a.seg].score);
+
+  if (!cs.length) { $('#list').innerHTML = `<div class="empty">Importe o Connections.csv (ou veja com dados de exemplo) para gerar as mensagens.</div>`; $('#more').classList.add('hidden'); return; }
+  if (!list.length) { $('#list').innerHTML = `<div class="empty">Nenhum contato neste filtro.</div>`; $('#more').classList.add('hidden'); return; }
+
+  const shown = list.slice(0, page * PAGE);
+  $('#list').innerHTML = shown.map(({ c, seg, st }) => `
+    <article class="contact ${st === 'sent' ? 'sent' : st === 'skip' ? 'skip' : ''}" data-id="${esc(c.id)}">
+      <div class="head">
+        <div class="who"><b>${esc(c.first)} ${esc(c.last)}</b><div>${esc(c.position || 'Sem cargo')}${c.company ? ' · ' + esc(c.company) : ''}</div></div>
+        <div class="row">
+          <span class="badge ${seg}">${SEGMENTS[seg].label}</span>
+          ${st === 'sent' ? '<span class="badge st-sent">✓ enviada</span>' : st === 'skip' ? '<span class="badge">pulado</span>' : ''}
+        </div>
+      </div>
+      <details><summary>Ver ou editar a mensagem${state.overrides[c.id] != null ? ' (editada)' : ''}</summary>
+        <textarea data-act="edit">${esc(messageFor(c))}</textarea>
+      </details>
+      <div class="row actions">
+        ${st === 'sent'
+          ? `<button class="btn ghost" data-act="undo">Desfazer</button>`
+          : `<button class="btn primary" data-act="open"${c.url ? '' : ' disabled title="Sem URL do perfil"'}>Copiar e abrir perfil</button>
+             <button class="btn ${st === 'opened' ? 'ok' : ''}" data-act="sent">Marquei como enviada ✓</button>
+             ${st === 'skip' ? `<button class="btn ghost" data-act="undo">Voltar para pendentes</button>` : `<button class="btn ghost" data-act="skip">Pular</button>`}
+             ${st === 'opened' ? '<span class="hint">Cole no chat do LinkedIn e depois marque como enviada</span>' : ''}`}
+      </div>
+    </article>`).join('');
+  $('#more').classList.toggle('hidden', shown.length >= list.length);
+}
+
+/* ---------- templates tab ---------- */
+let activeTpl = 'tech';
+const sampleContact = { first: 'Mariana', company: 'Varejo Rápido', position: 'CTO' };
+function renderTemplates() {
+  const keys = ['tech', 'exec', 'produto', 'agencia', 'outros'];
+  $('#tplList').innerHTML = keys.map(k => `<button class="${k === activeTpl ? 'on' : ''}" data-tpl="${k}">${SEGMENTS[k].label}${state.templates[k] != null ? ' •' : ''}</button>`).join('');
+  $('#tplText').value = templateFor(activeTpl);
+  updatePreview();
+}
+function updatePreview() {
+  const t = $('#tplText').value;
+  const out = fill(t, sampleContact);
+  $('#tplPreview').textContent = out;
+  $('#tplCount').textContent = `${out.length} caracteres`;
+}
+
+/* ---------- events ---------- */
+$('#file').addEventListener('change', e => readFile(e.target.files[0]));
+const drop = $('#drop');
+['dragenter', 'dragover'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add('hover'); }));
+['dragleave', 'drop'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove('hover'); }));
+drop.addEventListener('drop', e => readFile(e.dataTransfer.files[0]));
+function readFile(f) {
+  if (!f) return;
+  const r = new FileReader();
+  r.onload = () => { try { setContacts(importRows(parseCSV(r.result)), f.name); toast('Conexões importadas!'); } catch (err) { $('#importInfo').textContent = err.message; } };
+  r.readAsText(f, 'utf-8');
+}
+$('#demo').addEventListener('click', () => setContacts(SAMPLE.map(r => ({ id: r[2], first: r[0], last: r[1], url: r[2], company: r[4], position: r[5] })), 'dados de exemplo'));
+
+$('#cfgLink').addEventListener('input', e => { state.link = e.target.value.trim(); save(); });
+$('#cfgLink').addEventListener('change', render);
+$('#cfgLimit').addEventListener('input', e => { state.limit = Math.max(1, +e.target.value || 25); save(); renderToday(); });
+
+document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('on', x === b));
+  $('#tab-contacts').classList.toggle('hidden', b.dataset.tab !== 'contacts');
+  $('#tab-templates').classList.toggle('hidden', b.dataset.tab !== 'templates');
+  if (b.dataset.tab === 'templates') renderTemplates(); else render();
+}));
+
+$('#segChips').addEventListener('click', e => { const b = e.target.closest('[data-seg]'); if (!b) return; activeSeg = b.dataset.seg; page = 1; render(); });
+$('#q').addEventListener('input', () => { page = 1; render(); });
+$('#status').addEventListener('change', () => { page = 1; render(); });
+$('#more').addEventListener('click', () => { page++; render(); });
+
+$('#list').addEventListener('click', async e => {
+  const b = e.target.closest('[data-act]'); if (!b || b.tagName === 'TEXTAREA') return;
+  const id = b.closest('.contact').dataset.id;
+  const c = state.contacts.find(x => x.id === id); if (!c) return;
+  const act = b.dataset.act;
+  if (act === 'open') {
+    const ok = await copy(messageFor(c));
+    window.open(c.url, '_blank', 'noopener');
+    state.status[id] = 'opened';
+    toast(ok ? 'Mensagem copiada! Clique em "Mensagem" no perfil e cole.' : 'Não consegui copiar. Abra "Ver mensagem" e copie manualmente.');
+  } else if (act === 'sent') {
+    state.status[id] = 'sent';
+    state.log[todayKey()] = sentToday() + 1;
+    if (sentToday() === state.limit) toast(`Meta do dia atingida (${state.limit}). Melhor continuar amanhã.`);
+  } else if (act === 'skip') {
+    state.status[id] = 'skip';
+  } else if (act === 'undo') {
+    if (state.status[id] === 'sent') state.log[todayKey()] = Math.max(0, sentToday() - 1);
+    delete state.status[id];
+  }
+  save(); render();
+});
+$('#list').addEventListener('input', e => {
+  if (e.target.dataset.act !== 'edit') return;
+  const id = e.target.closest('.contact').dataset.id;
+  state.overrides[id] = e.target.value; save();
+});
+
+$('#tplList').addEventListener('click', e => { const b = e.target.closest('[data-tpl]'); if (!b) return; activeTpl = b.dataset.tpl; renderTemplates(); });
+$('#tplText').addEventListener('input', e => { state.templates[activeTpl] = e.target.value; save(); updatePreview(); });
+$('#tplReset').addEventListener('click', () => { delete state.templates[activeTpl]; save(); renderTemplates(); toast('Modelo padrão restaurado'); });
+document.querySelectorAll('[data-var]').forEach(v => v.addEventListener('click', () => {
+  const t = $('#tplText'), s = t.selectionStart;
+  t.setRangeText(v.dataset.var, s, t.selectionEnd, 'end'); t.focus();
+  t.dispatchEvent(new Event('input'));
+}));
+
+$('#export').addEventListener('click', () => {
+  const q = s => '"' + String(s ?? '').replace(/"/g, '""') + '"';
+  const lines = [['Nome', 'Sobrenome', 'Cargo', 'Empresa', 'Grupo', 'Status', 'Perfil', 'Mensagem'].map(q).join(',')];
+  for (const c of state.contacts) {
+    const seg = segmentOf(c);
+    lines.push([c.first, c.last, c.position, c.company, SEGMENTS[seg].label, state.status[c.id] || 'pending', c.url, messageFor(c)].map(q).join(','));
+  }
+  const blob = new Blob(['﻿' + lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'prospeccao-slashicorp.csv'; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+});
+
+/* ---------- init ---------- */
+load();
+$('#cfgLink').value = state.link;
+$('#cfgLimit').value = state.limit;
+if (state.contacts.length) $('#importInfo').textContent = `${state.contacts.length} conexões já carregadas. Importe de novo para atualizar.`;
+render();
+</script>
+</body>
+</html>
