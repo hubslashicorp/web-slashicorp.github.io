@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SlashiCorp - Apresentação</title>
+<meta name="description" content="SlashiCorp: fábrica de software e consultoria DevOps e Cloud. Construímos o seu sistema, colocamos no ar e sustentamos em produção.">
+<meta property="og:title" content="SlashiCorp - Fábrica de Software, DevOps e Cloud">
+<meta property="og:description" content="Construímos o seu sistema, colocamos no ar com CI/CD e sustentamos em produção. Diagnóstico gratuito.">
+<meta property="og:image" content="https://slashicorp.com.br/img/logo-social.png">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060d0c; --bg-2: #0b1514; --surface: #0f1c1a; --surface-2: #142624;
+    --line: rgba(255,255,255,.08); --text: #e8f1ef; --muted: #8fa6a2;
+    --accent: #2af5c0; --accent-2: #02896e;
+    --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 400 1rem/1.65 var(--font); -webkit-font-smoothing: antialiased; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  h1, h2, h3 { margin: 0 0 .5em; line-height: 1.12; letter-spacing: -.02em; }
+  h1 { font-size: clamp(2.3rem, 6vw, 4.2rem); font-weight: 800; }
+  h2 { font-size: clamp(1.8rem, 3.8vw, 2.7rem); font-weight: 700; }
+  h3 { font-size: 1.15rem; font-weight: 600; }
+  p { margin: 0 0 1em; color: var(--muted); }
+  .accent { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+  .slide { min-height: 100vh; min-height: 100svh; display: flex; align-items: center; padding: clamp(4rem, 9vh, 6rem) 0; border-bottom: 1px solid var(--line); position: relative; }
+  .slide:nth-child(even) { background: var(--bg-2); }
+  .wrap { width: min(100% - 2rem, 1120px); margin-inline: auto; }
+  .kicker { font: 600 .8rem/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; display: flex; align-items: center; gap: .75rem; }
+  .kicker::before { content: ""; width: 28px; height: 2px; background: var(--accent); }
+  .lead { font-size: clamp(1.05rem, 1.6vw, 1.25rem); max-width: 60ch; }
+
+  /* Capa */
+  .cover { background: radial-gradient(60rem 30rem at 85% -10%, rgba(42,245,192,.14), transparent 60%), var(--bg) !important; }
+  .cover .logo { height: 52px; width: auto; margin-bottom: 3rem; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-top: 3rem; }
+  .stats div { background: var(--surface); padding: 1.3rem 1.2rem; }
+  .stats strong { display: block; font-size: 1.35rem; color: var(--text); }
+  .stats span { color: var(--muted); font-size: .9rem; }
+  .scroll-hint { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .1em; }
+
+  /* Cards */
+  .grid { display: grid; gap: 1rem; margin-top: 2.5rem; }
+  .g4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  .g3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 1.6rem; }
+  .card p { margin: 0; font-size: .95rem; }
+  .card .ico { width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; background: rgba(42,245,192,.1); color: var(--accent); margin-bottom: 1.1rem; }
+  .card .ico svg { width: 22px; height: 22px; }
+  .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+  .tags span { font: 500 .72rem var(--mono); color: var(--muted); border: 1px solid var(--line); padding: .25rem .55rem; border-radius: 999px; }
+
+  /* Pipeline */
+  .pipe { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: .75rem; margin-top: 2.5rem; counter-reset: s; }
+  .pipe div { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1rem; text-align: center; }
+  .pipe div::before { counter-increment: s; content: "0" counter(s); display: block; font: 600 .75rem var(--mono); color: var(--accent); margin-bottom: .4rem; }
+  .pipe div:not(:last-child)::after { content: "→"; position: absolute; right: -.68rem; top: 50%; transform: translateY(-50%); color: var(--accent); font-weight: 700; z-index: 1; }
+  .pipe b { display: block; font-size: .98rem; }
+  .pipe small { color: var(--muted); font: 500 .75rem var(--mono); }
+  .checks { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .7rem 2rem; }
+  .checks li { padding-left: 1.6rem; position: relative; color: var(--text); }
+  .checks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+
+  /* Produtos */
+  .prod { display: flex; flex-direction: column; }
+  .prod img { width: 52px; height: 52px; margin-bottom: 1.1rem; }
+  .prod .sub { font: 500 .78rem var(--mono); color: var(--accent); margin-bottom: .6rem; }
+  .prod .status { margin-top: auto; padding-top: 1.2rem; font-size: .82rem; color: var(--muted); }
+  .prod a.more { color: var(--accent); font-weight: 600; font-size: .9rem; }
+
+  /* Clientes */
+  .clients { list-style: none; padding: 0; margin: 2.5rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+  .clients li { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .9rem; min-height: 170px; padding: 1.6rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .clients img { height: 56px; width: auto; max-width: min(180px, 100%); object-fit: contain; filter: brightness(0) invert(1); opacity: .85; }
+  .clients span { color: var(--muted); font-size: .85rem; }
+
+  /* Etapas */
+  .steps .card b { font: 600 .8rem var(--mono); color: var(--accent); display: block; margin-bottom: .6rem; }
+
+  /* CTA */
+  .cta { text-align: center; background: radial-gradient(50rem 25rem at 50% 110%, rgba(42,245,192,.16), transparent 60%), var(--bg) !important; }
+  .cta .lead { margin-inline: auto; }
+  .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; margin-top: 2rem; }
+  .btn { display: inline-flex; align-items: center; gap: .5rem; padding: .95rem 1.6rem; border-radius: 999px; font-weight: 600; border: 1px solid transparent; transition: transform .2s, background .2s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn svg { width: 20px; height: 20px; fill: currentColor; }
+  .btn-primary { background: var(--accent); color: #032019; }
+  .btn-primary:hover { background: #5ff7d2; }
+  .btn-ghost { border-color: rgba(42,245,192,.55); background: rgba(42,245,192,.07); }
+  .foot { margin-top: 3.5rem; font-size: .82rem; color: var(--muted); }
+  .foot img { height: 30px; margin: 0 auto 1rem; opacity: .9; }
+
+  /* Navegação por pontos */
+  .dots { position: fixed; right: 1.2rem; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: .7rem; z-index: 10; }
+  .dots a { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,.22); transition: background .2s, transform .2s; }
+  .dots a.on { background: var(--accent); transform: scale(1.35); }
+
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } }
+
+  @media (max-width: 900px) {
+    .g4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .g3 { grid-template-columns: 1fr; }
+    .pipe { grid-template-columns: 1fr; }
+    .pipe div:not(:last-child)::after { content: "↓"; right: 50%; top: auto; bottom: -.95rem; transform: translateX(50%); }
+    .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .dots { display: none; }
+  }
+  @media (max-width: 600px) {
+    .g4 { grid-template-columns: 1fr; }
+    .clients { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .checks { grid-template-columns: 1fr; }
+    .slide { min-height: auto; }
+    .scroll-hint { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="dots" aria-label="Seções">
+  <a href="#inicio" aria-label="Início"></a>
+  <a href="#servicos" aria-label="Serviços"></a>
+  <a href="#diferencial" aria-label="Diferencial"></a>
+  <a href="#produtos" aria-label="Produtos"></a>
+  <a href="#clientes" aria-label="Clientes"></a>
+  <a href="#processo" aria-label="Como trabalhamos"></a>
+  <a href="#contato" aria-label="Contato"></a>
+</nav>
+
+<main>
+  <section class="slide cover" id="inicio">
+    <div class="wrap">
+      <img class="logo" src="img/logo-horizontal.png" alt="SlashiCorp">
+      <div class="kicker">Fábrica de software · DevOps · Cloud</div>
+      <h1>Construímos o seu sistema.<br><span class="accent">Colocamos no ar. Sustentamos.</span></h1>
+      <p class="lead">Desenvolvemos software sob medida que já nasce pronto para produção, com CI/CD, infraestrutura como código e observabilidade desde o primeiro dia.</p>
+      <div class="stats">
+        <div><strong>+10 anos</strong><span>de experiência</span></div>
+        <div><strong>Multicloud</strong><span>AWS, Azure, GCP, OpenStack</span></div>
+        <div><strong>100+</strong><span>ferramentas dominadas</span></div>
+        <div><strong>Open source</strong><span>primeiro, sempre</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint">ROLE PARA BAIXO ↓</div>
+  </section>
+
+  <section class="slide" id="servicos">
+    <div class="wrap">
+      <div class="kicker reveal">O que fazemos</div>
+      <h2 class="reveal">Do código à produção, com um time só</h2>
+      <p class="lead reveal">Você não precisa contratar um fornecedor para desenvolver e outro para colocar no ar. Fazemos as duas coisas juntas.</p>
+      <div class="grid g4">
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3>Fábrica de software</h3>
+          <p>Aplicações web e APIs sob medida, em microsserviços, com Clean Code e testes automatizados.</p>
+          <div class="tags"><span>Web</span><span>APIs</span><span>Microsserviços</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 9v3a6 6 0 0 0 6 6h3"/></svg></div>
+          <h3>DevOps e CI/CD</h3>
+          <p>Pipelines do commit à produção, Kubernetes em EKS e AKS e infraestrutura como código.</p>
+          <div class="tags"><span>Kubernetes</span><span>Terraform</span><span>GitLab CI</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+          <h3>Cloud</h3>
+          <p>Implantação, migração e gestão em nuvem pública, privada e híbrida, com arquitetura segura.</p>
+          <div class="tags"><span>AWS</span><span>Azure</span><span>GCP</span><span>OpenShift</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>Observabilidade</h3>
+          <p>Logs, métricas, traces e alertas em um só lugar. Montamos o seu NOC e treinamos o seu time.</p>
+          <div class="tags"><span>Elastic</span><span>Prometheus</span><span>Grafana</span></div>
+        </article>
+      </div>
+      <p class="reveal" style="margin-top:1.5rem;font-size:.92rem">Também oferecemos <strong style="color:var(--text)">treinamentos</strong> em Linux, Docker, Kubernetes, OpenShift, DevOps e Elastic Stack.</p>
+    </div>
+  </section>
+
+  <section class="slide" id="diferencial">
+    <div class="wrap">
+      <div class="kicker reveal">Nosso diferencial</div>
+      <h2 class="reveal">Software que já nasce <span class="accent">pronto para produção</span></h2>
+      <p class="lead reveal">Cada alteração percorre o mesmo caminho automatizado, auditável e reversível.</p>
+      <div class="pipe reveal">
+        <div><b>Commit</b><small>PR · review</small></div>
+        <div><b>Build e testes</b><small>SAST · SCA</small></div>
+        <div><b>Imagem</b><small>versionada</small></div>
+        <div><b>Deploy</b><small>Helm · GitOps</small></div>
+        <div><b>Produção</b><small>EKS · AKS</small></div>
+      </div>
+      <ul class="checks reveal">
+        <li>Deploy sem downtime, com rollback automático</li>
+        <li>Infraestrutura 100% como código</li>
+        <li>Segurança em camadas: WAF, redes privadas, mTLS</li>
+        <li>Logs, métricas e alertas desde o primeiro dia</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="slide" id="produtos">
+    <div class="wrap">
+      <div class="kicker reveal">Prova de execução</div>
+      <h2 class="reveal">Produtos próprios, já no ar</h2>
+      <p class="lead reveal">Construímos e operamos as nossas próprias plataformas com o mesmo processo que usamos com os clientes.</p>
+      <div class="grid g3">
+        <article class="card prod reveal">
+          <img src="img/products/sncr-suite.svg" alt="">
+          <h3>SNCR Suite</h3>
+          <div class="sub">Prescrição eletrônica de controlados</div>
+          <p>Prepara, confere, emite e assina receitas controladas no formato oficial da Anvisa, integrado ao SNCR, com login pelo gov.br e validação por QR Code.</p>
+          <div class="status">Em piloto para médicos · <a class="more" href="https://sncr-suite.onrender.com/" target="_blank" rel="noopener">Conhecer →</a></div>
+        </article>
+        <article class="card prod reveal">
+          <img src="img/products/radar-politico.svg" alt="">
+          <h3>Radar Político</h3>
+          <div class="sub">O Congresso, como vota, sem filtro</div>
+          <p>Perfil, gastos, votos e projetos de todos os deputados e senadores, com dados abertos oficiais e projeção de gastos.</p>
+          <div class="status">No ar · <a class="more" href="https://radar-politico-jbq9.onrender.com/" target="_blank" rel="noopener">Conhecer →</a></div>
+        </article>
+        <article class="card prod reveal">
+          <img src="img/products/omnirail.svg" alt="">
+          <h3>Omnirail</h3>
+          <div class="sub">Do repositório à produção, na sua nuvem</div>
+          <p>Detecta a stack, gera o Dockerfile, faz o build e publica com rollback, segredos e domínio próprio, na conta de nuvem do próprio cliente.</p>
+          <div class="status">Em homologação · <a class="more" href="https://omnirail-hml.slashicorp.com.br/" target="_blank" rel="noopener">Conhecer →</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" id="clientes">
+    <div class="wrap">
+      <div class="kicker reveal">Quem já confiou na gente</div>
+      <h2 class="reveal">Empresas e instituições que já atendemos</h2>
+      <ul class="clients reveal">
+        <li><img src="img/clients/itau.svg" alt="Itaú"><span>Itaú</span></li>
+        <li><img src="img/clients/picpay.svg" alt="PicPay"><span>PicPay</span></li>
+        <li><img src="img/clients/mercado-libre.svg" alt="Mercado Libre"><span>Mercado Libre</span></li>
+        <li><img src="img/clients/banco-central.svg" alt="Banco Central"><span>Banco Central</span></li>
+        <li><img src="img/clients/estabilis.svg" alt="Estabilis"><span>Estabilis</span></li>
+        <li><img src="img/clients/4linux.svg" alt="4Linux"><span>4Linux</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="slide" id="processo">
+    <div class="wrap">
+      <div class="kicker reveal">Como trabalhamos</div>
+      <h2 class="reveal">Do diagnóstico à sustentação</h2>
+      <div class="grid g4 steps">
+        <article class="card reveal"><b>01</b><h3>Diagnóstico</h3><p>Entendemos o problema, o ambiente atual e os objetivos do negócio. É gratuito.</p></article>
+        <article class="card reveal"><b>02</b><h3>Projeto</h3><p>Desenhamos a solução com as ferramentas certas para o seu cenário.</p></article>
+        <article class="card reveal"><b>03</b><h3>Implantação</h3><p>Desenvolvemos e publicamos tudo como código, com CI/CD e monitoramento.</p></article>
+        <article class="card reveal"><b>04</b><h3>Sustentação</h3><p>Acompanhamos, evoluímos e treinamos o seu time para ganhar autonomia.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide cta" id="contato">
+    <div class="wrap">
+      <div class="kicker reveal" style="justify-content:center">Próximo passo</div>
+      <h2 class="reveal">Vamos conversar sobre o seu projeto?</h2>
+      <p class="lead reveal">O primeiro diagnóstico é gratuito. Conte o seu cenário e propomos a melhor solução.</p>
+      <div class="btns reveal">
+        <a class="btn btn-primary" href="https://wa.me/5511939350218?text=Ol%C3%A1!%20Vi%20a%20apresenta%C3%A7%C3%A3o%20da%20SlashiCorp%20e%20quero%20agendar%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.31-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.49-8.41"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="mailto:contato@slashicorp.com.br?subject=Diagn%C3%B3stico%20gratuito">contato@slashicorp.com.br</a>
+        <a class="btn btn-ghost" href="https://slashicorp.com.br" target="_blank" rel="noopener">slashicorp.com.br</a>
+      </div>
+      <div class="foot">
+        <img src="img/logo-horizontal.png" alt="SlashiCorp">
+        Hub Slash Information Corp Ltda · CNPJ 37.599.889/0001-85
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  const dots = [...document.querySelectorAll('.dots a')];
+  const spy = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) dots.forEach(d => d.classList.toggle('on', d.getAttribute('href') === '#' + e.target.id));
+  }), { threshold: .5 });
+  document.querySelectorAll('.slide').forEach(s => spy.observe(s));
+</script>
+</body>
+</html>
